@@ -1,6 +1,6 @@
 # Bitácora del dato maestro
 
-Generado: 2026-10-24 18:27 UTC
+Generado: 2026-10-24 18:50 UTC
 Meses procesados: 2026-08, 2026-09
 
 ## Resumen del mercado
