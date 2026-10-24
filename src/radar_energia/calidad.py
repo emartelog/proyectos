@@ -156,54 +156,56 @@ def precio_bolsa(con, meses) -> list[Resultado]:
     ]
 
 
-def integridad(con, meses) -> list[Resultado]:
-    huerfanos_agente = con.execute(
-        f"""
-        SELECT count(DISTINCT agente) FROM v_demanda
-        WHERE date_trunc('month', fecha_hora) IN ({_meses_sql(meses)})
-          AND agente NOT IN (SELECT agente FROM dim_agente)
-        """
-    ).fetchone()[0]
-    huerfanos_planta = con.execute(
-        f"""
-        SELECT count(DISTINCT planta) FROM v_generacion
-        WHERE date_trunc('month', fecha_hora) IN ({_meses_sql(meses)})
-          AND planta NOT IN (SELECT planta FROM dim_planta)
-        """
-    ).fetchone()[0]
+def _huerfanos(con, meses, vista: str, columna: str, dimension: str) -> list[str]:
     return [
-        Resultado(
-            "integridad:agentes",
-            "advierte",
-            huerfanos_agente == 0,
-            f"{huerfanos_agente} agentes de demanda sin maestro",
-        ),
-        Resultado(
-            "integridad:plantas",
-            "advierte",
-            huerfanos_planta == 0,
-            f"{huerfanos_planta} plantas de generación sin maestro",
-        ),
+        f[0]
+        for f in con.execute(
+            f"""
+            SELECT DISTINCT {columna} FROM {vista}
+            WHERE date_trunc('month', fecha_hora) IN ({_meses_sql(meses)})
+              AND {columna} NOT IN (SELECT {columna} FROM {dimension})
+            ORDER BY 1
+            """
+        ).fetchall()
     ]
 
 
+def integridad(con, meses) -> list[Resultado]:
+    resultados = []
+    for nombre, vista, columna, dimension in (
+        ("agentes", "v_demanda", "agente", "dim_agente"),
+        ("plantas", "v_generacion", "planta", "dim_planta"),
+    ):
+        huerfanos = _huerfanos(con, meses, vista, columna, dimension)
+        ejemplos = f". Ej.: {', '.join(huerfanos[:10])}" if huerfanos else ""
+        resultados.append(
+            Resultado(
+                f"integridad:{nombre}",
+                "advierte",
+                not huerfanos,
+                f"{len(huerfanos)} {nombre} de {vista.removeprefix('v_')} sin maestro{ejemplos}",
+            )
+        )
+    return resultados
+
+
 def cobertura_precio_contratos(con, meses) -> Resultado:
-    fila = con.execute(
+    filas = con.execute(
         f"""
         SELECT mes, sum(contratos_kwh * cobertura_precio_contrato_pct) / sum(contratos_kwh)
         FROM agg_exposicion_mensual WHERE mes IN ({_meses_sql(meses)})
-        GROUP BY mes HAVING sum(contratos_kwh) > 0 ORDER BY 2 LIMIT 1
+        GROUP BY mes HAVING sum(contratos_kwh) > 0 ORDER BY mes
         """
-    ).fetchone()
-    if fila is None:
+    ).fetchall()
+    if not filas:
         return Resultado("contratos:cobertura_precio", "advierte", False, "sin contratos")
-    mes, cobertura = fila
-    cobertura = cobertura or 0
+    detalle = ", ".join(f"{m:%Y-%m}: {c or 0:.1%}" for m, c in filas)
     return Resultado(
         "contratos:cobertura_precio",
         "advierte",
-        cobertura >= 0.95,
-        f"peor mes {mes:%Y-%m}: {cobertura:.1%} de la energía en contratos tiene precio",
+        all((c or 0) >= 0.95 for _, c in filas),
+        f"energía en contratos con precio por mes: {detalle}. "
+        "XM publica los precios de contratos con rezago.",
     )
 
 

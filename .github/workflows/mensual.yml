@@ -94,7 +94,7 @@ jobs:
         run: |
           [ -f salida/bitacora.md ] || exit 0
           mkdir -p datos/ultima_corrida
-          cp salida/bitacora.md salida/calidad.json datos/ultima_corrida/ 2>/dev/null || true
+          cp salida/bitacora.md salida/calidad.json salida/agg_*.csv datos/ultima_corrida/ 2>/dev/null || true
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add datos/ultima_corrida

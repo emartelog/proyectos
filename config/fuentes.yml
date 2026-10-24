@@ -51,6 +51,10 @@ datasets:
     nombre: Cantidad de compra despachada en contratos de largo plazo
     rol: hecho
     uso: Cantidades en contratos, para ponderar el precio de contrato por energía.
+  - id: "E60CE2"
+    nombre: Cantidad de venta despachada en contratos de largo plazo
+    rol: hecho
+    uso: Ventas en contratos por agente; necesarias para el balance de comercializadores que revenden.
   - id: "43D616"
     nombre: Precio de escasez ponderado
     rol: hecho
