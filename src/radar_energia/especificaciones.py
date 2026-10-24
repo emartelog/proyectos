@@ -119,6 +119,13 @@ ESPECIFICACIONES: list[Especificacion] = [
         {"Valor": "kwh"},
     ),
     Especificacion(
+        "E60CE2",
+        "h_contrato_venta",
+        _H,
+        {"CodigoSICAgente": "agente", "TipoMercado": "mercado"},
+        {"Valor": "kwh"},
+    ),
+    Especificacion(
         "D31647",
         "h_contrato_precio",
         _D,

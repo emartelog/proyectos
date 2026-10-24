@@ -6,7 +6,9 @@ Mercado de prueba (por hora):
   → exposición 120/720 = 1/6; precio medio de bolsa 400 (el promedio simple sería 300).
 - A2C (no regulado): demanda 20; bolsa 5 todas las horas; contratos 15.
   → exposición 25 %; precio medio de bolsa 300.
-- Contratos: A1C dos mecanismos a 250 y 350 (promedio diario 300); A2C a 280.
+- A3C (no regulado, revendedor): demanda 10; compra 25 en contratos y vende 15 en contratos.
+  → demanda + ventas = compras; exposición 0.
+- Contratos: A1C dos mecanismos a 250 y 350 (promedio diario 300); A2C a 280; A3C a 300.
 - Agosto liquidado (TX2 y TXR; TXR es la vigente). Septiembre solo TX2 (preliminar).
 """
 
@@ -75,6 +77,7 @@ def _registros(dataset: str, inicio: dt.date, fin: dt.date) -> list[dict]:
                 for a, n, t in [
                     ("A1C", "Agente uno", "Comercializador"),
                     ("A2C", "Agente dos", "Comercializador"),
+                    ("A3C", "Agente tres", "Comercializador"),
                     ("G1G", "Generador", "Generador"),
                 ]
             ]
@@ -252,7 +255,41 @@ def _registros(dataset: str, inicio: dt.date, fin: dt.date) -> list[dict]:
                         "Valor": 10.0 * k,
                     },
                 ]
-    return r
+    return r + _revendedor(dataset, inicio, fin, versiones)
+
+
+def _revendedor(dataset, inicio, fin, versiones) -> list[dict]:
+    """A3C: demanda 10, compra 25 y vende 15 en contratos (no regulado), sin bolsa."""
+    hora = {"D55202": 10.0, "C8381F": 25.0, "E60CE2": 15.0}
+    if dataset in hora:
+        return [
+            {
+                "FechaHora": h.isoformat(),
+                "CodigoSICAgente": "A3C",
+                "TipoMercado": "No Regulado",
+                "Version": v,
+                "Valor": hora[dataset] * k,
+                "CodigoVariable": "x",
+            }
+            for h in _horas(inicio, fin)
+            for v, k in versiones
+        ]
+    if dataset == "D31647":
+        return [
+            {
+                "Fecha": d.isoformat(),
+                "CodigoAgenteComprador": "A3C",
+                "TipoMercado": "No Regulado",
+                "Mecanismo": "Negociación Bilateral",
+                "NormatividadRelacionada": "CREG",
+                "Valor": 300.0 * k,
+                "Version": v,
+                "CodigoVariable": "PrecioContratoLP",
+            }
+            for d in _dias(inicio, fin)
+            for v, k in versiones
+        ]
+    return []
 
 
 class ClienteSintetico:
@@ -320,10 +357,13 @@ def test_pipeline_calcula_indicadores_ponderados(tmp_path, cliente):
     assert a2[1] == pytest.approx(300)
     assert a2[2] == pytest.approx(280)
 
+    a3 = expo[(AGO, "A3C")]
+    assert a3[0] == 0  # revende: compra en contratos más de lo que demanda
+
     assert expo[(SEP, "A1C")][3] is True  # septiembre solo con TX2: preliminar
 
     bitacora = (tmp_path / "salida" / "bitacora.md").read_text()
-    assert "balance:demanda=contratos+bolsa | advierte | ✅" in bitacora
+    assert "balance:demanda+ventas=compras | advierte | ✅" in bitacora
     assert "precio_bolsa:ppbo_reproducible | advierte | ✅" in bitacora
 
 
@@ -338,7 +378,7 @@ def test_mercado_y_distribucion(tmp_path, cliente):
             FROM '{salida}/agg_mercado_mensual.parquet' WHERE mes = DATE '2026-08-01'"""
     ).fetchone()
     horas = 24 * 31
-    assert mercado[0] == pytest.approx((10 * 12 * 31 + 5 * horas) / (50 * horas))
+    assert mercado[0] == pytest.approx((10 * 12 * 31 + 5 * horas) / (60 * horas))
     assert mercado[1] == pytest.approx(350)
     assert mercado[2] == pytest.approx(300)
     assert mercado[3] == pytest.approx(0.8)
@@ -352,7 +392,7 @@ def test_mercado_y_distribucion(tmp_path, cliente):
                 WHERE mes = DATE '2026-08-01'"""
         ).fetchall()
     )
-    assert rangos == {"10%–25%": 1, "25%–50%": 1}
+    assert rangos == {"0%–10%": 1, "10%–25%": 1, "25%–50%": 1}
 
 
 def test_reproceso_es_idempotente(tmp_path, cliente):

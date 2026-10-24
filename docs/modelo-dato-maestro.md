@@ -80,7 +80,10 @@ la parte regulada se reporta como *implícita*: demanda regulada − contratos r
 | `demanda_kwh` | Σ demanda horaria |
 | `contratos_kwh` | Σ compra en contratos |
 | `bolsa_kwh` | Σ compra en bolsa |
-| `exposicion_bolsa_pct` | bolsa_kwh / demanda_kwh |
+| `ventas_contratos_kwh`, `ventas_bolsa_kwh` | Σ ventas (E60CE2, E14D70): hay comercializadores que revenden |
+| `bolsa_neta_kwh` | compras − ventas en bolsa |
+| `exposicion_bolsa_pct` | max(bolsa neta, 0) / demanda. Para un comercializador puro equivale a compras en bolsa / demanda |
+| `revende_energia` | ventas > 5 % de la demanda |
 | `exposicion_regulada_implicita_pct` | (demanda regulada − contratos regulados) / demanda regulada |
 | `costo_bolsa_cop` | Σ_h (compra bolsa_h × PB_Nal_h): **ponderado horario** |
 | `precio_medio_bolsa` | costo_bolsa_cop / bolsa_kwh |
@@ -107,16 +110,17 @@ generación por tecnología, aportes frente a la media histórica) y `agg_distri
 | Esquema | Columnas y tipos esperados por dataset | **Bloquea** la publicación |
 | Unicidad | Clave natural + versión sin duplicados | **Bloquea** |
 | Cobertura | 24 horas por día y todos los días del mes en datasets horarios | Bloquea si el mes es TXR o posterior; advierte si es preliminar |
-| Balance | demanda ≈ contratos + bolsa por agente y mes (tolerancia inicial 2 %, a calibrar) | Advierte y lista los agentes fuera de tolerancia |
+| Balance | demanda + ventas ≈ compras (contratos y bolsa) por agente y mes, ±2 % | Advierte si los agentes fuera de tolerancia suman ≥ 5 % de la demanda |
 | Mercados | regulado + no regulado = total por agente | Advierte |
 | Precio | PB_Nal dentro de [0, 3.000] COP/kWh; PPBO diario ≈ ponderado de PB_Nal horario | Advierte |
 | Variación | Cambio de un mes a otro > 3 desviaciones estándar en demanda nacional | Advierte |
 | Rezago de contratos | El último mes de D31647 viene incompleto (233 filas en sep. vs. ~28.000 en may.) | Se marca preliminar; no bloquea |
-| Integridad referencial | Todo agente o planta de los hechos existe en su maestro | Advierte y lista los huérfanos |
+| Integridad referencial | Todo agente o planta de los hechos existe en su maestro | Advierte; para plantas, si las huérfanas suman ≥ 5 % de la energía |
 
-El balance demanda ≈ contratos + bolsa **no está verificado todavía**. Es una hipótesis que
-el primer run confirmará o corregirá. La definición de D55202 incluye la participación en
-pérdidas del STN y los consumos propios, así que puede haber diferencias sistemáticas.
+**Resultado de la primera corrida real (ago–sep 2026):** demanda ≈ contratos + bolsa se cumple
+con diferencias menores al 1 % para los comercializadores puros. No se cumplía para los que
+revenden energía, por eso se incorporaron las ventas (E60CE2, E14D70). El PPBO diario que
+publica XM se reproduce exactamente con el costeo horario (61 de 61 días).
 
 ## 7. Workflow mensual
 

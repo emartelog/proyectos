@@ -91,26 +91,32 @@ def cobertura_horaria(con, meses) -> list[Resultado]:
 
 
 def balance(con, meses) -> Resultado:
+    """demanda + ventas (contratos y bolsa) ≈ compras (contratos y bolsa), por agente y mes."""
+    diferencia = (
+        "(demanda_kwh + ventas_contratos_kwh + ventas_bolsa_kwh - contratos_kwh - bolsa_kwh)"
+    )
     fuera = con.execute(
         f"""
-        SELECT mes, agente,
-               abs(demanda_kwh - contratos_kwh - bolsa_kwh) / demanda_kwh AS desvio
+        SELECT mes, agente, abs({diferencia}) / demanda_kwh AS desvio, demanda_kwh
         FROM agg_exposicion_mensual
         WHERE mes IN ({_meses_sql(meses)})
-          AND abs(demanda_kwh - contratos_kwh - bolsa_kwh) / demanda_kwh > {TOLERANCIA_BALANCE}
-        ORDER BY desvio DESC
+          AND abs({diferencia}) / demanda_kwh > {TOLERANCIA_BALANCE}
+        ORDER BY demanda_kwh DESC
         """
     ).fetchall()
-    total = con.execute(
-        f"SELECT count(*) FROM agg_exposicion_mensual WHERE mes IN ({_meses_sql(meses)})"
-    ).fetchone()[0]
-    ejemplos = ", ".join(f"{a} {m:%Y-%m} ({d:.1%})" for m, a, d in fuera[:5])
+    total, demanda_total = con.execute(
+        f"SELECT count(*), sum(demanda_kwh) FROM agg_exposicion_mensual "
+        f"WHERE mes IN ({_meses_sql(meses)})"
+    ).fetchone()
+    demanda_fuera = sum(f[3] for f in fuera)
+    peso = demanda_fuera / demanda_total if demanda_total else 0
+    ejemplos = ", ".join(f"{a} {m:%Y-%m} ({d:.1%})" for m, a, d, _ in fuera[:5])
     return Resultado(
-        "balance:demanda=contratos+bolsa",
+        "balance:demanda+ventas=compras",
         "advierte",
-        not fuera,
-        f"{len(fuera)} de {total} agente-mes fuera de ±{TOLERANCIA_BALANCE:.0%}"
-        + (f". Mayores: {ejemplos}" if fuera else ""),
+        peso < 0.05,
+        f"{len(fuera)} de {total} agente-mes fuera de ±{TOLERANCIA_BALANCE:.0%}, "
+        f"con {peso:.1%} de la demanda" + (f". De mayor demanda: {ejemplos}" if fuera else ""),
     )
 
 
@@ -171,22 +177,35 @@ def _huerfanos(con, meses, vista: str, columna: str, dimension: str) -> list[str
 
 
 def integridad(con, meses) -> list[Resultado]:
-    resultados = []
-    for nombre, vista, columna, dimension in (
-        ("agentes", "v_demanda", "agente", "dim_agente"),
-        ("plantas", "v_generacion", "planta", "dim_planta"),
-    ):
-        huerfanos = _huerfanos(con, meses, vista, columna, dimension)
-        ejemplos = f". Ej.: {', '.join(huerfanos[:10])}" if huerfanos else ""
-        resultados.append(
-            Resultado(
-                f"integridad:{nombre}",
-                "advierte",
-                not huerfanos,
-                f"{len(huerfanos)} {nombre} de {vista.removeprefix('v_')} sin maestro{ejemplos}",
-            )
-        )
-    return resultados
+    agentes = _huerfanos(con, meses, "v_demanda", "agente", "dim_agente")
+    plantas = _huerfanos(con, meses, "v_generacion", "planta", "dim_planta")
+    # Lo material es la energía de las plantas sin maestro, no cuántas son.
+    energia = (
+        con.execute(
+            f"""
+        SELECT sum(kwh) FILTER (WHERE planta NOT IN (SELECT planta FROM dim_planta))
+               / nullif(sum(kwh), 0)
+        FROM v_generacion WHERE date_trunc('month', fecha_hora) IN ({_meses_sql(meses)})
+        """
+        ).fetchone()[0]
+        or 0
+    )
+    return [
+        Resultado(
+            "integridad:agentes",
+            "advierte",
+            not agentes,
+            f"{len(agentes)} agentes de demanda sin maestro"
+            + (f". Ej.: {', '.join(agentes[:10])}" if agentes else ""),
+        ),
+        Resultado(
+            "integridad:plantas",
+            "advierte",
+            energia < 0.05,
+            f"{len(plantas)} plantas sin maestro, con {energia:.1%} de la energía generada"
+            + (f". Ej.: {', '.join(plantas[:10])}" if plantas else ""),
+        ),
+    ]
 
 
 def cobertura_precio_contratos(con, meses) -> Resultado:

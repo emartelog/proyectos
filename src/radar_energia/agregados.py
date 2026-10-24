@@ -7,6 +7,9 @@ Reglas de cálculo (ver docs/modelo-dato-maestro.md):
   medio del día (promedio simple entre mecanismos) y se pondera con la cantidad de ese día.
 - La compra en bolsa no viene separada por mercado. La porción regulada se reporta como
   "implícita" (demanda regulada − contratos regulados), nunca como dato observado.
+- Varios comercializadores también revenden energía. Su balance es
+  demanda + ventas (contratos y bolsa) = compras (contratos y bolsa), y la exposición de su
+  demanda se mide con la posición neta en bolsa: max(compras − ventas en bolsa, 0) / demanda.
 """
 
 from __future__ import annotations
@@ -28,6 +31,15 @@ demanda AS (
            sum(kwh) FILTER (WHERE mercado = 'Regulado') AS demanda_regulada_kwh,
            bool_or(es_preliminar) AS es_preliminar
     FROM v_demanda GROUP BY ALL
+),
+venta_bolsa AS (
+    SELECT date_trunc('month', fecha_hora)::DATE AS mes, agente, sum(kwh) AS ventas_bolsa_kwh
+    FROM v_venta_bolsa GROUP BY ALL
+),
+venta_contratos AS (
+    SELECT date_trunc('month', fecha_hora)::DATE AS mes, agente,
+           sum(kwh) AS ventas_contratos_kwh
+    FROM v_contrato_venta GROUP BY ALL
 ),
 bolsa AS (
     SELECT date_trunc('month', b.fecha_hora)::DATE AS mes, b.agente,
@@ -68,7 +80,14 @@ SELECT d.mes, d.agente, a.nombre_agente,
        coalesce(c.contratos_kwh, 0) AS contratos_kwh,
        coalesce(c.contratos_regulado_kwh, 0) AS contratos_regulado_kwh,
        coalesce(b.bolsa_kwh, 0) AS bolsa_kwh,
-       coalesce(b.bolsa_kwh, 0) / nullif(d.demanda_kwh, 0) AS exposicion_bolsa_pct,
+       coalesce(vc.ventas_contratos_kwh, 0) AS ventas_contratos_kwh,
+       coalesce(vb.ventas_bolsa_kwh, 0) AS ventas_bolsa_kwh,
+       coalesce(b.bolsa_kwh, 0) - coalesce(vb.ventas_bolsa_kwh, 0) AS bolsa_neta_kwh,
+       greatest(coalesce(b.bolsa_kwh, 0) - coalesce(vb.ventas_bolsa_kwh, 0), 0)
+           / nullif(d.demanda_kwh, 0) AS exposicion_bolsa_pct,
+       coalesce(vc.ventas_contratos_kwh, 0) + coalesce(vb.ventas_bolsa_kwh, 0)
+           > 0.05 * d.demanda_kwh
+           AS revende_energia,
        greatest(coalesce(d.demanda_regulada_kwh, 0) - coalesce(c.contratos_regulado_kwh, 0), 0)
            / nullif(d.demanda_regulada_kwh, 0) AS exposicion_regulada_implicita_pct,
        b.costo_bolsa_cop,
@@ -83,6 +102,8 @@ SELECT d.mes, d.agente, a.nombre_agente,
 FROM demanda d
 LEFT JOIN bolsa b USING (mes, agente)
 LEFT JOIN contratos c USING (mes, agente)
+LEFT JOIN venta_contratos vc USING (mes, agente)
+LEFT JOIN venta_bolsa vb USING (mes, agente)
 LEFT JOIN escasez e USING (mes)
 LEFT JOIN agentes a USING (agente)
 LEFT JOIN dim_mes_liquidacion l USING (mes)
@@ -105,6 +126,7 @@ expo AS (
     SELECT mes, sum(demanda_kwh) AS demanda_kwh,
            sum(demanda_regulada_kwh) AS demanda_regulada_kwh,
            sum(contratos_kwh) AS contratos_kwh, sum(bolsa_kwh) AS bolsa_kwh,
+           sum(greatest(bolsa_neta_kwh, 0)) AS bolsa_neta_positiva_kwh,
            sum(costo_bolsa_cop) / nullif(sum(bolsa_kwh), 0) AS precio_bolsa_ponderado_compras,
            avg(precio_escasez) AS precio_escasez,
            bool_or(es_preliminar) AS es_preliminar
@@ -129,7 +151,7 @@ aportes AS (
     FROM v_aportes WHERE region = 'Colombia' GROUP BY ALL
 )
 SELECT x.mes, x.demanda_kwh, x.demanda_regulada_kwh, x.contratos_kwh, x.bolsa_kwh,
-       x.bolsa_kwh / nullif(x.demanda_kwh, 0) AS exposicion_bolsa_pct,
+       x.bolsa_neta_positiva_kwh / nullif(x.demanda_kwh, 0) AS exposicion_bolsa_pct,
        p.precio_bolsa_promedio_simple, x.precio_bolsa_ponderado_compras, pp.ppbo_promedio_diario,
        x.precio_escasez, a.aportes_vs_media_historica_pct,
        g.generacion_kwh, g.gen_hidraulica_kwh, g.gen_termica_kwh, g.gen_solar_kwh,
