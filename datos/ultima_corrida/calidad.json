@@ -54,6 +54,12 @@
     "detalle": "sin duplicados"
   },
   {
+    "control": "unicidad:h_contrato_venta",
+    "nivel": "bloquea",
+    "ok": true,
+    "detalle": "sin duplicados"
+  },
+  {
     "control": "unicidad:h_contrato_precio",
     "nivel": "bloquea",
     "ok": true,
@@ -138,6 +144,18 @@
     "detalle": "720/720 horas"
   },
   {
+    "control": "cobertura:h_contrato_venta:2026-08",
+    "nivel": "bloquea",
+    "ok": true,
+    "detalle": "744/744 horas"
+  },
+  {
+    "control": "cobertura:h_contrato_venta:2026-09",
+    "nivel": "bloquea",
+    "ok": true,
+    "detalle": "720/720 horas"
+  },
+  {
     "control": "cobertura:h_generacion:2026-08",
     "nivel": "bloquea",
     "ok": true,
@@ -150,10 +168,10 @@
     "detalle": "720/720 horas"
   },
   {
-    "control": "balance:demanda=contratos+bolsa",
+    "control": "balance:demanda+ventas=compras",
     "nivel": "advierte",
-    "ok": false,
-    "detalle": "74 de 130 agente-mes fuera de ±2%. Mayores: BCCC 2026-08 (567740.6%), BCCC 2026-09 (39529.0%), GSAC 2026-08 (14387.1%), PEEC 2026-08 (8028.0%), PEEC 2026-09 (7312.2%)"
+    "ok": true,
+    "detalle": "2 de 130 agente-mes fuera de ±2%, con 0.0% de la demanda. De mayor demanda: SCEC 2026-08 (6.9%), SCEC 2026-09 (2.5%)"
   },
   {
     "control": "precio_bolsa:rango",
@@ -176,8 +194,8 @@
   {
     "control": "integridad:plantas",
     "nivel": "advierte",
-    "ok": false,
-    "detalle": "187 plantas de generacion sin maestro. Ej.: 2S8G, 2TYI, 2VJS, 2YB9, 2ZHY, 2ZP9, 3A44, 3ACC, 3AL6, 3B4L"
+    "ok": true,
+    "detalle": "187 plantas sin maestro, con 2.3% de la energía generada. Ej.: 2S8G, 2TYI, 2VJS, 2YB9, 2ZHY, 2ZP9, 3A44, 3ACC, 3AL6, 3B4L"
   },
   {
     "control": "contratos:cobertura_precio",

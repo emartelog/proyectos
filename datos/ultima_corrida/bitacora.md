@@ -1,14 +1,14 @@
 # Bitácora del dato maestro
 
-Generado: 2026-10-24 18:16 UTC
+Generado: 2026-10-24 18:27 UTC
 Meses procesados: 2026-08, 2026-09
 
 ## Resumen del mercado
 
 | Mes | Demanda | Exposición a bolsa | Precio bolsa (pond. compras) | Precio escasez | Aportes vs. media | Estado |
 |---|---:|---:|---:|---:|---:|---|
-| 2026-09 | 7,481.3 GWh | 19.4% | 706.7 COP/kWh | 891.4 COP/kWh | 65.5% | liquidado |
-| 2026-08 | 7,608.9 GWh | 15.8% | 960.0 COP/kWh | 838.8 COP/kWh | 75.1% | liquidado |
+| 2026-09 | 7,481.3 GWh | 18.9% | 706.7 COP/kWh | 891.4 COP/kWh | 65.5% | liquidado |
+| 2026-08 | 7,608.9 GWh | 15.2% | 960.0 COP/kWh | 838.8 COP/kWh | 75.1% | liquidado |
 
 ## Controles de calidad
 
@@ -23,6 +23,7 @@ Meses procesados: 2026-08, 2026-09
 | unicidad:h_compra_bolsa | bloquea | ✅ | sin duplicados |
 | unicidad:h_venta_bolsa | bloquea | ✅ | sin duplicados |
 | unicidad:h_contrato_cantidad | bloquea | ✅ | sin duplicados |
+| unicidad:h_contrato_venta | bloquea | ✅ | sin duplicados |
 | unicidad:h_contrato_precio | bloquea | ✅ | sin duplicados |
 | unicidad:h_escasez | bloquea | ✅ | sin duplicados |
 | unicidad:h_aportes | bloquea | ✅ | sin duplicados |
@@ -37,13 +38,15 @@ Meses procesados: 2026-08, 2026-09
 | cobertura:h_venta_bolsa:2026-09 | bloquea | ✅ | 720/720 horas |
 | cobertura:h_contrato_cantidad:2026-08 | bloquea | ✅ | 744/744 horas |
 | cobertura:h_contrato_cantidad:2026-09 | bloquea | ✅ | 720/720 horas |
+| cobertura:h_contrato_venta:2026-08 | bloquea | ✅ | 744/744 horas |
+| cobertura:h_contrato_venta:2026-09 | bloquea | ✅ | 720/720 horas |
 | cobertura:h_generacion:2026-08 | bloquea | ✅ | 744/744 horas |
 | cobertura:h_generacion:2026-09 | bloquea | ✅ | 720/720 horas |
-| balance:demanda=contratos+bolsa | advierte | ⚠️ | 74 de 130 agente-mes fuera de ±2%. Mayores: BCCC 2026-08 (567740.6%), BCCC 2026-09 (39529.0%), GSAC 2026-08 (14387.1%), PEEC 2026-08 (8028.0%), PEEC 2026-09 (7312.2%) |
+| balance:demanda+ventas=compras | advierte | ✅ | 2 de 130 agente-mes fuera de ±2%, con 0.0% de la demanda. De mayor demanda: SCEC 2026-08 (6.9%), SCEC 2026-09 (2.5%) |
 | precio_bolsa:rango | advierte | ✅ | 0 horas fuera de [0, 3,000] COP/kWh |
 | precio_bolsa:ppbo_reproducible | advierte | ✅ | 0 de 61 días con PPBO calculado ≠ publicado (±1%) |
 | integridad:agentes | advierte | ✅ | 0 agentes de demanda sin maestro |
-| integridad:plantas | advierte | ⚠️ | 187 plantas de generacion sin maestro. Ej.: 2S8G, 2TYI, 2VJS, 2YB9, 2ZHY, 2ZP9, 3A44, 3ACC, 3AL6, 3B4L |
+| integridad:plantas | advierte | ✅ | 187 plantas sin maestro, con 2.3% de la energía generada. Ej.: 2S8G, 2TYI, 2VJS, 2YB9, 2ZHY, 2ZP9, 3A44, 3ACC, 3AL6, 3B4L |
 | contratos:cobertura_precio | advierte | ⚠️ | energía en contratos con precio por mes: 2026-08: 100.0%, 2026-09: 3.4%. XM publica los precios de contratos con rezago. |
 | variacion:demanda_nacional | advierte | ✅ | sin meses atípicos |
 
@@ -76,6 +79,8 @@ Meses procesados: 2026-08, 2026-09
 | E14D70 | 2026-09 | 520,008 | cargado |
 | C8381F | 2026-08 | 516,816 | cargado |
 | C8381F | 2026-09 | 380,136 | cargado |
+| E60CE2 | 2026-08 | 690,792 | cargado |
+| E60CE2 | 2026-09 | 508,896 | cargado |
 | D31647 | 2026-08 | 28,898 | cargado |
 | D31647 | 2026-09 | 233 | cargado |
 | 43D616 | 2026-08 | 155 | cargado |
