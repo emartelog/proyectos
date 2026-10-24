@@ -177,13 +177,13 @@
     "control": "integridad:plantas",
     "nivel": "advierte",
     "ok": false,
-    "detalle": "187 plantas de generación sin maestro"
+    "detalle": "187 plantas de generacion sin maestro. Ej.: 2S8G, 2TYI, 2VJS, 2YB9, 2ZHY, 2ZP9, 3A44, 3ACC, 3AL6, 3B4L"
   },
   {
     "control": "contratos:cobertura_precio",
     "nivel": "advierte",
     "ok": false,
-    "detalle": "peor mes 2026-09: 3.4% de la energía en contratos tiene precio"
+    "detalle": "energía en contratos con precio por mes: 2026-08: 100.0%, 2026-09: 3.4%. XM publica los precios de contratos con rezago."
   },
   {
     "control": "variacion:demanda_nacional",

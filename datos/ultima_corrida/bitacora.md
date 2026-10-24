@@ -1,6 +1,6 @@
 # Bitácora del dato maestro
 
-Generado: 2026-10-24 18:06 UTC
+Generado: 2026-10-24 18:16 UTC
 Meses procesados: 2026-08, 2026-09
 
 ## Resumen del mercado
@@ -43,8 +43,8 @@ Meses procesados: 2026-08, 2026-09
 | precio_bolsa:rango | advierte | ✅ | 0 horas fuera de [0, 3,000] COP/kWh |
 | precio_bolsa:ppbo_reproducible | advierte | ✅ | 0 de 61 días con PPBO calculado ≠ publicado (±1%) |
 | integridad:agentes | advierte | ✅ | 0 agentes de demanda sin maestro |
-| integridad:plantas | advierte | ⚠️ | 187 plantas de generación sin maestro |
-| contratos:cobertura_precio | advierte | ⚠️ | peor mes 2026-09: 3.4% de la energía en contratos tiene precio |
+| integridad:plantas | advierte | ⚠️ | 187 plantas de generacion sin maestro. Ej.: 2S8G, 2TYI, 2VJS, 2YB9, 2ZHY, 2ZP9, 3A44, 3ACC, 3AL6, 3B4L |
+| contratos:cobertura_precio | advierte | ⚠️ | energía en contratos con precio por mes: 2026-08: 100.0%, 2026-09: 3.4%. XM publica los precios de contratos con rezago. |
 | variacion:demanda_nacional | advierte | ✅ | sin meses atípicos |
 
 ## Estado de liquidación (calendario XM)
