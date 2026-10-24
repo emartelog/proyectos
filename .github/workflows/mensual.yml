@@ -1,0 +1,128 @@
+name: Actualización mensual del dato maestro
+
+# Respaldo en la nube del proceso que corre en el PC. Corre sin estado: descarga la
+# publicación anterior, reprocesa la ventana de meses con versiones nuevas y publica un
+# Release "maestro-AAAA-MM" con los agregados, los maestros y la bitácora.
+#
+# Nota: GitHub solo ejecuta el disparador "schedule" en la rama por defecto (main).
+on:
+  schedule:
+    - cron: "0 11 12 * *" # día 12, 06:00 hora de Colombia
+  workflow_dispatch:
+    inputs:
+      desde:
+        description: "Primer mes (AAAA-MM). Vacío = ventana automática."
+        required: false
+      hasta:
+        description: "Último mes (AAAA-MM). Vacío = mes anterior."
+        required: false
+      publicar:
+        description: "Publicar el Release"
+        type: boolean
+        default: true
+  push: # corrida de prueba (2 meses, sin Release) cuando cambia el pipeline
+    branches: [radar-energia]
+    paths:
+      - src/radar_energia/**
+      - .github/workflows/mensual.yml
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: mensual-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    env:
+      GH_TOKEN: ${{ github.token }}
+      RADAR_DATOS: datos/local
+      ES_PRUEBA: ${{ github.event_name == 'push' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -e .
+
+      - name: Descargar la publicación anterior
+        run: |
+          mkdir -p historico
+          TAG=$(gh release list --limit 50 --json tagName -q '.[].tagName' \
+                | grep '^maestro-' | sort -r | head -n1 || true)
+          if [ -n "$TAG" ]; then
+            echo "Publicación anterior: $TAG"
+            gh release download "$TAG" -D historico -p 'agg_*.parquet'
+          else
+            echo "Sin publicaciones anteriores."
+          fi
+
+      - name: Ejecutar el pipeline
+        id: pipeline
+        env:
+          DESDE: ${{ inputs.desde }}
+          HASTA: ${{ inputs.hasta }}
+        run: |
+          ARGS=(--salida salida --historico historico)
+          [ -n "$DESDE" ] && ARGS+=(--desde "$DESDE")
+          [ -n "$HASTA" ] && ARGS+=(--hasta "$HASTA")
+          [ "$ES_PRUEBA" = "true" ] && ARGS+=(--ventana 2)
+          python -m radar_energia.mensual "${ARGS[@]}"
+
+      - name: Resumen del run
+        if: always()
+        run: cat salida/bitacora.md >> "$GITHUB_STEP_SUMMARY" || true
+
+      - name: Guardar salida como artefacto
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: maestro-${{ github.run_id }}
+          path: salida/
+          retention-days: 30
+          if-no-files-found: warn
+
+      - name: Guardar la bitácora en la rama
+        if: always()
+        run: |
+          [ -f salida/bitacora.md ] || exit 0
+          mkdir -p datos/ultima_corrida
+          cp salida/bitacora.md salida/calidad.json datos/ultima_corrida/ 2>/dev/null || true
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add datos/ultima_corrida
+          git diff --cached --quiet && exit 0
+          git commit -m "datos: bitácora de la actualización mensual (run ${{ github.run_id }})"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
+
+      - name: Publicar Release
+        if: success() && env.ES_PRUEBA != 'true' && (github.event_name == 'schedule' || inputs.publicar)
+        env:
+          HASTA: ${{ inputs.hasta }}
+        run: |
+          MES=${HASTA:-$(date -u -d "$(date -u +%Y-%m-01) -1 month" +%Y-%m)}
+          TAG="maestro-${MES}"
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release upload "$TAG" salida/* --clobber
+          else
+            gh release create "$TAG" salida/* --target "$GITHUB_SHA" \
+              --title "Dato maestro ${MES}" --notes-file salida/bitacora.md
+          fi
+
+      - name: Abrir issue si falla
+        if: failure() && env.ES_PRUEBA != 'true'
+        run: |
+          CUERPO="Run: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          if [ -f salida/bitacora.md ]; then
+            CUERPO="${CUERPO}"$'\n\n'"$(cat salida/bitacora.md)"
+          fi
+          gh issue create --title "Falla en la actualización mensual ($(date -u +%Y-%m-%d))" \
+            --body "$CUERPO"

@@ -18,13 +18,16 @@ SIMEM (API pública) ──► Ingesta ──► Crudo ──► Estandarizado �
 
 | Componente | Estado |
 |---|---|
-| Cliente de la API de SIMEM con reintentos y partición por ventanas | ✅ `src/radar_energia/simem.py` |
-| Registro de fuentes por configuración | ✅ `config/fuentes.yml` |
-| Reconocimiento y perfilamiento de fuentes | ✅ `src/radar_energia/reconocimiento.py` · workflow `reconocimiento.yml` |
-| Pruebas y estilo en CI | ✅ workflow `ci.yml` |
-| Modelo del dato maestro (maestros + hechos con versiones de liquidación) | ⏳ tras el reconocimiento |
-| Workflow mensual con controles de calidad y publicación por Release | ⏳ |
-| Panel y primera nota estratégica | ⏳ |
+| Cliente de la API de SIMEM y de datos.gov.co, con reintentos | ✅ `simem.py`, `datos_abiertos.py` |
+| Registro de fuentes por configuración (13 datasets) | ✅ `config/fuentes.yml` |
+| Reconocimiento y perfilamiento de fuentes | ✅ `reconocimiento.py` · workflow `reconocimiento.yml` |
+| Almacén DuckDB: hechos versionados, versión vigente, maestros con historia (SCD2) | ✅ `almacen.py`, `especificaciones.py` |
+| Agregados: exposición a bolsa, mercado, distribución | ✅ `agregados.py` |
+| Controles de calidad (bloqueantes y de advertencia) | ✅ `calidad.py` |
+| Actualización mensual incremental y publicación por Release | ✅ `mensual.py` · workflow `mensual.yml` |
+| Instalación y tarea programada en Windows | ✅ `scripts/windows/` · [guía](docs/instalacion-windows.md) |
+| Pruebas en Linux y Windows (CI) | ✅ workflow `ci.yml` |
+| Panel (Streamlit) y primera nota estratégica | ⏳ |
 
 Las decisiones de diseño están en [`docs/decisiones.md`](docs/decisiones.md) y la propuesta del
 dato maestro en [`docs/modelo-dato-maestro.md`](docs/modelo-dato-maestro.md).
@@ -34,8 +37,11 @@ dato maestro en [`docs/modelo-dato-maestro.md`](docs/modelo-dato-maestro.md).
 ```bash
 pip install -e ".[dev]"
 pytest -q
-python -m radar_energia.reconocimiento --config config/fuentes.yml
+python -m radar_energia.mensual                      # actualización mensual
+python -m radar_energia.mensual --desde 2021-01      # carga histórica
 ```
+
+En Windows, ver la [guía de instalación](docs/instalacion-windows.md).
 
 ## Fuentes
 

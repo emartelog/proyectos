@@ -1,6 +1,6 @@
 # Propuesta: dato maestro y workflow mensual
 
-Estado: **propuesta para revisión**. Se basa en el reconocimiento del 24-oct-2026
+Estado: **aprobada e implementada** (`src/radar_energia/`). Se basa en el reconocimiento del 24-oct-2026
 (`datos/reconocimiento/RESUMEN.md`), que cubrió 12 fuentes de SIMEM.
 
 ## 1. Pregunta que debe responder
@@ -72,7 +72,8 @@ en `dim_version`. Los días sin versión mensual todavía (TX1/TX2) se marcan co
 
 ## 5. Agregado principal: `agg_exposicion_mensual`
 
-Grano: **mes × comercializador × mercado**.
+Grano: **mes × comercializador**. La compra en bolsa (42EDC9) no viene separada por mercado, así que
+la parte regulada se reporta como *implícita*: demanda regulada − contratos regulados.
 
 | Indicador | Cálculo |
 |---|---|
@@ -80,6 +81,7 @@ Grano: **mes × comercializador × mercado**.
 | `contratos_kwh` | Σ compra en contratos |
 | `bolsa_kwh` | Σ compra en bolsa |
 | `exposicion_bolsa_pct` | bolsa_kwh / demanda_kwh |
+| `exposicion_regulada_implicita_pct` | (demanda regulada − contratos regulados) / demanda regulada |
 | `costo_bolsa_cop` | Σ_h (compra bolsa_h × PB_Nal_h): **ponderado horario** |
 | `precio_medio_bolsa` | costo_bolsa_cop / bolsa_kwh |
 | `precio_medio_contrato` | precio de contrato ponderado por cantidad (ver nota) |
@@ -88,9 +90,10 @@ Grano: **mes × comercializador × mercado**.
 
 **Nota sobre el precio de contrato.** D31647 trae el precio por comprador, día, mercado y
 mecanismo, pero sin cantidad. C8381F trae la cantidad por agente, hora y mercado, pero sin
-mecanismo. Se cruzan en **agente × día × mercado**: si en un día hay varios mecanismos, se
-usa el promedio de esos precios ponderado por la cantidad de ese día. Es una aproximación
-y queda documentada así en las salidas.
+mecanismo. Se cruzan en **agente × día × mercado**: el precio del día es el promedio simple
+entre mecanismos (no hay cantidad por mecanismo) y se pondera con la cantidad contratada de ese
+día. Es una aproximación. `cobertura_precio_contrato_pct` dice qué parte de la energía en
+contratos encontró precio.
 
 **Además, agregados de contexto:** `agg_mercado_mensual` (totales nacionales, mezcla de
 generación por tecnología, aportes frente a la media histórica) y `agg_distribucion_exposicion`

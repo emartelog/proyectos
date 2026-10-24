@@ -5,3 +5,5 @@ __pycache__/
 .venv/
 # Datos crudos completos: se publican como artefacto/Release, no en git
 datos/_crudo/
+datos/local/
+salida/

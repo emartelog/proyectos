@@ -21,3 +21,31 @@ jobs:
           ruff format --check .
       - name: Pruebas
         run: pytest -q
+
+  windows:
+    # Verifica en Windows real los scripts de instalación, ejecución y programación.
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Instalar con el script
+        shell: powershell
+        run: scripts\windows\instalar.ps1 -Datos "$env:RUNNER_TEMP\radar" -Desarrollo
+      - name: Pruebas
+        shell: powershell
+        run: |
+          .venv\Scripts\python.exe -m pytest -q
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+      - name: Ejecutar el pipeline (sin descarga)
+        shell: powershell
+        run: |
+          scripts\windows\ejecutar_mensual.ps1 -Datos "$env:RUNNER_TEMP\radar" -SinDescarga
+          Get-Content "$env:RUNNER_TEMP\radar\salida\bitacora.md" -Encoding UTF8 | Select-Object -First 12
+      - name: Programar y eliminar la tarea
+        shell: powershell
+        run: |
+          scripts\windows\programar_tarea.ps1
+          Get-ScheduledTask -TaskPath "\RadarEnergia\" -TaskName Mensual | Format-List TaskName, State
+          scripts\windows\programar_tarea.ps1 -Eliminar

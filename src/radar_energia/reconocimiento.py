@@ -75,7 +75,9 @@ def reconocer_dataset(
     carpeta.mkdir(parents=True, exist_ok=True)
 
     meta = cliente.metadatos(ds_id)
-    (carpeta / "metadatos.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2))
+    (carpeta / "metadatos.json").write_text(
+        json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
     granularidad = (meta.get("metadata") or {}).get("granularity", "Diaria")
 
     marcos = []
@@ -89,7 +91,9 @@ def reconocer_dataset(
     df = pd.concat(marcos, ignore_index=True) if marcos else pd.DataFrame()
     perfil = documentar(df, ds_id, carpeta, crudo)
     perfil["granularidad"] = granularidad
-    (carpeta / "perfil.json").write_text(json.dumps(perfil, ensure_ascii=False, indent=2))
+    (carpeta / "perfil.json").write_text(
+        json.dumps(perfil, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
 
     versiones = (perfil["columnas"].get("Version") or {}).get("valores", {})
     return {
@@ -110,7 +114,9 @@ def documentar(df: pd.DataFrame, ds_id: str, carpeta: Path, crudo: Path) -> dict
     perfil["filas_por_ventana"] = (
         df["_ventana"].value_counts().to_dict() if "_ventana" in df else {}
     )
-    (carpeta / "perfil.json").write_text(json.dumps(perfil, ensure_ascii=False, indent=2))
+    (carpeta / "perfil.json").write_text(
+        json.dumps(perfil, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
     if not df.empty:
         crudo.mkdir(parents=True, exist_ok=True)
         df.to_parquet(crudo / f"{ds_id}.parquet", index=False)
@@ -127,7 +133,9 @@ def reconocer_datos_abiertos(
     carpeta = salida / f"datos_gov_{ds_id}"
     carpeta.mkdir(parents=True, exist_ok=True)
     meta = cliente.metadatos(ds_id)
-    (carpeta / "metadatos.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2))
+    (carpeta / "metadatos.json").write_text(
+        json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
 
     paginas = list(cliente.registros(ds_id, limite=MAX_FILAS_ABIERTOS))
     df = pd.DataFrame.from_records([r for p in paginas for r in p])
@@ -135,7 +143,9 @@ def reconocer_datos_abiertos(
     perfil["publicado_por"] = meta.get("attribution")
     perfil["descripcion"] = meta.get("description")
     perfil["filas_totales_portal"] = meta.get("rowCount")  # no siempre viene
-    (carpeta / "perfil.json").write_text(json.dumps(perfil, ensure_ascii=False, indent=2))
+    (carpeta / "perfil.json").write_text(
+        json.dumps(perfil, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
     return {
         "id": f"datos.gov.co/{ds_id}",
         "nombre": f"{meta.get('name')} ({meta.get('attribution') or 'sin entidad'})",
@@ -190,7 +200,7 @@ def escribir_resumen(
     for c in candidatos:
         resumen = " · ".join(str(v) for v in list(c.values())[:4])
         lineas.append(f"- {resumen}")
-    (salida / "RESUMEN.md").write_text("\n".join(lineas) + "\n")
+    (salida / "RESUMEN.md").write_text("\n".join(lineas) + "\n", encoding="utf-8")
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -208,7 +218,7 @@ def main(argv: list[str] | None = None) -> int:
     args = parser.parse_args(argv)
 
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
-    config = yaml.safe_load(args.config.read_text())
+    config = yaml.safe_load(args.config.read_text(encoding="utf-8"))
     # Un ID solo numérico (p. ej. 972263) llegaría como int desde YAML.
     for dataset in config["datasets"]:
         dataset["id"] = str(dataset["id"]).upper()
