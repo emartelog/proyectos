@@ -1,0 +1,55 @@
+# Registro de fuentes del Radar de Energía.
+# Cada dataset de SIMEM se identifica por su ID de 6 caracteres (catálogo:
+# https://www.simem.co/pages/catalogodatos/51FC0A59-3A00-462C-B449-9CB8D5E007FB).
+# Agregar una fuente = agregar una entrada aquí; el pipeline no se modifica.
+
+catalogos:
+  datasets: e007fb    # Catálogo de conjuntos de datos
+  variables: a5a6c4   # Inventario de variables
+
+datasets:
+  # --- Maestros / referencia ---
+  - id: 24914F
+    nombre: Versiones de liquidación
+    rol: maestro
+    uso: Calendario oficial de versiones (TX1, TX2, TXR, TXF, TX3...) para saber cuál es la vigente.
+  - id: 0BFC9D
+    nombre: Parámetros técnicos de las plantas de generación
+    rol: maestro
+    uso: Plantas, agente propietario, tecnología y capacidad.
+
+  # --- Hechos ---
+  - id: 96D56E
+    nombre: Precio de bolsa ponderado
+    rol: hecho
+    uso: Precio de referencia del mercado spot (PPBO, PPBOGReal, ...).
+  - id: D55202
+    nombre: Demanda comercial
+    rol: hecho
+    uso: Demanda atendida por cada comercializador.
+  - id: 42EDC9
+    nombre: Magnitud energía en bolsa nacional a cargo
+    rol: hecho
+    uso: Compras en bolsa por agente (exposición a precio spot).
+  - id: E14D70
+    nombre: Magnitud ventas en bolsa nacional en energía
+    rol: hecho
+    uso: Ventas en bolsa por agente.
+  - id: D31647
+    nombre: Cantidades y precios en contratos por comercializador
+    rol: hecho
+    uso: Cobertura en contratos y su precio.
+  - id: 8E7F3C
+    nombre: Generación ideal nacional por planta
+    rol: hecho
+    uso: Generación por planta y tecnología.
+
+# Palabras clave para buscar en el catálogo maestros adicionales (agentes, recursos, hidrología).
+busqueda_catalogo:
+  - agente
+  - recurso
+  - planta
+  - embalse
+  - aporte
+  - escasez
+  - contrato

@@ -1,0 +1,41 @@
+import datetime as dt
+
+import pandas as pd
+
+from radar_energia.perfil import perfilar
+from radar_energia.reconocimiento import mes_anterior, ventanas_muestra
+
+D = dt.date
+
+
+def test_mes_anterior_cruza_anio():
+    assert mes_anterior(D(2026, 1, 15)) == (D(2025, 12, 1), D(2025, 12, 31))
+    assert mes_anterior(D(2026, 3, 31), 1) == (D(2026, 2, 1), D(2026, 2, 28))
+
+
+def test_ventanas_muestra_por_rol():
+    hoy = D(2026, 10, 24)
+    hecho = ventanas_muestra({"id": "96D56E", "rol": "hecho"}, hoy, 4)
+    assert hecho == [
+        ("mes_reciente", D(2026, 9, 1), D(2026, 9, 30)),
+        ("mes_maduro", D(2026, 5, 1), D(2026, 5, 31)),
+    ]
+    assert len(ventanas_muestra({"id": "0BFC9D", "rol": "maestro"}, hoy, 4)) == 1
+    assert ventanas_muestra({"id": "24914f", "rol": "maestro"}, hoy, 4) == [
+        ("ultimo_anio", D(2025, 10, 1), D(2026, 9, 30)),
+    ]
+
+
+def test_perfilar():
+    df = pd.DataFrame(
+        {
+            "Fecha": ["2026-09-01", "2026-09-02", "2026-09-02"],
+            "Version": ["TX1", "TX2", "TX2"],
+            "Valor": [100.0, None, None],
+        }
+    )
+    p = perfilar(df)
+    assert p["filas"] == 3 and p["filas_duplicadas"] == 1
+    assert p["columnas"]["Fecha"]["min"].startswith("2026-09-01")
+    assert p["columnas"]["Version"]["valores"] == {"TX2": 2, "TX1": 1}
+    assert p["columnas"]["Valor"]["nulos"] == 2 and p["columnas"]["Valor"]["suma"] == 100.0
