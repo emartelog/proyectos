@@ -1,0 +1,133 @@
+name: Carga histórica del dato maestro
+
+# Se dispara al subir cambios a config/carga_historica.yml. Corre los tramos en secuencia;
+# cada uno recibe los agregados del anterior como histórico. El último tramo publica el
+# Release con la historia completa.
+on:
+  push:
+    branches: [radar-energia]
+    paths: [config/carga_historica.yml]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: carga-historica
+  cancel-in-progress: false
+
+env:
+  RADAR_DATOS: datos/local
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      tramos: ${{ steps.leer.outputs.tramos }}
+      ultimo: ${{ steps.leer.outputs.ultimo }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install pyyaml
+      - id: leer
+        run: |
+          python - <<'PY' >> "$GITHUB_OUTPUT"
+          import json, yaml
+          tramos = yaml.safe_load(open("config/carga_historica.yml"))["tramos"]
+          assert len(tramos) == 3, "El workflow espera exactamente 3 tramos"
+          print("tramos=" + json.dumps(tramos))
+          print("ultimo=" + tramos[-1]["hasta"])
+          PY
+
+  tramo1:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12", cache: pip }
+      - run: pip install -e .
+      - name: Procesar tramo
+        env:
+          DESDE: ${{ fromJSON(needs.plan.outputs.tramos)[0].desde }}
+          HASTA: ${{ fromJSON(needs.plan.outputs.tramos)[0].hasta }}
+        run: python -m radar_energia.mensual --desde "$DESDE" --hasta "$HASTA" --salida salida
+      - if: always()
+        run: cat salida/bitacora.md >> "$GITHUB_STEP_SUMMARY" || true
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: { name: tramo-1, path: salida/, retention-days: 30 }
+
+  tramo2:
+    needs: [plan, tramo1]
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12", cache: pip }
+      - run: pip install -e .
+      - uses: actions/download-artifact@v4
+        with: { name: tramo-1, path: historico }
+      - name: Procesar tramo
+        env:
+          DESDE: ${{ fromJSON(needs.plan.outputs.tramos)[1].desde }}
+          HASTA: ${{ fromJSON(needs.plan.outputs.tramos)[1].hasta }}
+        run: |
+          python -m radar_energia.mensual --desde "$DESDE" --hasta "$HASTA" \
+            --salida salida --historico historico
+      - if: always()
+        run: cat salida/bitacora.md >> "$GITHUB_STEP_SUMMARY" || true
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: { name: tramo-2, path: salida/, retention-days: 30 }
+
+  tramo3:
+    needs: [plan, tramo2]
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12", cache: pip }
+      - run: pip install -e .
+      - uses: actions/download-artifact@v4
+        with: { name: tramo-2, path: historico }
+      - name: Procesar tramo
+        env:
+          DESDE: ${{ fromJSON(needs.plan.outputs.tramos)[2].desde }}
+          HASTA: ${{ fromJSON(needs.plan.outputs.tramos)[2].hasta }}
+        run: |
+          python -m radar_energia.mensual --desde "$DESDE" --hasta "$HASTA" \
+            --salida salida --historico historico
+      - if: always()
+        run: cat salida/bitacora.md >> "$GITHUB_STEP_SUMMARY" || true
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: { name: tramo-3, path: salida/, retention-days: 30 }
+      - name: Publicar Release con la historia completa
+        env:
+          MES: ${{ needs.plan.outputs.ultimo }}
+        run: |
+          TAG="maestro-${MES}"
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release upload "$TAG" salida/* --clobber
+          else
+            gh release create "$TAG" salida/* --target "$GITHUB_SHA" \
+              --title "Dato maestro ${MES} (con historia desde 2021)" \
+              --notes-file salida/bitacora.md
+          fi
+      - name: Guardar la bitácora en la rama
+        run: |
+          mkdir -p datos/ultima_corrida
+          cp salida/bitacora.md salida/calidad.json salida/agg_*.csv datos/ultima_corrida/
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add datos/ultima_corrida
+          git diff --cached --quiet && exit 0
+          git commit -m "datos: carga histórica ${{ needs.plan.outputs.ultimo }} (run ${{ github.run_id }})"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"

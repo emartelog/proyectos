@@ -1,0 +1,11 @@
+# Carga histórica del dato maestro en GitHub Actions.
+# Subir un cambio a este archivo en la rama radar-energia dispara el workflow
+# carga-historica.yml. Cada tramo corre en su propio job (límite de 6 h por job) y suma
+# sus agregados a los del tramo anterior. El último publica el Release maestro-<hasta>.
+tramos:
+  - desde: "2021-01"
+    hasta: "2022-12"
+  - desde: "2023-01"
+    hasta: "2024-12"
+  - desde: "2025-01"
+    hasta: "2026-09"

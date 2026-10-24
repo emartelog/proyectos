@@ -25,6 +25,7 @@ SIMEM (API pública) ──► Ingesta ──► Crudo ──► Estandarizado �
 | Agregados: exposición a bolsa, mercado, distribución | ✅ `agregados.py` |
 | Controles de calidad (bloqueantes y de advertencia) | ✅ `calidad.py` |
 | Actualización mensual incremental y publicación por Release | ✅ `mensual.py` · workflow `mensual.yml` |
+| Carga histórica desde 2021 en tramos | ✅ workflow `carga-historica.yml` · `config/carga_historica.yml` |
 | Instalación y tarea programada en Windows | ✅ `scripts/windows/` · [guía](docs/instalacion-windows.md) |
 | Pruebas en Linux y Windows (CI) | ✅ workflow `ci.yml` |
 | Panel (Streamlit) y primera nota estratégica | ⏳ |
