@@ -1,0 +1,3 @@
+# Corrida cuya salida se copia a datos/ultima_corrida (ver workflow recuperar-salida.yml).
+run_id: 40121911955
+artefacto: tramo-3

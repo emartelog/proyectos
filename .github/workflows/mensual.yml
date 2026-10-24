@@ -52,17 +52,11 @@ jobs:
 
       - run: pip install -e .
 
-      - name: Descargar la publicación anterior
+      - name: Tomar la publicación anterior de la rama
         run: |
           mkdir -p historico
-          TAG=$(gh release list --limit 50 --json tagName -q '.[].tagName' \
-                | grep '^maestro-' | sort -r | head -n1 || true)
-          if [ -n "$TAG" ]; then
-            echo "Publicación anterior: $TAG"
-            gh release download "$TAG" -D historico -p 'agg_*.parquet'
-          else
-            echo "Sin publicaciones anteriores."
-          fi
+          cp datos/ultima_corrida/agg_*.parquet historico/ 2>/dev/null \
+            && echo "Histórico: datos/ultima_corrida" || echo "Sin publicación anterior."
 
       - name: Ejecutar el pipeline
         id: pipeline
@@ -90,11 +84,13 @@ jobs:
           if-no-files-found: warn
 
       - name: Guardar la bitácora en la rama
-        if: always()
+        # Las corridas de prueba no sobrescriben el dato publicado.
+        if: always() && env.ES_PRUEBA != 'true'
         run: |
           [ -f salida/bitacora.md ] || exit 0
           mkdir -p datos/ultima_corrida
-          cp salida/bitacora.md salida/calidad.json salida/agg_*.csv datos/ultima_corrida/ 2>/dev/null || true
+          cp salida/bitacora.md salida/calidad.json salida/agg_*.csv salida/agg_*.parquet \
+             datos/ultima_corrida/ 2>/dev/null || true
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add datos/ultima_corrida
@@ -104,6 +100,7 @@ jobs:
           git push origin "HEAD:${GITHUB_REF_NAME}"
 
       - name: Publicar Release
+        continue-on-error: true # opcional: el dato queda igual en la rama
         if: success() && env.ES_PRUEBA != 'true' && (github.event_name == 'schedule' || inputs.publicar)
         env:
           HASTA: ${{ inputs.hasta }}

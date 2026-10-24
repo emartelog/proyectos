@@ -109,6 +109,7 @@ jobs:
         if: always()
         with: { name: tramo-3, path: salida/, retention-days: 30 }
       - name: Publicar Release con la historia completa
+        continue-on-error: true # opcional: el dato queda igual en la rama
         env:
           MES: ${{ needs.plan.outputs.ultimo }}
         run: |
@@ -123,7 +124,8 @@ jobs:
       - name: Guardar la bitácora en la rama
         run: |
           mkdir -p datos/ultima_corrida
-          cp salida/bitacora.md salida/calidad.json salida/agg_*.csv datos/ultima_corrida/
+          cp salida/bitacora.md salida/calidad.json salida/agg_*.csv salida/agg_*.parquet \
+             datos/ultima_corrida/
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add datos/ultima_corrida
