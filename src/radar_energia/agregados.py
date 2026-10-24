@@ -115,8 +115,34 @@ SQL_MERCADO = f"""
 CREATE OR REPLACE TABLE agg_mercado_mensual AS
 WITH precio AS (
     SELECT date_trunc('month', fecha_hora)::DATE AS mes,
-           avg(precio_cop_kwh) AS precio_bolsa_promedio_simple
+           avg(precio_cop_kwh) AS precio_bolsa_promedio_simple,
+           quantile_cont(precio_cop_kwh, 0.10) AS precio_bolsa_p10,
+           quantile_cont(precio_cop_kwh, 0.50) AS precio_bolsa_p50,
+           quantile_cont(precio_cop_kwh, 0.90) AS precio_bolsa_p90,
+           max(precio_cop_kwh) AS precio_bolsa_max
     FROM v_precio_bolsa_hora WHERE variable = '{VARIABLE_PRECIO_BOLSA}' GROUP BY ALL
+),
+contrato_mercado AS (
+    -- Precio de contrato por mercado, ponderado por la energía contratada de cada día.
+    SELECT date_trunc('month', c.fecha)::DATE AS mes,
+           sum(c.kwh * p.precio_cop_kwh) FILTER (WHERE c.mercado = 'Regulado')
+               / nullif(sum(c.kwh) FILTER (WHERE c.mercado = 'Regulado'
+                                           AND p.precio_cop_kwh IS NOT NULL), 0)
+               AS precio_contrato_regulado,
+           sum(c.kwh * p.precio_cop_kwh) FILTER (WHERE c.mercado = 'No Regulado')
+               / nullif(sum(c.kwh) FILTER (WHERE c.mercado = 'No Regulado'
+                                           AND p.precio_cop_kwh IS NOT NULL), 0)
+               AS precio_contrato_no_regulado,
+           sum(c.kwh * p.precio_cop_kwh) / nullif(sum(c.kwh) FILTER (
+               WHERE p.precio_cop_kwh IS NOT NULL), 0) AS precio_contrato_promedio,
+           sum(c.kwh) FILTER (WHERE p.precio_cop_kwh IS NOT NULL) / nullif(sum(c.kwh), 0)
+               AS cobertura_precio_contrato_pct
+    FROM (SELECT fecha_hora::DATE AS fecha, agente, mercado, sum(kwh) AS kwh
+          FROM v_contrato_cantidad GROUP BY ALL) c
+    LEFT JOIN (SELECT fecha, agente, mercado, avg(precio_cop_kwh) AS precio_cop_kwh
+               FROM v_contrato_precio WHERE precio_cop_kwh > 0 GROUP BY ALL) p
+        USING (fecha, agente, mercado)
+    GROUP BY ALL
 ),
 ppbo AS (
     SELECT date_trunc('month', fecha)::DATE AS mes, avg(precio_cop_kwh) AS ppbo_promedio_diario
@@ -127,6 +153,7 @@ expo AS (
            sum(demanda_regulada_kwh) AS demanda_regulada_kwh,
            sum(contratos_kwh) AS contratos_kwh, sum(bolsa_kwh) AS bolsa_kwh,
            sum(greatest(bolsa_neta_kwh, 0)) AS bolsa_neta_positiva_kwh,
+           sum(costo_bolsa_cop) AS costo_bolsa_cop,
            sum(costo_bolsa_cop) / nullif(sum(bolsa_kwh), 0) AS precio_bolsa_ponderado_compras,
            avg(precio_escasez) AS precio_escasez,
            bool_or(es_preliminar) AS es_preliminar
@@ -153,6 +180,12 @@ aportes AS (
 SELECT x.mes, x.demanda_kwh, x.demanda_regulada_kwh, x.contratos_kwh, x.bolsa_kwh,
        x.bolsa_neta_positiva_kwh / nullif(x.demanda_kwh, 0) AS exposicion_bolsa_pct,
        p.precio_bolsa_promedio_simple, x.precio_bolsa_ponderado_compras, pp.ppbo_promedio_diario,
+       p.precio_bolsa_p10, p.precio_bolsa_p50, p.precio_bolsa_p90, p.precio_bolsa_max,
+       x.costo_bolsa_cop,
+       cm.precio_contrato_regulado, cm.precio_contrato_no_regulado, cm.precio_contrato_promedio,
+       cm.cobertura_precio_contrato_pct,
+       x.precio_bolsa_ponderado_compras - cm.precio_contrato_promedio
+           AS prima_bolsa_vs_contrato,
        x.precio_escasez, a.aportes_vs_media_historica_pct,
        g.generacion_kwh, g.gen_hidraulica_kwh, g.gen_termica_kwh, g.gen_solar_kwh,
        g.gen_eolica_kwh, g.gen_sin_clasificar_kwh,
@@ -160,6 +193,7 @@ SELECT x.mes, x.demanda_kwh, x.demanda_regulada_kwh, x.contratos_kwh, x.bolsa_kw
 FROM expo x
 LEFT JOIN precio p USING (mes)
 LEFT JOIN ppbo pp USING (mes)
+LEFT JOIN contrato_mercado cm USING (mes)
 LEFT JOIN generacion g USING (mes)
 LEFT JOIN aportes a USING (mes)
 ORDER BY x.mes

@@ -385,6 +385,19 @@ def test_mercado_y_distribucion(tmp_path, cliente):
     assert mercado[4] == pytest.approx(50 * horas)
     assert mercado[5] == pytest.approx(10 * horas)
 
+    contratos = con.execute(
+        f"""SELECT precio_contrato_regulado, precio_contrato_no_regulado,
+                   precio_bolsa_p10, precio_bolsa_p90, prima_bolsa_vs_contrato
+            FROM '{salida}/agg_mercado_mensual.parquet' WHERE mes = DATE '2026-08-01'"""
+    ).fetchone()
+    assert contratos[0] == pytest.approx(300)  # A1C: promedio diario de 250 y 350
+    # No regulado: A2C 15 kWh a 280 y A3C 25 kWh a 300 → (15×280 + 25×300) / 40
+    assert contratos[1] == pytest.approx((15 * 280 + 25 * 300) / 40)
+    assert contratos[2] == pytest.approx(200) and contratos[3] == pytest.approx(400)
+    # Promedio contratos: A1C 25 kWh/h en promedio a 300, A2C 15 a 280, A3C 25 a 300
+    precio_contrato = (25 * 300 + 15 * 280 + 25 * 300) / 65
+    assert contratos[4] == pytest.approx(350 - precio_contrato)
+
     rangos = dict(
         con.execute(
             f"""SELECT rango_exposicion, comercializadores

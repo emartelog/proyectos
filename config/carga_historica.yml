@@ -2,6 +2,7 @@
 # Subir un cambio a este archivo en la rama radar-energia dispara el workflow
 # carga-historica.yml. Cada tramo corre en su propio job (límite de 6 h por job) y suma
 # sus agregados a los del tramo anterior. El último publica el Release maestro-<hasta>.
+# Solicitud: 2026-10-24 (con precios de contrato por mercado y percentiles de bolsa)
 tramos:
   - desde: "2021-01"
     hasta: "2022-12"
