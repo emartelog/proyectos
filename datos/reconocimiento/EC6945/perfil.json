@@ -1,0 +1,64 @@
+{
+  "filas": 19800,
+  "filas_duplicadas": 0,
+  "columnas": {
+    "CodigoVariable": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 3,
+      "valores": {
+        "PB_Int": 6600,
+        "PB_Tie": 6600,
+        "PB_Nal": 6600
+      }
+    },
+    "FechaHora": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 1464,
+      "min": "2026-05-01 00:00:00",
+      "max": "2026-09-30 23:00:00"
+    },
+    "CodigoDuracion": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 1,
+      "valores": {
+        "PT1H": 19800
+      }
+    },
+    "UnidadMedida": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 1,
+      "valores": {
+        "COP/kWh": 19800
+      }
+    },
+    "Version": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 5,
+      "valores": {
+        "TXR": 4392,
+        "TX2": 4392,
+        "TXF": 4392,
+        "TX1": 4392,
+        "TX3": 2232
+      }
+    },
+    "Valor": {
+      "tipo": "float64",
+      "nulos": 0,
+      "distintos": 4128,
+      "min": 88.19,
+      "max": 1846.7316,
+      "suma": 11488483.996199999
+    }
+  },
+  "filas_por_ventana": {
+    "mes_maduro": 11160,
+    "mes_reciente": 8640
+  },
+  "granularidad": "Horaria"
+}

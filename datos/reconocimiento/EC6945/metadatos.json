@@ -1,0 +1,93 @@
+{
+  "idDataset": "EC6945",
+  "name": "Precio de bolsa horario",
+  "metadata": {
+    "description": "Precio de bolsa horario nacional, internacional y TIE",
+    "creationDate": "2023-10-02 21:36:52",
+    "lastUpdate": "2026-10-24 06:46:48",
+    "nextUpdateDate": "2026-10-25 04:00:00",
+    "entity": "XM",
+    "category": "Precio de bolsa horario",
+    "periodicity": "Diaria",
+    "granularity": "Horaria",
+    "historicData": "NA",
+    "private": false,
+    "ultimaNovedad": null
+  },
+  "filterDate": "FechaHora",
+  "records": null,
+  "variables": [
+    {
+      "variableCode": "PB_Tie",
+      "variableName": "Precio de bolsa TIE",
+      "measurementUnit": "COP/kWh",
+      "description": " precio de bolsa TIE (Ecuador)"
+    },
+    {
+      "variableCode": "PB_Nal",
+      "variableName": "Precio de bolsa nacional",
+      "measurementUnit": "COP/kWh",
+      "description": "Precio de bolsa nacional"
+    },
+    {
+      "variableCode": "PB_Int",
+      "variableName": "Precio de bolsa internacional",
+      "measurementUnit": "COP/kWh",
+      "description": "Precio de bolsa internacional"
+    }
+  ],
+  "columns": [
+    {
+      "nameColumn": "CodigoVariable",
+      "dataType": "texto",
+      "description": "Código de la variable"
+    },
+    {
+      "nameColumn": "Valor",
+      "dataType": "decimal",
+      "description": "Valor de la variable (escala de 4 cifras)"
+    },
+    {
+      "nameColumn": "UnidadMedida",
+      "dataType": "texto",
+      "description": "Unidad de medida en la que se encuentra la variable"
+    },
+    {
+      "nameColumn": "Version",
+      "dataType": "texto",
+      "description": "Versión de la liquidación"
+    },
+    {
+      "nameColumn": "FechaHora",
+      "dataType": "fecha hora",
+      "description": "Fecha y hora de representación del dato"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    }
+  ],
+  "tags": [
+    {
+      "id": "424c872a-2f07-4ae8-ba19-4f8891c68d88",
+      "name": "Precios horarios",
+      "estado": true
+    },
+    {
+      "id": "8c2c21d5-e2c4-45d4-b818-6642f63babf5",
+      "name": "Precios",
+      "estado": true
+    },
+    {
+      "id": "840bfc4a-228f-4781-a290-aab4c3c4e950",
+      "name": "Precio de Bolsa",
+      "estado": true
+    },
+    {
+      "id": "551395c9-c094-413a-a029-deadb59b926f",
+      "name": "SIMEM",
+      "estado": true
+    }
+  ]
+}

@@ -1,12 +1,13 @@
 # Reconocimiento de fuentes SIMEM
 
-Ejecutado: 2026-10-24 17:42 UTC · fecha de referencia 2026-10-24
+Ejecutado: 2026-10-24 17:52 UTC · fecha de referencia 2026-10-24
 
 | ID | Dataset | Granularidad | Filas | Duplicadas | Versiones | Estado |
 |---|---|---|---:|---:|---|---|
 | 24914F | Versiones de factura para la liquidación mensual | Diaria | 47 | 0 | TX3:12, TX4:7, TX5:4, TXF:12, TXR:12 | ok |
 | 0BFC9D | Parámetros técnicos de las plantas de generación | Diaria | 69,813 | 0 | — | ok |
 | 972263 | Listado de agentes registrados | Diaria | 11,029 | 0 | — | ok |
+| EC6945 | Precio de bolsa horario | Horaria | 19,800 | 0 | TX1:4392, TX2:4392, TX3:2232, TXF:4392, TXR:4392 | ok |
 | 96D56E | Precio de bolsa ponderado | Diaria | 489 | 0 | TX1:61, TX2:122, TX3:62, TXF:122, TXR:122 | ok |
 | D55202 | Demanda comercial nacional | Horaria | 479,808 | 0 | TX2:136872, TX3:69192, TXF:136872, TXR:136872 | ok |
 | 42EDC9 | Magnitud energía en bolsa nacional a cargo | Horaria | 1,228,176 | 0 | TX2:349344, TX3:177312, TXF:350760, TXR:350760 | ok |
@@ -22,6 +23,7 @@ Ejecutado: 2026-10-24 17:42 UTC · fecha de referencia 2026-10-24
 - **24914F**: Version, FechaInicio, FechaFin, FechaPublicacion, esMaximaVersion
 - **0BFC9D**: Fecha, CodigoDuracion, FechaPublicacion, CodigoPlanta, NombrePlanta, CodigoSICAgente, CapEfectivaNeta, FPO, CodigoSubAreaOperativa, CodigoAreaOperativa, TipoDespachoRecurso, TipoClasificacion, TipoGeneracion
 - **972263**: Fecha, CodigoDuracion, CodigoSICAgente, NombreAgente, ActividadAgente
+- **EC6945**: CodigoVariable, FechaHora, CodigoDuracion, UnidadMedida, Version, Valor
 - **96D56E**: CodigoVariable, Fecha, CodigoDuracion, UnidadMedida, Version, Valor
 - **D55202**: CodigoVariable, FechaHora, CodigoSICAgente, TipoMercado, Version, Valor, UnidadMedida, CodigoDuracion
 - **42EDC9**: CodigoVariable, FechaHora, CodigoDuracion, UnidadMedida, CodigoSICAgente, Version, Valor
