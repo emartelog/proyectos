@@ -1,0 +1,75 @@
+{
+  "filas": 1185696,
+  "filas_duplicadas": 0,
+  "columnas": {
+    "CodigoVariable": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 1,
+      "valores": {
+        "DespachoTotalContratoLPVenta": 1185696
+      }
+    },
+    "FechaHora": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 1464,
+      "min": "2026-05-01 00:00:00",
+      "max": "2026-09-30 23:00:00"
+    },
+    "CodigoDuracion": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 1,
+      "valores": {
+        "PT1H": 1185696
+      }
+    },
+    "UnidadMedida": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 1,
+      "valores": {
+        "kWh": 1185696
+      }
+    },
+    "CodigoSICAgente": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 179
+    },
+    "TipoMercado": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 2,
+      "valores": {
+        "No Regulado": 828336,
+        "Regulado": 357360
+      }
+    },
+    "Version": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 4,
+      "valores": {
+        "TXF": 338832,
+        "TX2": 338832,
+        "TXR": 338832,
+        "TX3": 169200
+      }
+    },
+    "Valor": {
+      "tipo": "float64",
+      "nulos": 0,
+      "distintos": 138324,
+      "min": 0.0,
+      "max": 2029082.3,
+      "suma": 70665855555.70999
+    }
+  },
+  "filas_por_ventana": {
+    "mes_maduro": 676800,
+    "mes_reciente": 508896
+  },
+  "granularidad": "Horaria"
+}

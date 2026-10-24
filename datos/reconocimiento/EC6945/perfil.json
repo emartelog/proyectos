@@ -8,8 +8,8 @@
       "distintos": 3,
       "valores": {
         "PB_Int": 6600,
-        "PB_Nal": 6600,
-        "PB_Tie": 6600
+        "PB_Tie": 6600,
+        "PB_Nal": 6600
       }
     },
     "FechaHora": {
@@ -40,9 +40,9 @@
       "nulos": 0,
       "distintos": 5,
       "valores": {
-        "TXF": 4392,
         "TX2": 4392,
         "TX1": 4392,
+        "TXF": 4392,
         "TXR": 4392,
         "TX3": 2232
       }

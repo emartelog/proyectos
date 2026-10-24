@@ -1,501 +1,501 @@
 Fecha,CodigoDuracion,CodigoSICAgente,NombreAgente,ActividadAgente,_ventana
-2026-09-09,P1D,IACG,IAC ENERGY S.A.S. E.S.P.,Generador,mes_reciente
-2026-09-09,P1D,GCOC,GENERCOL S.A.S. E.S.P. ZOMAC,Comercializador,mes_reciente
-2026-09-09,P1D,EYCC,ENERGIA Y GAS DE COLOMBIA SAS ESP,Comercializador,mes_reciente
-2026-09-09,P1D,UNGC,UNERGY ENERGY DIGITAL S.A.S E.S.P,Comercializador,mes_reciente
-2026-09-09,P1D,QIEC,QI ENERGY S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-09,P1D,NRCG,ENERCO S.A. E.S.P.,Generador,mes_reciente
-2026-09-09,P1D,SFEG,SANTA FE ENERGY ZOMAC S.A.S. E.S.P.,Generador,mes_reciente
-2026-09-09,P1D,BTGC,BTG PACTUAL COMMODITIES COLOMBIA S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-09,P1D,WSLG,WILCHES SOLAR 1 S.A.S. E.S.P.,Generador,mes_reciente
-2026-09-09,P1D,SEJC,SOL DEL EJE S.A.S E.S.P,Comercializador,mes_reciente
-2026-09-09,P1D,EEPD,EMPRESA DE ENERGIA DE PEREIRA S.A. E.S.P.,Distribuidor,mes_reciente
-2026-09-09,P1D,EMIG,EMPRESAS MUNICIPALES DE CALI E.I.C.E. E.S.P.,Generador,mes_reciente
-2026-09-09,P1D,NMRG,ENERMAS SAS ESP,Generador,mes_reciente
-2026-09-09,P1D,SDCG,SOL DE LAS CIÉNAGAS S.A.S. E.S.P.,Generador,mes_reciente
-2026-09-09,P1D,CBYC,CARBOENERGY SAS ESP,Comercializador,mes_reciente
-2026-09-01,P1D,ESOC,EMPRESA DE SERVICIOS PÚBLICOS DEL OCCIDENTE COLOMBIANO,Comercializador,mes_reciente
-2026-09-01,P1D,CIEG,COMPAÑÍA INTEGRAL ENERGETICA S.A.S E.S.P,Generador,mes_reciente
-2026-09-01,P1D,TRNG,TRINA SOLAR GENERADOR COLOMBIA,Generador,mes_reciente
-2026-09-01,P1D,RTQG,RUITOQUE S.A. E.S.P.,Generador,mes_reciente
-2026-09-01,P1D,SMTC,SMARTEN S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-01,P1D,ELIC,ENERGIA LIMPIA Y EFICIENTE S.A.S ESP,Comercializador,mes_reciente
-2026-09-01,P1D,EMEC,EMPRESA MUNICIPAL DE ENERGIA ELECTRICA S.A. E.S.P.,Comercializador,mes_reciente
-2026-09-01,P1D,CNGD,CEN ENERGY S.A.S. E.S.P.,Distribuidor,mes_reciente
-2026-09-01,P1D,TBSG,TERMOBARRANQUILLA S.A. EMPRESA DE SERVICIOS PUBLICOS,Generador,mes_reciente
-2026-09-01,P1D,VCHG,VACHE S.A.S E.S.P.,Generador,mes_reciente
-2026-09-01,P1D,NMRG,ENERMAS SAS ESP,Generador,mes_reciente
-2026-09-01,P1D,EMED,EMPRESA MUNICIPAL DE ENERGIA ELECTRICA S.A. E.S.P.,Distribuidor,mes_reciente
-2026-09-01,P1D,CIEC,COMPAÑÍA INTEGRAL ENERGETICA S.A.S E.S.P,Comercializador,mes_reciente
-2026-09-07,P1D,ERCG,ENERGIA RENOVABLE DE COLOMBIA S.A.S E.S.P.,Generador,mes_reciente
-2026-09-07,P1D,RQEC,ENERGIA Y AGUA S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-07,P1D,PSAG,PARQUE SOLAR ANDRÓMEDA I S.A.S. E.S.P,Generador,mes_reciente
-2026-09-07,P1D,SPRG,ESPROD ENERGY S.A.S. E.S.P.,Generador,mes_reciente
-2026-09-07,P1D,ERNC,ÉRGON ENERGY SAS ESP,Comercializador,mes_reciente
-2026-09-07,P1D,CTID,EMPRESAS MUNICIPALES DE CARTAGO S.A.S. E.S.P.,Distribuidor,mes_reciente
-2026-09-07,P1D,CORG,PROYECTO SOLAR COROZO SAS ESP,Generador,mes_reciente
-2026-09-07,P1D,ESVC,EMPRESA SIGLO XXI EICE ESP,Comercializador,mes_reciente
-2026-09-07,P1D,EPSD,CELSIA COLOMBIA S.A. E.S.P.,Distribuidor,mes_reciente
-2026-09-07,P1D,HTCC,HT INDUSTRIES COLOMBIA S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-07,P1D,SHAG,OPERADORA SHANGRI-LA S.A.S E.S.P,Generador,mes_reciente
-2026-09-07,P1D,RPEC,RIOPAILA ENERGÍA S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-07,P1D,SFEG,SANTA FE ENERGY ZOMAC S.A.S. E.S.P.,Generador,mes_reciente
-2026-09-07,P1D,CVLC,COMERCIALIZADORA DE ENERGÍA VITALUZ S.A.S. E.S.P,Comercializador,mes_reciente
-2026-09-07,P1D,TMVG,ENFRAGEN TERMOVALLE S.A.S. EMPRESA DE SERVICIOS PUBLICOS,Generador,mes_reciente
-2026-09-17,P1D,DTEC,2T ENERGY S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-17,P1D,NEXG,NEXTGY S.A.S. E.S.P.,Generador,mes_reciente
-2026-09-17,P1D,SLMG,SPK LA MATA S.A.S E.S.P,Generador,mes_reciente
-2026-09-17,P1D,OTAC,OTACC GENERACION S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-17,P1D,RTAG,SPECTRUM RENOVAVEIS S.A.S. E.S.P.,Generador,mes_reciente
-2026-09-17,P1D,AAGC,ATLÁNTICA COLOMBIA S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-17,P1D,ITCT,ISA INTERCOLOMBIA S.A. E.S.P.,Transportador,mes_reciente
-2026-09-17,P1D,UNGC,UNERGY ENERGY DIGITAL S.A.S E.S.P,Comercializador,mes_reciente
-2026-09-17,P1D,BTGG,BTG PACTUAL COMMODITIES COLOMBIA S.A.S. E.S.P.,Generador,mes_reciente
-2026-09-17,P1D,GAPC,GAP ENERGY GROUP SAS ESP,Comercializador,mes_reciente
-2026-09-17,P1D,PRIC,PROELECTRICA S.A.S E.S.P.,Comercializador,mes_reciente
-2026-09-17,P1D,SGMC,SIGMA2 COMERCIALIZADORA  DE ENERGIA ELECTRICA SAS ESP,Comercializador,mes_reciente
-2026-09-17,P1D,CORG,PROYECTO SOLAR COROZO SAS ESP,Generador,mes_reciente
-2026-09-17,P1D,CASD,EMPRESA DE ENERGIA DE CASANARE S.A. ESP,Distribuidor,mes_reciente
-2026-09-17,P1D,WSLG,WILCHES SOLAR 1 S.A.S. E.S.P.,Generador,mes_reciente
-2026-09-15,P1D,NEXC,NEXTGY S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-15,P1D,ENBC,UTILITY DIGITAL S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-15,P1D,SOEC,COREX ENERGY S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-15,P1D,HLAC,ELECTRIFICADORA DEL HUILA S.A. E.S.P.,Comercializador,mes_reciente
-2026-09-15,P1D,EANC,EMPRESA DE ENERGIA ANDES SAS ESP,Comercializador,mes_reciente
-2026-09-15,P1D,EDQD,EMPRESA DE ENERGIA DEL QUINDIO S.A. E.S.P.,Distribuidor,mes_reciente
-2026-09-15,P1D,GADG,GADIZ UTILITY SAS ESP,Generador,mes_reciente
-2026-09-15,P1D,ENOC,ENERGIA Y ALUMBRADO DE COLOMBIA SAS ESP,Comercializador,mes_reciente
-2026-09-15,P1D,CVLC,COMERCIALIZADORA DE ENERGÍA VITALUZ S.A.S. E.S.P,Comercializador,mes_reciente
-2026-09-15,P1D,CDNG,CENTRALES ELECTRICAS DE NARIÑO S.A. E.S.P.,Generador,mes_reciente
-2026-09-15,P1D,CHVC,AES COLOMBIA & CIA. S.C.A. E.S.P.,Comercializador,mes_reciente
-2026-09-15,P1D,EMSC,ELECTRIFICADORA DEL META S.A. E.S.P.,Comercializador,mes_reciente
-2026-09-15,P1D,HLAG,ELECTRIFICADORA DEL HUILA S.A. E.S.P.,Generador,mes_reciente
-2026-09-15,P1D,EDPC,EMPRESA DISTRIBUIDORA DEL PACIFICO S.A. E.S.P.,Comercializador,mes_reciente
-2026-09-15,P1D,RTAG,SPECTRUM RENOVAVEIS S.A.S. E.S.P.,Generador,mes_reciente
-2026-09-15,P1D,VNRG,VIENTOS DEL NORTE S.A.S. E.S.P. EN LIQUIDACIÓN,Generador,mes_reciente
-2026-09-15,P1D,CNAD,CONELCA S.A.S. E.S.P.,Distribuidor,mes_reciente
-2026-09-27,P1D,WSLG,WILCHES SOLAR 1 S.A.S. E.S.P.,Generador,mes_reciente
-2026-09-27,P1D,CNRC,COENERSA S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-27,P1D,ETTC,ENERTOTAL S.A. E.S.P.,Comercializador,mes_reciente
-2026-09-27,P1D,BEIC,BEAM ENERGY INNOVATION S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-27,P1D,HZEC,HZ ENERGY S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-27,P1D,CDIC,CENTRALES ELECTRICAS DEL CAUCA S.A. E.S.P.,Comercializador,mes_reciente
-2026-09-27,P1D,EBST,EMPRESA DE ENERGIA DE BOYACA S.A. E.S.P.,Transportador,mes_reciente
-2026-09-27,P1D,RPEC,RIOPAILA ENERGÍA S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-27,P1D,ERCG,ENERGIA RENOVABLE DE COLOMBIA S.A.S E.S.P.,Generador,mes_reciente
-2026-09-27,P1D,FERC,FUENTES DE ENERGIAS RENOVABLES S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-27,P1D,EMED,EMPRESA MUNICIPAL DE ENERGIA ELECTRICA S.A. E.S.P.,Distribuidor,mes_reciente
-2026-09-27,P1D,LMEC,LUMINA ENERGY S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-27,P1D,PVEG,PLANTA SOLAR LOS VENADOS SAS ESP,Generador,mes_reciente
-2026-09-27,P1D,ABAG,AURES BAJO S.A.S. E.S.P.,Generador,mes_reciente
-2026-09-27,P1D,SOLG,PARQUE SOLAR COLOMBIA I S.A.S.,Generador,mes_reciente
-2026-09-27,P1D,CNXT,CONEXIÓN Y GESTIÓN DE ACTIVOS S.A.S. E.S.P. CONEXSIS S.A.S. E.S.P,Transportador,mes_reciente
-2026-09-27,P1D,CHCT,CENTRAL HIDROELECTRICA DE CALDAS S.A. E.S.P. BENEFICIO E INTERES COLECTIVO,Transportador,mes_reciente
-2026-09-18,P1D,ESST,ELECTRIFICADORA DE SANTANDER S.A. E.S.P.,Transportador,mes_reciente
-2026-09-18,P1D,ELIC,ENERGIA LIMPIA Y EFICIENTE S.A.S ESP,Comercializador,mes_reciente
-2026-09-18,P1D,CBNC,COLOMBINA ENERGIA SAS ESP,Comercializador,mes_reciente
-2026-09-18,P1D,GCMG,GENERCOMERCIAL S.A.S E.S.P,Generador,mes_reciente
-2026-09-18,P1D,EMSD,ELECTRIFICADORA DEL META S.A. E.S.P.,Distribuidor,mes_reciente
+2026-09-18,P1D,ADCC,ENERGIA DEL RIO PIEDRAS S.A. E.S.P,Comercializador,mes_reciente
+2026-09-18,P1D,CIEC,COMPAÑÍA INTEGRAL ENERGETICA S.A.S E.S.P,Comercializador,mes_reciente
+2026-09-18,P1D,EBST,EMPRESA DE ENERGIA DE BOYACA S.A. E.S.P.,Transportador,mes_reciente
+2026-09-18,P1D,EANC,EMPRESA DE ENERGIA ANDES SAS ESP,Comercializador,mes_reciente
 2026-09-18,P1D,NRCG,ENERCO S.A. E.S.P.,Generador,mes_reciente
-2026-09-18,P1D,ESSC,ELECTRIFICADORA DE SANTANDER S.A. E.S.P.,Comercializador,mes_reciente
-2026-09-18,P1D,SDEG,SOLAR EL EDÉN S.A.S. E.S.P.,Generador,mes_reciente
-2026-09-18,P1D,ENGG,ENERGETICA S.A. E.S.P.,Generador,mes_reciente
-2026-09-18,P1D,CQTC,ELECTRIFICADORA DEL CAQUETA S.A. E.S.P.,Comercializador,mes_reciente
-2026-09-18,P1D,ABAG,AURES BAJO S.A.S. E.S.P.,Generador,mes_reciente
-2026-09-18,P1D,TEMG,TERMOEMCALI I S.A E.S.P,Generador,mes_reciente
-2026-09-18,P1D,COLC,COLENERGIA S.A. E.S.P.,Comercializador,mes_reciente
-2026-09-18,P1D,TENC,TRANSACCIONES ENERGÉTICAS S.A.S. EMPRESA DE SERVICIOS PÚBLICOS E.S.P,Comercializador,mes_reciente
-2026-09-18,P1D,BDJG,BIOGAS COLOMBIA S.A.S. E.S.P ,Generador,mes_reciente
-2026-09-18,P1D,BIAC,BIA ENERGY S.A.S. E.S.P,Comercializador,mes_reciente
-2026-09-29,P1D,TERG,TERMOTASAJERO DOS S.A. E.S.P. ,Generador,mes_reciente
-2026-09-29,P1D,EGRG,4E GROUP S.A.S E.S.P.,Generador,mes_reciente
-2026-09-29,P1D,EMEG,EMPRESA MUNICIPAL DE ENERGIA ELECTRICA S.A. E.S.P.,Generador,mes_reciente
-2026-09-29,P1D,GRCC,GR POWER COLOMBIA S.A.S E.S.P.,Comercializador,mes_reciente
-2026-09-29,P1D,XFRC,ABO WIND RENOVABLES PROYECTO DIECISEIS S.A.S. ESP,Comercializador,mes_reciente
-2026-09-29,P1D,ENOC,ENERGIA Y ALUMBRADO DE COLOMBIA SAS ESP,Comercializador,mes_reciente
-2026-09-29,P1D,COGG,COMERCIALIZADORA 4G ENERGIA SAS ESP,Generador,mes_reciente
-2026-09-29,P1D,ECNC,ECOGENERATION S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-29,P1D,PSCG,PROYECTO SOLAR CIMITARRA SAS ESP,Generador,mes_reciente
-2026-09-29,P1D,RPEC,RIOPAILA ENERGÍA S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-29,P1D,EYCC,ENERGIA Y GAS DE COLOMBIA SAS ESP,Comercializador,mes_reciente
-2026-09-29,P1D,EBSC,EMPRESA DE ENERGIA DE BOYACA S.A. E.S.P.,Comercializador,mes_reciente
-2026-09-29,P1D,VESC,VOLTAJE EMPRESARIAL S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-29,P1D,SEJC,SOL DEL EJE S.A.S E.S.P,Comercializador,mes_reciente
-2026-09-29,P1D,DRUC,DRUMMOND POWER S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-05,P1D,PSCG,PROYECTO SOLAR CIMITARRA SAS ESP,Generador,mes_reciente
-2026-09-05,P1D,EBSG,EMPRESA DE ENERGIA DE BOYACA S.A. E.S.P.,Generador,mes_reciente
-2026-09-05,P1D,DUCC,DUCK ENERGY S.A.S. ESP,Comercializador,mes_reciente
-2026-09-05,P1D,HLAD,ELECTRIFICADORA DEL HUILA S.A. E.S.P.,Distribuidor,mes_reciente
-2026-09-05,P1D,CDNG,CENTRALES ELECTRICAS DE NARIÑO S.A. E.S.P.,Generador,mes_reciente
-2026-09-05,P1D,CASD,EMPRESA DE ENERGIA DE CASANARE S.A. ESP,Distribuidor,mes_reciente
-2026-09-05,P1D,GASC,GENERARCO S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-05,P1D,ELGC,E.L.E.C. GREEN S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-05,P1D,GNYG,GREENYELLOW COMERCIALIZADORA S.A.S. E.S.P.,Generador,mes_reciente
+2026-09-18,P1D,SGMC,SIGMA2 COMERCIALIZADORA  DE ENERGIA ELECTRICA SAS ESP,Comercializador,mes_reciente
+2026-09-18,P1D,TERG,TERMOTASAJERO DOS S.A. E.S.P. ,Generador,mes_reciente
+2026-09-18,P1D,TCET,TRANSMISORA COLOMBIANA DE ENERGIA S.A.S. E.S.P.,Transportador,mes_reciente
+2026-09-18,P1D,TPLC,TERPEL ENERGÍA S.A.S. E.S.P.,Comercializador,mes_reciente
+2026-09-18,P1D,TYPG,TERMOYOPAL GENERACION 2 S.A.S E.S.P.,Generador,mes_reciente
+2026-09-18,P1D,TRFG,TRINA SOLAR GENERADOR COLOMBIA,Generador,mes_reciente
+2026-09-18,P1D,RPEG,RIOPAILA ENERGÍA S.A.S. E.S.P.,Generador,mes_reciente
+2026-09-18,P1D,ELGC,E.L.E.C. GREEN S.A.S. E.S.P.,Comercializador,mes_reciente
+2026-09-18,P1D,TRNG,TRINA SOLAR GENERADOR COLOMBIA,Generador,mes_reciente
+2026-09-18,P1D,CVLC,COMERCIALIZADORA DE ENERGÍA VITALUZ S.A.S. E.S.P,Comercializador,mes_reciente
+2026-09-29,P1D,ORQG,LA ORQUIDEA SOLAR S.A.S. E.S.P. ,Generador,mes_reciente
+2026-09-29,P1D,ESNC,ES INVEST COLOMBIA S.A.S. ESP,Comercializador,mes_reciente
+2026-09-29,P1D,CTEG,COENERGIA S.A.S. E.S.P.,Generador,mes_reciente
+2026-09-29,P1D,ISGC,ISAGEN S.A. E.S.P.,Comercializador,mes_reciente
+2026-09-29,P1D,ADCG,ENERGIA DEL RIO PIEDRAS S.A. E.S.P,Generador,mes_reciente
+2026-09-29,P1D,GNSG,GENERSOL S.A.S. E.S.P.,Generador,mes_reciente
+2026-09-29,P1D,CDNG,CENTRALES ELECTRICAS DE NARIÑO S.A. E.S.P.,Generador,mes_reciente
+2026-09-29,P1D,ITLC,ITALCOL ENERGIA S.A. E.S.P.,Comercializador,mes_reciente
+2026-09-29,P1D,GRCG,GR POWER COLOMBIA S.A.S E.S.P.,Generador,mes_reciente
+2026-09-29,P1D,TRNG,TRINA SOLAR GENERADOR COLOMBIA,Generador,mes_reciente
+2026-09-29,P1D,CHCC,CENTRAL HIDROELECTRICA DE CALDAS S.A. E.S.P. BENEFICIO E INTERES COLECTIVO,Comercializador,mes_reciente
+2026-09-29,P1D,SMTC,SMARTEN S.A.S. E.S.P.,Comercializador,mes_reciente
+2026-09-29,P1D,BDJG,BIOGAS COLOMBIA S.A.S. E.S.P ,Generador,mes_reciente
+2026-09-05,P1D,DEGD,DESARROLLO ELECTRICO DEL RIO GUATAPURI SAS ESP,Distribuidor,mes_reciente
+2026-09-05,P1D,ETTC,ENERTOTAL S.A. E.S.P.,Comercializador,mes_reciente
+2026-09-05,P1D,HBCG,HIDROELECTRICA BARRANCAS SAS ESP,Generador,mes_reciente
+2026-09-05,P1D,EEBD,GRUPO ENERGIA BOGOTA SA ESP,Distribuidor,mes_reciente
+2026-09-05,P1D,CDIC,CENTRALES ELECTRICAS DEL CAUCA S.A. E.S.P.,Comercializador,mes_reciente
+2026-09-05,P1D,EREC,COMERCIALIZADORA DE ENERGÍAS RENOVABLES GREEN ENERGY S.A.S,Comercializador,mes_reciente
 2026-09-05,P1D,GNCG,VATIA S.A. E.S.P.,Generador,mes_reciente
-2026-09-05,P1D,CNSD,CENTRALES ELECTRICAS DEL NORTE DE SANTANDER S.A. E.S.P.,Distribuidor,mes_reciente
-2026-09-05,P1D,SFEG,SANTA FE ENERGY ZOMAC S.A.S. E.S.P.,Generador,mes_reciente
-2026-09-05,P1D,EBST,EMPRESA DE ENERGIA DE BOYACA S.A. E.S.P.,Transportador,mes_reciente
-2026-09-30,P1D,BCHG,BCCY COLOMBIA HOLDING SAS ESP,Generador,mes_reciente
-2026-09-30,P1D,ESNC,ES INVEST COLOMBIA S.A.S. ESP,Comercializador,mes_reciente
-2026-09-30,P1D,HZEC,HZ ENERGY S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-30,P1D,NMRC,ENERMAS SAS ESP,Comercializador,mes_reciente
-2026-09-30,P1D,CTCG,CENTRAL TERMOCARTAGENA SAS ESP,Generador,mes_reciente
-2026-09-30,P1D,EOEG,EOLOS ENERGÍA S.A.S. E.S.P. EN LIQUIDACIÓN,Generador,mes_reciente
-2026-09-30,P1D,ISGG,ISAGEN S.A. E.S.P.,Generador,mes_reciente
-2026-09-30,P1D,CDNC,CENTRALES ELECTRICAS DE NARIÑO S.A. E.S.P.,Comercializador,mes_reciente
-2026-09-30,P1D,EPMT,EMPRESAS PUBLICAS DE MEDELLIN E.S.P.,Transportador,mes_reciente
-2026-09-30,P1D,SOCG,COMPAÑÍA ELÉCTRICA DE SOCHAGOTA  S.A.S. E.S.P.,Generador,mes_reciente
-2026-09-30,P1D,DTEC,2T ENERGY S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-30,P1D,CVLC,COMERCIALIZADORA DE ENERGÍA VITALUZ S.A.S. E.S.P,Comercializador,mes_reciente
-2026-09-30,P1D,KEMC,KEM ENERGY S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-30,P1D,COLC,COLENERGIA S.A. E.S.P.,Comercializador,mes_reciente
+2026-09-05,P1D,GECG,GENERADORA Y COMERCIALIZADORA DE ENERGIA DEL CARIBE S.A. E.S.P.,Generador,mes_reciente
+2026-09-05,P1D,DEPC,DEPI ENERGY S.A.S. E.S.P.,Comercializador,mes_reciente
+2026-09-05,P1D,RTQD,RUITOQUE S.A. E.S.P.,Distribuidor,mes_reciente
+2026-09-05,P1D,PCYG,P.CH EL COCUYO SAS ESP,Generador,mes_reciente
+2026-09-05,P1D,EPSD,CELSIA COLOMBIA S.A. E.S.P.,Distribuidor,mes_reciente
+2026-09-05,P1D,BEIG,BEAM ENERGY INNOVATION S.A.S. E.S.P.,Generador,mes_reciente
+2026-09-05,P1D,ESOC,EMPRESA DE SERVICIOS PÚBLICOS DEL OCCIDENTE COLOMBIANO,Comercializador,mes_reciente
+2026-09-05,P1D,ABAG,AURES BAJO S.A.S. E.S.P.,Generador,mes_reciente
+2026-09-30,P1D,TAMG,TAMARINO COLOMBIA S.A.S. E.S.P.,Generador,mes_reciente
+2026-09-30,P1D,TEMG,TERMOEMCALI I S.A E.S.P,Generador,mes_reciente
+2026-09-30,P1D,EBSC,EMPRESA DE ENERGIA DE BOYACA S.A. E.S.P.,Comercializador,mes_reciente
+2026-09-30,P1D,ENDC,ENEL COLOMBIA SA ESP,Comercializador,mes_reciente
+2026-09-30,P1D,CETC,COMPAÑIA DE ELECTRICIDAD DE TULUA S.A. E.S.P.,Comercializador,mes_reciente
+2026-09-30,P1D,ATED,ENERGIA ATENEA S.A.S E.S.P,Distribuidor,mes_reciente
+2026-09-30,P1D,IAEC,IA ENERGÍA Y GESTIÓN S.A.S. E.S.P.,Comercializador,mes_reciente
+2026-09-30,P1D,SDCG,SOL DE LAS CIÉNAGAS S.A.S. E.S.P.,Generador,mes_reciente
+2026-09-30,P1D,SCEC,SOL & CIELO ENERGIA S.A.S. E.S.P,Comercializador,mes_reciente
+2026-09-30,P1D,TMMG,TERMO MECHERO MORRO S.A.S E.S.P ,Generador,mes_reciente
+2026-09-30,P1D,EEPD,EMPRESA DE ENERGIA DE PEREIRA S.A. E.S.P.,Distribuidor,mes_reciente
+2026-09-30,P1D,ESSC,ELECTRIFICADORA DE SANTANDER S.A. E.S.P.,Comercializador,mes_reciente
+2026-09-30,P1D,SFEG,SANTA FE ENERGY ZOMAC S.A.S. E.S.P.,Generador,mes_reciente
+2026-09-30,P1D,NUEG,NUEVAS ENERGIAS II S.A.S. ESP,Generador,mes_reciente
 2026-09-30,P1D,AXEG,AXIA ENERGIA S.A.S. E.S.P.,Generador,mes_reciente
-2026-09-30,P1D,HBCG,HIDROELECTRICA BARRANCAS SAS ESP,Generador,mes_reciente
-2026-09-30,P1D,CAFC,COMERCIALIZADORA DEL CAFE S.A.S E.S.P,Comercializador,mes_reciente
-2026-09-20,P1D,TEMG,TERMOEMCALI I S.A E.S.P,Generador,mes_reciente
-2026-09-20,P1D,ESOC,EMPRESA DE SERVICIOS PÚBLICOS DEL OCCIDENTE COLOMBIANO,Comercializador,mes_reciente
-2026-09-20,P1D,DIST,DISTASA S.A. E.S.P.,Transportador,mes_reciente
-2026-09-20,P1D,EBSD,EMPRESA DE ENERGIA DE BOYACA S.A. E.S.P.,Distribuidor,mes_reciente
-2026-09-20,P1D,TRMG,TERMOTASAJERO S.A. E.S.P.,Generador,mes_reciente
-2026-09-20,P1D,EVTG,ENERVOLTIO SAS ESP,Generador,mes_reciente
-2026-09-20,P1D,SOUC,SOUL ENERGY SAS ESP,Comercializador,mes_reciente
-2026-09-20,P1D,BCCC,BCCY CORDOBA S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-20,P1D,EMUG,EMPRESA URRA S.A. E.S.P.,Generador,mes_reciente
-2026-09-20,P1D,EPSD,CELSIA COLOMBIA S.A. E.S.P.,Distribuidor,mes_reciente
-2026-09-20,P1D,ESVC,EMPRESA SIGLO XXI EICE ESP,Comercializador,mes_reciente
-2026-09-20,P1D,ESSC,ELECTRIFICADORA DE SANTANDER S.A. E.S.P.,Comercializador,mes_reciente
-2026-09-20,P1D,OTAG,OTACC GENERACION S.A.S. E.S.P.,Generador,mes_reciente
-2026-09-20,P1D,EPSC,CELSIA COLOMBIA S.A. E.S.P.,Comercializador,mes_reciente
-2026-09-20,P1D,PLSC,PLUSENERGY S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-20,P1D,ISAT,INTERCONEXION ELECTRICA S.A. E.S.P.,Transportador,mes_reciente
-2026-09-20,P1D,PSGG,PARQUE SOLAR LOS GIRASOLES S.A.S ESP,Generador,mes_reciente
-2026-09-20,P1D,CETG,COMPAÑIA DE ELECTRICIDAD DE TULUA S.A. E.S.P.,Generador,mes_reciente
-2026-09-20,P1D,CORG,PROYECTO SOLAR COROZO SAS ESP,Generador,mes_reciente
-2026-09-20,P1D,ESST,ELECTRIFICADORA DE SANTANDER S.A. E.S.P.,Transportador,mes_reciente
-2026-09-20,P1D,CALG,EMPRESAS PUBLICAS DE CALARCA ESP,Generador,mes_reciente
-2026-09-20,P1D,GRCC,GR POWER COLOMBIA S.A.S E.S.P.,Comercializador,mes_reciente
-2026-09-22,P1D,ISAT,INTERCONEXION ELECTRICA S.A. E.S.P.,Transportador,mes_reciente
-2026-09-22,P1D,HLAC,ELECTRIFICADORA DEL HUILA S.A. E.S.P.,Comercializador,mes_reciente
-2026-09-22,P1D,DUCC,DUCK ENERGY S.A.S. ESP,Comercializador,mes_reciente
-2026-09-22,P1D,SLUG,SPK LA UNIÓN S.A.S. E.S.P.,Generador,mes_reciente
-2026-09-22,P1D,GASC,GENERARCO S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-22,P1D,MERC,MERELEC COLOMBIA S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-22,P1D,LMEC,LUMINA ENERGY S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-22,P1D,AAGG,ATLÁNTICA COLOMBIA S.A.S. E.S.P.,Generador,mes_reciente
-2026-09-22,P1D,TAMG,TAMARINO COLOMBIA S.A.S. E.S.P.,Generador,mes_reciente
-2026-09-22,P1D,DRUC,DRUMMOND POWER S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-22,P1D,GNYG,GREENYELLOW COMERCIALIZADORA S.A.S. E.S.P.,Generador,mes_reciente
-2026-09-22,P1D,BEIG,BEAM ENERGY INNOVATION S.A.S. E.S.P.,Generador,mes_reciente
-2026-09-22,P1D,SPRG,ESPROD ENERGY S.A.S. E.S.P.,Generador,mes_reciente
-2026-09-22,P1D,GCMG,GENERCOMERCIAL S.A.S E.S.P,Generador,mes_reciente
-2026-09-22,P1D,SDCG,SOL DE LAS CIÉNAGAS S.A.S. E.S.P.,Generador,mes_reciente
-2026-09-22,P1D,CQTD,ELECTRIFICADORA DEL CAQUETA S.A. E.S.P.,Distribuidor,mes_reciente
-2026-09-22,P1D,CDIG,CENTRALES ELECTRICAS DEL CAUCA S.A. E.S.P.,Generador,mes_reciente
-2026-09-22,P1D,PTTC,SOCIEDAD DE ECONOMIA MIXTA ALUMBRADO PUBLICO DE PITALITO S.A.S E.S.P,Comercializador,mes_reciente
-2026-09-22,P1D,EMIC,EMPRESAS MUNICIPALES DE CALI E.I.C.E. E.S.P.,Comercializador,mes_reciente
-2026-09-22,P1D,ZONC,ZONERGY SAS ESP,Comercializador,mes_reciente
-2026-09-22,P1D,BIGC,BIOGER S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-22,P1D,RTAG,SPECTRUM RENOVAVEIS S.A.S. E.S.P.,Generador,mes_reciente
-2026-09-26,P1D,JRDC,JULIA,Comercializador,mes_reciente
-2026-09-26,P1D,DUCC,DUCK ENERGY S.A.S. ESP,Comercializador,mes_reciente
-2026-09-26,P1D,HLAD,ELECTRIFICADORA DEL HUILA S.A. E.S.P.,Distribuidor,mes_reciente
-2026-09-26,P1D,SOCG,COMPAÑÍA ELÉCTRICA DE SOCHAGOTA  S.A.S. E.S.P.,Generador,mes_reciente
-2026-09-26,P1D,VICC,EMPRESA DE ENERGÍA ELÉCTRICA DEL DEPARTAMENTO DEL VICHADA,Comercializador,mes_reciente
-2026-09-26,P1D,CDID,CENTRALES ELECTRICAS DEL CAUCA S.A. E.S.P.,Distribuidor,mes_reciente
-2026-09-26,P1D,ECNC,ECOGENERATION S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-26,P1D,EMIC,EMPRESAS MUNICIPALES DE CALI E.I.C.E. E.S.P.,Comercializador,mes_reciente
-2026-09-26,P1D,ESNC,ES INVEST COLOMBIA S.A.S. ESP,Comercializador,mes_reciente
-2026-09-26,P1D,TRIG,TERMOCARTAGENA S.A. E.S.P.,Generador,mes_reciente
-2026-09-26,P1D,CTID,EMPRESAS MUNICIPALES DE CARTAGO S.A.S. E.S.P.,Distribuidor,mes_reciente
-2026-09-26,P1D,OTAG,OTACC GENERACION S.A.S. E.S.P.,Generador,mes_reciente
-2026-09-26,P1D,CTEC,COENERGIA S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-26,P1D,EPRC,EPRING ENERGY SAS ESP,Comercializador,mes_reciente
-2026-09-26,P1D,MERC,MERELEC COLOMBIA S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-26,P1D,ESSD,ELECTRIFICADORA DE SANTANDER S.A. E.S.P.,Distribuidor,mes_reciente
-2026-09-26,P1D,BIAC,BIA ENERGY S.A.S. E.S.P,Comercializador,mes_reciente
+2026-09-30,P1D,VESG,VOLTAJE EMPRESARIAL S.A.S. E.S.P.,Generador,mes_reciente
+2026-09-20,P1D,CDID,CENTRALES ELECTRICAS DEL CAUCA S.A. E.S.P.,Distribuidor,mes_reciente
+2026-09-20,P1D,CSID,AIR-E S.A.S. E.S.P.,Distribuidor,mes_reciente
+2026-09-20,P1D,BCHC,BCCY COLOMBIA HOLDING SAS ESP,Comercializador,mes_reciente
+2026-09-20,P1D,EPRC,EPRING ENERGY SAS ESP,Comercializador,mes_reciente
+2026-09-20,P1D,EEAD,ENERGÍA ELÉCTRICA DE LA COSTA ATLÁNTICA S.A. E.S.P,Distribuidor,mes_reciente
+2026-09-20,P1D,LMEC,LUMINA ENERGY S.A.S. E.S.P.,Comercializador,mes_reciente
+2026-09-20,P1D,VICC,EMPRESA DE ENERGÍA ELÉCTRICA DEL DEPARTAMENTO DEL VICHADA,Comercializador,mes_reciente
+2026-09-20,P1D,CVLC,COMERCIALIZADORA DE ENERGÍA VITALUZ S.A.S. E.S.P,Comercializador,mes_reciente
+2026-09-20,P1D,TMNG,TERMONORTE S.A.S. E.S.P.,Generador,mes_reciente
+2026-09-20,P1D,XFRC,ABO WIND RENOVABLES PROYECTO DIECISEIS S.A.S. ESP,Comercializador,mes_reciente
+2026-09-20,P1D,ESNC,ES INVEST COLOMBIA S.A.S. ESP,Comercializador,mes_reciente
+2026-09-20,P1D,EDQC,EMPRESA DE ENERGIA DEL QUINDIO S.A. E.S.P.,Comercializador,mes_reciente
+2026-09-20,P1D,ENIC,EMPRESA DE ENERGÍA DE ARAUCA E.S.P.,Comercializador,mes_reciente
+2026-09-20,P1D,ISGC,ISAGEN S.A. E.S.P.,Comercializador,mes_reciente
+2026-09-20,P1D,EBSC,EMPRESA DE ENERGIA DE BOYACA S.A. E.S.P.,Comercializador,mes_reciente
+2026-09-20,P1D,FREC,FRANCA ENERGIA SA ESP,Comercializador,mes_reciente
+2026-09-22,P1D,HLAG,ELECTRIFICADORA DEL HUILA S.A. E.S.P.,Generador,mes_reciente
+2026-09-22,P1D,ENIC,EMPRESA DE ENERGÍA DE ARAUCA E.S.P.,Comercializador,mes_reciente
+2026-09-22,P1D,TCBC,TERMO CARIBE S.A.S. E.S.P.,Comercializador,mes_reciente
+2026-09-22,P1D,CNRC,COENERSA S.A.S. E.S.P.,Comercializador,mes_reciente
+2026-09-22,P1D,RPEG,RIOPAILA ENERGÍA S.A.S. E.S.P.,Generador,mes_reciente
+2026-09-22,P1D,EXIC,ENERXIA COLOMBIA SAS ESP,Comercializador,mes_reciente
+2026-09-22,P1D,JOAG,GENERADORA SAN JOAQUIN SAS ESP,Generador,mes_reciente
+2026-09-22,P1D,SEJC,SOL DEL EJE S.A.S E.S.P,Comercializador,mes_reciente
+2026-09-22,P1D,XFRC,ABO WIND RENOVABLES PROYECTO DIECISEIS S.A.S. ESP,Comercializador,mes_reciente
+2026-09-22,P1D,EGVC,EMPRESA DE ENERGIA ELECTRICA DEL DEPARTAMENTO DEL GUAVIARE S.A. E.S.P.,Comercializador,mes_reciente
+2026-09-22,P1D,MATG,PROYECTO SOLAR MATIMBA II S.A.S ESP,Generador,mes_reciente
+2026-09-22,P1D,EMSD,ELECTRIFICADORA DEL META S.A. E.S.P.,Distribuidor,mes_reciente
+2026-09-22,P1D,CDNG,CENTRALES ELECTRICAS DE NARIÑO S.A. E.S.P.,Generador,mes_reciente
+2026-09-22,P1D,EBSD,EMPRESA DE ENERGIA DE BOYACA S.A. E.S.P.,Distribuidor,mes_reciente
+2026-09-22,P1D,SOLG,PARQUE SOLAR COLOMBIA I S.A.S.,Generador,mes_reciente
+2026-09-22,P1D,GSAG,GENERSA S.A.S. E.S.P.,Generador,mes_reciente
+2026-09-22,P1D,ELIC,ENERGIA LIMPIA Y EFICIENTE S.A.S ESP,Comercializador,mes_reciente
+2026-09-26,P1D,CAFC,COMERCIALIZADORA DEL CAFE S.A.S E.S.P,Comercializador,mes_reciente
+2026-09-26,P1D,CSIC,AIR-E S.A.S. E.S.P.,Comercializador,mes_reciente
+2026-09-26,P1D,IAEC,IA ENERGÍA Y GESTIÓN S.A.S. E.S.P.,Comercializador,mes_reciente
+2026-09-26,P1D,RPEG,RIOPAILA ENERGÍA S.A.S. E.S.P.,Generador,mes_reciente
+2026-09-26,P1D,ENDG,ENEL COLOMBIA SA ESP,Generador,mes_reciente
+2026-09-26,P1D,RTQG,RUITOQUE S.A. E.S.P.,Generador,mes_reciente
+2026-09-26,P1D,HCCG,CENTRAL HIDROELÉCTRICA CONCORDIA S.A.S. E.S.P.,Generador,mes_reciente
+2026-09-26,P1D,MARG,SOLAR LAS MARIAS SAS ESP,Generador,mes_reciente
+2026-09-26,P1D,BIGC,BIOGER S.A.S. E.S.P.,Comercializador,mes_reciente
+2026-09-26,P1D,GREC,GRUPO ENERGÉTICO SA ESP,Comercializador,mes_reciente
+2026-09-26,P1D,ERNC,ÉRGON ENERGY SAS ESP,Comercializador,mes_reciente
 2026-09-26,P1D,TRNG,TRINA SOLAR GENERADOR COLOMBIA,Generador,mes_reciente
-2026-09-26,P1D,CVLC,COMERCIALIZADORA DE ENERGÍA VITALUZ S.A.S. E.S.P,Comercializador,mes_reciente
-2026-09-26,P1D,PCEG,PROMOENERCOL COMERCIALIZADORA DE ENERGÍA S.A.S E.S.P,Generador,mes_reciente
-2026-09-26,P1D,SLUG,SPK LA UNIÓN S.A.S. E.S.P.,Generador,mes_reciente
-2026-09-26,P1D,SGMG,SIGMA2 COMERCIALIZADORA  DE ENERGIA ELECTRICA SAS ESP,Generador,mes_reciente
-2026-09-21,P1D,EXIG,ENERXIA COLOMBIA SAS ESP,Generador,mes_reciente
-2026-09-21,P1D,CTEG,COENERGIA S.A.S. E.S.P.,Generador,mes_reciente
-2026-09-21,P1D,ESNG,ES INVEST COLOMBIA S.A.S. ESP,Generador,mes_reciente
-2026-09-21,P1D,UNGC,UNERGY ENERGY DIGITAL S.A.S E.S.P,Comercializador,mes_reciente
-2026-09-21,P1D,BDJG,BIOGAS COLOMBIA S.A.S. E.S.P ,Generador,mes_reciente
-2026-09-21,P1D,COGC,COMERCIALIZADORA 4G ENERGIA SAS ESP,Comercializador,mes_reciente
-2026-09-21,P1D,CBNC,COLOMBINA ENERGIA SAS ESP,Comercializador,mes_reciente
-2026-09-21,P1D,OROG,PARQUE SOLAR PUERTA DE ORO S.A.S. E.S.P.,Generador,mes_reciente
-2026-09-21,P1D,HZEC,HZ ENERGY S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-21,P1D,FCLC,FACTOR LUZ S.A.S. E.S.P.,Comercializador,mes_reciente
+2026-09-26,P1D,EGVC,EMPRESA DE ENERGIA ELECTRICA DEL DEPARTAMENTO DEL GUAVIARE S.A. E.S.P.,Comercializador,mes_reciente
+2026-09-26,P1D,CNGD,CEN ENERGY S.A.S. E.S.P.,Distribuidor,mes_reciente
+2026-09-26,P1D,CIEC,COMPAÑÍA INTEGRAL ENERGETICA S.A.S E.S.P,Comercializador,mes_reciente
+2026-09-26,P1D,TRFG,TRINA SOLAR GENERADOR COLOMBIA,Generador,mes_reciente
+2026-09-21,P1D,CERG,CEE ENERGY SAS ESP,Generador,mes_reciente
+2026-09-21,P1D,EPRC,EPRING ENERGY SAS ESP,Comercializador,mes_reciente
+2026-09-21,P1D,ETTC,ENERTOTAL S.A. E.S.P.,Comercializador,mes_reciente
+2026-09-21,P1D,GNSG,GENERSOL S.A.S. E.S.P.,Generador,mes_reciente
+2026-09-21,P1D,AAGC,ATLÁNTICA COLOMBIA S.A.S. E.S.P.,Comercializador,mes_reciente
+2026-09-21,P1D,EBSC,EMPRESA DE ENERGIA DE BOYACA S.A. E.S.P.,Comercializador,mes_reciente
+2026-09-21,P1D,TMVG,ENFRAGEN TERMOVALLE S.A.S. EMPRESA DE SERVICIOS PUBLICOS,Generador,mes_reciente
+2026-09-21,P1D,ENDC,ENEL COLOMBIA SA ESP,Comercializador,mes_reciente
 2026-09-21,P1D,IAEC,IA ENERGÍA Y GESTIÓN S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-21,P1D,CNSD,CENTRALES ELECTRICAS DEL NORTE DE SANTANDER S.A. E.S.P.,Distribuidor,mes_reciente
-2026-09-21,P1D,LTEC,LATINOAMERICAN ENERGY S.A.S E.S.P.,Comercializador,mes_reciente
-2026-09-21,P1D,RENG,RISARALDA ENERGIA S.A.S. E.S.P.,Generador,mes_reciente
-2026-09-21,P1D,SCEC,SOL & CIELO ENERGIA S.A.S. E.S.P,Comercializador,mes_reciente
-2026-09-21,P1D,PSCG,PROYECTO SOLAR CIMITARRA SAS ESP,Generador,mes_reciente
-2026-09-21,P1D,GSAC,GENERSA S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-21,P1D,ISGG,ISAGEN S.A. E.S.P.,Generador,mes_reciente
-2026-09-21,P1D,CERC,CEE ENERGY SAS ESP,Comercializador,mes_reciente
-2026-09-03,P1D,RTQG,RUITOQUE S.A. E.S.P.,Generador,mes_reciente
-2026-09-03,P1D,ETNC,ENERGY TRANSITIONS S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-03,P1D,SOUC,SOUL ENERGY SAS ESP,Comercializador,mes_reciente
-2026-09-03,P1D,RFVG,REFOENERGY VILLANUEVA S.A.S E.S.P.,Generador,mes_reciente
-2026-09-03,P1D,AAGC,ATLÁNTICA COLOMBIA S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-03,P1D,PSAG,PARQUE SOLAR ANDRÓMEDA I S.A.S. E.S.P,Generador,mes_reciente
-2026-09-03,P1D,EGRC,4E GROUP S.A.S E.S.P.,Comercializador,mes_reciente
-2026-09-03,P1D,ABAG,AURES BAJO S.A.S. E.S.P.,Generador,mes_reciente
-2026-09-03,P1D,QIEC,QI ENERGY S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-03,P1D,TPLC,TERPEL ENERGÍA S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-03,P1D,EDPD,EMPRESA DISTRIBUIDORA DEL PACIFICO S.A. E.S.P.,Distribuidor,mes_reciente
-2026-09-03,P1D,JOAG,GENERADORA SAN JOAQUIN SAS ESP,Generador,mes_reciente
-2026-09-03,P1D,GNYC,GREENYELLOW COMERCIALIZADORA S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-03,P1D,NMRG,ENERMAS SAS ESP,Generador,mes_reciente
-2026-09-03,P1D,PSVG,PARQUE SOLAR COLOMBIA XIV S.A.S.,Generador,mes_reciente
+2026-09-21,P1D,NEXC,NEXTGY S.A.S. E.S.P.,Comercializador,mes_reciente
+2026-09-21,P1D,CHCC,CENTRAL HIDROELECTRICA DE CALDAS S.A. E.S.P. BENEFICIO E INTERES COLECTIVO,Comercializador,mes_reciente
+2026-09-21,P1D,GCYG,GENERADORA CANTAYÚS S.A.S E.S.P,Generador,mes_reciente
+2026-09-21,P1D,GSAG,GENERSA S.A.S. E.S.P.,Generador,mes_reciente
+2026-09-21,P1D,EANC,EMPRESA DE ENERGIA ANDES SAS ESP,Comercializador,mes_reciente
+2026-09-21,P1D,ECBG,ECOARDOBELA I S.A.S. E.S.P.,Generador,mes_reciente
+2026-09-03,P1D,UNGC,UNERGY ENERGY DIGITAL S.A.S E.S.P,Comercializador,mes_reciente
+2026-09-03,P1D,SDCG,SOL DE LAS CIÉNAGAS S.A.S. E.S.P.,Generador,mes_reciente
+2026-09-03,P1D,GREC,GRUPO ENERGÉTICO SA ESP,Comercializador,mes_reciente
+2026-09-03,P1D,CSMG,SOLAR VILLAVIEJA S.A.S. E.S.P.,Generador,mes_reciente
+2026-09-03,P1D,FFEC,FORCEFUL ENERGY S.A.S. E.S.P.,Comercializador,mes_reciente
+2026-09-03,P1D,BEIC,BEAM ENERGY INNOVATION S.A.S. E.S.P.,Comercializador,mes_reciente
+2026-09-03,P1D,EXEC,ENEL X COLOMBIA S.A.S ESP,Comercializador,mes_reciente
+2026-09-03,P1D,EEAD,ENERGÍA ELÉCTRICA DE LA COSTA ATLÁNTICA S.A. E.S.P,Distribuidor,mes_reciente
+2026-09-03,P1D,TRIG,TERMOCARTAGENA S.A. E.S.P.,Generador,mes_reciente
+2026-09-03,P1D,VCHG,VACHE S.A.S E.S.P.,Generador,mes_reciente
+2026-09-03,P1D,CDNC,CENTRALES ELECTRICAS DE NARIÑO S.A. E.S.P.,Comercializador,mes_reciente
+2026-09-03,P1D,EEBD,GRUPO ENERGIA BOGOTA SA ESP,Distribuidor,mes_reciente
+2026-09-03,P1D,ORQG,LA ORQUIDEA SOLAR S.A.S. E.S.P. ,Generador,mes_reciente
 2026-09-03,P1D,CIEC,COMPAÑÍA INTEGRAL ENERGETICA S.A.S E.S.P,Comercializador,mes_reciente
-2026-09-13,P1D,TRIG,TERMOCARTAGENA S.A. E.S.P.,Generador,mes_reciente
-2026-09-13,P1D,SOCC,COMPAÑÍA ELÉCTRICA DE SOCHAGOTA  S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-13,P1D,JRDC,JULIA,Comercializador,mes_reciente
-2026-09-13,P1D,ENVC,ENERVISA S.A.S E.S.P.,Comercializador,mes_reciente
-2026-09-13,P1D,GNCC,VATIA S.A. E.S.P.,Comercializador,mes_reciente
-2026-09-13,P1D,EMSG,ELECTRIFICADORA DEL META S.A. E.S.P.,Generador,mes_reciente
-2026-09-13,P1D,EPMT,EMPRESAS PUBLICAS DE MEDELLIN E.S.P.,Transportador,mes_reciente
-2026-09-13,P1D,EMPC,EMPRESA MUNICIPAL DE SERVICIOS PUBLICOS DE CARTAGENA DEL CHAIRA,Comercializador,mes_reciente
-2026-09-13,P1D,EGRC,4E GROUP S.A.S E.S.P.,Comercializador,mes_reciente
-2026-09-13,P1D,RPEC,RIOPAILA ENERGÍA S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-13,P1D,CEMC,CEM,Comercializador,mes_reciente
-2026-09-13,P1D,HLAD,ELECTRIFICADORA DEL HUILA S.A. E.S.P.,Distribuidor,mes_reciente
+2026-09-13,P1D,CTEG,COENERGIA S.A.S. E.S.P.,Generador,mes_reciente
+2026-09-13,P1D,SLUG,SPK LA UNIÓN S.A.S. E.S.P.,Generador,mes_reciente
+2026-09-13,P1D,RTQC,RUITOQUE S.A. E.S.P.,Comercializador,mes_reciente
+2026-09-13,P1D,VESC,VOLTAJE EMPRESARIAL S.A.S. E.S.P.,Comercializador,mes_reciente
+2026-09-13,P1D,OTAG,OTACC GENERACION S.A.S. E.S.P.,Generador,mes_reciente
+2026-09-13,P1D,EMSC,ELECTRIFICADORA DEL META S.A. E.S.P.,Comercializador,mes_reciente
+2026-09-13,P1D,GCOC,GENERCOL S.A.S. E.S.P. ZOMAC,Comercializador,mes_reciente
+2026-09-13,P1D,TCIG,TERMOCANDELARIA S.A.S.,Generador,mes_reciente
+2026-09-13,P1D,SOEC,COREX ENERGY S.A.S. E.S.P.,Comercializador,mes_reciente
+2026-09-13,P1D,EPST,CELSIA COLOMBIA S.A. E.S.P.,Transportador,mes_reciente
 2026-09-13,P1D,XFRC,ABO WIND RENOVABLES PROYECTO DIECISEIS S.A.S. ESP,Comercializador,mes_reciente
-2026-09-13,P1D,TYPG,TERMOYOPAL GENERACION 2 S.A.S E.S.P.,Generador,mes_reciente
-2026-09-13,P1D,CDID,CENTRALES ELECTRICAS DEL CAUCA S.A. E.S.P.,Distribuidor,mes_reciente
-2026-09-28,P1D,EMED,EMPRESA MUNICIPAL DE ENERGIA ELECTRICA S.A. E.S.P.,Distribuidor,mes_reciente
-2026-09-28,P1D,HIMC,GESTION ENERGETICA S.A. E.S.P.,Comercializador,mes_reciente
-2026-09-28,P1D,ITCT,ISA INTERCOLOMBIA S.A. E.S.P.,Transportador,mes_reciente
-2026-09-28,P1D,COLC,COLENERGIA S.A. E.S.P.,Comercializador,mes_reciente
-2026-09-28,P1D,ENID,EMPRESA DE ENERGÍA DE ARAUCA E.S.P.,Distribuidor,mes_reciente
-2026-09-28,P1D,EVTG,ENERVOLTIO SAS ESP,Generador,mes_reciente
-2026-09-28,P1D,EMIC,EMPRESAS MUNICIPALES DE CALI E.I.C.E. E.S.P.,Comercializador,mes_reciente
-2026-09-28,P1D,ITLC,ITALCOL ENERGIA S.A. E.S.P.,Comercializador,mes_reciente
-2026-09-28,P1D,EMSG,ELECTRIFICADORA DEL META S.A. E.S.P.,Generador,mes_reciente
-2026-09-28,P1D,CHZG,CENTRAL HIDROELÉCTRICA ZEUS SAS ESP,Generador,mes_reciente
-2026-09-28,P1D,TCNG,GENERADORA TERMOCENTRO S.A.S. E.S.P.,Generador,mes_reciente
-2026-09-28,P1D,BCHG,BCCY COLOMBIA HOLDING SAS ESP,Generador,mes_reciente
-2026-09-28,P1D,EANC,EMPRESA DE ENERGIA ANDES SAS ESP,Comercializador,mes_reciente
-2026-09-28,P1D,ELIG,ENERGIA LIMPIA Y EFICIENTE S.A.S ESP,Generador,mes_reciente
-2026-09-14,P1D,CTEG,COENERGIA S.A.S. E.S.P.,Generador,mes_reciente
-2026-09-14,P1D,STOC,STOCK ENERGY SAS ESP,Comercializador,mes_reciente
-2026-09-14,P1D,EPMD,EMPRESAS PUBLICAS DE MEDELLIN E.S.P.,Distribuidor,mes_reciente
-2026-09-14,P1D,EMSD,ELECTRIFICADORA DEL META S.A. E.S.P.,Distribuidor,mes_reciente
-2026-09-14,P1D,EPTD,EMPRESA DE ENERGIA DEL PUTUMAYO S.A. E.S.P.,Distribuidor,mes_reciente
+2026-09-13,P1D,EERD,EMPRESA ELECTRICA REGIONAL SAS ESP,Distribuidor,mes_reciente
+2026-09-13,P1D,BTGG,BTG PACTUAL COMMODITIES COLOMBIA S.A.S. E.S.P.,Generador,mes_reciente
+2026-09-13,P1D,NESC, NES TRADING S.A.S. E.S.P.,Comercializador,mes_reciente
+2026-09-13,P1D,EPMG,EMPRESAS PUBLICAS DE MEDELLIN E.S.P.,Generador,mes_reciente
+2026-09-13,P1D,SDEG,SOLAR EL EDÉN S.A.S. E.S.P.,Generador,mes_reciente
+2026-09-28,P1D,MCEC,MCI ENERGY S.A.S E.S.P,Comercializador,mes_reciente
+2026-09-28,P1D,FREC,FRANCA ENERGIA SA ESP,Comercializador,mes_reciente
+2026-09-28,P1D,ADCC,ENERGIA DEL RIO PIEDRAS S.A. E.S.P,Comercializador,mes_reciente
+2026-09-28,P1D,COGC,COMERCIALIZADORA 4G ENERGIA SAS ESP,Comercializador,mes_reciente
+2026-09-28,P1D,EMMC,ECOMMERCIAL S.A.S. E.S.P.,Comercializador,mes_reciente
+2026-09-28,P1D,SGUG,PARQUE SOLAR GUALANDAY S.A.S E.S.P ,Generador,mes_reciente
+2026-09-28,P1D,GADG,GADIZ UTILITY SAS ESP,Generador,mes_reciente
+2026-09-28,P1D,BIAG,BIA ENERGY S.A.S. E.S.P,Generador,mes_reciente
+2026-09-28,P1D,CSIC,AIR-E S.A.S. E.S.P.,Comercializador,mes_reciente
+2026-09-28,P1D,TERG,TERMOTASAJERO DOS S.A. E.S.P. ,Generador,mes_reciente
+2026-09-28,P1D,SOUC,SOUL ENERGY SAS ESP,Comercializador,mes_reciente
+2026-09-28,P1D,EMID,EMPRESAS MUNICIPALES DE CALI E.I.C.E. E.S.P.,Distribuidor,mes_reciente
+2026-09-28,P1D,CASD,EMPRESA DE ENERGIA DE CASANARE S.A. ESP,Distribuidor,mes_reciente
+2026-09-28,P1D,ESSC,ELECTRIFICADORA DE SANTANDER S.A. E.S.P.,Comercializador,mes_reciente
+2026-09-28,P1D,TUSC,ALTUS ENERGY S.A.S E.S.P,Comercializador,mes_reciente
+2026-09-28,P1D,CDNC,CENTRALES ELECTRICAS DE NARIÑO S.A. E.S.P.,Comercializador,mes_reciente
+2026-09-28,P1D,SLMG,SPK LA MATA S.A.S E.S.P,Generador,mes_reciente
+2026-09-28,P1D,EBPC,EMPRESA DE ENERGIA DEL BAJO PUTUMAYO S.A. E.S.P.,Comercializador,mes_reciente
+2026-09-28,P1D,AMRC,AMERICANA DE ENERGIA S.A.S. E.S.P.,Comercializador,mes_reciente
+2026-09-28,P1D,CTZG,CENTRAL HIDROELÉCTRICA TZ II S.A.S. E.S.P.,Generador,mes_reciente
+2026-09-28,P1D,TECD,TRANSPORTADORA ELECTRICA DEL CARIBE S.A.S. E.S.P.,Distribuidor,mes_reciente
+2026-09-28,P1D,ATED,ENERGIA ATENEA S.A.S E.S.P,Distribuidor,mes_reciente
+2026-09-14,P1D,COXG,COX ENERGY COMERCIALIZADORA SAS ESP,Generador,mes_reciente
 2026-09-14,P1D,EPSD,CELSIA COLOMBIA S.A. E.S.P.,Distribuidor,mes_reciente
-2026-09-14,P1D,PSAG,PARQUE SOLAR ANDRÓMEDA I S.A.S. E.S.P,Generador,mes_reciente
-2026-09-14,P1D,BEIC,BEAM ENERGY INNOVATION S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-14,P1D,SGMC,SIGMA2 COMERCIALIZADORA  DE ENERGIA ELECTRICA SAS ESP,Comercializador,mes_reciente
-2026-09-14,P1D,EGRC,4E GROUP S.A.S E.S.P.,Comercializador,mes_reciente
-2026-09-14,P1D,NRCG,ENERCO S.A. E.S.P.,Generador,mes_reciente
-2026-09-14,P1D,TCBG,TERMO CARIBE S.A.S. E.S.P.,Generador,mes_reciente
-2026-09-14,P1D,CASC,EMPRESA DE ENERGIA DE CASANARE S.A. ESP,Comercializador,mes_reciente
-2026-09-14,P1D,LTEC,LATINOAMERICAN ENERGY S.A.S E.S.P.,Comercializador,mes_reciente
+2026-09-14,P1D,NEXC,NEXTGY S.A.S. E.S.P.,Comercializador,mes_reciente
+2026-09-14,P1D,EBSD,EMPRESA DE ENERGIA DE BOYACA S.A. E.S.P.,Distribuidor,mes_reciente
+2026-09-14,P1D,AMPC,AMPERIA S.A. E.S.P.,Comercializador,mes_reciente
+2026-09-14,P1D,MCEC,MCI ENERGY S.A.S E.S.P,Comercializador,mes_reciente
+2026-09-14,P1D,ABAC,AURES BAJO S.A.S. E.S.P.,Comercializador,mes_reciente
+2026-09-14,P1D,DUCG,DUCK ENERGY S.A.S. ESP,Generador,mes_reciente
+2026-09-14,P1D,ISGC,ISAGEN S.A. E.S.P.,Comercializador,mes_reciente
+2026-09-14,P1D,IACG,IAC ENERGY S.A.S. E.S.P.,Generador,mes_reciente
+2026-09-14,P1D,CETG,COMPAÑIA DE ELECTRICIDAD DE TULUA S.A. E.S.P.,Generador,mes_reciente
+2026-09-14,P1D,CNRC,COENERSA S.A.S. E.S.P.,Comercializador,mes_reciente
+2026-09-14,P1D,EBST,EMPRESA DE ENERGIA DE BOYACA S.A. E.S.P.,Transportador,mes_reciente
+2026-09-14,P1D,CETD,COMPAÑIA DE ELECTRICIDAD DE TULUA S.A. E.S.P.,Distribuidor,mes_reciente
+2026-09-14,P1D,DLRC,DICELER S.A. E.S.P.,Comercializador,mes_reciente
+2026-09-14,P1D,ESOC,EMPRESA DE SERVICIOS PÚBLICOS DEL OCCIDENTE COLOMBIANO,Comercializador,mes_reciente
+2026-09-14,P1D,FREC,FRANCA ENERGIA SA ESP,Comercializador,mes_reciente
 2026-09-14,P1D,PLSC,PLUSENERGY S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-14,P1D,BCHG,BCCY COLOMBIA HOLDING SAS ESP,Generador,mes_reciente
-2026-09-10,P1D,GRCC,GR POWER COLOMBIA S.A.S E.S.P.,Comercializador,mes_reciente
-2026-09-10,P1D,HIMC,GESTION ENERGETICA S.A. E.S.P.,Comercializador,mes_reciente
+2026-09-14,P1D,EPTG,EMPRESA DE ENERGIA DEL PUTUMAYO S.A. E.S.P.,Generador,mes_reciente
+2026-09-14,P1D,EDPD,EMPRESA DISTRIBUIDORA DEL PACIFICO S.A. E.S.P.,Distribuidor,mes_reciente
+2026-09-14,P1D,GRCC,GR POWER COLOMBIA S.A.S E.S.P.,Comercializador,mes_reciente
+2026-09-14,P1D,GPEG,EMPRESA DE GENERACION Y PROMOCION DE ENERGIA DE ANTIOQUIA S.A. E.S.P.,Generador,mes_reciente
+2026-09-14,P1D,CHCC,CENTRAL HIDROELECTRICA DE CALDAS S.A. E.S.P. BENEFICIO E INTERES COLECTIVO,Comercializador,mes_reciente
+2026-09-10,P1D,OTAC,OTACC GENERACION S.A.S. E.S.P.,Comercializador,mes_reciente
+2026-09-10,P1D,GREC,GRUPO ENERGÉTICO SA ESP,Comercializador,mes_reciente
+2026-09-10,P1D,GALG,GENERADORA ALEJANDRIA S.A.S. E.S.P.,Generador,mes_reciente
 2026-09-10,P1D,DUCG,DUCK ENERGY S.A.S. ESP,Generador,mes_reciente
-2026-09-10,P1D,TCET,TRANSMISORA COLOMBIANA DE ENERGIA S.A.S. E.S.P.,Transportador,mes_reciente
-2026-09-10,P1D,ISGG,ISAGEN S.A. E.S.P.,Generador,mes_reciente
-2026-09-10,P1D,TERG,TERMOTASAJERO DOS S.A. E.S.P. ,Generador,mes_reciente
-2026-09-10,P1D,TRPC,TERMOPIEDRAS S.A. E.S.P.,Comercializador,mes_reciente
-2026-09-10,P1D,SOUG,SOUL ENERGY SAS ESP,Generador,mes_reciente
-2026-09-10,P1D,SOCC,COMPAÑÍA ELÉCTRICA DE SOCHAGOTA  S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-10,P1D,FFEC,FORCEFUL ENERGY S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-10,P1D,GPEG,EMPRESA DE GENERACION Y PROMOCION DE ENERGIA DE ANTIOQUIA S.A. E.S.P.,Generador,mes_reciente
-2026-09-10,P1D,ELGC,E.L.E.C. GREEN S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-10,P1D,COGC,COMERCIALIZADORA 4G ENERGIA SAS ESP,Comercializador,mes_reciente
-2026-09-10,P1D,CNSC,CENTRALES ELECTRICAS DEL NORTE DE SANTANDER S.A. E.S.P.,Comercializador,mes_reciente
-2026-09-10,P1D,CSID,AIR-E S.A.S. E.S.P.,Distribuidor,mes_reciente
-2026-09-10,P1D,CIEC,COMPAÑÍA INTEGRAL ENERGETICA S.A.S E.S.P,Comercializador,mes_reciente
-2026-09-16,P1D,ATED,ENERGIA ATENEA S.A.S E.S.P,Distribuidor,mes_reciente
-2026-09-16,P1D,HLAG,ELECTRIFICADORA DEL HUILA S.A. E.S.P.,Generador,mes_reciente
-2026-09-16,P1D,TUSC,ALTUS ENERGY S.A.S E.S.P,Comercializador,mes_reciente
-2026-09-16,P1D,CNST,CENTRALES ELECTRICAS DEL NORTE DE SANTANDER S.A. E.S.P.,Transportador,mes_reciente
-2026-09-16,P1D,ECBG,ECOARDOBELA I S.A.S. E.S.P.,Generador,mes_reciente
-2026-09-16,P1D,CNXT,CONEXIÓN Y GESTIÓN DE ACTIVOS S.A.S. E.S.P. CONEXSIS S.A.S. E.S.P,Transportador,mes_reciente
+2026-09-10,P1D,FERG,FUENTES DE ENERGIAS RENOVABLES S.A.S. E.S.P.,Generador,mes_reciente
+2026-09-10,P1D,CDIC,CENTRALES ELECTRICAS DEL CAUCA S.A. E.S.P.,Comercializador,mes_reciente
+2026-09-10,P1D,EDPD,EMPRESA DISTRIBUIDORA DEL PACIFICO S.A. E.S.P.,Distribuidor,mes_reciente
+2026-09-10,P1D,PTTC,SOCIEDAD DE ECONOMIA MIXTA ALUMBRADO PUBLICO DE PITALITO S.A.S E.S.P,Comercializador,mes_reciente
+2026-09-10,P1D,ESNG,ES INVEST COLOMBIA S.A.S. ESP,Generador,mes_reciente
+2026-09-10,P1D,APMC,AMPERIUM ENERGY E.S.P S.A.S.,Comercializador,mes_reciente
+2026-09-10,P1D,EMED,EMPRESA MUNICIPAL DE ENERGIA ELECTRICA S.A. E.S.P.,Distribuidor,mes_reciente
+2026-09-10,P1D,DMRC,DEMAND RESPONSE SAS ESP,Comercializador,mes_reciente
+2026-09-10,P1D,CHVG,AES COLOMBIA & CIA. S.C.A. E.S.P.,Generador,mes_reciente
+2026-09-10,P1D,EDQD,EMPRESA DE ENERGIA DEL QUINDIO S.A. E.S.P.,Distribuidor,mes_reciente
+2026-09-10,P1D,CTEG,COENERGIA S.A.S. E.S.P.,Generador,mes_reciente
+2026-09-10,P1D,JOAG,GENERADORA SAN JOAQUIN SAS ESP,Generador,mes_reciente
+2026-09-10,P1D,EPST,CELSIA COLOMBIA S.A. E.S.P.,Transportador,mes_reciente
+2026-09-10,P1D,EEAD,ENERGÍA ELÉCTRICA DE LA COSTA ATLÁNTICA S.A. E.S.P,Distribuidor,mes_reciente
+2026-09-10,P1D,GPEC,EMPRESA DE GENERACION Y PROMOCION DE ENERGIA DE ANTIOQUIA S.A. E.S.P.,Comercializador,mes_reciente
+2026-09-10,P1D,CDIG,CENTRALES ELECTRICAS DEL CAUCA S.A. E.S.P.,Generador,mes_reciente
+2026-09-10,P1D,CETC,COMPAÑIA DE ELECTRICIDAD DE TULUA S.A. E.S.P.,Comercializador,mes_reciente
+2026-09-16,P1D,MCEC,MCI ENERGY S.A.S E.S.P,Comercializador,mes_reciente
+2026-09-16,P1D,EMSC,ELECTRIFICADORA DEL META S.A. E.S.P.,Comercializador,mes_reciente
+2026-09-16,P1D,GREC,GRUPO ENERGÉTICO SA ESP,Comercializador,mes_reciente
+2026-09-16,P1D,HZEG,HZ ENERGY S.A.S. E.S.P.,Generador,mes_reciente
+2026-09-16,P1D,TADG,EL TAMARINDO SOLAR S.A.S. E.S.P.,Generador,mes_reciente
+2026-09-16,P1D,NESC, NES TRADING S.A.S. E.S.P.,Comercializador,mes_reciente
+2026-09-16,P1D,EMIG,EMPRESAS MUNICIPALES DE CALI E.I.C.E. E.S.P.,Generador,mes_reciente
+2026-09-16,P1D,HBCG,HIDROELECTRICA BARRANCAS SAS ESP,Generador,mes_reciente
+2026-09-16,P1D,EBPC,EMPRESA DE ENERGIA DEL BAJO PUTUMAYO S.A. E.S.P.,Comercializador,mes_reciente
+2026-09-16,P1D,ERNC,ÉRGON ENERGY SAS ESP,Comercializador,mes_reciente
 2026-09-16,P1D,EGEG,EMPRESA GENERADORA Y COMERCIALIZADORA DE ENERGIA ELECTRICA DE COLOMBIA S.A. E.S.P.,Generador,mes_reciente
-2026-09-16,P1D,LTEC,LATINOAMERICAN ENERGY S.A.S E.S.P.,Comercializador,mes_reciente
-2026-09-16,P1D,SOVG,SOLANO RENOVABLES S.A.S. E.S.P.,Generador,mes_reciente
-2026-09-16,P1D,UNGC,UNERGY ENERGY DIGITAL S.A.S E.S.P,Comercializador,mes_reciente
-2026-09-16,P1D,ITCT,ISA INTERCOLOMBIA S.A. E.S.P.,Transportador,mes_reciente
-2026-09-16,P1D,AAGG,ATLÁNTICA COLOMBIA S.A.S. E.S.P.,Generador,mes_reciente
-2026-09-16,P1D,EDQD,EMPRESA DE ENERGIA DEL QUINDIO S.A. E.S.P.,Distribuidor,mes_reciente
-2026-09-16,P1D,PRIG,PROELECTRICA S.A.S E.S.P.,Generador,mes_reciente
+2026-09-16,P1D,HLAD,ELECTRIFICADORA DEL HUILA S.A. E.S.P.,Distribuidor,mes_reciente
+2026-09-16,P1D,CETG,COMPAÑIA DE ELECTRICIDAD DE TULUA S.A. E.S.P.,Generador,mes_reciente
+2026-09-16,P1D,ENZT,ENLAZA GRUPO ENERGIA BOGOTA SAS ESP,Transportador,mes_reciente
+2026-09-16,P1D,EBSG,EMPRESA DE ENERGIA DE BOYACA S.A. E.S.P.,Generador,mes_reciente
+2026-09-16,P1D,CTEG,COENERGIA S.A.S. E.S.P.,Generador,mes_reciente
+2026-09-16,P1D,EPSC,CELSIA COLOMBIA S.A. E.S.P.,Comercializador,mes_reciente
+2026-09-16,P1D,EMMC,ECOMMERCIAL S.A.S. E.S.P.,Comercializador,mes_reciente
 2026-09-16,P1D,CDIG,CENTRALES ELECTRICAS DEL CAUCA S.A. E.S.P.,Generador,mes_reciente
-2026-09-16,P1D,FCLC,FACTOR LUZ S.A.S. E.S.P.,Comercializador,mes_reciente
 2026-09-25,P1D,SEJC,SOL DEL EJE S.A.S E.S.P,Comercializador,mes_reciente
-2026-09-25,P1D,COGG,COMERCIALIZADORA 4G ENERGIA SAS ESP,Generador,mes_reciente
-2026-09-25,P1D,HLAC,ELECTRIFICADORA DEL HUILA S.A. E.S.P.,Comercializador,mes_reciente
-2026-09-25,P1D,TRFG,TRINA SOLAR GENERADOR COLOMBIA,Generador,mes_reciente
-2026-09-25,P1D,EDPC,EMPRESA DISTRIBUIDORA DEL PACIFICO S.A. E.S.P.,Comercializador,mes_reciente
-2026-09-25,P1D,EBPD,EMPRESA DE ENERGIA DEL BAJO PUTUMAYO S.A. E.S.P.,Distribuidor,mes_reciente
-2026-09-25,P1D,CHVC,AES COLOMBIA & CIA. S.C.A. E.S.P.,Comercializador,mes_reciente
-2026-09-25,P1D,NUEG,NUEVAS ENERGIAS II S.A.S. ESP,Generador,mes_reciente
-2026-09-25,P1D,ATED,ENERGIA ATENEA S.A.S E.S.P,Distribuidor,mes_reciente
-2026-09-25,P1D,GNCG,VATIA S.A. E.S.P.,Generador,mes_reciente
-2026-09-25,P1D,IAEC,IA ENERGÍA Y GESTIÓN S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-25,P1D,EDNG,EDN COLOMBIA S.A.S. E.S.P.,Generador,mes_reciente
-2026-09-25,P1D,PSGG,PARQUE SOLAR LOS GIRASOLES S.A.S ESP,Generador,mes_reciente
-2026-09-25,P1D,PSCG,PROYECTO SOLAR CIMITARRA SAS ESP,Generador,mes_reciente
-2026-09-25,P1D,EBSD,EMPRESA DE ENERGIA DE BOYACA S.A. E.S.P.,Distribuidor,mes_reciente
+2026-09-25,P1D,SGUC,PARQUE SOLAR GUALANDAY S.A.S E.S.P ,Comercializador,mes_reciente
+2026-09-25,P1D,TECD,TRANSPORTADORA ELECTRICA DEL CARIBE S.A.S. E.S.P.,Distribuidor,mes_reciente
+2026-09-25,P1D,FERC,FUENTES DE ENERGIAS RENOVABLES S.A.S. E.S.P.,Comercializador,mes_reciente
+2026-09-25,P1D,BCCG,BCCY CORDOBA S.A.S. E.S.P.,Generador,mes_reciente
+2026-09-25,P1D,RFVG,REFOENERGY VILLANUEVA S.A.S E.S.P.,Generador,mes_reciente
+2026-09-25,P1D,GECG,GENERADORA Y COMERCIALIZADORA DE ENERGIA DEL CARIBE S.A. E.S.P.,Generador,mes_reciente
+2026-09-25,P1D,CIEG,COMPAÑÍA INTEGRAL ENERGETICA S.A.S E.S.P,Generador,mes_reciente
+2026-09-25,P1D,VESG,VOLTAJE EMPRESARIAL S.A.S. E.S.P.,Generador,mes_reciente
+2026-09-25,P1D,ENOC,ENERGIA Y ALUMBRADO DE COLOMBIA SAS ESP,Comercializador,mes_reciente
+2026-09-25,P1D,ECSD,ENERGIA DE COLOMBIA STR S.A.S. E.S.P.,Distribuidor,mes_reciente
+2026-09-25,P1D,EGTC,ENERGETICOS S.A.S E.S.P.,Comercializador,mes_reciente
+2026-09-25,P1D,NTCG,NITRO ENERGY COLOMBIA S.A.S. E.S.P.,Generador,mes_reciente
+2026-09-25,P1D,RQEC,ENERGIA Y AGUA S.A.S. E.S.P.,Comercializador,mes_reciente
+2026-09-25,P1D,SNCG,SUNCOLOMBIA GENERACIÓN S.A.S E.S.P,Generador,mes_reciente
 2026-09-25,P1D,TERG,TERMOTASAJERO DOS S.A. E.S.P. ,Generador,mes_reciente
-2026-09-19,P1D,GNSG,GENERSOL S.A.S. E.S.P.,Generador,mes_reciente
-2026-09-19,P1D,SOUG,SOUL ENERGY SAS ESP,Generador,mes_reciente
-2026-09-19,P1D,GSYC,GENERSYS S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-19,P1D,CQTC,ELECTRIFICADORA DEL CAQUETA S.A. E.S.P.,Comercializador,mes_reciente
-2026-09-19,P1D,EPTG,EMPRESA DE ENERGIA DEL PUTUMAYO S.A. E.S.P.,Generador,mes_reciente
-2026-09-19,P1D,EPST,CELSIA COLOMBIA S.A. E.S.P.,Transportador,mes_reciente
-2026-09-19,P1D,ISAT,INTERCONEXION ELECTRICA S.A. E.S.P.,Transportador,mes_reciente
-2026-09-19,P1D,FCLC,FACTOR LUZ S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-19,P1D,CNAD,CONELCA S.A.S. E.S.P.,Distribuidor,mes_reciente
-2026-09-19,P1D,ECSD,ENERGIA DE COLOMBIA STR S.A.S. E.S.P.,Distribuidor,mes_reciente
-2026-09-19,P1D,SVCG,SVC ESP SAS ZOMAC,Generador,mes_reciente
-2026-09-19,P1D,TCBG,TERMO CARIBE S.A.S. E.S.P.,Generador,mes_reciente
-2026-09-19,P1D,EDPC,EMPRESA DISTRIBUIDORA DEL PACIFICO S.A. E.S.P.,Comercializador,mes_reciente
-2026-09-19,P1D,SLUG,SPK LA UNIÓN S.A.S. E.S.P.,Generador,mes_reciente
-2026-09-19,P1D,GBUG,GENERADORA BUENAVISTA S.A.S E.S.P,Generador,mes_reciente
-2026-09-19,P1D,GPEG,EMPRESA DE GENERACION Y PROMOCION DE ENERGIA DE ANTIOQUIA S.A. E.S.P.,Generador,mes_reciente
-2026-09-04,P1D,ERCG,ENERGIA RENOVABLE DE COLOMBIA S.A.S E.S.P.,Generador,mes_reciente
-2026-09-04,P1D,EPRC,EPRING ENERGY SAS ESP,Comercializador,mes_reciente
-2026-09-04,P1D,EERD,EMPRESA ELECTRICA REGIONAL SAS ESP,Distribuidor,mes_reciente
-2026-09-04,P1D,HIMG,GESTION ENERGETICA S.A. E.S.P.,Generador,mes_reciente
-2026-09-04,P1D,CNSD,CENTRALES ELECTRICAS DEL NORTE DE SANTANDER S.A. E.S.P.,Distribuidor,mes_reciente
-2026-09-04,P1D,SOLG,PARQUE SOLAR COLOMBIA I S.A.S.,Generador,mes_reciente
-2026-09-04,P1D,DMRC,DEMAND RESPONSE SAS ESP,Comercializador,mes_reciente
-2026-09-04,P1D,BCCG,BCCY CORDOBA S.A.S. E.S.P.,Generador,mes_reciente
-2026-09-04,P1D,EPTC,EMPRESA DE ENERGIA DEL PUTUMAYO S.A. E.S.P.,Comercializador,mes_reciente
-2026-09-04,P1D,GYPG,GREENDIPITY SAS BIC ESP,Generador,mes_reciente
-2026-09-04,P1D,EMED,EMPRESA MUNICIPAL DE ENERGIA ELECTRICA S.A. E.S.P.,Distribuidor,mes_reciente
-2026-09-04,P1D,EMEG,EMPRESA MUNICIPAL DE ENERGIA ELECTRICA S.A. E.S.P.,Generador,mes_reciente
-2026-09-04,P1D,EMSC,ELECTRIFICADORA DEL META S.A. E.S.P.,Comercializador,mes_reciente
-2026-09-04,P1D,RQEC,ENERGIA Y AGUA S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-04,P1D,CNSC,CENTRALES ELECTRICAS DEL NORTE DE SANTANDER S.A. E.S.P.,Comercializador,mes_reciente
-2026-09-04,P1D,AESC,AGENTE EXPERTO EN SERVICIOS PÚBLICOS S.A.S E.S.P,Comercializador,mes_reciente
-2026-09-04,P1D,EEPC,EMPRESA DE ENERGIA DE PEREIRA S.A. E.S.P.,Comercializador,mes_reciente
-2026-09-04,P1D,GEEG,GENERAMOS ENERGIA S.A. E.S.P.,Generador,mes_reciente
-2026-09-04,P1D,KEMC,KEM ENERGY S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-04,P1D,UNGG,UNERGY ENERGY DIGITAL S.A.S E.S.P,Generador,mes_reciente
-2026-09-06,P1D,NEXC,NEXTGY S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-06,P1D,EGRG,4E GROUP S.A.S E.S.P.,Generador,mes_reciente
-2026-09-06,P1D,ESSC,ELECTRIFICADORA DE SANTANDER S.A. E.S.P.,Comercializador,mes_reciente
-2026-09-06,P1D,CSMG,SOLAR VILLAVIEJA S.A.S. E.S.P.,Generador,mes_reciente
-2026-09-06,P1D,GPEG,EMPRESA DE GENERACION Y PROMOCION DE ENERGIA DE ANTIOQUIA S.A. E.S.P.,Generador,mes_reciente
-2026-09-06,P1D,JOAG,GENERADORA SAN JOAQUIN SAS ESP,Generador,mes_reciente
-2026-09-06,P1D,NTCG,NITRO ENERGY COLOMBIA S.A.S. E.S.P.,Generador,mes_reciente
-2026-09-06,P1D,BDJG,BIOGAS COLOMBIA S.A.S. E.S.P ,Generador,mes_reciente
-2026-09-06,P1D,RFVG,REFOENERGY VILLANUEVA S.A.S E.S.P.,Generador,mes_reciente
-2026-09-06,P1D,FREC,FRANCA ENERGIA SA ESP,Comercializador,mes_reciente
+2026-09-19,P1D,TRPC,TERMOPIEDRAS S.A. E.S.P.,Comercializador,mes_reciente
+2026-09-19,P1D,NRCG,ENERCO S.A. E.S.P.,Generador,mes_reciente
+2026-09-19,P1D,CERG,CEE ENERGY SAS ESP,Generador,mes_reciente
+2026-09-19,P1D,EBPD,EMPRESA DE ENERGIA DEL BAJO PUTUMAYO S.A. E.S.P.,Distribuidor,mes_reciente
+2026-09-19,P1D,CTID,EMPRESAS MUNICIPALES DE CARTAGO S.A.S. E.S.P.,Distribuidor,mes_reciente
+2026-09-19,P1D,DUCC,DUCK ENERGY S.A.S. ESP,Comercializador,mes_reciente
+2026-09-19,P1D,DRUG,DRUMMOND POWER S.A.S. E.S.P.,Generador,mes_reciente
+2026-09-19,P1D,CHVG,AES COLOMBIA & CIA. S.C.A. E.S.P.,Generador,mes_reciente
+2026-09-19,P1D,DLRC,DICELER S.A. E.S.P.,Comercializador,mes_reciente
+2026-09-19,P1D,FYRG,FOTOVOLTAICO EL YARUMO SAS ESP,Generador,mes_reciente
+2026-09-19,P1D,CNGD,CEN ENERGY S.A.S. E.S.P.,Distribuidor,mes_reciente
+2026-09-19,P1D,EMSD,ELECTRIFICADORA DEL META S.A. E.S.P.,Distribuidor,mes_reciente
+2026-09-19,P1D,PTTC,SOCIEDAD DE ECONOMIA MIXTA ALUMBRADO PUBLICO DE PITALITO S.A.S E.S.P,Comercializador,mes_reciente
+2026-09-19,P1D,TECD,TRANSPORTADORA ELECTRICA DEL CARIBE S.A.S. E.S.P.,Distribuidor,mes_reciente
+2026-09-19,P1D,SCEC,SOL & CIELO ENERGIA S.A.S. E.S.P,Comercializador,mes_reciente
+2026-09-04,P1D,BCHC,BCCY COLOMBIA HOLDING SAS ESP,Comercializador,mes_reciente
+2026-09-04,P1D,GREC,GRUPO ENERGÉTICO SA ESP,Comercializador,mes_reciente
+2026-09-04,P1D,GNYG,GREENYELLOW COMERCIALIZADORA S.A.S. E.S.P.,Generador,mes_reciente
+2026-09-04,P1D,ESOC,EMPRESA DE SERVICIOS PÚBLICOS DEL OCCIDENTE COLOMBIANO,Comercializador,mes_reciente
+2026-09-04,P1D,BCHG,BCCY COLOMBIA HOLDING SAS ESP,Generador,mes_reciente
+2026-09-04,P1D,GECC,GENERADORA Y COMERCIALIZADORA DE ENERGIA DEL CARIBE S.A. E.S.P.,Comercializador,mes_reciente
+2026-09-04,P1D,CSMG,SOLAR VILLAVIEJA S.A.S. E.S.P.,Generador,mes_reciente
+2026-09-04,P1D,BIAC,BIA ENERGY S.A.S. E.S.P,Comercializador,mes_reciente
+2026-09-04,P1D,CBNC,COLOMBINA ENERGIA SAS ESP,Comercializador,mes_reciente
+2026-09-04,P1D,NEXG,NEXTGY S.A.S. E.S.P.,Generador,mes_reciente
+2026-09-04,P1D,TRNG,TRINA SOLAR GENERADOR COLOMBIA,Generador,mes_reciente
+2026-09-04,P1D,EMID,EMPRESAS MUNICIPALES DE CALI E.I.C.E. E.S.P.,Distribuidor,mes_reciente
+2026-09-04,P1D,ESNC,ES INVEST COLOMBIA S.A.S. ESP,Comercializador,mes_reciente
+2026-09-04,P1D,ESST,ELECTRIFICADORA DE SANTANDER S.A. E.S.P.,Transportador,mes_reciente
+2026-09-06,P1D,FCLC,FACTOR LUZ S.A.S. E.S.P.,Comercializador,mes_reciente
+2026-09-06,P1D,TERG,TERMOTASAJERO DOS S.A. E.S.P. ,Generador,mes_reciente
+2026-09-06,P1D,EMSG,ELECTRIFICADORA DEL META S.A. E.S.P.,Generador,mes_reciente
+2026-09-06,P1D,BCCG,BCCY CORDOBA S.A.S. E.S.P.,Generador,mes_reciente
+2026-09-06,P1D,HIMC,GESTION ENERGETICA S.A. E.S.P.,Comercializador,mes_reciente
+2026-09-06,P1D,ENOC,ENERGIA Y ALUMBRADO DE COLOMBIA SAS ESP,Comercializador,mes_reciente
+2026-09-06,P1D,EBPC,EMPRESA DE ENERGIA DEL BAJO PUTUMAYO S.A. E.S.P.,Comercializador,mes_reciente
+2026-09-06,P1D,EREC,COMERCIALIZADORA DE ENERGÍAS RENOVABLES GREEN ENERGY S.A.S,Comercializador,mes_reciente
+2026-09-06,P1D,TRNG,TRINA SOLAR GENERADOR COLOMBIA,Generador,mes_reciente
+2026-09-06,P1D,EPMT,EMPRESAS PUBLICAS DE MEDELLIN E.S.P.,Transportador,mes_reciente
+2026-09-06,P1D,VESC,VOLTAJE EMPRESARIAL S.A.S. E.S.P.,Comercializador,mes_reciente
+2026-09-06,P1D,CSID,AIR-E S.A.S. E.S.P.,Distribuidor,mes_reciente
+2026-09-06,P1D,SFEC,SANTA FE ENERGY ZOMAC S.A.S. E.S.P.,Comercializador,mes_reciente
 2026-09-06,P1D,TMFG,ENFRAGEN TERMOFLORES S.A.S. E.S.P.,Generador,mes_reciente
-2026-09-06,P1D,EPSG,CELSIA COLOMBIA S.A. E.S.P.,Generador,mes_reciente
-2026-09-06,P1D,PRYC,PROENERGY S.A.S.E.S.P.,Comercializador,mes_reciente
-2026-09-06,P1D,CTIC,EMPRESAS MUNICIPALES DE CARTAGO S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-06,P1D,ENGG,ENERGETICA S.A. E.S.P.,Generador,mes_reciente
-2026-09-02,P1D,GNCG,VATIA S.A. E.S.P.,Generador,mes_reciente
-2026-09-02,P1D,SOCG,COMPAÑÍA ELÉCTRICA DE SOCHAGOTA  S.A.S. E.S.P.,Generador,mes_reciente
-2026-09-02,P1D,SPRG,ESPROD ENERGY S.A.S. E.S.P.,Generador,mes_reciente
-2026-09-02,P1D,AESC,AGENTE EXPERTO EN SERVICIOS PÚBLICOS S.A.S E.S.P,Comercializador,mes_reciente
-2026-09-02,P1D,GNSG,GENERSOL S.A.S. E.S.P.,Generador,mes_reciente
-2026-09-02,P1D,SCEG,SOL & CIELO ENERGIA S.A.S. E.S.P,Generador,mes_reciente
-2026-09-02,P1D,BCHC,BCCY COLOMBIA HOLDING SAS ESP,Comercializador,mes_reciente
-2026-09-02,P1D,GEEG,GENERAMOS ENERGIA S.A. E.S.P.,Generador,mes_reciente
-2026-09-02,P1D,CQTD,ELECTRIFICADORA DEL CAQUETA S.A. E.S.P.,Distribuidor,mes_reciente
-2026-09-02,P1D,ENDG,ENEL COLOMBIA SA ESP,Generador,mes_reciente
-2026-09-02,P1D,TECD,TRANSPORTADORA ELECTRICA DEL CARIBE S.A.S. E.S.P.,Distribuidor,mes_reciente
-2026-09-02,P1D,GREC,GRUPO ENERGÉTICO SA ESP,Comercializador,mes_reciente
-2026-09-02,P1D,HLAD,ELECTRIFICADORA DEL HUILA S.A. E.S.P.,Distribuidor,mes_reciente
-2026-09-02,P1D,ESST,ELECTRIFICADORA DE SANTANDER S.A. E.S.P.,Transportador,mes_reciente
-2026-09-02,P1D,EMID,EMPRESAS MUNICIPALES DE CALI E.I.C.E. E.S.P.,Distribuidor,mes_reciente
-2026-09-02,P1D,HZEC,HZ ENERGY S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-02,P1D,EEBT,GRUPO ENERGIA BOGOTA SA ESP,Transportador,mes_reciente
-2026-09-02,P1D,ENOC,ENERGIA Y ALUMBRADO DE COLOMBIA SAS ESP,Comercializador,mes_reciente
-2026-09-02,P1D,SOEC,COREX ENERGY S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-23,P1D,PRIG,PROELECTRICA S.A.S E.S.P.,Generador,mes_reciente
-2026-09-23,P1D,HEMG,HIDROENERGIA DE LA MONTAÑA S.A.S E.S.P,Generador,mes_reciente
-2026-09-23,P1D,EXIC,ENERXIA COLOMBIA SAS ESP,Comercializador,mes_reciente
-2026-09-23,P1D,DTEC,2T ENERGY S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-23,P1D,QIEC,QI ENERGY S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-23,P1D,PSGG,PARQUE SOLAR LOS GIRASOLES S.A.S ESP,Generador,mes_reciente
-2026-09-23,P1D,BTGG,BTG PACTUAL COMMODITIES COLOMBIA S.A.S. E.S.P.,Generador,mes_reciente
-2026-09-23,P1D,PCYG,P.CH EL COCUYO SAS ESP,Generador,mes_reciente
+2026-09-06,P1D,GECG,GENERADORA Y COMERCIALIZADORA DE ENERGIA DEL CARIBE S.A. E.S.P.,Generador,mes_reciente
+2026-09-06,P1D,ESPC,EMPRESA DE SERVICIOS PUBLICOS DE SANTANDER S.A E.S.P,Comercializador,mes_reciente
+2026-09-02,P1D,SEJC,SOL DEL EJE S.A.S E.S.P,Comercializador,mes_reciente
+2026-09-02,P1D,PSGG,PARQUE SOLAR LOS GIRASOLES S.A.S ESP,Generador,mes_reciente
+2026-09-02,P1D,EMED,EMPRESA MUNICIPAL DE ENERGIA ELECTRICA S.A. E.S.P.,Distribuidor,mes_reciente
+2026-09-02,P1D,EBSC,EMPRESA DE ENERGIA DE BOYACA S.A. E.S.P.,Comercializador,mes_reciente
+2026-09-02,P1D,CERC,CEE ENERGY SAS ESP,Comercializador,mes_reciente
+2026-09-02,P1D,ZONC,ZONERGY SAS ESP,Comercializador,mes_reciente
+2026-09-02,P1D,COGG,COMERCIALIZADORA 4G ENERGIA SAS ESP,Generador,mes_reciente
+2026-09-02,P1D,EEAD,ENERGÍA ELÉCTRICA DE LA COSTA ATLÁNTICA S.A. E.S.P,Distribuidor,mes_reciente
+2026-09-02,P1D,ENIC,EMPRESA DE ENERGÍA DE ARAUCA E.S.P.,Comercializador,mes_reciente
+2026-09-02,P1D,PRYC,PROENERGY S.A.S.E.S.P.,Comercializador,mes_reciente
+2026-09-02,P1D,EEPC,EMPRESA DE ENERGIA DE PEREIRA S.A. E.S.P.,Comercializador,mes_reciente
+2026-09-02,P1D,GECC,GENERADORA Y COMERCIALIZADORA DE ENERGIA DEL CARIBE S.A. E.S.P.,Comercializador,mes_reciente
+2026-09-02,P1D,SFEC,SANTA FE ENERGY ZOMAC S.A.S. E.S.P.,Comercializador,mes_reciente
+2026-09-02,P1D,TRPC,TERMOPIEDRAS S.A. E.S.P.,Comercializador,mes_reciente
+2026-09-02,P1D,CTZG,CENTRAL HIDROELÉCTRICA TZ II S.A.S. E.S.P.,Generador,mes_reciente
+2026-09-02,P1D,ADCC,ENERGIA DEL RIO PIEDRAS S.A. E.S.P,Comercializador,mes_reciente
+2026-09-23,P1D,CNXT,CONEXIÓN Y GESTIÓN DE ACTIVOS S.A.S. E.S.P. CONEXSIS S.A.S. E.S.P,Transportador,mes_reciente
+2026-09-23,P1D,EDQC,EMPRESA DE ENERGIA DEL QUINDIO S.A. E.S.P.,Comercializador,mes_reciente
+2026-09-23,P1D,GCMG,GENERCOMERCIAL S.A.S E.S.P,Generador,mes_reciente
+2026-09-23,P1D,DMRC,DEMAND RESPONSE SAS ESP,Comercializador,mes_reciente
 2026-09-23,P1D,SNCG,SUNCOLOMBIA GENERACIÓN S.A.S E.S.P,Generador,mes_reciente
-2026-09-23,P1D,ENIC,EMPRESA DE ENERGÍA DE ARAUCA E.S.P.,Comercializador,mes_reciente
-2026-09-23,P1D,TRNG,TRINA SOLAR GENERADOR COLOMBIA,Generador,mes_reciente
-2026-09-23,P1D,TBSG,TERMOBARRANQUILLA S.A. EMPRESA DE SERVICIOS PUBLICOS,Generador,mes_reciente
-2026-09-23,P1D,EEPD,EMPRESA DE ENERGIA DE PEREIRA S.A. E.S.P.,Distribuidor,mes_reciente
-2026-09-23,P1D,CNGD,CEN ENERGY S.A.S. E.S.P.,Distribuidor,mes_reciente
-2026-09-23,P1D,FFEC,FORCEFUL ENERGY S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-23,P1D,EPRC,EPRING ENERGY SAS ESP,Comercializador,mes_reciente
-2026-09-23,P1D,TMMG,TERMO MECHERO MORRO S.A.S E.S.P ,Generador,mes_reciente
-2026-09-23,P1D,PSWG,PARQUE SOLAR FOTOVOLTAICO WIMKE S.A.S. E.S.P.,Generador,mes_reciente
-2026-09-23,P1D,SOLG,PARQUE SOLAR COLOMBIA I S.A.S.,Generador,mes_reciente
-2026-09-23,P1D,EPTC,EMPRESA DE ENERGIA DEL PUTUMAYO S.A. E.S.P.,Comercializador,mes_reciente
-2026-09-24,P1D,EXIG,ENERXIA COLOMBIA SAS ESP,Generador,mes_reciente
-2026-09-24,P1D,DUCG,DUCK ENERGY S.A.S. ESP,Generador,mes_reciente
-2026-09-24,P1D,HDPG,HIDROELECTRICA DEL ALTO PORCE S.A.S. E.S.P.,Generador,mes_reciente
-2026-09-24,P1D,ENBC,UTILITY DIGITAL S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-24,P1D,SFEC,SANTA FE ENERGY ZOMAC S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-24,P1D,EEPD,EMPRESA DE ENERGIA DE PEREIRA S.A. E.S.P.,Distribuidor,mes_reciente
-2026-09-24,P1D,GNYG,GREENYELLOW COMERCIALIZADORA S.A.S. E.S.P.,Generador,mes_reciente
-2026-09-24,P1D,TAMG,TAMARINO COLOMBIA S.A.S. E.S.P.,Generador,mes_reciente
-2026-09-24,P1D,ELGC,E.L.E.C. GREEN S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-24,P1D,XFRG,ABO WIND RENOVABLES PROYECTO DIECISEIS S.A.S. ESP,Generador,mes_reciente
-2026-09-24,P1D,SGUC,PARQUE SOLAR GUALANDAY S.A.S E.S.P ,Comercializador,mes_reciente
-2026-09-24,P1D,GCOC,GENERCOL S.A.S. E.S.P. ZOMAC,Comercializador,mes_reciente
-2026-09-24,P1D,DRUC,DRUMMOND POWER S.A.S. E.S.P.,Comercializador,mes_reciente
+2026-09-23,P1D,FREC,FRANCA ENERGIA SA ESP,Comercializador,mes_reciente
+2026-09-23,P1D,ECSD,ENERGIA DE COLOMBIA STR S.A.S. E.S.P.,Distribuidor,mes_reciente
+2026-09-23,P1D,FTNG,FOTOVOLTAICO TOLIMA NORTE S.A.S E.S.P,Generador,mes_reciente
+2026-09-23,P1D,TRST,TRANSELCA S.A. E.S.P.,Transportador,mes_reciente
+2026-09-23,P1D,ESVC,EMPRESA SIGLO XXI EICE ESP,Comercializador,mes_reciente
+2026-09-23,P1D,EREC,COMERCIALIZADORA DE ENERGÍAS RENOVABLES GREEN ENERGY S.A.S,Comercializador,mes_reciente
+2026-09-23,P1D,EVSC,EMPRESA DE ENERGIA DEL VALLE DE SIBUNDOY S.A. E.S.P.,Comercializador,mes_reciente
+2026-09-23,P1D,CNSC,CENTRALES ELECTRICAS DEL NORTE DE SANTANDER S.A. E.S.P.,Comercializador,mes_reciente
+2026-09-23,P1D,COGC,COMERCIALIZADORA 4G ENERGIA SAS ESP,Comercializador,mes_reciente
+2026-09-23,P1D,ERNC,ÉRGON ENERGY SAS ESP,Comercializador,mes_reciente
+2026-09-23,P1D,CMCD,COMPAÑÍA ELÉCTRICA DEL MAR CARIBE S.A.S. E.S.P,Distribuidor,mes_reciente
+2026-09-23,P1D,GNYG,GREENYELLOW COMERCIALIZADORA S.A.S. E.S.P.,Generador,mes_reciente
+2026-09-24,P1D,EPRC,EPRING ENERGY SAS ESP,Comercializador,mes_reciente
+2026-09-24,P1D,EVTG,ENERVOLTIO SAS ESP,Generador,mes_reciente
+2026-09-24,P1D,GRCC,GR POWER COLOMBIA S.A.S E.S.P.,Comercializador,mes_reciente
+2026-09-24,P1D,EDIC,ELECTRIFICADORA DEL CARIBE S.A. E.S.P,Comercializador,mes_reciente
+2026-09-24,P1D,XFRC,ABO WIND RENOVABLES PROYECTO DIECISEIS S.A.S. ESP,Comercializador,mes_reciente
+2026-09-24,P1D,MEXC,MINEX ENERGY S.A.S. E.S.P.,Comercializador,mes_reciente
+2026-09-24,P1D,APMC,AMPERIUM ENERGY E.S.P S.A.S.,Comercializador,mes_reciente
+2026-09-24,P1D,CNAD,CONELCA S.A.S. E.S.P.,Distribuidor,mes_reciente
 2026-09-24,P1D,EPMT,EMPRESAS PUBLICAS DE MEDELLIN E.S.P.,Transportador,mes_reciente
-2026-09-24,P1D,ENDD,ENEL COLOMBIA SA ESP,Distribuidor,mes_reciente
-2026-09-24,P1D,NMRG,ENERMAS SAS ESP,Generador,mes_reciente
-2026-09-24,P1D,ADCC,ENERGIA DEL RIO PIEDRAS S.A. E.S.P,Comercializador,mes_reciente
-2026-09-24,P1D,NUEG,NUEVAS ENERGIAS II S.A.S. ESP,Generador,mes_reciente
-2026-09-24,P1D,TMVG,ENFRAGEN TERMOVALLE S.A.S. EMPRESA DE SERVICIOS PUBLICOS,Generador,mes_reciente
+2026-09-24,P1D,CTEC,COENERGIA S.A.S. E.S.P.,Comercializador,mes_reciente
+2026-09-24,P1D,GYPG,GREENDIPITY SAS BIC ESP,Generador,mes_reciente
+2026-09-24,P1D,VCHG,VACHE S.A.S E.S.P.,Generador,mes_reciente
+2026-09-24,P1D,EERD,EMPRESA ELECTRICA REGIONAL SAS ESP,Distribuidor,mes_reciente
 2026-09-24,P1D,TUSC,ALTUS ENERGY S.A.S E.S.P,Comercializador,mes_reciente
-2026-09-24,P1D,ENOC,ENERGIA Y ALUMBRADO DE COLOMBIA SAS ESP,Comercializador,mes_reciente
-2026-09-24,P1D,EDPD,EMPRESA DISTRIBUIDORA DEL PACIFICO S.A. E.S.P.,Distribuidor,mes_reciente
-2026-09-11,P1D,ASCC,A.S.C. INGENIERIA S.A. E.S.P.,Comercializador,mes_reciente
-2026-09-11,P1D,EPSC,CELSIA COLOMBIA S.A. E.S.P.,Comercializador,mes_reciente
-2026-09-11,P1D,EDPD,EMPRESA DISTRIBUIDORA DEL PACIFICO S.A. E.S.P.,Distribuidor,mes_reciente
-2026-09-11,P1D,EGTC,ENERGETICOS S.A.S E.S.P.,Comercializador,mes_reciente
-2026-09-11,P1D,RTAC,SPECTRUM RENOVAVEIS S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-11,P1D,SLMG,SPK LA MATA S.A.S E.S.P,Generador,mes_reciente
+2026-09-24,P1D,SGUG,PARQUE SOLAR GUALANDAY S.A.S E.S.P ,Generador,mes_reciente
+2026-09-11,P1D,DUCC,DUCK ENERGY S.A.S. ESP,Comercializador,mes_reciente
+2026-09-11,P1D,OTAC,OTACC GENERACION S.A.S. E.S.P.,Comercializador,mes_reciente
+2026-09-11,P1D,CHVG,AES COLOMBIA & CIA. S.C.A. E.S.P.,Generador,mes_reciente
+2026-09-11,P1D,ECBG,ECOARDOBELA I S.A.S. E.S.P.,Generador,mes_reciente
+2026-09-11,P1D,EGEG,EMPRESA GENERADORA Y COMERCIALIZADORA DE ENERGIA ELECTRICA DE COLOMBIA S.A. E.S.P.,Generador,mes_reciente
+2026-09-11,P1D,EXEC,ENEL X COLOMBIA S.A.S ESP,Comercializador,mes_reciente
+2026-09-11,P1D,EYCG,ENERGIA Y GAS DE COLOMBIA SAS ESP,Generador,mes_reciente
+2026-09-11,P1D,CEMC,CEM,Comercializador,mes_reciente
+2026-09-11,P1D,EYCC,ENERGIA Y GAS DE COLOMBIA SAS ESP,Comercializador,mes_reciente
 2026-09-11,P1D,EPTG,EMPRESA DE ENERGIA DEL PUTUMAYO S.A. E.S.P.,Generador,mes_reciente
-2026-09-11,P1D,ITCT,ISA INTERCOLOMBIA S.A. E.S.P.,Transportador,mes_reciente
-2026-09-11,P1D,BEIC,BEAM ENERGY INNOVATION S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-11,P1D,SEJC,SOL DEL EJE S.A.S E.S.P,Comercializador,mes_reciente
-2026-09-11,P1D,PCEG,PROMOENERCOL COMERCIALIZADORA DE ENERGÍA S.A.S E.S.P,Generador,mes_reciente
-2026-09-11,P1D,GYPG,GREENDIPITY SAS BIC ESP,Generador,mes_reciente
-2026-09-12,P1D,ENOC,ENERGIA Y ALUMBRADO DE COLOMBIA SAS ESP,Comercializador,mes_reciente
-2026-09-12,P1D,COXG,COX ENERGY COMERCIALIZADORA SAS ESP,Generador,mes_reciente
-2026-09-12,P1D,HBCG,HIDROELECTRICA BARRANCAS SAS ESP,Generador,mes_reciente
-2026-09-12,P1D,BCHG,BCCY COLOMBIA HOLDING SAS ESP,Generador,mes_reciente
-2026-09-12,P1D,CHCD,CENTRAL HIDROELECTRICA DE CALDAS S.A. E.S.P. BENEFICIO E INTERES COLECTIVO,Distribuidor,mes_reciente
-2026-09-12,P1D,CEOG,COMPAÑIA ENERGETICA DE OCCIDENTE S.A.S. ESP,Generador,mes_reciente
-2026-09-12,P1D,GNCG,VATIA S.A. E.S.P.,Generador,mes_reciente
-2026-09-12,P1D,TMFG,ENFRAGEN TERMOFLORES S.A.S. E.S.P.,Generador,mes_reciente
-2026-09-12,P1D,RQEC,ENERGIA Y AGUA S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-12,P1D,EDQC,EMPRESA DE ENERGIA DEL QUINDIO S.A. E.S.P.,Comercializador,mes_reciente
-2026-09-12,P1D,EGEG,EMPRESA GENERADORA Y COMERCIALIZADORA DE ENERGIA ELECTRICA DE COLOMBIA S.A. E.S.P.,Generador,mes_reciente
-2026-09-12,P1D,MEXC,MINEX ENERGY S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-12,P1D,PSCG,PROYECTO SOLAR CIMITARRA SAS ESP,Generador,mes_reciente
-2026-09-12,P1D,OROG,PARQUE SOLAR PUERTA DE ORO S.A.S. E.S.P.,Generador,mes_reciente
-2026-09-12,P1D,ESPC,EMPRESA DE SERVICIOS PUBLICOS DE SANTANDER S.A E.S.P,Comercializador,mes_reciente
-2026-09-08,P1D,TCIG,TERMOCANDELARIA S.A.S.,Generador,mes_reciente
-2026-09-08,P1D,PSAG,PARQUE SOLAR ANDRÓMEDA I S.A.S. E.S.P,Generador,mes_reciente
-2026-09-08,P1D,EMEG,EMPRESA MUNICIPAL DE ENERGIA ELECTRICA S.A. E.S.P.,Generador,mes_reciente
-2026-09-08,P1D,SOUG,SOUL ENERGY SAS ESP,Generador,mes_reciente
-2026-09-08,P1D,FFEC,FORCEFUL ENERGY S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-08,P1D,RFVG,REFOENERGY VILLANUEVA S.A.S E.S.P.,Generador,mes_reciente
-2026-09-08,P1D,GCYC,GENERADORA CANTAYÚS S.A.S E.S.P,Comercializador,mes_reciente
-2026-09-08,P1D,AMRC,AMERICANA DE ENERGIA S.A.S. E.S.P.,Comercializador,mes_reciente
-2026-09-08,P1D,CEMC,CEM,Comercializador,mes_reciente
-2026-09-08,P1D,TRST,TRANSELCA S.A. E.S.P.,Transportador,mes_reciente
-2026-09-08,P1D,ESSD,ELECTRIFICADORA DE SANTANDER S.A. E.S.P.,Distribuidor,mes_reciente
-2026-09-08,P1D,HLAG,ELECTRIFICADORA DEL HUILA S.A. E.S.P.,Generador,mes_reciente
-2026-09-08,P1D,CHCT,CENTRAL HIDROELECTRICA DE CALDAS S.A. E.S.P. BENEFICIO E INTERES COLECTIVO,Transportador,mes_reciente
-2026-09-08,P1D,EANC,EMPRESA DE ENERGIA ANDES SAS ESP,Comercializador,mes_reciente
+2026-09-11,P1D,EXIG,ENERXIA COLOMBIA SAS ESP,Generador,mes_reciente
+2026-09-11,P1D,ESOC,EMPRESA DE SERVICIOS PÚBLICOS DEL OCCIDENTE COLOMBIANO,Comercializador,mes_reciente
+2026-09-11,P1D,SNCG,SUNCOLOMBIA GENERACIÓN S.A.S E.S.P,Generador,mes_reciente
+2026-09-11,P1D,SLUG,SPK LA UNIÓN S.A.S. E.S.P.,Generador,mes_reciente
+2026-09-11,P1D,BEIG,BEAM ENERGY INNOVATION S.A.S. E.S.P.,Generador,mes_reciente
+2026-09-11,P1D,CEOG,COMPAÑIA ENERGETICA DE OCCIDENTE S.A.S. ESP,Generador,mes_reciente
+2026-09-12,P1D,MCEC,MCI ENERGY S.A.S E.S.P,Comercializador,mes_reciente
+2026-09-12,P1D,CIEG,COMPAÑÍA INTEGRAL ENERGETICA S.A.S E.S.P,Generador,mes_reciente
+2026-09-12,P1D,GPEG,EMPRESA DE GENERACION Y PROMOCION DE ENERGIA DE ANTIOQUIA S.A. E.S.P.,Generador,mes_reciente
+2026-09-12,P1D,EOEG,EOLOS ENERGÍA S.A.S. E.S.P. EN LIQUIDACIÓN,Generador,mes_reciente
+2026-09-12,P1D,EGVD,EMPRESA DE ENERGIA ELECTRICA DEL DEPARTAMENTO DEL GUAVIARE S.A. E.S.P.,Distribuidor,mes_reciente
+2026-09-12,P1D,XFRC,ABO WIND RENOVABLES PROYECTO DIECISEIS S.A.S. ESP,Comercializador,mes_reciente
+2026-09-12,P1D,ESST,ELECTRIFICADORA DE SANTANDER S.A. E.S.P.,Transportador,mes_reciente
+2026-09-12,P1D,EGRG,4E GROUP S.A.S E.S.P.,Generador,mes_reciente
+2026-09-12,P1D,CHVG,AES COLOMBIA & CIA. S.C.A. E.S.P.,Generador,mes_reciente
+2026-09-12,P1D,EBSG,EMPRESA DE ENERGIA DE BOYACA S.A. E.S.P.,Generador,mes_reciente
+2026-09-12,P1D,BIAG,BIA ENERGY S.A.S. E.S.P,Generador,mes_reciente
+2026-09-12,P1D,EPMC,EMPRESAS PUBLICAS DE MEDELLIN E.S.P.,Comercializador,mes_reciente
+2026-09-12,P1D,EEBD,GRUPO ENERGIA BOGOTA SA ESP,Distribuidor,mes_reciente
+2026-09-12,P1D,CNRC,COENERSA S.A.S. E.S.P.,Comercializador,mes_reciente
+2026-09-12,P1D,ELIG,ENERGIA LIMPIA Y EFICIENTE S.A.S ESP,Generador,mes_reciente
+2026-09-12,P1D,EVTG,ENERVOLTIO SAS ESP,Generador,mes_reciente
+2026-09-12,P1D,KEMC,KEM ENERGY S.A.S. E.S.P.,Comercializador,mes_reciente
+2026-09-12,P1D,TCNG,GENERADORA TERMOCENTRO S.A.S. E.S.P.,Generador,mes_reciente
+2026-09-12,P1D,SMTC,SMARTEN S.A.S. E.S.P.,Comercializador,mes_reciente
+2026-09-12,P1D,CNXT,CONEXIÓN Y GESTIÓN DE ACTIVOS S.A.S. E.S.P. CONEXSIS S.A.S. E.S.P,Transportador,mes_reciente
+2026-09-08,P1D,AMPC,AMPERIA S.A. E.S.P.,Comercializador,mes_reciente
+2026-09-08,P1D,FERG,FUENTES DE ENERGIAS RENOVABLES S.A.S. E.S.P.,Generador,mes_reciente
+2026-09-08,P1D,CNXT,CONEXIÓN Y GESTIÓN DE ACTIVOS S.A.S. E.S.P. CONEXSIS S.A.S. E.S.P,Transportador,mes_reciente
+2026-09-08,P1D,CDIC,CENTRALES ELECTRICAS DEL CAUCA S.A. E.S.P.,Comercializador,mes_reciente
+2026-09-08,P1D,PRIG,PROELECTRICA S.A.S E.S.P.,Generador,mes_reciente
+2026-09-08,P1D,CERG,CEE ENERGY SAS ESP,Generador,mes_reciente
+2026-09-08,P1D,COXG,COX ENERGY COMERCIALIZADORA SAS ESP,Generador,mes_reciente
+2026-09-08,P1D,PSGC,PARQUE SOLAR LOS GIRASOLES S.A.S ESP,Comercializador,mes_reciente
+2026-09-08,P1D,CMMC,CARIBEMAR DE LA COSTA S.A.S. E.S.P.,Comercializador,mes_reciente
+2026-09-08,P1D,EGVD,EMPRESA DE ENERGIA ELECTRICA DEL DEPARTAMENTO DEL GUAVIARE S.A. E.S.P.,Distribuidor,mes_reciente
+2026-09-08,P1D,EGVC,EMPRESA DE ENERGIA ELECTRICA DEL DEPARTAMENTO DEL GUAVIARE S.A. E.S.P.,Comercializador,mes_reciente
+2026-09-08,P1D,PRYC,PROENERGY S.A.S.E.S.P.,Comercializador,mes_reciente
+2026-09-08,P1D,SGMC,SIGMA2 COMERCIALIZADORA  DE ENERGIA ELECTRICA SAS ESP,Comercializador,mes_reciente
+2026-09-08,P1D,PRIC,PROELECTRICA S.A.S E.S.P.,Comercializador,mes_reciente
+2026-09-08,P1D,CMCD,COMPAÑÍA ELÉCTRICA DEL MAR CARIBE S.A.S. E.S.P,Distribuidor,mes_reciente
+2026-09-09,P1D,PSBG,PCH SAN BARTOLOME S.A.S. E.S.P. ,Generador,mes_reciente
+2026-09-09,P1D,EGEG,EMPRESA GENERADORA Y COMERCIALIZADORA DE ENERGIA ELECTRICA DE COLOMBIA S.A. E.S.P.,Generador,mes_reciente
+2026-09-09,P1D,ORQG,LA ORQUIDEA SOLAR S.A.S. E.S.P. ,Generador,mes_reciente
+2026-09-09,P1D,MARG,SOLAR LAS MARIAS SAS ESP,Generador,mes_reciente
+2026-09-09,P1D,GEEG,GENERAMOS ENERGIA S.A. E.S.P.,Generador,mes_reciente
+2026-09-09,P1D,TMNG,TERMONORTE S.A.S. E.S.P.,Generador,mes_reciente
+2026-09-09,P1D,HLAG,ELECTRIFICADORA DEL HUILA S.A. E.S.P.,Generador,mes_reciente
+2026-09-09,P1D,FERC,FUENTES DE ENERGIAS RENOVABLES S.A.S. E.S.P.,Comercializador,mes_reciente
+2026-09-09,P1D,ADCC,ENERGIA DEL RIO PIEDRAS S.A. E.S.P,Comercializador,mes_reciente
+2026-09-09,P1D,SGUG,PARQUE SOLAR GUALANDAY S.A.S E.S.P ,Generador,mes_reciente
+2026-09-09,P1D,ECNG,ECOGENERATION S.A.S. E.S.P.,Generador,mes_reciente
+2026-09-09,P1D,EMIG,EMPRESAS MUNICIPALES DE CALI E.I.C.E. E.S.P.,Generador,mes_reciente
+2026-09-09,P1D,AAGG,ATLÁNTICA COLOMBIA S.A.S. E.S.P.,Generador,mes_reciente
+2026-09-09,P1D,ENDG,ENEL COLOMBIA SA ESP,Generador,mes_reciente
+2026-09-09,P1D,LESC,MESSER ENERGY SERVICES SAS ESP,Comercializador,mes_reciente
+2026-09-09,P1D,CSID,AIR-E S.A.S. E.S.P.,Distribuidor,mes_reciente
+2026-09-09,P1D,GCYG,GENERADORA CANTAYÚS S.A.S E.S.P,Generador,mes_reciente
+2026-09-09,P1D,GNCC,VATIA S.A. E.S.P.,Comercializador,mes_reciente
+2026-09-09,P1D,TERG,TERMOTASAJERO DOS S.A. E.S.P. ,Generador,mes_reciente
+2026-09-01,P1D,CMMC,CARIBEMAR DE LA COSTA S.A.S. E.S.P.,Comercializador,mes_reciente
+2026-09-01,P1D,ENVC,ENERVISA S.A.S E.S.P.,Comercializador,mes_reciente
+2026-09-01,P1D,FYRG,FOTOVOLTAICO EL YARUMO SAS ESP,Generador,mes_reciente
+2026-09-01,P1D,CHVC,AES COLOMBIA & CIA. S.C.A. E.S.P.,Comercializador,mes_reciente
+2026-09-01,P1D,EPRC,EPRING ENERGY SAS ESP,Comercializador,mes_reciente
+2026-09-01,P1D,EMEC,EMPRESA MUNICIPAL DE ENERGIA ELECTRICA S.A. E.S.P.,Comercializador,mes_reciente
+2026-09-01,P1D,BCHG,BCCY COLOMBIA HOLDING SAS ESP,Generador,mes_reciente
+2026-09-01,P1D,PRYC,PROENERGY S.A.S.E.S.P.,Comercializador,mes_reciente
+2026-09-01,P1D,DLRC,DICELER S.A. E.S.P.,Comercializador,mes_reciente
+2026-09-01,P1D,EEAD,ENERGÍA ELÉCTRICA DE LA COSTA ATLÁNTICA S.A. E.S.P,Distribuidor,mes_reciente
+2026-09-01,P1D,GAPC,GAP ENERGY GROUP SAS ESP,Comercializador,mes_reciente
+2026-09-01,P1D,HLAC,ELECTRIFICADORA DEL HUILA S.A. E.S.P.,Comercializador,mes_reciente
+2026-09-01,P1D,RPEC,RIOPAILA ENERGÍA S.A.S. E.S.P.,Comercializador,mes_reciente
+2026-09-01,P1D,SEJC,SOL DEL EJE S.A.S E.S.P,Comercializador,mes_reciente
+2026-09-01,P1D,HEMG,HIDROENERGIA DE LA MONTAÑA S.A.S E.S.P,Generador,mes_reciente
+2026-09-01,P1D,RTAC,SPECTRUM RENOVAVEIS S.A.S. E.S.P.,Comercializador,mes_reciente
+2026-09-01,P1D,RPEG,RIOPAILA ENERGÍA S.A.S. E.S.P.,Generador,mes_reciente
+2026-09-01,P1D,TCBC,TERMO CARIBE S.A.S. E.S.P.,Comercializador,mes_reciente
+2026-09-01,P1D,SFEC,SANTA FE ENERGY ZOMAC S.A.S. E.S.P.,Comercializador,mes_reciente
+2026-09-01,P1D,COGG,COMERCIALIZADORA 4G ENERGIA SAS ESP,Generador,mes_reciente
+2026-09-07,P1D,BIAC,BIA ENERGY S.A.S. E.S.P,Comercializador,mes_reciente
+2026-09-07,P1D,EASC,ENERGY ASSET SAS ESP,Comercializador,mes_reciente
+2026-09-07,P1D,ISGC,ISAGEN S.A. E.S.P.,Comercializador,mes_reciente
+2026-09-07,P1D,EBSG,EMPRESA DE ENERGIA DE BOYACA S.A. E.S.P.,Generador,mes_reciente
+2026-09-07,P1D,EPTC,EMPRESA DE ENERGIA DEL PUTUMAYO S.A. E.S.P.,Comercializador,mes_reciente
+2026-09-07,P1D,PSCG,PROYECTO SOLAR CIMITARRA SAS ESP,Generador,mes_reciente
+2026-09-07,P1D,MERC,MERELEC COLOMBIA S.A.S. E.S.P.,Comercializador,mes_reciente
+2026-09-07,P1D,PSBG,PCH SAN BARTOLOME S.A.S. E.S.P. ,Generador,mes_reciente
+2026-09-07,P1D,ITCT,ISA INTERCOLOMBIA S.A. E.S.P.,Transportador,mes_reciente
+2026-09-07,P1D,VESC,VOLTAJE EMPRESARIAL S.A.S. E.S.P.,Comercializador,mes_reciente
+2026-09-07,P1D,NEUC,NEU ENERGY S.A.S E.S.P,Comercializador,mes_reciente
+2026-09-07,P1D,SEJC,SOL DEL EJE S.A.S E.S.P,Comercializador,mes_reciente
+2026-09-07,P1D,ELIG,ENERGIA LIMPIA Y EFICIENTE S.A.S ESP,Generador,mes_reciente
+2026-09-07,P1D,CHVG,AES COLOMBIA & CIA. S.C.A. E.S.P.,Generador,mes_reciente
+2026-09-07,P1D,EGVD,EMPRESA DE ENERGIA ELECTRICA DEL DEPARTAMENTO DEL GUAVIARE S.A. E.S.P.,Distribuidor,mes_reciente
+2026-09-07,P1D,EEAD,ENERGÍA ELÉCTRICA DE LA COSTA ATLÁNTICA S.A. E.S.P,Distribuidor,mes_reciente
+2026-09-07,P1D,SOVG,SOLANO RENOVABLES S.A.S. E.S.P.,Generador,mes_reciente
+2026-09-07,P1D,ECNC,ECOGENERATION S.A.S. E.S.P.,Comercializador,mes_reciente
+2026-09-07,P1D,RTQD,RUITOQUE S.A. E.S.P.,Distribuidor,mes_reciente
+2026-09-07,P1D,GEEG,GENERAMOS ENERGIA S.A. E.S.P.,Generador,mes_reciente
+2026-09-07,P1D,GCYC,GENERADORA CANTAYÚS S.A.S E.S.P,Comercializador,mes_reciente
+2026-09-07,P1D,CMXG,CEMEX ENERGY S.A.S E.S.P.,Generador,mes_reciente
+2026-09-17,P1D,EEPG,EMPRESA DE ENERGIA DE PEREIRA S.A. E.S.P.,Generador,mes_reciente
+2026-09-17,P1D,CDNC,CENTRALES ELECTRICAS DE NARIÑO S.A. E.S.P.,Comercializador,mes_reciente
+2026-09-17,P1D,ORQG,LA ORQUIDEA SOLAR S.A.S. E.S.P. ,Generador,mes_reciente
+2026-09-17,P1D,CEOG,COMPAÑIA ENERGETICA DE OCCIDENTE S.A.S. ESP,Generador,mes_reciente
+2026-09-17,P1D,LMEC,LUMINA ENERGY S.A.S. E.S.P.,Comercializador,mes_reciente
+2026-09-17,P1D,DRUG,DRUMMOND POWER S.A.S. E.S.P.,Generador,mes_reciente
+2026-09-17,P1D,SOVG,SOLANO RENOVABLES S.A.S. E.S.P.,Generador,mes_reciente
+2026-09-17,P1D,CHZG,CENTRAL HIDROELÉCTRICA ZEUS SAS ESP,Generador,mes_reciente
+2026-09-17,P1D,EEPC,EMPRESA DE ENERGIA DE PEREIRA S.A. E.S.P.,Comercializador,mes_reciente
+2026-09-17,P1D,ENVC,ENERVISA S.A.S E.S.P.,Comercializador,mes_reciente
+2026-09-17,P1D,RTAC,SPECTRUM RENOVAVEIS S.A.S. E.S.P.,Comercializador,mes_reciente
+2026-09-17,P1D,CHVC,AES COLOMBIA & CIA. S.C.A. E.S.P.,Comercializador,mes_reciente
+2026-09-15,P1D,CSIC,AIR-E S.A.S. E.S.P.,Comercializador,mes_reciente
+2026-09-15,P1D,TPLC,TERPEL ENERGÍA S.A.S. E.S.P.,Comercializador,mes_reciente
+2026-09-15,P1D,RPEC,RIOPAILA ENERGÍA S.A.S. E.S.P.,Comercializador,mes_reciente
+2026-09-15,P1D,ESNG,ES INVEST COLOMBIA S.A.S. ESP,Generador,mes_reciente
+2026-09-15,P1D,ORQG,LA ORQUIDEA SOLAR S.A.S. E.S.P. ,Generador,mes_reciente
+2026-09-15,P1D,CHCC,CENTRAL HIDROELECTRICA DE CALDAS S.A. E.S.P. BENEFICIO E INTERES COLECTIVO,Comercializador,mes_reciente
+2026-09-15,P1D,EMPC,EMPRESA MUNICIPAL DE SERVICIOS PUBLICOS DE CARTAGENA DEL CHAIRA,Comercializador,mes_reciente
+2026-09-15,P1D,GSYC,GENERSYS S.A.S. E.S.P.,Comercializador,mes_reciente
+2026-09-15,P1D,JRDC,JULIA,Comercializador,mes_reciente
+2026-09-15,P1D,GYPG,GREENDIPITY SAS BIC ESP,Generador,mes_reciente
+2026-09-15,P1D,EEBT,GRUPO ENERGIA BOGOTA SA ESP,Transportador,mes_reciente
+2026-09-15,P1D,TRPG,TERMOPIEDRAS S.A. E.S.P.,Generador,mes_reciente
+2026-09-15,P1D,SFEC,SANTA FE ENERGY ZOMAC S.A.S. E.S.P.,Comercializador,mes_reciente
+2026-09-15,P1D,ECNG,ECOGENERATION S.A.S. E.S.P.,Generador,mes_reciente
+2026-09-15,P1D,STOC,STOCK ENERGY SAS ESP,Comercializador,mes_reciente
+2026-09-27,P1D,EBSD,EMPRESA DE ENERGIA DE BOYACA S.A. E.S.P.,Distribuidor,mes_reciente
+2026-09-27,P1D,RTAC,SPECTRUM RENOVAVEIS S.A.S. E.S.P.,Comercializador,mes_reciente
+2026-09-27,P1D,ENZT,ENLAZA GRUPO ENERGIA BOGOTA SAS ESP,Transportador,mes_reciente
+2026-09-27,P1D,EEAD,ENERGÍA ELÉCTRICA DE LA COSTA ATLÁNTICA S.A. E.S.P,Distribuidor,mes_reciente
+2026-09-27,P1D,EMSG,ELECTRIFICADORA DEL META S.A. E.S.P.,Generador,mes_reciente
+2026-09-27,P1D,OTAG,OTACC GENERACION S.A.S. E.S.P.,Generador,mes_reciente
+2026-09-27,P1D,CMCD,COMPAÑÍA ELÉCTRICA DEL MAR CARIBE S.A.S. E.S.P,Distribuidor,mes_reciente
+2026-09-27,P1D,EPMT,EMPRESAS PUBLICAS DE MEDELLIN E.S.P.,Transportador,mes_reciente
+2026-09-27,P1D,HTCC,HT INDUSTRIES COLOMBIA S.A.S. E.S.P.,Comercializador,mes_reciente
+2026-09-27,P1D,EGEG,EMPRESA GENERADORA Y COMERCIALIZADORA DE ENERGIA ELECTRICA DE COLOMBIA S.A. E.S.P.,Generador,mes_reciente
+2026-09-27,P1D,EANC,EMPRESA DE ENERGIA ANDES SAS ESP,Comercializador,mes_reciente
+2026-09-27,P1D,UNGG,UNERGY ENERGY DIGITAL S.A.S E.S.P,Generador,mes_reciente
+2026-09-27,P1D,ISGC,ISAGEN S.A. E.S.P.,Comercializador,mes_reciente
+2026-09-27,P1D,ENDC,ENEL COLOMBIA SA ESP,Comercializador,mes_reciente

@@ -1,6 +1,6 @@
 # Reconocimiento de fuentes
 
-Ejecutado: 2026-10-24 18:07 UTC · fecha de referencia 2026-10-24
+Ejecutado: 2026-10-24 18:16 UTC · fecha de referencia 2026-10-24
 
 | ID | Dataset | Granularidad | Filas | Duplicadas | Versiones | Estado |
 |---|---|---|---:|---:|---|---|
@@ -14,6 +14,7 @@ Ejecutado: 2026-10-24 18:07 UTC · fecha de referencia 2026-10-24
 | E14D70 | Magnitud ventas en bolsa nacional en energía | Horaria | 1,228,176 | 0 | TX2:349344, TX3:177312, TXF:350760, TXR:350760 | ok |
 | D31647 | Precios en contratos de energía del Mercado Mayorista por comprador | Diaria | 28,249 | 0 | TX2:6886, TX3:7121, TXF:7121, TXR:7121 | ok |
 | C8381F | Cantidad de compra despachada en contratos de largo plazo en kWh | Horaria | 894,120 | 0 | TX2:255192, TX3:128496, TXF:255216, TXR:255216 | ok |
+| E60CE2 | Venta en contratos bilaterales de largo plazo por vendedor en energía | Horaria | 1,185,696 | 0 | TX2:338832, TX3:169200, TXF:338832, TXR:338832 | ok |
 | 43D616 | Precio de escasez ponderado | Diaria | 275 | 0 | TX1:61, TX2:61, TX3:31, TXF:61, TXR:61 | ok |
 | BA1C55 | Aportes Hídricos en Energía | Diaria | 2,684 | 0 | — | ok |
 | 8E7F3C | Generación ideal nacional por planta | Horaria | 4,010,016 | 0 | TX1:896928, TX2:897048, TX3:421080, TXF:897480, TXR:897480 | ok |
@@ -31,6 +32,7 @@ Ejecutado: 2026-10-24 18:07 UTC · fecha de referencia 2026-10-24
 - **E14D70**: CodigoVariable, FechaHora, CodigoDuracion, UnidadMedida, CodigoSICAgente, Version, Valor
 - **D31647**: Fecha, CodigoAgenteComprador, TipoMercado, Mecanismo, NormatividadRelacionada, Valor, Version, CodigoVariable
 - **C8381F**: CodigoVariable, FechaHora, CodigoDuracion, UnidadMedida, CodigoSICAgente, TipoMercado, Version, Valor
+- **E60CE2**: CodigoVariable, FechaHora, CodigoDuracion, UnidadMedida, CodigoSICAgente, TipoMercado, Version, Valor
 - **43D616**: CodigoVariable, FechaInicio, CodigoDuracion, UnidadMedida, Version, Valor
 - **BA1C55**: FechaPublicacion, Fecha, CodigoSerieHidrologica, RegionHidrologica, AportesHidricosEnergia, PromedioAcumuladoEnergia, MediaHistoricaEnergia
 - **8E7F3C**: CodigoVariable, FechaHora, CodigoDuracion, UnidadMedida, CodigoPlanta, Version, Valor

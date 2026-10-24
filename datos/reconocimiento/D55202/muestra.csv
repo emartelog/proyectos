@@ -201,28 +201,28 @@ DdaCom,2026-09-22T21:00:00,RTQC,Regulado,TX2,19509.06,kWh,PT1H,mes_reciente
 DdaCom,2026-09-22T13:00:00,PEEC,No Regulado,TX2,310.5,kWh,PT1H,mes_reciente
 DdaCom,2026-09-22T09:00:00,ENDC,Regulado,TXR,1530605.65,kWh,PT1H,mes_reciente
 DdaCom,2026-09-22T11:00:00,TENC,No Regulado,TXR,45900.63,kWh,PT1H,mes_reciente
-DdaCom,2026-09-27T08:00:00,RPEC,No Regulado,TXF,315.09,kWh,PT1H,mes_reciente
-DdaCom,2026-09-27T14:00:00,TENC,No Regulado,TX2,43693.49,kWh,PT1H,mes_reciente
-DdaCom,2026-09-27T06:00:00,CETC,No Regulado,TX2,4498.95,kWh,PT1H,mes_reciente
-DdaCom,2026-09-27T19:00:00,NEUC,Regulado,TX2,38004.0,kWh,PT1H,mes_reciente
-DdaCom,2026-09-19T23:00:00,CMXC,No Regulado,TXF,46132.81,kWh,PT1H,mes_reciente
-DdaCom,2026-09-19T21:00:00,ISGC,No Regulado,TXF,424220.81,kWh,PT1H,mes_reciente
-DdaCom,2026-09-19T21:00:00,EMPC,Regulado,TX2,2096.91,kWh,PT1H,mes_reciente
-DdaCom,2026-09-19T12:00:00,FERC,No Regulado,TX2,13202.89,kWh,PT1H,mes_reciente
-DdaCom,2026-09-19T06:00:00,LESC,No Regulado,TX2,5172.15,kWh,PT1H,mes_reciente
-DdaCom,2026-09-19T18:00:00,NEUC,Regulado,TX2,42267.22,kWh,PT1H,mes_reciente
-DdaCom,2026-09-19T15:00:00,TPLC,Regulado,TXR,1576.28,kWh,PT1H,mes_reciente
-DdaCom,2026-09-19T17:00:00,ENDC,Regulado,TXR,1429207.33,kWh,PT1H,mes_reciente
-DdaCom,2026-09-14T11:00:00,BEIC,Regulado,TXF,439.21,kWh,PT1H,mes_reciente
-DdaCom,2026-09-14T21:00:00,CSIC,Regulado,TXF,1467149.38,kWh,PT1H,mes_reciente
-DdaCom,2026-09-14T07:00:00,HLAC,No Regulado,TXF,21601.72,kWh,PT1H,mes_reciente
-DdaCom,2026-09-14T00:00:00,TENC,No Regulado,TXF,23293.4,kWh,PT1H,mes_reciente
-DdaCom,2026-09-14T19:00:00,HLAC,No Regulado,TX2,26144.34,kWh,PT1H,mes_reciente
-DdaCom,2026-09-14T03:00:00,CBNC,No Regulado,TX2,7097.18,kWh,PT1H,mes_reciente
-DdaCom,2026-09-14T17:00:00,EMEC,No Regulado,TX2,2164.09,kWh,PT1H,mes_reciente
-DdaCom,2026-09-14T14:00:00,ESVC,Regulado,TX2,753.42,kWh,PT1H,mes_reciente
-DdaCom,2026-09-14T08:00:00,GNYC,No Regulado,TXR,4525.38,kWh,PT1H,mes_reciente
-DdaCom,2026-09-14T22:00:00,EMPC,Regulado,TXR,1853.07,kWh,PT1H,mes_reciente
+DdaCom,2026-09-19T00:00:00,EMSC,Regulado,TXF,115563.58,kWh,PT1H,mes_reciente
+DdaCom,2026-09-19T14:00:00,HIMC,Regulado,TX2,1521.18,kWh,PT1H,mes_reciente
+DdaCom,2026-09-19T06:00:00,ENBC,Regulado,TX2,12673.79,kWh,PT1H,mes_reciente
+DdaCom,2026-09-19T19:00:00,ESVC,Regulado,TX2,631.21,kWh,PT1H,mes_reciente
+DdaCom,2026-09-14T23:00:00,EDPC,Regulado,TXF,35269.69,kWh,PT1H,mes_reciente
+DdaCom,2026-09-14T06:00:00,GNCC,No Regulado,TXF,18999.66,kWh,PT1H,mes_reciente
+DdaCom,2026-09-14T21:00:00,EPMC,No Regulado,TX2,580258.58,kWh,PT1H,mes_reciente
+DdaCom,2026-09-14T12:00:00,ENDC,No Regulado,TX2,431221.47,kWh,PT1H,mes_reciente
+DdaCom,2026-09-14T06:00:00,EMIC,No Regulado,TX2,66619.6,kWh,PT1H,mes_reciente
+DdaCom,2026-09-14T18:00:00,NEUC,Regulado,TX2,53380.5,kWh,PT1H,mes_reciente
+DdaCom,2026-09-14T03:00:00,ENBC,No Regulado,TXR,2555.47,kWh,PT1H,mes_reciente
+DdaCom,2026-09-14T02:00:00,CSIC,No Regulado,TXR,73120.6,kWh,PT1H,mes_reciente
+DdaCom,2026-09-27T07:00:00,BIAC,Regulado,TXF,14173.21,kWh,PT1H,mes_reciente
+DdaCom,2026-09-27T11:00:00,EMSC,Regulado,TXF,146898.34,kWh,PT1H,mes_reciente
+DdaCom,2026-09-27T15:00:00,BEIC,No Regulado,TXF,770.43,kWh,PT1H,mes_reciente
+DdaCom,2026-09-27T09:00:00,CMMC,Regulado,TXF,636097.93,kWh,PT1H,mes_reciente
+DdaCom,2026-09-27T19:00:00,GNCC,No Regulado,TX2,17542.9,kWh,PT1H,mes_reciente
+DdaCom,2026-09-27T03:00:00,RPEC,No Regulado,TX2,7.57,kWh,PT1H,mes_reciente
+DdaCom,2026-09-27T17:00:00,BIAC,No Regulado,TX2,23854.75,kWh,PT1H,mes_reciente
+DdaCom,2026-09-27T14:00:00,CSIC,Regulado,TX2,1086251.44,kWh,PT1H,mes_reciente
+DdaCom,2026-09-27T03:00:00,EXEC,Regulado,TXR,13814.05,kWh,PT1H,mes_reciente
+DdaCom,2026-09-27T15:00:00,TENC,No Regulado,TXR,43839.67,kWh,PT1H,mes_reciente
 DdaCom,2026-05-07T13:00:00,EPMC,Regulado,TXF,1180391.28,kWh,PT1H,mes_maduro
 DdaCom,2026-05-07T23:00:00,EPSC,No Regulado,TXF,183704.3,kWh,PT1H,mes_maduro
 DdaCom,2026-05-07T15:00:00,CEOC,Regulado,TX2,96077.53,kWh,PT1H,mes_maduro
