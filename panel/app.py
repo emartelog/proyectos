@@ -86,7 +86,8 @@ def cargar_calidad() -> list[dict]:
 def cop(x: float | None, dec: int = 0) -> str:
     if x is None or pd.isna(x):
         return "—"
-    return f"${x:,.{dec}f}".replace(",", "X").replace(".", ",").replace("X", ".")
+    texto = f"{abs(x):,.{dec}f}".replace(",", "X").replace(".", ",").replace("X", ".")
+    return f"-${texto}" if x < 0 else f"${texto}"
 
 
 def pct(x: float | None) -> str:
@@ -110,6 +111,15 @@ def etiquetas(meses: pd.Series) -> list[str]:
 def md(texto: str) -> str:
     """Escapa el signo $ para que Streamlit no lo interprete como fórmula."""
     return texto.replace("$", r"\$")
+
+
+def mostrar(fig: go.Figure, meses: pd.Series) -> None:
+    """Dibuja la figura con marcas de eje legibles: con historia larga, solo ene y jul."""
+    etiquetas_mes = etiquetas(meses)
+    if len(etiquetas_mes) > 24:
+        marcas = [e for e, m in zip(etiquetas_mes, meses, strict=True) if m.month in (1, 7)]
+        fig.update_xaxes(tickmode="array", tickvals=marcas, ticktext=marcas)
+    st.plotly_chart(fig, use_container_width=True)
 
 
 def tema() -> dict:
@@ -304,7 +314,7 @@ def seccion_mercado(mercado: pd.DataFrame, t: dict) -> None:
             hovertemplate="%{y:,.0f}",
         )
     )
-    st.plotly_chart(fig, use_container_width=True)
+    mostrar(fig, mercado["mes"])
 
     st.markdown("#### Hidrología: aportes frente a la media histórica")
     fig = figura(t, "% de la media", ".0%")
@@ -324,7 +334,7 @@ def seccion_mercado(mercado: pd.DataFrame, t: dict) -> None:
         annotation_font_color=t["tenue"],
     )
     fig.update_layout(showlegend=False, bargap=0.25)
-    st.plotly_chart(fig, use_container_width=True)
+    mostrar(fig, mercado["mes"])
 
 
 def seccion_comercializadoras(mercado, distribucion, t) -> None:
@@ -341,7 +351,7 @@ def seccion_comercializadoras(mercado, distribucion, t) -> None:
     )
     fig.update_layout(showlegend=False)
     fig.update_yaxes(rangemode="tozero")
-    st.plotly_chart(fig, use_container_width=True)
+    mostrar(fig, mercado["mes"])
 
     st.markdown("#### ¿Cómo se reparte esa exposición?")
     st.caption(
@@ -363,7 +373,7 @@ def seccion_comercializadoras(mercado, distribucion, t) -> None:
         )
     fig.update_layout(barmode="stack", bargap=0.2, legend_traceorder="normal")
     fig.update_xaxes(categoryorder="array", categoryarray=etiquetas(mercado["mes"]))
-    st.plotly_chart(fig, use_container_width=True)
+    mostrar(fig, mercado["mes"])
 
     st.markdown("#### Simulador: ¿cuánto cuesta cada punto de exposición?")
     con_precio = mercado.dropna(subset=["precio_contrato_regulado"])
@@ -407,7 +417,7 @@ def seccion_consumidores(mercado, t) -> None:
         "Contratos, mercado no regulado",
         t["serie"][2],
     )
-    st.plotly_chart(fig, use_container_width=True)
+    mostrar(fig, mercado["mes"])
 
     st.markdown("#### Simulador: contrato fijo o exposición a bolsa")
     referencia = mercado["precio_contrato_no_regulado"].dropna()
