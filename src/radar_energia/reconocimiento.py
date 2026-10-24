@@ -173,6 +173,9 @@ def main(argv: list[str] | None = None) -> int:
 
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
     config = yaml.safe_load(args.config.read_text())
+    # Un ID solo numérico (p. ej. 972263) llegaría como int desde YAML.
+    for dataset in config["datasets"]:
+        dataset["id"] = str(dataset["id"]).upper()
     args.salida.mkdir(parents=True, exist_ok=True)
     cliente = ClienteSimem()
 

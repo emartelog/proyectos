@@ -4,58 +4,58 @@
 # Agregar una fuente = agregar una entrada aquí; el pipeline no se modifica.
 
 catalogos:
-  datasets: e007fb    # Catálogo de conjuntos de datos
-  variables: a5a6c4   # Inventario de variables
+  datasets: "e007fb"    # Catálogo de conjuntos de datos
+  variables: "a5a6c4"   # Inventario de variables
 
 datasets:
   # --- Maestros / referencia ---
-  - id: 24914F
+  - id: "24914F"
     nombre: Versiones de liquidación
     rol: maestro
     uso: Calendario oficial de versiones (TX1, TX2, TXR, TXF, TX3...) para saber cuál es la vigente.
-  - id: 0BFC9D
+  - id: "0BFC9D"
     nombre: Parámetros técnicos de las plantas de generación
     rol: maestro
     uso: Plantas, agente propietario, tecnología y capacidad.
-  - id: 972263
+  - id: "972263"
     nombre: Listado de agentes registrados
     rol: maestro
     uso: Agentes del mercado (código SIC, nombre, actividad).
 
   # --- Hechos ---
-  - id: 96D56E
+  - id: "96D56E"
     nombre: Precio de bolsa ponderado
     rol: hecho
     uso: Precio de referencia del mercado spot (PPBO, PPBOGReal, ...).
-  - id: D55202
+  - id: "D55202"
     nombre: Demanda comercial
     rol: hecho
     uso: Demanda atendida por cada comercializador.
-  - id: 42EDC9
+  - id: "42EDC9"
     nombre: Magnitud energía en bolsa nacional a cargo
     rol: hecho
     uso: Compras en bolsa por agente (exposición a precio spot).
-  - id: E14D70
+  - id: "E14D70"
     nombre: Magnitud ventas en bolsa nacional en energía
     rol: hecho
     uso: Ventas en bolsa por agente.
-  - id: D31647
+  - id: "D31647"
     nombre: Cantidades y precios en contratos por comercializador
     rol: hecho
     uso: Precio de los contratos por comprador, mecanismo y mercado (sin cantidades).
-  - id: C8381F
+  - id: "C8381F"
     nombre: Cantidad de compra despachada en contratos de largo plazo
     rol: hecho
     uso: Cantidades en contratos, para ponderar el precio de contrato por energía.
-  - id: 43D616
+  - id: "43D616"
     nombre: Precio de escasez ponderado
     rol: hecho
     uso: Referencia regulatoria frente al precio de bolsa.
-  - id: BA1C55
+  - id: "BA1C55"
     nombre: Aportes hídricos en energía
     rol: hecho
     uso: Hidrología, el principal motor del precio de bolsa.
-  - id: 8E7F3C
+  - id: "8E7F3C"
     nombre: Generación ideal nacional por planta
     rol: hecho
     uso: Generación por planta y tecnología.

@@ -54,3 +54,15 @@ def test_catalogo_tolera_nulos(tmp_path):
     config = {"catalogos": {"datasets": "e007fb"}, "busqueda_catalogo": ["contrato"]}
     candidatos = reconocer_catalogos(Cliente(), config, tmp_path)
     assert [c["idDataset"] for c in candidatos] == ["C8381F"]
+
+
+def test_registro_de_fuentes_valido():
+    from pathlib import Path
+
+    import yaml
+
+    config = yaml.safe_load(Path("config/fuentes.yml").read_text())
+    ids = [d["id"] for d in config["datasets"]] + list(config["catalogos"].values())
+    assert all(isinstance(i, str) and len(i) == 6 and i.isalnum() for i in ids), ids
+    assert len(set(ids)) == len(ids)
+    assert all(d["rol"] in {"maestro", "hecho"} for d in config["datasets"])
