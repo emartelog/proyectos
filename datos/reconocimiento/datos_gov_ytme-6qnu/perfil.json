@@ -1,0 +1,133 @@
+{
+  "filas": 415,
+  "filas_duplicadas": 0,
+  "columnas": {
+    "a_o": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 2,
+      "valores": {
+        "2024": 240,
+        "2025": 175
+      }
+    },
+    "periodo": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 12,
+      "valores": {
+        "Enero": 40,
+        "Febrero": 40,
+        "Marzo": 40,
+        "Abril": 40,
+        "Mayo": 40,
+        "Junio": 40,
+        "Julio": 40,
+        "Agosto": 40,
+        "Septiembre": 35,
+        "Octubre": 20,
+        "Noviembre": 20,
+        "Diciembre": 20
+      }
+    },
+    "operador_de_red": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 6,
+      "valores": {
+        "ENEL Bogotá - Cundinamarca": 105,
+        "EMCALI - Cali": 105,
+        "CELSIA - Valle del Cauca": 60,
+        "CELSIA - Tolima": 60,
+        "CELSIA Colombia - Valle del Cauca": 45,
+        "CELSIA Colombia - Tolima": 40
+      }
+    },
+    "nivel": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 7,
+      "valores": {
+        "Nivel 1 (Propiedad Compartida)": 83,
+        "NIVEL II": 83,
+        "NIVEL III": 83,
+        "Nivel 1 ( Propiedad OR )": 48,
+        "Nivel 1  (Propiedad Cliente)": 48,
+        "Nivel 1 (Propiedad OR)": 35,
+        "Nivel 1 (Propiedad Cliente)": 35
+      }
+    },
+    "cu_total": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 412
+    },
+    "costo_compra_gm_i": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 73
+    },
+    "cargo_transporte_stn_tm": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 21,
+      "valores": {
+        "56.03": 20,
+        "54.32": 20,
+        "49.2": 20,
+        "57.43": 20,
+        "54.27": 20,
+        "47.96": 20,
+        "52.84": 20,
+        "55.93": 20,
+        "57.14": 20,
+        "48.55": 20,
+        "52.27": 20,
+        "55.37": 20,
+        "58.19": 20,
+        "49.85": 20,
+        "56.28": 20,
+        "62.2": 20,
+        "56.76": 20,
+        "54.69": 20,
+        "53.84": 20,
+        "56.93": 20,
+        "51.66": 15
+      }
+    },
+    "cargo_transporte_sdl_dn_m": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 289
+    },
+    "margen_comercializaci_n_cvm": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 167
+    },
+    "costo_g_t_p_rdidas_prn_m": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 234
+    },
+    "restricciones_rm": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 44
+    },
+    "cot": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 93
+    },
+    "cfm_j_fact": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 78
+    }
+  },
+  "filas_por_ventana": {},
+  "publicado_por": "E.S.P. Empresas Públicas de Medellín - EPM, Antioquia",
+  "descripcion": "En cumplimiento de las Leyes 142 de 1994 y 1955 de 2019, y las Resoluciones CREG (Comisión de Regulación de Energía y Gas) 058 de 2000, 119 de 2007, 105 de 2009, 156 de 2009, 173 de 2011, 152 de 2018 y 101028 de 2023, este conjunto de datos proporciona información detallada sobre las tarifas y costos de energía eléctrica en el mercado regulado.\n\nLos datos incluyen información sobre las tarifas de energía, el costo de compra de energía, los cargos de transporte en los sistemas de transmisión y distribución, los márgenes de comercialización, costos relacionados con generación y pérdidas, así como otros factores operativos que influyen en el precio final que los usuarios deben pagar. Además, se desglosan por tipo de propiedad (Operador de Red, Propiedad Compartida, Propiedad Cliente) y se dividen en diferentes niveles de tensión eléctrica.\n\nEste conjunto de datos está diseñado para facilitar el análisis de las tarifas y costos eléctricos en distintas regiones y periodos, proporcionando una visión clara de los componentes que afectan el precio de la energía para los usuarios del mercado regulado.\n\nLos datos abarcan el periodo de enero de 2024 a mayo de 2026.",
+  "filas_totales_portal": null
+}

@@ -1,0 +1,416 @@
+a_o,periodo,operador_de_red,nivel,cu_total,costo_compra_gm_i,cargo_transporte_stn_tm,cargo_transporte_sdl_dn_m,margen_comercializaci_n_cvm,costo_g_t_p_rdidas_prn_m,restricciones_rm,cot,cfm_j_fact
+2025,Enero,ENEL Bogotá - Cundinamarca,Nivel 1 (Propiedad OR),810.46,372.46,56.03,280.91,24.86,72.49,3.71,0,9.813
+2025,Enero,ENEL Bogotá - Cundinamarca,Nivel 1 (Propiedad Compartida),787.37,372.46,56.03,257.82,24.86,72.49,3.71,0,9.813
+2025,Enero,ENEL Bogotá - Cundinamarca,Nivel 1 (Propiedad Cliente),764.29,372.46,56.03,234.73,24.86,72.49,3.71,0,9.813
+2025,Enero,ENEL Bogotá - Cundinamarca,NIVEL II,691.89,372.46,56.03,168.8,66.56,24.32,3.71,41.7,9.813
+2025,Enero,ENEL Bogotá - Cundinamarca,NIVEL III,633.3,372.46,56.03,113.66,63.79,23.65,3.71,38.93,9.813
+2025,Enero,CELSIA Colombia - Valle del Cauca,Nivel 1 (Propiedad OR),841,374.18,56.03,257.74,78.71,70.63,3.71,56.79,16.16
+2025,Enero,CELSIA Colombia - Valle del Cauca,Nivel 1 (Propiedad Compartida),806.28,374.18,56.03,223.02,78.71,70.63,3.71,56.79,16.16
+2025,Enero,CELSIA Colombia - Valle del Cauca,Nivel 1 (Propiedad Cliente),771.56,374.18,56.03,188.29,78.71,70.63,3.71,56.79,16.16
+2025,Enero,CELSIA Colombia - Valle del Cauca,NIVEL II,710.68,374.18,56.03,153.33,93.73,29.69,3.71,71.81,16.16
+2025,Enero,CELSIA Colombia - Valle del Cauca,NIVEL III,601.84,374.18,56.03,91.72,50.91,25.29,3.71,28.99,16.16
+2025,Enero,CELSIA Colombia - Tolima,Nivel 1 (Propiedad OR),937.62,310.82,56.03,280.91,193.88,86.08,9.9,94.87,10.14
+2025,Enero,CELSIA Colombia - Tolima,Nivel 1 (Propiedad Compartida),886.89,310.82,56.03,230.17,193.88,86.08,9.9,94.87,10.14
+2025,Enero,CELSIA Colombia - Tolima,Nivel 1 (Propiedad Cliente),836.15,310.82,56.03,179.44,193.88,86.08,9.9,94.87,10.14
+2025,Enero,CELSIA Colombia - Tolima,NIVEL II,684.1,310.82,56.03,168.8,100.59,37.95,9.9,0,10.14
+2025,Enero,CELSIA Colombia - Tolima,NIVEL III,619.58,310.82,56.03,113.66,100.59,28.58,9.9,0,10.14
+2025,Enero,EMCALI - Cali,Nivel 1 (Propiedad OR),783.82,372.78,56.03,257.74,22.79,70.76,3.71,0,9.051
+2025,Enero,EMCALI - Cali,Nivel 1 (Propiedad Compartida),768.02,372.78,56.03,241.95,22.79,70.76,3.71,0,9.051
+2025,Enero,EMCALI - Cali,Nivel 1 (Propiedad Cliente),752.22,372.78,56.03,226.15,22.79,70.76,3.71,0,9.051
+2025,Enero,EMCALI - Cali,NIVEL II,638.6,372.78,56.03,153.33,22.79,29.96,3.71,0,9.051
+2024,Enero,ENEL Bogotá - Cundinamarca,Nivel 1 ( Propiedad OR ),747.41,289.09,54.32,256.98,70.27,58.26,18.49,0,9.286
+2024,Enero,ENEL Bogotá - Cundinamarca,Nivel 1 (Propiedad Compartida),724.67,289.09,54.32,234.24,70.27,58.26,18.49,0,9.286
+2024,Enero,ENEL Bogotá - Cundinamarca,Nivel 1  (Propiedad Cliente),701.93,289.09,54.32,211.5,70.27,58.26,18.49,0,9.286
+2024,Enero,ENEL Bogotá - Cundinamarca,NIVEL II,610.25,289.09,54.32,158.35,70.27,19.73,18.49,0,9.286
+2024,Enero,ENEL Bogotá - Cundinamarca,NIVEL III,562.22,289.09,54.32,110.75,70.27,19.3,18.49,0,9.286
+2024,Enero,CELSIA - Valle del Cauca,Nivel 1 ( Propiedad OR ),793.95,289.09,54.32,261.91,112.06,57.36,19.21,0,15.291
+2024,Enero,CELSIA - Valle del Cauca,Nivel 1 (Propiedad Compartida),757.54,289.09,54.32,225.5,112.06,57.36,19.21,0,15.291
+2024,Enero,CELSIA - Valle del Cauca,Nivel 1  (Propiedad Cliente),721.13,289.09,54.32,189.09,112.06,57.36,19.21,0,15.291
+2024,Enero,CELSIA - Valle del Cauca,NIVEL II,657.13,289.09,54.32,157.72,112.06,24.73,19.21,0,15.291
+2024,Enero,CELSIA - Valle del Cauca,NIVEL III,590.36,289.09,54.32,94.45,112.06,21.23,19.21,0,15.291
+2024,Enero,CELSIA - Tolima,Nivel 1 ( Propiedad OR ),795.88,289.09,54.32,256.98,93.08,83.2,19.21,0,9.594
+2024,Enero,CELSIA - Tolima,Nivel 1 (Propiedad Compartida),743.64,289.09,54.32,204.74,93.08,83.2,19.21,0,9.594
+2024,Enero,CELSIA - Tolima,Nivel 1  (Propiedad Cliente),691.4,289.09,54.32,152.5,93.08,83.2,19.21,0,9.594
+2024,Enero,CELSIA - Tolima,NIVEL II,650.2,289.09,54.32,158.35,93.08,36.15,19.21,0,9.594
+2024,Enero,CELSIA - Tolima,NIVEL III,593.3,289.09,54.32,110.75,93.08,26.85,19.21,0,9.594
+2024,Enero,EMCALI - Cali,Nivel 1 ( Propiedad OR ),746.4,289.09,54.32,261.91,66.18,56.8,18.1,0,8.565
+2024,Enero,EMCALI - Cali,Nivel 1 (Propiedad Compartida),724.88,289.09,54.32,240.39,66.18,56.8,18.1,0,8.565
+2024,Enero,EMCALI - Cali,Nivel 1  (Propiedad Cliente),703.36,289.09,54.32,218.87,66.18,56.8,18.1,0,8.565
+2024,Enero,EMCALI - Cali,NIVEL II,609.99,289.09,54.32,157.72,66.18,24.58,18.1,0,8.565
+2024,Enero,EMCALI - Cali,NIVEL III,544.59,289.09,54.32,94.45,66.18,22.44,18.1,0,8.565
+2024,Febrero,ENEL Bogotá - Cundinamarca,Nivel 1 ( Propiedad OR ),770.93,293.46,49.2,253.04,107.2,58.28,9.76,0,9.328
+2024,Febrero,ENEL Bogotá - Cundinamarca,Nivel 1 (Propiedad Compartida),748.07,293.46,49.2,230.18,107.2,58.28,9.76,0,9.328
+2024,Febrero,ENEL Bogotá - Cundinamarca,Nivel 1  (Propiedad Cliente),725.21,293.46,49.2,207.32,107.2,58.28,9.76,0,9.328
+2024,Febrero,ENEL Bogotá - Cundinamarca,NIVEL II,651.66,293.46,49.2,161.69,117.73,19.83,9.76,0,9.328
+2024,Febrero,ENEL Bogotá - Cundinamarca,NIVEL III,609.7,293.46,49.2,114.02,123.88,19.39,9.76,0,9.328
+2024,Febrero,CELSIA - Valle del Cauca,Nivel 1 ( Propiedad OR ),871.16,293.46,49.2,279.57,181.34,57.43,10.17,0,15.361
+2024,Febrero,CELSIA - Valle del Cauca,Nivel 1 (Propiedad Compartida),834.73,293.46,49.2,243.13,181.34,57.43,10.17,0,15.361
+2024,Febrero,CELSIA - Valle del Cauca,Nivel 1  (Propiedad Cliente),798.3,293.46,49.2,206.7,181.34,57.43,10.17,0,15.361
+2024,Febrero,CELSIA - Valle del Cauca,NIVEL II,722.54,293.46,49.2,163.81,181.03,24.87,10.17,0,15.361
+2024,Febrero,CELSIA - Valle del Cauca,NIVEL III,624.62,293.46,49.2,97.6,152.84,21.36,10.17,0,15.361
+2024,Febrero,CELSIA - Tolima,Nivel 1 ( Propiedad OR ),878.96,293.46,49.2,253.04,190,83.1,10.17,0,9.639
+2024,Febrero,CELSIA - Tolima,Nivel 1 (Propiedad Compartida),826.83,293.46,49.2,200.91,190,83.1,10.17,0,9.639
+2024,Febrero,CELSIA - Tolima,Nivel 1  (Propiedad Cliente),774.7,293.46,49.2,148.78,190,83.1,10.17,0,9.639
+2024,Febrero,CELSIA - Tolima,NIVEL II,650.27,293.46,49.2,161.69,99.58,36.18,10.17,0,9.639
+2024,Febrero,CELSIA - Tolima,NIVEL III,593.34,293.46,49.2,114.02,99.58,26.92,10.17,0,9.639
+2024,Febrero,EMCALI - Cali,Nivel 1 ( Propiedad OR ),758.19,293.46,49.2,279.57,68.14,56.85,10.98,0,8.604
+2024,Febrero,EMCALI - Cali,Nivel 1 (Propiedad Compartida),736.67,293.46,49.2,258.05,68.14,56.85,10.98,0,8.604
+2024,Febrero,EMCALI - Cali,Nivel 1  (Propiedad Cliente),715.16,293.46,49.2,236.53,68.14,56.85,10.98,0,8.604
+2024,Febrero,EMCALI - Cali,NIVEL II,610.29,293.46,49.2,163.81,68.14,24.7,10.98,0,8.604
+2024,Febrero,EMCALI - Cali,NIVEL III,541.93,293.46,49.2,97.6,68.14,22.56,10.98,0,8.604
+2024,Marzo,ENEL Bogotá - Cundinamarca,Nivel 1 ( Propiedad OR ),797.16,295.82,57.43,268.05,106.74,59.39,9.72,0,9.414
+2024,Marzo,ENEL Bogotá - Cundinamarca,Nivel 1 (Propiedad Compartida),774.09,295.82,57.43,244.99,106.74,59.39,9.72,0,9.414
+2024,Marzo,ENEL Bogotá - Cundinamarca,Nivel 1  (Propiedad Cliente),751.03,295.82,57.43,221.93,106.74,59.39,9.72,0,9.414
+2024,Marzo,ENEL Bogotá - Cundinamarca,NIVEL II,668.3,295.82,57.43,169.41,116.1,19.82,9.72,0,9.414
+2024,Marzo,ENEL Bogotá - Cundinamarca,NIVEL III,609.82,295.82,57.43,117.47,109.99,19.39,9.72,0,9.414
+2024,Marzo,CELSIA - Valle del Cauca,Nivel 1 ( Propiedad OR ),874.75,295.82,57.43,282.04,171.47,58.46,9.52,0,15.502
+2024,Marzo,CELSIA - Valle del Cauca,Nivel 1 (Propiedad Compartida),838.24,295.82,57.43,245.54,171.47,58.46,9.52,0,15.502
+2024,Marzo,CELSIA - Valle del Cauca,Nivel 1  (Propiedad Cliente),801.74,295.82,57.43,209.04,171.47,58.46,9.52,0,15.502
+2024,Marzo,CELSIA - Valle del Cauca,NIVEL II,731.15,295.82,57.43,166.49,176.93,24.96,9.52,0,15.502
+2024,Marzo,CELSIA - Valle del Cauca,NIVEL III,616.7,295.82,57.43,97.78,134.81,21.34,9.52,0,15.502
+2024,Marzo,CELSIA - Tolima,Nivel 1 ( Propiedad OR ),905.55,295.82,57.43,268.05,190,84.72,9.52,0,9.727
+2024,Marzo,CELSIA - Tolima,Nivel 1 (Propiedad Compartida),853.3,295.82,57.43,215.81,190,84.72,9.52,0,9.727
+2024,Marzo,CELSIA - Tolima,Nivel 1  (Propiedad Cliente),801.06,295.82,57.43,163.57,190,84.72,9.52,0,9.727
+2024,Marzo,CELSIA - Tolima,NIVEL II,669.37,295.82,57.43,169.41,100.73,36.46,9.52,0,9.727
+2024,Marzo,CELSIA - Tolima,NIVEL III,607.92,295.82,57.43,117.47,100.73,26.95,9.52,0,9.727
+2024,Marzo,EMCALI - Cali,Nivel 1 ( Propiedad OR ),772.47,295.82,57.43,282.04,67.93,57.88,11.37,0,8.683
+2024,Marzo,EMCALI - Cali,Nivel 1 (Propiedad Compartida),750.9,295.82,57.43,260.47,67.93,57.88,11.37,0,8.683
+2024,Marzo,EMCALI - Cali,Nivel 1  (Propiedad Cliente),729.32,295.82,57.43,238.9,67.93,57.88,11.37,0,8.683
+2024,Marzo,EMCALI - Cali,NIVEL II,623.83,295.82,57.43,166.49,67.93,24.8,11.37,0,8.683
+2024,Marzo,EMCALI - Cali,NIVEL III,552.9,295.82,57.43,97.78,67.93,22.58,11.37,0,8.683
+2024,Abril,ENEL Bogotá - Cundinamarca,Nivel 1 ( Propiedad OR ),802.68,346.81,54.27,266.13,59.23,67.93,8.31,32.69,9.56
+2024,Abril,ENEL Bogotá - Cundinamarca,Nivel 1 (Propiedad Compartida),780.27,346.81,54.27,243.72,59.23,67.93,8.31,32.69,9.56
+2024,Abril,ENEL Bogotá - Cundinamarca,Nivel 1  (Propiedad Cliente),757.85,346.81,54.27,221.3,59.23,67.93,8.31,32.69,9.56
+2024,Abril,ENEL Bogotá - Cundinamarca,NIVEL II,669.64,346.81,54.27,164.65,72.81,22.79,8.31,46.27,9.56
+2024,Abril,ENEL Bogotá - Cundinamarca,NIVEL III,598.57,346.81,54.27,111.39,55.51,22.28,8.31,28.97,9.56
+2024,Abril,CELSIA - Valle del Cauca,Nivel 1 ( Propiedad OR ),818.78,349.91,54.27,254.7,84.36,67.23,8.31,52.73,15.742
+2024,Abril,CELSIA - Valle del Cauca,Nivel 1 (Propiedad Compartida),783.86,349.91,54.27,219.78,84.36,67.23,8.31,52.73,15.742
+2024,Abril,CELSIA - Valle del Cauca,Nivel 1  (Propiedad Cliente),748.93,349.91,54.27,184.85,84.36,67.23,8.31,52.73,15.742
+2024,Abril,CELSIA - Valle del Cauca,NIVEL II,680.5,349.91,54.27,151.61,87.68,28.71,8.31,56.05,15.742
+2024,Abril,CELSIA - Valle del Cauca,NIVEL III,578.85,349.91,54.27,87.79,54.03,24.54,8.31,22.4,15.742
+2024,Abril,CELSIA - Tolima,Nivel 1 ( Propiedad OR ),910.03,310.57,54.27,266.13,186.84,85.53,6.7,0,9.832
+2024,Abril,CELSIA - Tolima,Nivel 1 (Propiedad Compartida),858.79,310.57,54.27,214.89,186.84,85.53,6.7,0,9.832
+2024,Abril,CELSIA - Tolima,Nivel 1  (Propiedad Cliente),807.54,310.57,54.27,163.64,186.84,85.53,6.7,0,9.832
+2024,Abril,CELSIA - Tolima,NIVEL II,670.45,310.57,54.27,164.65,96.57,37.69,6.7,0,9.832
+2024,Abril,CELSIA - Tolima,NIVEL III,607.91,310.57,54.27,111.39,96.57,28.41,6.7,0,9.832
+2024,Abril,EMCALI - Cali,Nivel 1 ( Propiedad OR ),762.11,347.38,54.27,254.7,25.59,71.86,8.31,0,8.818
+2024,Abril,EMCALI - Cali,Nivel 1 (Propiedad Compartida),746.35,347.38,54.27,238.94,25.59,71.86,8.31,0,8.818
+2024,Abril,EMCALI - Cali,Nivel 1  (Propiedad Cliente),730.59,347.38,54.27,223.18,25.59,71.86,8.31,0,8.818
+2024,Abril,EMCALI - Cali,NIVEL II,618.06,347.38,54.27,151.61,25.59,30.89,8.31,0,8.818
+2024,Abril,EMCALI - Cali,NIVEL III,551.5,347.38,54.27,87.79,25.59,28.17,8.31,0,8.818
+2024,Mayo,ENEL Bogotá - Cundinamarca,Nivel 1 ( Propiedad OR ),864.28,391.41,47.96,257.12,57.26,73.38,37.14,31.89,9.64
+2024,Mayo,ENEL Bogotá - Cundinamarca,Nivel 1 (Propiedad Compartida),841.89,391.41,47.96,234.73,57.26,73.38,37.14,31.89,9.64
+2024,Mayo,ENEL Bogotá - Cundinamarca,Nivel 1  (Propiedad Cliente),819.5,391.41,47.96,212.34,57.26,73.38,37.14,31.89,9.64
+2024,Mayo,ENEL Bogotá - Cundinamarca,NIVEL II,738.16,391.41,47.96,161.31,76.29,24.04,37.14,50.92,9.64
+2024,Mayo,ENEL Bogotá - Cundinamarca,NIVEL III,664.51,391.41,47.96,111.37,53.15,23.46,37.14,27.78,9.64
+2024,Mayo,CELSIA - Valle del Cauca,Nivel 1 ( Propiedad OR ),886.83,394.58,47.96,251.44,83.19,72.51,37.14,56.37,15.874
+2024,Mayo,CELSIA - Valle del Cauca,Nivel 1 (Propiedad Compartida),852.17,394.58,47.96,216.78,83.19,72.51,37.14,56.37,15.874
+2024,Mayo,CELSIA - Valle del Cauca,Nivel 1  (Propiedad Cliente),817.51,394.58,47.96,182.12,83.19,72.51,37.14,56.37,15.874
+2024,Mayo,CELSIA - Valle del Cauca,NIVEL II,743.46,394.58,47.96,153.09,80.25,30.43,37.14,53.43,15.874
+2024,Mayo,CELSIA - Valle del Cauca,NIVEL III,654.58,394.58,47.96,89.52,59.51,25.87,37.14,32.69,15.874
+2024,Mayo,CELSIA - Tolima,Nivel 1 ( Propiedad OR ),896.29,312.92,47.96,257.12,187.01,83.99,7.28,0,9.902
+2024,Mayo,CELSIA - Tolima,Nivel 1 (Propiedad Compartida),845.46,312.92,47.96,206.29,187.01,83.99,7.28,0,9.902
+2024,Mayo,CELSIA - Tolima,Nivel 1  (Propiedad Cliente),794.63,312.92,47.96,155.46,187.01,83.99,7.28,0,9.902
+2024,Mayo,CELSIA - Tolima,NIVEL II,663.54,312.92,47.96,161.31,97.24,36.83,7.28,0,9.902
+2024,Mayo,CELSIA - Tolima,NIVEL III,604.45,312.92,47.96,111.37,97.24,27.67,7.28,0,9.902
+2024,Mayo,EMCALI - Cali,Nivel 1 ( Propiedad OR ),826.58,392,47.96,251.44,28.69,69.35,37.14,0,8.891
+2024,Mayo,EMCALI - Cali,Nivel 1 (Propiedad Compartida),810.91,392,47.96,235.77,28.69,69.35,37.14,0,8.891
+2024,Mayo,EMCALI - Cali,Nivel 1  (Propiedad Cliente),795.23,392,47.96,220.09,28.69,69.35,37.14,0,8.891
+2024,Mayo,EMCALI - Cali,NIVEL II,688.42,392,47.96,153.09,28.69,29.54,37.14,0,8.891
+2024,Mayo,EMCALI - Cali,NIVEL III,622.19,392,47.96,89.52,28.69,26.89,37.14,0,8.891
+2024,Junio,ENEL Bogotá - Cundinamarca,Nivel 1 ( Propiedad OR ),741.85,291.69,52.84,257.95,57.57,58.96,22.85,29.34,9.681
+2024,Junio,ENEL Bogotá - Cundinamarca,Nivel 1 (Propiedad Compartida),719.5,291.69,52.84,235.6,57.57,58.96,22.85,29.34,9.681
+2024,Junio,ENEL Bogotá - Cundinamarca,Nivel 1  (Propiedad Cliente),697.16,291.69,52.84,213.26,57.57,58.96,22.85,29.34,9.681
+2024,Junio,ENEL Bogotá - Cundinamarca,NIVEL II,624.91,291.69,52.84,162.49,74.85,20.2,22.85,46.62,9.681
+2024,Junio,ENEL Bogotá - Cundinamarca,NIVEL III,571.55,291.69,52.84,113.13,71.31,19.74,22.85,43.08,9.681
+2024,Junio,CELSIA - Valle del Cauca,Nivel 1 ( Propiedad OR ),773.47,294.56,52.84,260.81,84.61,57.81,22.85,52.95,15.941
+2024,Junio,CELSIA - Valle del Cauca,Nivel 1 (Propiedad Compartida),739.44,294.56,52.84,226.77,84.61,57.81,22.85,52.95,15.941
+2024,Junio,CELSIA - Valle del Cauca,Nivel 1  (Propiedad Cliente),705.4,294.56,52.84,192.74,84.61,57.81,22.85,52.95,15.941
+2024,Junio,CELSIA - Valle del Cauca,NIVEL II,631.79,294.56,52.84,153.34,83.49,24.72,22.85,51.83,15.941
+2024,Junio,CELSIA - Valle del Cauca,NIVEL III,541.47,294.56,52.84,90.78,59.31,21.14,22.85,27.65,15.941
+2024,Junio,CELSIA - Tolima,Nivel 1 ( Propiedad OR ),930.58,308.41,52.84,257.95,189.88,84.8,36.71,89.37,9.96
+2024,Junio,CELSIA - Tolima,Nivel 1 (Propiedad Compartida),880.74,308.41,52.84,208.1,189.88,84.8,36.71,89.37,9.96
+2024,Junio,CELSIA - Tolima,Nivel 1  (Propiedad Cliente),830.9,308.41,52.84,158.26,189.88,84.8,36.71,89.37,9.96
+2024,Junio,CELSIA - Tolima,NIVEL II,698.07,308.41,52.84,162.49,100.11,37.51,36.71,0,9.96
+2024,Junio,CELSIA - Tolima,NIVEL III,639.54,308.41,52.84,113.13,100.11,28.33,36.71,0,9.96
+2024,Junio,EMCALI - Cali,Nivel 1 ( Propiedad OR ),710.54,292.22,52.84,260.81,25.96,55.87,22.85,0,8.929
+2024,Junio,EMCALI - Cali,Nivel 1 (Propiedad Compartida),695.09,292.22,52.84,245.36,25.96,55.87,22.85,0,8.929
+2024,Junio,EMCALI - Cali,Nivel 1  (Propiedad Cliente),679.64,292.22,52.84,229.91,25.96,55.87,22.85,0,8.929
+2024,Junio,EMCALI - Cali,NIVEL II,571.79,292.22,52.84,153.34,25.96,24.59,22.85,0,8.929
+2024,Junio,EMCALI - Cali,NIVEL III,507.13,292.22,52.84,90.78,25.96,22.49,22.85,0,8.929
+2024,Julio,ENEL Bogotá - Cundinamarca,Nivel 1 ( Propiedad OR ),757.55,296.26,55.93,266.32,53.33,59.15,26.57,30.87,9.712
+2024,Julio,ENEL Bogotá - Cundinamarca,Nivel 1 (Propiedad Compartida),735.14,296.26,55.93,243.9,53.33,59.15,26.57,30.87,9.712
+2024,Julio,ENEL Bogotá - Cundinamarca,Nivel 1  (Propiedad Cliente),712.72,296.26,55.93,221.49,53.33,59.15,26.57,30.87,9.712
+2024,Julio,ENEL Bogotá - Cundinamarca,NIVEL II,637.19,296.26,55.93,170.11,68.6,19.72,26.57,46.14,9.712
+2024,Julio,ENEL Bogotá - Cundinamarca,NIVEL III,577.78,296.26,55.93,117.41,62.36,19.25,26.57,39.9,9.712
+2024,Julio,CELSIA - Valle del Cauca,Nivel 1 ( Propiedad OR ),788.83,299.1,55.93,264.36,84.94,57.93,26.57,56.63,15.992
+2024,Julio,CELSIA - Valle del Cauca,Nivel 1 (Propiedad Compartida),754.74,299.1,55.93,230.27,84.94,57.93,26.57,56.63,15.992
+2024,Julio,CELSIA - Valle del Cauca,Nivel 1  (Propiedad Cliente),720.65,299.1,55.93,196.18,84.94,57.93,26.57,56.63,15.992
+2024,Julio,CELSIA - Valle del Cauca,NIVEL II,647.94,299.1,55.93,154.11,87.95,24.28,26.57,59.64,15.992
+2024,Julio,CELSIA - Valle del Cauca,NIVEL III,556.39,299.1,55.93,94.26,59.86,20.66,26.57,31.55,15.992
+2024,Julio,CELSIA - Tolima,Nivel 1 ( Propiedad OR ),932.1,312.46,55.93,266.32,188.35,85.03,24.01,94.71,10.002
+2024,Julio,CELSIA - Tolima,Nivel 1 (Propiedad Compartida),882.09,312.46,55.93,216.31,188.35,85.03,24.01,94.71,10.002
+2024,Julio,CELSIA - Tolima,Nivel 1  (Propiedad Cliente),832.08,312.46,55.93,166.3,188.35,85.03,24.01,94.71,10.002
+2024,Julio,CELSIA - Tolima,NIVEL II,698.58,312.46,55.93,170.11,98.98,37.09,24.01,0,10.002
+2024,Julio,CELSIA - Tolima,NIVEL III,636.58,312.46,55.93,117.41,98.98,27.79,24.01,0,10.002
+2024,Julio,EMCALI - Cali,Nivel 1 ( Propiedad OR ),720.65,296.78,55.93,264.36,21.01,55.99,26.57,0,8.958
+2024,Julio,EMCALI - Cali,Nivel 1 (Propiedad Compartida),705.24,296.78,55.93,248.96,21.01,55.99,26.57,0,8.958
+2024,Julio,EMCALI - Cali,Nivel 1  (Propiedad Cliente),689.84,296.78,55.93,233.56,21.01,55.99,26.57,0,8.958
+2024,Julio,EMCALI - Cali,NIVEL II,578.58,296.78,55.93,154.11,21.01,24.17,26.57,0,8.958
+2024,Julio,EMCALI - Cali,NIVEL III,516.59,296.78,55.93,94.26,21.01,22.04,26.57,0,8.958
+2024,Agosto,ENEL Bogotá - Cundinamarca,Nivel 1 ( Propiedad OR ),765.4,299.77,57.14,265.55,54.36,59.71,28.88,30.78,9.731
+2024,Agosto,ENEL Bogotá - Cundinamarca,Nivel 1 (Propiedad Compartida),742.94,299.77,57.14,243.09,54.36,59.71,28.88,30.78,9.731
+2024,Agosto,ENEL Bogotá - Cundinamarca,Nivel 1  (Propiedad Cliente),720.48,299.77,57.14,220.63,54.36,59.71,28.88,30.78,9.731
+2024,Agosto,ENEL Bogotá - Cundinamarca,NIVEL II,643.89,299.77,57.14,167.84,70.47,19.79,28.88,46.89,9.731
+2024,Agosto,ENEL Bogotá - Cundinamarca,NIVEL III,577.71,299.77,57.14,112.58,60.03,19.31,28.88,36.45,9.731
+2024,Agosto,CELSIA - Valle del Cauca,Nivel 1 ( Propiedad OR ),790.11,302.22,57.14,261.35,82.12,58.39,28.88,56.45,16.025
+2024,Agosto,CELSIA - Valle del Cauca,Nivel 1 (Propiedad Compartida),755.8,302.22,57.14,227.05,82.12,58.39,28.88,56.45,16.025
+2024,Agosto,CELSIA - Valle del Cauca,Nivel 1  (Propiedad Cliente),721.49,302.22,57.14,192.74,82.12,58.39,28.88,56.45,16.025
+2024,Agosto,CELSIA - Valle del Cauca,NIVEL II,648.98,302.22,57.14,149.51,86.86,24.36,28.88,61.19,16.025
+2024,Agosto,CELSIA - Valle del Cauca,NIVEL III,549.58,302.22,57.14,89.04,51.58,20.71,28.88,25.91,16.025
+2024,Agosto,CELSIA - Tolima,Nivel 1 ( Propiedad OR ),939.79,312.38,57.14,265.55,194.41,85.13,25.19,92.22,10.035
+2024,Agosto,CELSIA - Tolima,Nivel 1 (Propiedad Compartida),889.67,312.38,57.14,215.42,194.41,85.13,25.19,92.22,10.035
+2024,Agosto,CELSIA - Tolima,Nivel 1  (Propiedad Cliente),839.55,312.38,57.14,165.3,194.41,85.13,25.19,92.22,10.035
+2024,Agosto,CELSIA - Tolima,NIVEL II,699.31,312.38,57.14,167.84,99.7,37.05,25.19,0,10.035
+2024,Agosto,CELSIA - Tolima,NIVEL III,634.72,312.38,57.14,112.58,99.7,27.72,25.19,0,10.035
+2024,Agosto,EMCALI - Cali,Nivel 1 ( Propiedad OR ),734.25,300.22,57.14,261.35,21.93,64.71,28.88,0,8.976
+2024,Agosto,EMCALI - Cali,Nivel 1 (Propiedad Compartida),718.81,300.22,57.14,245.92,21.93,64.71,28.88,0,8.976
+2024,Agosto,EMCALI - Cali,Nivel 1  (Propiedad Cliente),703.37,300.22,57.14,230.48,21.93,64.71,28.88,0,8.976
+2024,Agosto,EMCALI - Cali,NIVEL II,585.16,300.22,57.14,149.51,21.93,27.46,28.88,0,8.976
+2024,Agosto,EMCALI - Cali,NIVEL III,522.19,300.22,57.14,89.04,21.93,24.97,28.88,0,8.976
+2024,Septiembre,ENEL Bogotá - Cundinamarca,Nivel 1 ( Propiedad OR ),764.32,322.32,48.55,266.9,55.82,59.71,11.01,32.98,9.731
+2024,Septiembre,ENEL Bogotá - Cundinamarca,Nivel 1 (Propiedad Compartida),742.01,322.32,48.55,244.59,55.82,59.71,11.01,32.98,9.731
+2024,Septiembre,ENEL Bogotá - Cundinamarca,Nivel 1  (Propiedad Cliente),719.69,322.32,48.55,222.28,55.82,59.71,11.01,32.98,9.731
+2024,Septiembre,ENEL Bogotá - Cundinamarca,NIVEL II,635.07,322.32,48.55,162.35,71.05,19.79,11.01,48.11,9.731
+2024,Septiembre,ENEL Bogotá - Cundinamarca,NIVEL III,566.75,322.32,48.55,110.47,55.09,19.31,11.01,32.15,9.731
+2024,Septiembre,CELSIA - Valle del Cauca,Nivel 1 ( Propiedad OR ),777.48,324.45,48.55,247.84,84.99,60.64,11.01,60.01,16.025
+2024,Septiembre,CELSIA - Valle del Cauca,Nivel 1 (Propiedad Compartida),743.41,324.45,48.55,213.76,84.99,60.64,11.01,60.01,16.025
+2024,Septiembre,CELSIA - Valle del Cauca,Nivel 1  (Propiedad Cliente),709.33,324.45,48.55,179.69,84.99,60.64,11.01,60.01,16.025
+2024,Septiembre,CELSIA - Valle del Cauca,NIVEL II,647.09,324.45,48.55,150.99,86.84,25.25,11.01,61.86,16.025
+2024,Septiembre,CELSIA - Valle del Cauca,NIVEL III,553.33,324.45,48.55,87.9,59.96,21.46,11.01,34.98,16.025
+2024,Septiembre,CELSIA - Tolima,Nivel 1 ( Propiedad OR ),927.13,306.81,48.55,266.9,190.77,82.31,31.79,94.39,10.055
+2024,Septiembre,CELSIA - Tolima,Nivel 1 (Propiedad Compartida),877.55,306.81,48.55,217.32,190.77,82.31,31.79,94.39,10.055
+2024,Septiembre,CELSIA - Tolima,Nivel 1  (Propiedad Cliente),827.97,306.81,48.55,167.74,190.77,82.31,31.79,94.39,10.055
+2024,Septiembre,CELSIA - Tolima,NIVEL II,685.14,306.81,48.55,162.35,99.7,35.95,31.79,0,10.055
+2024,Septiembre,CELSIA - Tolima,NIVEL III,624.27,306.81,48.55,110.47,99.7,26.95,31.79,0,10.055
+2024,Septiembre,EMCALI - Cali,Nivel 1 ( Propiedad OR ),711.6,322.71,48.55,247.84,22.79,58.69,11.01,0,8.976
+2024,Septiembre,EMCALI - Cali,Nivel 1 (Propiedad Compartida),696.27,322.71,48.55,232.51,22.79,58.69,11.01,0,8.976
+2024,Septiembre,EMCALI - Cali,Nivel 1  (Propiedad Cliente),680.94,322.71,48.55,217.18,22.79,58.69,11.01,0,8.976
+2024,Septiembre,EMCALI - Cali,NIVEL II,581.22,322.71,48.55,150.99,22.79,25.16,11.01,0,8.976
+2024,Septiembre,EMCALI - Cali,NIVEL III,515.89,322.71,48.55,87.9,22.79,22.92,11.01,0,8.976
+2024,Octubre,ENEL Bogotá - Cundinamarca,Nivel 1 ( Propiedad OR ),799.4,356.82,52.27,264.6,54.77,69.38,1.56,31.4,9755
+2024,Octubre,ENEL Bogotá - Cundinamarca,Nivel 1 (Propiedad Compartida),776.93,356.82,52.27,242.13,54.77,69.38,1.56,31.4,9755
+2024,Octubre,ENEL Bogotá - Cundinamarca,Nivel 1  (Propiedad Cliente),754.46,356.82,52.27,219.66,54.77,69.38,1.56,31.4,9755
+2024,Octubre,ENEL Bogotá - Cundinamarca,NIVEL II,667.37,356.82,52.27,165.33,68.07,23.32,1.56,44.7,9755
+2024,Octubre,ENEL Bogotá - Cundinamarca,NIVEL III,596.22,356.82,52.27,114.75,48.08,22.74,1.56,24.71,9755
+2024,Octubre,CELSIA - Valle del Cauca,Nivel 1 ( Propiedad OR ),818.93,359.95,52.27,257.25,80.03,67.87,1.56,53.47,16064
+2024,Octubre,CELSIA - Valle del Cauca,Nivel 1 (Propiedad Compartida),784.62,359.95,52.27,222.95,80.03,67.87,1.56,53.47,16064
+2024,Octubre,CELSIA - Valle del Cauca,Nivel 1  (Propiedad Cliente),750.32,359.95,52.27,188.64,80.03,67.87,1.56,53.47,16064
+2024,Octubre,CELSIA - Valle del Cauca,NIVEL II,679.9,359.95,52.27,156.92,80.62,28.58,1.56,54.06,16064
+2024,Octubre,CELSIA - Valle del Cauca,NIVEL III,588.13,359.95,52.27,91.2,58.78,24.37,1.56,32.22,16064
+2024,Octubre,CELSIA - Tolima,Nivel 1 ( Propiedad OR ),924.51,314.69,52.27,264.6,195.71,85.96,11.28,93.01,10079
+2024,Octubre,CELSIA - Tolima,Nivel 1 (Propiedad Compartida),874.59,314.69,52.27,214.68,195.71,85.96,11.28,93.01,10079
+2024,Octubre,CELSIA - Tolima,Nivel 1  (Propiedad Cliente),824.68,314.69,52.27,164.77,195.71,85.96,11.28,93.01,10079
+2024,Octubre,CELSIA - Tolima,NIVEL II,681.09,314.69,52.27,165.33,99.7,37.82,11.28,0,10079
+2024,Octubre,CELSIA - Tolima,NIVEL III,621.16,314.69,52.27,114.75,99.7,28.47,11.28,0,10079
+2024,Octubre,EMCALI - Cali,Nivel 1 ( Propiedad OR ),755.33,357.4,52.27,257.25,21.01,65.56,1.56,0,8998
+2024,Octubre,EMCALI - Cali,Nivel 1 (Propiedad Compartida),739.87,357.4,52.27,241.79,21.01,65.56,1.56,0,8998
+2024,Octubre,EMCALI - Cali,Nivel 1  (Propiedad Cliente),724.41,357.4,52.27,226.34,21.01,65.56,1.56,0,8998
+2024,Octubre,EMCALI - Cali,NIVEL II,617.84,357.4,52.27,156.92,21.01,28.39,1.56,0,8998
+2024,Octubre,EMCALI - Cali,NIVEL III,549.64,357.4,52.27,91.2,21.01,25.01,1.56,0,8998
+2024,Noviembre,ENEL Bogotá - Cundinamarca,Nivel 1 ( Propiedad OR ),815.65,367.28,55.37,263.15,54.91,70.5,4.44,30.33,9.742
+2024,Noviembre,ENEL Bogotá - Cundinamarca,Nivel 1 (Propiedad Compartida),793.05,367.28,55.37,240.56,54.91,70.5,4.44,30.33,9.742
+2024,Noviembre,ENEL Bogotá - Cundinamarca,Nivel 1  (Propiedad Cliente),770.46,367.28,55.37,217.96,54.91,70.5,4.44,30.33,9.742
+2024,Noviembre,ENEL Bogotá - Cundinamarca,NIVEL II,691.63,367.28,55.37,170.73,70.7,23.11,4.44,46.12,9.742
+2024,Noviembre,ENEL Bogotá - Cundinamarca,NIVEL III,632.35,367.28,55.37,115.89,66.88,22.49,4.44,42.3,9.742
+2024,Noviembre,CELSIA - Valle del Cauca,Nivel 1 ( Propiedad OR ),845.47,369.77,55.37,265.73,81.31,68.84,4.44,53.13,16.043
+2024,Noviembre,CELSIA - Valle del Cauca,Nivel 1 (Propiedad Compartida),811.14,369.77,55.37,231.4,81.31,68.84,4.44,53.13,16.043
+2025,Enero,EMCALI - Cali,NIVEL III,572.6,372.78,56.03,91.72,22.79,25.58,3.71,0,9.051
+2024,Noviembre,CELSIA - Valle del Cauca,Nivel 1  (Propiedad Cliente),776.81,369.77,55.37,197.07,81.31,68.84,4.44,53.13,16.043
+2024,Noviembre,CELSIA - Valle del Cauca,NIVEL II,700.5,369.77,55.37,157.28,85.15,28.49,4.44,56.97,16.043
+2024,Noviembre,CELSIA - Valle del Cauca,NIVEL III,605.45,369.77,55.37,92.38,59.32,24.17,4.44,31.14,16.043
+2024,Noviembre,CELSIA - Tolima,Nivel 1 ( Propiedad OR ),912.02,312.89,55.37,263.15,193.62,85.31,1.68,92.66,10.079
+2024,Noviembre,CELSIA - Tolima,Nivel 1 (Propiedad Compartida),861.9,312.89,55.37,213.03,193.62,85.31,1.68,92.66,10.079
+2024,Noviembre,CELSIA - Tolima,Nivel 1  (Propiedad Cliente),811.78,312.89,55.37,162.91,193.62,85.31,1.68,92.66,10.079
+2024,Noviembre,CELSIA - Tolima,NIVEL II,678.45,312.89,55.37,170.73,100.61,37.17,1.68,0,10.079
+2024,Noviembre,CELSIA - Tolima,NIVEL III,614.25,312.89,55.37,115.89,100.61,27.8,1.68,0,10.079
+2024,Noviembre,EMCALI - Cali,Nivel 1 ( Propiedad OR ),782.78,367.74,55.37,265.73,22.97,66.53,4.44,0,8.986
+2024,Noviembre,EMCALI - Cali,Nivel 1 (Propiedad Compartida),767.24,367.74,55.37,250.2,22.97,66.53,4.44,0,8.986
+2024,Noviembre,EMCALI - Cali,Nivel 1  (Propiedad Cliente),751.7,367.74,55.37,234.66,22.97,66.53,4.44,0,8.986
+2024,Noviembre,EMCALI - Cali,NIVEL II,636.1,367.74,55.37,157.28,22.97,28.3,4.44,0,8.986
+2024,Noviembre,EMCALI - Cali,NIVEL III,568.66,367.74,55.37,92.38,22.97,25.76,4.44,0,8.986
+2024,Diciembre,ENEL Bogotá - Cundinamarca,Nivel 1 ( Propiedad OR ),812.67,345.07,58.19,280.72,56.01,67.72,4.96,30.87,9.769
+2024,Diciembre,ENEL Bogotá - Cundinamarca,Nivel 1 (Propiedad Compartida),789.78,345.07,58.19,257.83,56.01,67.72,4.96,30.87,9.769
+2024,Diciembre,ENEL Bogotá - Cundinamarca,Nivel 1  (Propiedad Cliente),766.9,345.07,58.19,234.95,56.01,67.72,4.96,30.87,9.769
+2024,Diciembre,ENEL Bogotá - Cundinamarca,NIVEL II,673.27,345.07,58.19,174.68,67.86,22.51,4.96,42.72,9.769
+2024,Diciembre,ENEL Bogotá - Cundinamarca,NIVEL III,605.18,345.07,58.19,117.64,57.42,21.9,4.96,32.28,9.769
+2024,Diciembre,CELSIA - Valle del Cauca,Nivel 1 ( Propiedad OR ),823.22,346.87,58.19,264.32,82.84,66.04,4.96,54.29,16.086
+2024,Diciembre,CELSIA - Valle del Cauca,Nivel 1 (Propiedad Compartida),788.6,346.87,58.19,229.7,82.84,66.04,4.96,54.29,16.086
+2024,Diciembre,CELSIA - Valle del Cauca,Nivel 1  (Propiedad Cliente),753.98,346.87,58.19,195.08,82.84,66.04,4.96,54.29,16.086
+2024,Diciembre,CELSIA - Valle del Cauca,NIVEL II,679.85,346.87,58.19,153.8,88.42,27.6,4.96,56.87,16.086
+2024,Diciembre,CELSIA - Valle del Cauca,NIVEL III,588.54,346.87,58.19,93.58,61.47,23.47,4.96,32.92,16.086
+2024,Diciembre,CELSIA - Tolima,Nivel 1 ( Propiedad OR ),933.07,312.79,58.19,280.72,193.47,86.23,1.67,93.21,10.093
+2024,Diciembre,CELSIA - Tolima,Nivel 1 (Propiedad Compartida),882.52,312.79,58.19,230.16,193.47,86.23,1.67,93.21,10.093
+2024,Diciembre,CELSIA - Tolima,Nivel 1  (Propiedad Cliente),831.96,312.79,58.19,179.61,193.47,86.23,1.67,93.21,10.093
+2024,Diciembre,CELSIA - Tolima,NIVEL II,685.11,312.79,58.19,174.68,100.08,37.71,1.67,0,10.093
+2024,Diciembre,CELSIA - Tolima,NIVEL III,618.64,312.79,58.19,117.64,100.08,28.27,1.67,0,10.093
+2024,Diciembre,EMCALI - Cali,Nivel 1 ( Propiedad OR ),760.12,345.41,58.19,264.32,23.31,63.92,4.96,0,9.01
+2024,Diciembre,EMCALI - Cali,Nivel 1 (Propiedad Compartida),744.41,345.41,58.19,248.62,23.31,63.92,4.96,0,9.01
+2024,Diciembre,EMCALI - Cali,Nivel 1  (Propiedad Cliente),728.7,345.41,58.19,232.91,23.31,63.92,4.96,0,9.01
+2024,Diciembre,EMCALI - Cali,NIVEL II,613.14,345.41,58.19,153.8,23.31,27.47,4.96,0,9.01
+2024,Diciembre,EMCALI - Cali,NIVEL III,550.49,345.41,58.19,93.58,23.31,25.04,4.96,0,9.01
+2025,Febrero,ENEL Bogotá - Cundinamarca,Nivel 1 (Propiedad OR),808.93,366.82,49.85,272.98,27.08,70.13,22.07,0,9.906
+2025,Febrero,ENEL Bogotá - Cundinamarca,Nivel 1 (Propiedad Compartida),785.72,366.82,49.85,249.77,27.08,70.13,22.07,0,9.906
+2025,Febrero,ENEL Bogotá - Cundinamarca,Nivel 1 (Propiedad Cliente),762.51,366.82,49.85,226.56,27.08,70.13,22.07,0,9.906
+2025,Febrero,ENEL Bogotá - Cundinamarca,NIVEL II,701.31,366.82,49.85,172.8,66.43,23.35,22.07,39.35,9.906
+2025,Febrero,ENEL Bogotá - Cundinamarca,NIVEL III,640.79,366.82,49.85,117.31,62.07,22.68,22.07,34.99,9.906
+2025,Febrero,CELSIA Colombia - Valle del Cauca,Nivel 1 (Propiedad OR),861.8,367.73,49.85,269.92,84.13,68.1,22.07,53.9,16.311
+2025,Febrero,CELSIA Colombia - Valle del Cauca,Nivel 1 (Propiedad Compartida),826.69,367.73,49.85,234.81,84.13,68.1,22.07,53.9,16.311
+2025,Febrero,CELSIA Colombia - Valle del Cauca,Nivel 1 (Propiedad Cliente),791.57,367.73,49.85,199.7,84.13,68.1,22.07,53.9,16.311
+2025,Febrero,CELSIA Colombia - Valle del Cauca,NIVEL II,712.84,367.73,49.85,162.58,82.19,28.42,22.07,51.96,16.311
+2025,Febrero,CELSIA Colombia - Valle del Cauca,NIVEL III,589.17,367.73,49.85,95.13,30.23,24.16,22.07,0,16.311
+2025,Febrero,CELSIA Colombia - Tolima,Nivel 1 (Propiedad OR),914.66,306.36,49.85,272.98,198.34,83.41,3.72,96.81,10.14
+2025,Febrero,CELSIA Colombia - Tolima,Nivel 1 (Propiedad Compartida),863.72,306.36,49.85,222.05,198.34,83.41,3.72,96.81,10.14
+2025,Febrero,CELSIA Colombia - Tolima,Nivel 1 (Propiedad Cliente),812.79,306.36,49.85,171.11,198.34,83.41,3.72,96.81,10.14
+2025,Febrero,CELSIA Colombia - Tolima,NIVEL II,672.9,306.36,49.85,172.8,103.47,36.7,3.72,0,10.14
+2025,Febrero,CELSIA Colombia - Tolima,NIVEL III,608.31,306.36,49.85,117.31,103.47,27.6,3.72,0,10.14
+2025,Febrero,EMCALI - Cali,Nivel 1 (Propiedad OR),799.67,366.99,49.85,269.92,24.76,66.09,22.07,0,9.136
+2025,Febrero,EMCALI - Cali,Nivel 1 (Propiedad Compartida),783.77,366.99,49.85,254.02,24.76,66.09,22.07,0,9.136
+2025,Febrero,EMCALI - Cali,Nivel 1 (Propiedad Cliente),767.88,366.99,49.85,238.13,24.76,66.09,22.07,0,9.136
+2025,Febrero,EMCALI - Cali,NIVEL II,654.62,366.99,49.85,162.58,24.76,28.38,22.07,0,9.136
+2025,Febrero,EMCALI - Cali,NIVEL III,584.65,366.99,49.85,95.13,24.76,25.87,22.07,0,9.136
+2025,Marzo,ENEL Bogotá - Cundinamarca,Nivel 1 (Propiedad OR),825.05,354.16,56.28,293.26,27.27,71.62,22.46,0,10.018
+2025,Marzo,ENEL Bogotá - Cundinamarca,Nivel 1 (Propiedad Compartida),799.13,354.16,56.28,267.34,27.27,71.62,22.46,0,10.018
+2025,Marzo,ENEL Bogotá - Cundinamarca,Nivel 1 (Propiedad Cliente),773.2,354.16,56.28,241.41,27.27,71.62,22.46,0,10.018
+2025,Marzo,ENEL Bogotá - Cundinamarca,NIVEL II,715.29,354.16,56.28,189.26,67.96,25.16,22.46,40.69,10.018
+2025,Marzo,ENEL Bogotá - Cundinamarca,NIVEL III,639.22,354.16,56.28,130.34,51.53,24.45,22.46,24.26,10.018
+2025,Marzo,CELSIA Colombia - Valle del Cauca,Nivel 1 (Propiedad OR),870.83,355.18,56.28,276.93,90.43,69.56,22.46,59.77,16.496
+2025,Marzo,CELSIA Colombia - Valle del Cauca,Nivel 1 (Propiedad Compartida),835.29,355.18,56.28,241.39,90.43,69.56,22.46,59.77,16.496
+2025,Marzo,CELSIA Colombia - Valle del Cauca,Nivel 1 (Propiedad Cliente),799.75,355.18,56.28,205.85,90.43,69.56,22.46,59.77,16.496
+2025,Marzo,CELSIA Colombia - Valle del Cauca,NIVEL II,750.87,355.18,56.28,165.54,121.28,30.14,22.46,90.62,16.496
+2025,Marzo,CELSIA Colombia - Valle del Cauca,NIVEL III,589.2,355.18,56.28,98.71,30.66,25.92,22.46,0,16.496
+2025,Marzo,CELSIA Colombia - Tolima,Nivel 1 (Propiedad OR),966.34,307.41,56.28,293.26,203.92,87.34,18.13,94.5,10.235
+2025,Marzo,CELSIA Colombia - Tolima,Nivel 1 (Propiedad Compartida),913.82,307.41,56.28,240.74,203.92,87.34,18.13,94.5,10.235
+2025,Marzo,CELSIA Colombia - Tolima,Nivel 1 (Propiedad Cliente),861.29,307.41,56.28,188.21,203.92,87.34,18.13,94.5,10.235
+2025,Marzo,CELSIA Colombia - Tolima,NIVEL II,717.43,307.41,56.28,189.26,107.12,39.22,18.13,0,10.235
+2025,Marzo,CELSIA Colombia - Tolima,NIVEL III,649.14,307.41,56.28,130.34,107.12,29.86,18.13,0,10.235
+2025,Marzo,EMCALI - Cali,Nivel 1 (Propiedad OR),803.12,354.35,56.28,276.93,25.48,67.63,22.46,0,9.24
+2025,Marzo,EMCALI - Cali,Nivel 1 (Propiedad Compartida),787.2,354.35,56.28,261.01,25.48,67.63,22.46,0,9.24
+2025,Marzo,EMCALI - Cali,Nivel 1 (Propiedad Cliente),771.29,354.35,56.28,245.09,25.48,67.63,22.46,0,9.24
+2025,Marzo,EMCALI - Cali,NIVEL II,654.29,354.35,56.28,165.54,25.48,30.18,22.46,0,9.24
+2025,Marzo,EMCALI - Cali,NIVEL III,584.96,354.35,56.28,98.71,25.48,27.68,22.46,0,9.24
+2025,Abril,ENEL Bogotá - Cundinamarca,Nivel 1 (Propiedad OR),809.95,310.1,62.2,302.89,27.79,63.77,43.2,0,10.071
+2025,Abril,ENEL Bogotá - Cundinamarca,Nivel 1 (Propiedad Compartida),783.42,310.1,62.2,276.36,27.79,63.77,43.2,0,10.071
+2025,Abril,ENEL Bogotá - Cundinamarca,Nivel 1 (Propiedad Cliente),756.89,310.1,62.2,249.83,27.79,63.77,43.2,0,10.071
+2025,Abril,ENEL Bogotá - Cundinamarca,NIVEL II,696.71,310.1,62.2,192.38,66.96,21.87,43.2,39.17,10.071
+2025,Abril,ENEL Bogotá - Cundinamarca,NIVEL III,625.32,310.1,62.2,129.18,59.41,21.23,43.2,31.62,10.071
+2025,Abril,CELSIA Colombia - Valle del Cauca,Nivel 1 (Propiedad OR),830.35,311.17,62.2,265.26,86.73,61.79,43.2,55.88,16.583
+2025,Abril,CELSIA Colombia - Valle del Cauca,Nivel 1 (Propiedad Compartida),795.31,311.17,62.2,230.22,86.73,61.79,43.2,55.88,16.583
+2025,Abril,CELSIA Colombia - Valle del Cauca,Nivel 1 (Propiedad Cliente),760.26,311.17,62.2,195.18,86.73,61.79,43.2,55.88,16.583
+2025,Abril,CELSIA Colombia - Valle del Cauca,NIVEL II,627.1,311.17,62.2,153.46,30.85,26.23,43.2,0,16.583
+2025,Abril,CELSIA Colombia - Valle del Cauca,NIVEL III,564.78,311.17,62.2,94.93,30.85,22.43,43.2,0,16.583
+2025,Abril,CELSIA Colombia - Tolima,Nivel 1 (Propiedad OR),978.14,307.43,62.2,302.89,200.28,81.67,23.67,0,10.351
+2025,Abril,CELSIA Colombia - Tolima,Nivel 1 (Propiedad Compartida),931.07,307.43,62.2,255.83,200.28,81.67,23.67,0,10.351
+2025,Abril,CELSIA Colombia - Tolima,Nivel 1 (Propiedad Cliente),884.01,307.43,62.2,208.76,200.28,81.67,23.67,0,10.351
+2025,Abril,CELSIA Colombia - Tolima,NIVEL II,728.54,307.43,62.2,192.38,105.78,37.08,23.67,0,10.351
+2025,Abril,CELSIA Colombia - Tolima,NIVEL III,656.11,307.43,62.2,129.18,105.78,27.85,23.67,0,10.351
+2025,Abril,EMCALI - Cali,Nivel 1 (Propiedad OR),758.87,310.3,62.2,265.26,25.43,52.48,43.2,0,9.394
+2025,Abril,EMCALI - Cali,Nivel 1 (Propiedad Compartida),744.75,310.3,62.2,251.14,25.43,52.48,43.2,0,9.394
+2025,Abril,EMCALI - Cali,Nivel 1 (Propiedad Cliente),730.63,310.3,62.2,237.03,25.43,52.48,43.2,0,9.394
+2025,Abril,EMCALI - Cali,NIVEL II,618.77,310.3,62.2,153.46,25.43,24.19,43.2,0,9.394
+2025,Abril,EMCALI - Cali,NIVEL III,558.66,310.3,62.2,94.93,25.43,22.61,43.2,0,9.394
+2025,Mayo,ENEL Bogotá - Cundinamarca,Nivel 1 (Propiedad OR),740.97,265.06,56.76,299.01,27.13,55,38.01,0,10.137
+2025,Mayo,ENEL Bogotá - Cundinamarca,Nivel 1 (Propiedad Compartida),714.33,265.06,56.76,272.37,27.13,55,38.01,0,10.137
+2025,Mayo,ENEL Bogotá - Cundinamarca,Nivel 1 (Propiedad Cliente),687.7,265.06,56.76,245.74,27.13,55,38.01,0,10.137
+2025,Mayo,ENEL Bogotá - Cundinamarca,NIVEL II,632.09,265.06,56.76,188.35,65.02,18.89,38.01,37.89,10.137
+2025,Mayo,ENEL Bogotá - Cundinamarca,NIVEL III,565.44,265.06,56.76,127.35,59.92,18.33,38.01,32.79,10.137
+2025,Mayo,CELSIA Colombia - Valle del Cauca,Nivel 1 (Propiedad OR),768.03,266,56.76,261.04,93.01,53.22,38.01,63.53,16.693
+2025,Mayo,CELSIA Colombia - Valle del Cauca,Nivel 1 (Propiedad Compartida),732.66,266,56.76,225.67,93.01,53.22,38.01,63.53,16.693
+2025,Mayo,CELSIA Colombia - Valle del Cauca,Nivel 1 (Propiedad Cliente),697.29,266,56.76,190.3,93.01,53.22,38.01,63.53,16.693
+2025,Mayo,CELSIA Colombia - Valle del Cauca,NIVEL II,566.01,266,56.76,153.18,29.48,22.58,38.01,0,16.693
+2025,Mayo,CELSIA Colombia - Valle del Cauca,NIVEL III,503.94,266,56.76,94.37,29.48,19.32,38.01,0,16.693
+2025,Mayo,CELSIA Colombia - Tolima,Nivel 1 (Propiedad OR),992.77,308.31,56.76,299.01,208.21,80.02,40.46,97.99,10.406
+2025,Mayo,CELSIA Colombia - Tolima,Nivel 1 (Propiedad Compartida),945.35,308.31,56.76,251.6,208.21,80.02,40.46,97.99,10.406
+2025,Mayo,CELSIA Colombia - Tolima,Nivel 1 (Propiedad Cliente),897.94,308.31,56.76,204.18,208.21,80.02,40.46,97.99,10.406
+2025,Mayo,CELSIA Colombia - Tolima,NIVEL II,740.13,308.31,56.76,188.35,110.22,36.03,40.46,0,10.406
+2025,Mayo,CELSIA Colombia - Tolima,NIVEL III,670.03,308.31,56.76,127.35,110.22,26.93,40.46,0,10.406
+2025,Mayo,EMCALI - Cali,Nivel 1 (Propiedad OR),690.29,265.23,56.76,261.04,23.97,45.28,38.01,0,9.506
+2025,Mayo,EMCALI - Cali,Nivel 1 (Propiedad Compartida),676.03,265.23,56.76,246.78,23.97,45.28,38.01,0,9.506
+2025,Mayo,EMCALI - Cali,Nivel 1 (Propiedad Cliente),661.77,265.23,56.76,232.51,23.97,45.28,38.01,0,9.506
+2025,Mayo,EMCALI - Cali,NIVEL II,558.06,265.23,56.76,153.18,23.97,20.91,38.01,0,9.506
+2025,Mayo,EMCALI - Cali,NIVEL III,497.89,265.23,56.76,94.37,23.97,19.54,38.01,0,9.506
+2025,Junio,ENEL Bogotá - Cundinamarca,Nivel 1 (Propiedad OR),743.41,268.54,54.69,299.85,25.46,55.37,39.5,0,10.172
+2025,Junio,ENEL Bogotá - Cundinamarca,Nivel 1 (Propiedad Compartida),717.06,268.54,54.69,273.5,25.46,55.37,39.5,0,10.172
+2025,Junio,ENEL Bogotá - Cundinamarca,Nivel 1 (Propiedad Cliente),690.71,268.54,54.69,247.15,25.46,55.37,39.5,0,10.172
+2025,Junio,ENEL Bogotá - Cundinamarca,NIVEL II,625.83,268.54,54.69,187.57,56.44,19.1,39.5,30.98,10.172
+2025,Junio,ENEL Bogotá - Cundinamarca,NIVEL III,564.37,268.54,54.69,126.93,56.19,18.53,39.5,30.73,10.172
+2025,Junio,CELSIA Colombia - Valle del Cauca,Nivel 1 (Propiedad OR),769.23,269.3,54.69,266.01,85.52,54.2,39.5,55.94,16.75
+2025,Junio,CELSIA Colombia - Valle del Cauca,Nivel 1 (Propiedad Compartida),733.83,269.3,54.69,230.61,85.52,54.2,39.5,55.94,16.75
+2025,Junio,CELSIA Colombia - Valle del Cauca,Nivel 1 (Propiedad Cliente),698.42,269.3,54.69,195.21,85.52,54.2,39.5,55.94,16.75
+2025,Junio,CELSIA Colombia - Valle del Cauca,NIVEL II,570.79,269.3,54.69,154.28,29.58,23.44,39.5,0,16.75
+2025,Junio,CELSIA Colombia - Valle del Cauca,NIVEL III,508.39,269.3,54.69,95.15,29.58,20.17,39.5,0,16.75
+2025,Junio,CELSIA Colombia - Tolima,Nivel 1 (Propiedad OR),1003.57,307.03,54.69,299.85,217.19,79.58,45.23,101.4,10.474
+2025,Junio,CELSIA Colombia - Tolima,Nivel 1 (Propiedad Compartida),956.21,307.03,54.69,252.49,217.19,79.58,45.23,101.4,10.474
+2025,Junio,CELSIA Colombia - Tolima,Nivel 1 (Propiedad Cliente),908.85,307.03,54.69,205.13,217.19,79.58,45.23,101.4,10.474
+2025,Junio,CELSIA Colombia - Tolima,NIVEL II,742.27,307.03,54.69,187.57,111.83,35.92,45.23,0,10.474
+2025,Junio,CELSIA Colombia - Tolima,NIVEL III,672.59,307.03,54.69,126.93,111.83,26.89,45.23,0,10.474
+2025,Junio,EMCALI - Cali,Nivel 1 (Propiedad OR),698.06,269.68,54.69,266.01,22.44,45.73,39.5,0,9.601
+2025,Junio,EMCALI - Cali,Nivel 1 (Propiedad Compartida),683.84,269.68,54.69,251.8,22.44,45.73,39.5,0,9.601
+2025,Junio,EMCALI - Cali,Nivel 1 (Propiedad Cliente),669.62,269.68,54.69,237.58,22.44,45.73,39.5,0,9.601
+2025,Junio,EMCALI - Cali,NIVEL II,561.76,269.68,54.69,154.28,22.44,21.17,39.5,0,9.601
+2025,Junio,EMCALI - Cali,NIVEL III,501.26,269.68,54.69,95.15,22.44,19.81,39.5,0,9.601
+2025,Julio,ENEL Bogotá - Cundinamarca,Nivel 1 (Propiedad OR),785.65,300.8,53.84,296.33,25.07,60.44,49.18,0,10.181
+2025,Julio,ENEL Bogotá - Cundinamarca,Nivel 1 (Propiedad Compartida),759.46,300.8,53.84,270.13,25.07,60.44,49.18,0,10.181
+2025,Julio,ENEL Bogotá - Cundinamarca,Nivel 1 (Propiedad Cliente),733.27,300.8,53.84,243.94,25.07,60.44,49.18,0,10.181
+2025,Julio,ENEL Bogotá - Cundinamarca,NIVEL II,676.97,300.8,53.84,193.15,59.41,20.6,49.18,34.34,10.181
+2025,Julio,ENEL Bogotá - Cundinamarca,NIVEL III,604.33,300.8,53.84,130.57,49.99,19.96,49.18,24.92,10.181
+2025,Julio,CELSIA Colombia - Valle del Cauca,Nivel 1 (Propiedad OR),819.88,300.4,53.84,273.21,84.36,58.9,49.18,57.35,16.764
+2025,Julio,CELSIA Colombia - Valle del Cauca,Nivel 1 (Propiedad Compartida),784.66,300.4,53.84,237.99,84.36,58.9,49.18,57.35,16.764
+2025,Julio,CELSIA Colombia - Valle del Cauca,Nivel 1 (Propiedad Cliente),749.44,300.4,53.84,202.77,84.36,58.9,49.18,57.35,16.764
+2025,Julio,CELSIA Colombia - Valle del Cauca,NIVEL II,615.63,300.4,53.84,159.98,27.01,25.23,49.18,0,16.764
+2025,Julio,CELSIA Colombia - Valle del Cauca,NIVEL III,550.91,300.4,53.84,98.83,27.01,21.66,49.18,0,16.764
+2025,Julio,CELSIA Colombia - Tolima,Nivel 1 (Propiedad OR),1020.65,306.54,53.84,296.33,209.5,79.34,75.11,0,10.508
+2025,Julio,CELSIA Colombia - Tolima,Nivel 1 (Propiedad Compartida),973.63,306.54,53.84,249.3,209.5,79.34,75.11,0,10.508
+2025,Julio,CELSIA Colombia - Tolima,Nivel 1 (Propiedad Cliente),926.6,306.54,53.84,202.28,209.5,79.34,75.11,0,10.508
+2025,Julio,CELSIA Colombia - Tolima,NIVEL II,772.5,306.54,53.84,193.15,108.1,35.77,75.11,0,10.508
+2025,Julio,CELSIA Colombia - Tolima,NIVEL III,700.91,306.54,53.84,130.57,108.1,26.76,75.11,0,10.508
+2025,Julio,EMCALI - Cali,Nivel 1 (Propiedad OR),749.95,301.72,53.84,273.21,22.22,49.78,49.18,0,9.64
+2025,Julio,EMCALI - Cali,Nivel 1 (Propiedad Compartida),735.76,301.72,53.84,259.02,22.22,49.78,49.18,0,9.64
+2025,Julio,EMCALI - Cali,Nivel 1 (Propiedad Cliente),721.57,301.72,53.84,244.83,22.22,49.78,49.18,0,9.64
+2025,Julio,EMCALI - Cali,NIVEL II,609.77,301.72,53.84,159.98,22.22,22.83,49.18,0,9.64
+2025,Julio,EMCALI - Cali,NIVEL III,547.12,301.72,53.84,98.83,22.22,21.33,49.18,0,9.64
+2025,Agosto,ENEL Bogotá - Cundinamarca,Nivel 1 (Propiedad OR),781.04,300.59,56.93,290.01,26.39,60.3,46.81,0,10.208
+2025,Agosto,ENEL Bogotá - Cundinamarca,Nivel 1 (Propiedad Compartida),754.75,300.59,56.93,263.72,26.39,60.3,46.81,0,10.208
+2025,Agosto,ENEL Bogotá - Cundinamarca,Nivel 1 (Propiedad Cliente),728.46,300.59,56.93,237.42,26.39,60.3,46.81,0,10.208
+2025,Agosto,ENEL Bogotá - Cundinamarca,NIVEL II,672.08,300.59,56.93,190.05,57.43,20.25,46.81,31.04,10.208
+2025,Agosto,ENEL Bogotá - Cundinamarca,NIVEL III,609.07,300.59,56.93,127.12,58.01,19.6,46.81,31.62,10.208
+2025,Agosto,CELSIA Colombia - Valle del Cauca,Nivel 1 (Propiedad OR),762.11,300.4,56.93,270.2,28.98,58.77,46.81,0,16.81
+2025,Agosto,CELSIA Colombia - Valle del Cauca,Nivel 1 (Propiedad Compartida),726.74,300.4,56.93,234.84,28.98,58.77,46.81,0,16.81
+2025,Agosto,CELSIA Colombia - Valle del Cauca,Nivel 1 (Propiedad Cliente),691.37,300.4,56.93,199.47,28.98,58.77,46.81,0,16.81
+2025,Agosto,CELSIA Colombia - Valle del Cauca,NIVEL II,615.26,300.4,56.93,157.22,28.98,24.91,46.81,0,16.81
+2025,Agosto,CELSIA Colombia - Valle del Cauca,NIVEL III,552.08,300.4,56.93,97.63,28.98,21.32,46.81,0,16.81
+2025,Agosto,CELSIA Colombia - Tolima,Nivel 1 (Propiedad OR),1013.17,308.84,56.93,290.01,208.5,79.67,69.22,0,10.519
+2025,Agosto,CELSIA Colombia - Tolima,Nivel 1 (Propiedad Compartida),965.91,308.84,56.93,242.74,208.5,79.67,69.22,0,10.519
+2025,Agosto,CELSIA Colombia - Tolima,Nivel 1 (Propiedad Cliente),918.64,308.84,56.93,195.47,208.5,79.67,69.22,0,10.519
+2025,Agosto,CELSIA Colombia - Tolima,NIVEL II,768.83,308.84,56.93,190.05,108.46,35.32,69.22,0,10.519
+2025,Agosto,CELSIA Colombia - Tolima,NIVEL III,697.05,308.84,56.93,127.12,108.46,26.47,69.22,0,10.519
+2025,Agosto,EMCALI - Cali,Nivel 1 (Propiedad OR),748.98,301.56,56.93,270.2,23.88,49.59,46.81,0,9.677
+2025,Agosto,EMCALI - Cali,Nivel 1 (Propiedad Compartida),734.7,301.56,56.93,255.92,23.88,49.59,46.81,0,9.677
+2025,Agosto,EMCALI - Cali,Nivel 1 (Propiedad Cliente),720.42,301.56,56.93,241.64,23.88,49.59,46.81,0,9.677
+2025,Agosto,EMCALI - Cali,NIVEL II,608.91,301.56,56.93,157.22,23.88,22.5,46.81,0,9.677
+2025,Agosto,EMCALI - Cali,NIVEL III,547.8,301.56,56.93,97.63,23.88,20.99,46.81,0,9.677
+2025,Septiembre,ENEL Bogotá - Cundinamarca,Nivel 1 (Propiedad OR),781.48,306.03,51.66,305.19,26.31,61.83,30.46,0,10.227
+2025,Septiembre,ENEL Bogotá - Cundinamarca,Nivel 1 (Propiedad Compartida),755.07,306.03,51.66,278.78,26.31,61.83,30.46,0,10.227
+2025,Septiembre,ENEL Bogotá - Cundinamarca,Nivel 1 (Propiedad Cliente),728.66,306.03,51.66,252.37,26.31,61.83,30.46,0,10.227
+2025,Septiembre,ENEL Bogotá - Cundinamarca,NIVEL II,662.24,306.03,51.66,194.24,58.36,21.5,30.46,32.05,10.227
+2025,Septiembre,ENEL Bogotá - Cundinamarca,NIVEL III,589.72,306.03,51.66,130.16,50.56,20.85,30.46,24.25,10.227
+2025,Septiembre,CELSIA Colombia - Valle del Cauca,Nivel 1 (Propiedad OR),739.21,305.8,51.66,261.97,29.03,60.29,30.46,0,16.841
+2025,Septiembre,CELSIA Colombia - Valle del Cauca,Nivel 1 (Propiedad Compartida),703.77,305.8,51.66,226.53,29.03,60.29,30.46,0,16.841
+2025,Septiembre,CELSIA Colombia - Valle del Cauca,Nivel 1 (Propiedad Cliente),668.33,305.8,51.66,191.09,29.03,60.29,30.46,0,16.841
+2025,Septiembre,CELSIA Colombia - Valle del Cauca,NIVEL II,600.26,305.8,51.66,157.12,29.03,26.19,30.46,0,16.841
+2025,Septiembre,CELSIA Colombia - Valle del Cauca,NIVEL III,535.33,305.8,51.66,95.8,29.03,22.58,30.46,0,16.841
+2025,Septiembre,EMCALI - Cali,Nivel 1 (Propiedad OR),725.89,306.98,51.66,261.97,23.73,51.08,30.46,0,9.721
+2025,Septiembre,EMCALI - Cali,Nivel 1 (Propiedad Compartida),711.54,306.98,51.66,247.63,23.73,51.08,30.46,0,9.721
+2025,Septiembre,EMCALI - Cali,Nivel 1 (Propiedad Cliente),697.2,306.98,51.66,233.28,23.73,51.08,30.46,0,9.721
+2025,Septiembre,EMCALI - Cali,NIVEL II,593.75,306.98,51.66,157.12,23.73,23.8,30.46,0,9.721
+2025,Septiembre,EMCALI - Cali,NIVEL III,530.9,306.98,51.66,95.8,23.73,22.27,30.46,0,9.721

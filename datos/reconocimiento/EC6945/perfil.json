@@ -8,8 +8,8 @@
       "distintos": 3,
       "valores": {
         "PB_Int": 6600,
-        "PB_Tie": 6600,
-        "PB_Nal": 6600
+        "PB_Nal": 6600,
+        "PB_Tie": 6600
       }
     },
     "FechaHora": {
@@ -40,10 +40,10 @@
       "nulos": 0,
       "distintos": 5,
       "valores": {
-        "TXR": 4392,
-        "TX2": 4392,
         "TXF": 4392,
+        "TX2": 4392,
         "TX1": 4392,
+        "TXR": 4392,
         "TX3": 2232
       }
     },
@@ -53,7 +53,7 @@
       "distintos": 4128,
       "min": 88.19,
       "max": 1846.7316,
-      "suma": 11488483.996199999
+      "suma": 11488483.9962
     }
   },
   "filas_por_ventana": {

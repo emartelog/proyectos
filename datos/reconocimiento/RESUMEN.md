@@ -1,6 +1,6 @@
-# Reconocimiento de fuentes SIMEM
+# Reconocimiento de fuentes
 
-Ejecutado: 2026-10-24 17:52 UTC · fecha de referencia 2026-10-24
+Ejecutado: 2026-10-24 18:07 UTC · fecha de referencia 2026-10-24
 
 | ID | Dataset | Granularidad | Filas | Duplicadas | Versiones | Estado |
 |---|---|---|---:|---:|---|---|
@@ -17,6 +17,7 @@ Ejecutado: 2026-10-24 17:52 UTC · fecha de referencia 2026-10-24
 | 43D616 | Precio de escasez ponderado | Diaria | 275 | 0 | TX1:61, TX2:61, TX3:31, TXF:61, TXR:61 | ok |
 | BA1C55 | Aportes Hídricos en Energía | Diaria | 2,684 | 0 | — | ok |
 | 8E7F3C | Generación ideal nacional por planta | Horaria | 4,010,016 | 0 | TX1:896928, TX2:897048, TX3:421080, TXF:897480, TXR:897480 | ok |
+| datos.gov.co/ytme-6qnu | Tarifas y Costos de Energía Eléctrica para el Mercado Regulado (E.S.P. Empresas Públicas de Medellín - EPM, Antioquia) | — | 415 | 0 | — | ok |
 
 ## Columnas por dataset
 
@@ -33,6 +34,7 @@ Ejecutado: 2026-10-24 17:52 UTC · fecha de referencia 2026-10-24
 - **43D616**: CodigoVariable, FechaInicio, CodigoDuracion, UnidadMedida, Version, Valor
 - **BA1C55**: FechaPublicacion, Fecha, CodigoSerieHidrologica, RegionHidrologica, AportesHidricosEnergia, PromedioAcumuladoEnergia, MediaHistoricaEnergia
 - **8E7F3C**: CodigoVariable, FechaHora, CodigoDuracion, UnidadMedida, CodigoPlanta, Version, Valor
+- **datos.gov.co/ytme-6qnu**: a_o, periodo, operador_de_red, nivel, cu_total, costo_compra_gm_i, cargo_transporte_stn_tm, cargo_transporte_sdl_dn_m, margen_comercializaci_n_cvm, costo_g_t_p_rdidas_prn_m, restricciones_rm, cot, cfm_j_fact
 
 ## Candidatos en el catálogo (142)
 

@@ -39,8 +39,8 @@
       "nulos": 0,
       "distintos": 5,
       "valores": {
-        "TX2": 122,
         "TXR": 122,
+        "TX2": 122,
         "TXF": 122,
         "TX3": 62,
         "TX1": 61
@@ -52,7 +52,7 @@
       "distintos": 489,
       "min": 176.7445,
       "max": 1009.8391,
-      "suma": 285915.16630000004
+      "suma": 285915.1663
     }
   },
   "filas_por_ventana": {
