@@ -64,6 +64,12 @@ datasets:
     rol: hecho
     uso: Generación por planta y tecnología.
 
+# Portal de datos abiertos de Colombia (datos.gov.co). IDs con formato xxxx-xxxx.
+datos_abiertos:
+  - id: "ytme-6qnu"
+    nombre: Precio de la energía (por identificar)
+    uso: En evaluación. Ver si complementa o duplica SIMEM.
+
 # Palabras clave para buscar en el catálogo maestros adicionales (agentes, recursos, hidrología).
 busqueda_catalogo:
   - agente

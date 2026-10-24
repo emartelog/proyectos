@@ -28,12 +28,14 @@ from pathlib import Path
 import pandas as pd
 import yaml
 
+from radar_energia.datos_abiertos import ClienteDatosAbiertos
 from radar_energia.perfil import perfilar
 from radar_energia.simem import ClienteSimem
 
 log = logging.getLogger("reconocimiento")
 
 FILAS_MUESTRA = 500
+MAX_FILAS_ABIERTOS = 200_000
 MESES_HISTORIA_VERSIONES = 12
 
 
@@ -85,19 +87,9 @@ def reconocer_dataset(
                 df["_ventana"] = etiqueta
                 marcos.append(df)
     df = pd.concat(marcos, ignore_index=True) if marcos else pd.DataFrame()
-
-    perfil = perfilar(df.drop(columns="_ventana", errors="ignore"))
-    perfil["filas_por_ventana"] = (
-        df["_ventana"].value_counts().to_dict() if "_ventana" in df else {}
-    )
+    perfil = documentar(df, ds_id, carpeta, crudo)
     perfil["granularidad"] = granularidad
     (carpeta / "perfil.json").write_text(json.dumps(perfil, ensure_ascii=False, indent=2))
-
-    if not df.empty:
-        crudo.mkdir(parents=True, exist_ok=True)
-        df.to_parquet(crudo / f"{ds_id}.parquet", index=False)
-        muestra = df.sample(n=min(FILAS_MUESTRA, len(df)), random_state=0).sort_index()
-        muestra.to_csv(carpeta / "muestra.csv", index=False)
 
     versiones = (perfil["columnas"].get("Version") or {}).get("valores", {})
     return {
@@ -108,6 +100,50 @@ def reconocer_dataset(
         "duplicadas": perfil["filas_duplicadas"],
         "columnas": list(perfil["columnas"]),
         "versiones": versiones,
+        "estado": "ok" if perfil["filas"] else "sin datos",
+    }
+
+
+def documentar(df: pd.DataFrame, ds_id: str, carpeta: Path, crudo: Path) -> dict:
+    """Perfila ``df``, guarda la muestra en ``carpeta`` y el dato completo en ``crudo``."""
+    perfil = perfilar(df.drop(columns="_ventana", errors="ignore"))
+    perfil["filas_por_ventana"] = (
+        df["_ventana"].value_counts().to_dict() if "_ventana" in df else {}
+    )
+    (carpeta / "perfil.json").write_text(json.dumps(perfil, ensure_ascii=False, indent=2))
+    if not df.empty:
+        crudo.mkdir(parents=True, exist_ok=True)
+        df.to_parquet(crudo / f"{ds_id}.parquet", index=False)
+        muestra = df.sample(n=min(FILAS_MUESTRA, len(df)), random_state=0).sort_index()
+        muestra.to_csv(carpeta / "muestra.csv", index=False)
+    return perfil
+
+
+def reconocer_datos_abiertos(
+    cliente: ClienteDatosAbiertos, dataset: dict, salida: Path, crudo: Path
+) -> dict:
+    """Reconoce un dataset de datos.gov.co: metadatos y hasta MAX_FILAS_ABIERTOS registros."""
+    ds_id = dataset["id"]
+    carpeta = salida / f"datos_gov_{ds_id}"
+    carpeta.mkdir(parents=True, exist_ok=True)
+    meta = cliente.metadatos(ds_id)
+    (carpeta / "metadatos.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2))
+
+    paginas = list(cliente.registros(ds_id, limite=MAX_FILAS_ABIERTOS))
+    df = pd.DataFrame.from_records([r for p in paginas for r in p])
+    perfil = documentar(df, f"datos_gov_{ds_id}", carpeta, crudo)
+    perfil["publicado_por"] = meta.get("attribution")
+    perfil["descripcion"] = meta.get("description")
+    perfil["filas_totales_portal"] = meta.get("rowCount")  # no siempre viene
+    (carpeta / "perfil.json").write_text(json.dumps(perfil, ensure_ascii=False, indent=2))
+    return {
+        "id": f"datos.gov.co/{ds_id}",
+        "nombre": f"{meta.get('name')} ({meta.get('attribution') or 'sin entidad'})",
+        "granularidad": "—",
+        "filas": perfil["filas"],
+        "duplicadas": perfil["filas_duplicadas"],
+        "columnas": list(perfil["columnas"]),
+        "versiones": {},
         "estado": "ok" if perfil["filas"] else "sin datos",
     }
 
@@ -132,7 +168,7 @@ def escribir_resumen(
     salida: Path, hoy: dt.date, resultados: list[dict], candidatos: list[dict], errores: dict
 ) -> None:
     lineas = [
-        "# Reconocimiento de fuentes SIMEM",
+        "# Reconocimiento de fuentes",
         "",
         f"Ejecutado: {dt.datetime.now(dt.UTC):%Y-%m-%d %H:%M} UTC · fecha de referencia {hoy}",
         "",
@@ -198,6 +234,16 @@ def main(argv: list[str] | None = None) -> int:
         except Exception as e:
             log.exception("Fallo en %s", dataset["id"])
             errores[dataset["id"].upper()] = str(e)
+
+    cliente_abiertos = ClienteDatosAbiertos()
+    for dataset in config.get("datos_abiertos", []):
+        try:
+            resultados.append(
+                reconocer_datos_abiertos(cliente_abiertos, dataset, args.salida, args.crudo)
+            )
+        except Exception as e:
+            log.exception("Fallo en datos.gov.co/%s", dataset["id"])
+            errores[f"datos.gov.co/{dataset['id']}"] = str(e)
 
     escribir_resumen(args.salida, args.hoy, resultados, candidatos, errores)
     log.info("Listo: %d datasets ok, %d con error", len(resultados), len(errores))

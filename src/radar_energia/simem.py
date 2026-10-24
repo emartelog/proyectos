@@ -12,14 +12,13 @@ Endpoints:
 from __future__ import annotations
 
 import datetime as dt
-import logging
-import time
 from collections.abc import Iterator
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 
-import requests
+from radar_energia._http import ClienteHttp, ErrorFuente
 
-log = logging.getLogger(__name__)
+# Alias conservado por compatibilidad con el código y las pruebas existentes.
+ErrorSimem = ErrorFuente
 
 BASE_URL = "https://www.simem.co/backend-files/api"
 FECHA_REFERENCIA = "1990-01-01"
@@ -41,14 +40,6 @@ OPERADORES = {
     "between": "btw",
     "!between": "nbtw",
 }
-
-
-class ErrorSimem(RuntimeError):
-    """Error al consultar la API de SIMEM."""
-
-
-class _Reintentable(Exception):
-    """Falla transitoria (5xx, 429): se reintenta con espera exponencial."""
 
 
 @dataclass(frozen=True)
@@ -89,39 +80,10 @@ def ventanas_consulta(
 
 
 @dataclass
-class ClienteSimem:
-    """Cliente HTTP con reintentos exponenciales para SIMEM."""
+class ClienteSimem(ClienteHttp):
+    """Cliente de la API pública de SIMEM."""
 
     base_url: str = BASE_URL
-    reintentos: int = 4
-    espera_base: float = 2.0
-    timeout: int = 180
-    sesion: requests.Session = field(default_factory=requests.Session)
-
-    def __post_init__(self) -> None:
-        self.sesion.headers.setdefault("User-Agent", "radar-energia/0.1 (+github)")
-
-    # --- HTTP ---------------------------------------------------------------
-    def _solicitar(self, metodo: str, url: str, **kwargs):
-        ultimo_error: Exception | None = None
-        for intento in range(self.reintentos + 1):
-            try:
-                resp = self.sesion.request(metodo, url, timeout=self.timeout, **kwargs)
-                if resp.status_code == 429 or resp.status_code >= 500:
-                    raise _Reintentable(f"HTTP {resp.status_code} en {url}")
-                if resp.status_code >= 400:
-                    # Un 4xx indica una solicitud mal formada: reintentar no ayuda.
-                    raise ErrorSimem(f"HTTP {resp.status_code} en {url}: {resp.text[:300]}")
-                return resp.json()
-            except (_Reintentable, requests.RequestException, ValueError) as e:
-                ultimo_error = e
-            if intento < self.reintentos:
-                espera = self.espera_base * 2**intento
-                log.warning("Fallo (%s). Reintento %d en %.0fs", ultimo_error, intento + 1, espera)
-                time.sleep(espera)
-        raise ErrorSimem(
-            f"Sin respuesta válida tras {self.reintentos + 1} intentos: {ultimo_error}"
-        )
 
     # --- Metadatos y catálogos --------------------------------------------
     def metadatos(self, dataset_id: str) -> dict:
@@ -130,7 +92,7 @@ class ClienteSimem:
         datos = self._solicitar("GET", url)
         resultado = datos.get("result") or {}
         if not resultado:
-            raise ErrorSimem(f"Dataset {dataset_id} sin metadatos: {datos.get('message')}")
+            raise ErrorFuente(f"Dataset {dataset_id} sin metadatos: {datos.get('message')}")
         return resultado
 
     def catalogo(self, catalogo_id: str) -> list[dict]:
@@ -173,4 +135,4 @@ def _extraer_registros(datos) -> list[dict]:
             return resultado.get("records", [])
         if isinstance(resultado, list):
             return resultado
-    raise ErrorSimem(f"Formato de respuesta inesperado: {type(datos).__name__}")
+    raise ErrorFuente(f"Formato de respuesta inesperado: {type(datos).__name__}")
