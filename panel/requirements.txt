@@ -1,0 +1,5 @@
+# Dependencias del panel (Streamlit Community Cloud las lee de aquí).
+streamlit>=1.40
+plotly>=5.24
+pandas>=2.2
+pyarrow>=15

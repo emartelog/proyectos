@@ -21,6 +21,7 @@ radar-reconocimiento = "radar_energia.reconocimiento:main"
 
 [project.optional-dependencies]
 dev = ["pytest>=8", "ruff>=0.5"]
+panel = ["streamlit>=1.40", "plotly>=5.24"]
 
 [tool.setuptools.packages.find]
 where = ["src"]

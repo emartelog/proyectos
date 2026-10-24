@@ -28,7 +28,8 @@ SIMEM (API pública) ──► Ingesta ──► Crudo ──► Estandarizado �
 | Carga histórica desde 2021 en tramos | ✅ workflow `carga-historica.yml` · `config/carga_historica.yml` |
 | Instalación y tarea programada en Windows | ✅ `scripts/windows/` · [guía](docs/instalacion-windows.md) |
 | Pruebas en Linux y Windows (CI) | ✅ workflow `ci.yml` |
-| Panel (Streamlit) y primera nota estratégica | ⏳ |
+| Panel en Streamlit: mercado, comercializadoras y grandes consumidores, con simuladores | ✅ `panel/app.py` |
+| Primera nota estratégica | ⏳ |
 
 Las decisiones de diseño están en [`docs/decisiones.md`](docs/decisiones.md) y la propuesta del
 dato maestro en [`docs/modelo-dato-maestro.md`](docs/modelo-dato-maestro.md).
@@ -40,6 +41,7 @@ pip install -e ".[dev]"
 pytest -q
 python -m radar_energia.mensual                      # actualización mensual
 python -m radar_energia.mensual --desde 2021-01      # carga histórica
+pip install -e ".[panel]" && streamlit run panel/app.py   # panel
 ```
 
 En Windows, ver la [guía de instalación](docs/instalacion-windows.md).

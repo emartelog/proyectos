@@ -304,13 +304,6 @@ class ClienteSintetico:
         yield (inicio, fin), _registros(dataset, inicio, fin)
 
 
-@pytest.fixture
-def cliente(monkeypatch):
-    c = ClienteSintetico()
-    monkeypatch.setattr("radar_energia.ingesta.ClienteSimem", lambda: c)
-    return c
-
-
 def _correr(tmp_path, *extra, raiz="datos"):
     return mensual.main(
         [
