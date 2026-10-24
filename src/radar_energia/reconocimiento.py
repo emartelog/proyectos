@@ -121,7 +121,7 @@ def reconocer_catalogos(cliente: ClienteSimem, config: dict, salida: Path) -> li
         log.info("Catálogo %s: %d registros", nombre, len(df))
         if nombre != "datasets" or df.empty:
             continue
-        texto = df.astype(str).agg(" ".join, axis=1).str.lower()
+        texto = df.fillna("").astype(str).agg(" ".join, axis=1).str.lower()
         patron = "|".join(re.escape(p) for p in config.get("busqueda_catalogo", []))
         if patron:
             candidatos = df[texto.str.contains(patron)].to_dict(orient="records")

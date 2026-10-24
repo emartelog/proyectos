@@ -39,3 +39,18 @@ def test_perfilar():
     assert p["columnas"]["Fecha"]["min"].startswith("2026-09-01")
     assert p["columnas"]["Version"]["valores"] == {"TX2": 2, "TX1": 1}
     assert p["columnas"]["Valor"]["nulos"] == 2 and p["columnas"]["Valor"]["suma"] == 100.0
+
+
+def test_catalogo_tolera_nulos(tmp_path):
+    from radar_energia.reconocimiento import reconocer_catalogos
+
+    class Cliente:
+        def catalogo(self, _):
+            return [
+                {"idDataset": "C8381F", "nombre": "Cantidad en contratos", "finDato": None},
+                {"idDataset": "AAA111", "nombre": "Otro", "finDato": "2026-10-01"},
+            ]
+
+    config = {"catalogos": {"datasets": "e007fb"}, "busqueda_catalogo": ["contrato"]}
+    candidatos = reconocer_catalogos(Cliente(), config, tmp_path)
+    assert [c["idDataset"] for c in candidatos] == ["C8381F"]

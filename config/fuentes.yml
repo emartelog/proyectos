@@ -17,6 +17,10 @@ datasets:
     nombre: Parámetros técnicos de las plantas de generación
     rol: maestro
     uso: Plantas, agente propietario, tecnología y capacidad.
+  - id: 972263
+    nombre: Listado de agentes registrados
+    rol: maestro
+    uso: Agentes del mercado (código SIC, nombre, actividad).
 
   # --- Hechos ---
   - id: 96D56E
@@ -38,7 +42,19 @@ datasets:
   - id: D31647
     nombre: Cantidades y precios en contratos por comercializador
     rol: hecho
-    uso: Cobertura en contratos y su precio.
+    uso: Precio de los contratos por comprador, mecanismo y mercado (sin cantidades).
+  - id: C8381F
+    nombre: Cantidad de compra despachada en contratos de largo plazo
+    rol: hecho
+    uso: Cantidades en contratos, para ponderar el precio de contrato por energía.
+  - id: 43D616
+    nombre: Precio de escasez ponderado
+    rol: hecho
+    uso: Referencia regulatoria frente al precio de bolsa.
+  - id: BA1C55
+    nombre: Aportes hídricos en energía
+    rol: hecho
+    uso: Hidrología, el principal motor del precio de bolsa.
   - id: 8E7F3C
     nombre: Generación ideal nacional por planta
     rol: hecho
