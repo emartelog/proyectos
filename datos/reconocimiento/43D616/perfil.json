@@ -1,0 +1,70 @@
+{
+  "filas": 275,
+  "filas_duplicadas": 0,
+  "columnas": {
+    "CodigoVariable": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 1,
+      "valores": {
+        "PrecioEscasezPonderado": 275
+      }
+    },
+    "FechaInicio": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 61,
+      "min": "2026-05-01 00:00:00",
+      "max": "2026-09-30 00:00:00"
+    },
+    "CodigoDuracion": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 1,
+      "valores": {
+        "P1D": 275
+      }
+    },
+    "UnidadMedida": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 1,
+      "valores": {
+        "COP/kWh": 275
+      }
+    },
+    "Version": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 5,
+      "valores": {
+        "TXR": 61,
+        "TXF": 61,
+        "TX2": 61,
+        "TX1": 61,
+        "TX3": 31
+      }
+    },
+    "Valor": {
+      "tipo": "float64",
+      "nulos": 0,
+      "distintos": 6,
+      "min": 890.7897,
+      "max": 1121.4693,
+      "suma": 253424.99569999997,
+      "valores": {
+        "897.7643": 122,
+        "891.4371": 89,
+        "890.7897": 30,
+        "1117.9258": 18,
+        "1121.4693": 15,
+        "891.4543": 1
+      }
+    }
+  },
+  "filas_por_ventana": {
+    "mes_maduro": 155,
+    "mes_reciente": 120
+  },
+  "granularidad": "Diaria"
+}

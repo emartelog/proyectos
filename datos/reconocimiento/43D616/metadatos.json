@@ -1,0 +1,66 @@
+{
+  "idDataset": "43D616",
+  "name": "Precio de escasez ponderado",
+  "metadata": {
+    "description": "Precio de escasez ponderado del sistema, en COP/kWh. Este concepto es calculado de acuerdo a la Res. CREG 140 de 2017 por la cual se define el precio marginal de escasez del Cargo por Confiabilidad.",
+    "creationDate": "2025-03-07 16:09:33",
+    "lastUpdate": "2026-10-24 06:41:38",
+    "nextUpdateDate": "2026-10-25 04:00:00",
+    "entity": "XM",
+    "category": "Precio de escasez ponderado",
+    "periodicity": "Diaria",
+    "granularity": "Diaria",
+    "historicData": "NA",
+    "private": false,
+    "ultimaNovedad": null
+  },
+  "filterDate": "FechaInicio",
+  "records": null,
+  "variables": [
+    {
+      "variableCode": "PrecioEscasezPonderado",
+      "variableName": "Precios de escasez promedio ponderado por sistema",
+      "measurementUnit": "COP/kWh",
+      "description": "Precios de escasez promedio ponderado por sistema"
+    }
+  ],
+  "columns": [
+    {
+      "nameColumn": "CodigoVariable",
+      "dataType": "texto",
+      "description": "Código de la variable"
+    },
+    {
+      "nameColumn": "Valor",
+      "dataType": "decimal",
+      "description": "Valor de la variable (escala de 4 cifras)"
+    },
+    {
+      "nameColumn": "UnidadMedida",
+      "dataType": "texto",
+      "description": "Unidad de medida en la que se encuentra la variable"
+    },
+    {
+      "nameColumn": "FechaInicio",
+      "dataType": "fecha",
+      "description": "Fecha de inicio del dato"
+    },
+    {
+      "nameColumn": "Version",
+      "dataType": "texto",
+      "description": "Versión de la liquidación"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    }
+  ],
+  "tags": [
+    {
+      "id": "551395c9-c094-413a-a029-deadb59b926f",
+      "name": "SIMEM",
+      "estado": true
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "idDataset": "972263",
+  "name": "Listado de agentes registrados",
+  "metadata": {
+    "description": "Contiene el listado de agentes registrados en el mercado por actividad y para cada día",
+    "creationDate": "2023-09-29 23:27:37",
+    "lastUpdate": "2026-10-24 08:20:26",
+    "nextUpdateDate": "2026-10-25 08:00:00",
+    "entity": "XM",
+    "category": "Listado de agentes registrados",
+    "periodicity": "Diaria",
+    "granularity": "Diaria",
+    "historicData": "NA",
+    "private": false,
+    "ultimaNovedad": null
+  },
+  "filterDate": "Fecha",
+  "records": null,
+  "variables": [],
+  "columns": [
+    {
+      "nameColumn": "CodigoSICAgente",
+      "dataType": "texto",
+      "description": "Código del agente asignado por el ASIC"
+    },
+    {
+      "nameColumn": "NombreAgente",
+      "dataType": "texto",
+      "description": "Nombre de agente registrado"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    },
+    {
+      "nameColumn": "ActividadAgente",
+      "dataType": "texto",
+      "description": "Actividad del agente"
+    }
+  ],
+  "tags": [
+    {
+      "id": "0c7bbaf4-44c2-4b81-8eae-a41da905c3e7",
+      "name": "Agente",
+      "estado": true
+    }
+  ]
+}

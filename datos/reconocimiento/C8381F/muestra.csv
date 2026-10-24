@@ -1,0 +1,501 @@
+CodigoVariable,FechaHora,CodigoDuracion,UnidadMedida,CodigoSICAgente,TipoMercado,Version,Valor,_ventana
+DespachoTotalContratoLPCompra,2026-09-20T04:00:00,PT1H,kWh,ESNC,No Regulado,TX2,0.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-20T19:00:00,PT1H,kWh,STOC,No Regulado,TX2,5.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-20T14:00:00,PT1H,kWh,CIEC,No Regulado,TX2,0.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-20T09:00:00,PT1H,kWh,EVTG,No Regulado,TX2,5.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-20T09:00:00,PT1H,kWh,SOEC,No Regulado,TX2,147996.11,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-20T09:00:00,PT1H,kWh,NRCC,Regulado,TXR,0.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-20T18:00:00,PT1H,kWh,SFEC,No Regulado,TXR,17572.63,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-20T03:00:00,PT1H,kWh,PRYC,No Regulado,TXR,63427.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-20T00:00:00,PT1H,kWh,BIAC,Regulado,TXF,19586.62,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-05T03:00:00,PT1H,kWh,HIMG,No Regulado,TXF,100000.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-05T19:00:00,PT1H,kWh,EVTG,No Regulado,TXF,5.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-05T09:00:00,PT1H,kWh,LMEC,No Regulado,TX2,15242.24,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-05T22:00:00,PT1H,kWh,AMRC,No Regulado,TX2,69134.32,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-05T23:00:00,PT1H,kWh,CERC,No Regulado,TX2,3472.22,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-05T08:00:00,PT1H,kWh,TRPC,No Regulado,TXR,842.08,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-05T02:00:00,PT1H,kWh,EMIC,No Regulado,TXR,63807.65,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-27T23:00:00,PT1H,kWh,FERC,No Regulado,TXR,54936.04,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-27T01:00:00,PT1H,kWh,GNCG,No Regulado,TXF,29869.63,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-27T12:00:00,PT1H,kWh,ENBC,No Regulado,TXF,6345.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-27T11:00:00,PT1H,kWh,PEEC,Regulado,TXF,674.82,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-27T08:00:00,PT1H,kWh,EEPC,No Regulado,TXF,56235.69,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-27T19:00:00,PT1H,kWh,GECG,No Regulado,TXF,100000.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-27T04:00:00,PT1H,kWh,HZEC,No Regulado,TX2,113.34,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-15T19:00:00,PT1H,kWh,ASCC,Regulado,TX2,2774.42,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-15T20:00:00,PT1H,kWh,TPLC,No Regulado,TX2,9755.23,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-15T07:00:00,PT1H,kWh,PEEC,No Regulado,TX2,19014.84,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-15T21:00:00,PT1H,kWh,GCMG,No Regulado,TXF,0.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-15T00:00:00,PT1H,kWh,RTQC,No Regulado,TXR,128458.09,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-15T01:00:00,PT1H,kWh,COXG,No Regulado,TXR,0.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-29T12:00:00,PT1H,kWh,BTGC,No Regulado,TXR,557118.81,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-29T22:00:00,PT1H,kWh,NEUC,Regulado,TX2,41910.65,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-29T14:00:00,PT1H,kWh,SFEC,No Regulado,TX2,28768.97,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-29T04:00:00,PT1H,kWh,EPSC,No Regulado,TX2,249732.14,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-29T20:00:00,PT1H,kWh,GPEC,No Regulado,TX2,120.45,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-29T18:00:00,PT1H,kWh,ELIG,No Regulado,TX2,57864.69,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-29T02:00:00,PT1H,kWh,RTQC,No Regulado,TXF,128458.09,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-29T16:00:00,PT1H,kWh,ITLC,Regulado,TXF,122.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-29T02:00:00,PT1H,kWh,CTEC,No Regulado,TXF,0.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-29T20:00:00,PT1H,kWh,GECC,No Regulado,TXF,414217.53,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-16T01:00:00,PT1H,kWh,EGTC,No Regulado,TXR,15543.84,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-16T05:00:00,PT1H,kWh,TPLC,No Regulado,TXR,7844.76,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-16T20:00:00,PT1H,kWh,VESC,No Regulado,TX2,3146.84,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-16T08:00:00,PT1H,kWh,SPRC,No Regulado,TX2,35140.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-16T18:00:00,PT1H,kWh,EGVC,Regulado,TXF,11961.52,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-16T16:00:00,PT1H,kWh,EEPC,Regulado,TXF,84207.57,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-16T23:00:00,PT1H,kWh,TUSC,No Regulado,TXF,0.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-01T02:00:00,PT1H,kWh,TENC,No Regulado,TXR,20193.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-01T07:00:00,PT1H,kWh,TPLC,No Regulado,TXR,22275.22,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-01T17:00:00,PT1H,kWh,CETC,Regulado,TXF,18219.73,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-01T02:00:00,PT1H,kWh,BEIC,No Regulado,TXF,9258.31,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-01T05:00:00,PT1H,kWh,IAEC,No Regulado,TXF,13081.07,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-01T04:00:00,PT1H,kWh,COLC,No Regulado,TXF,3700.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-01T14:00:00,PT1H,kWh,EPTC,No Regulado,TXF,32031.81,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-01T19:00:00,PT1H,kWh,NMRC,No Regulado,TXF,0.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-01T10:00:00,PT1H,kWh,STOC,No Regulado,TXF,5.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-01T15:00:00,PT1H,kWh,GPEC,No Regulado,TX2,115.44,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-01T04:00:00,PT1H,kWh,ENDG,No Regulado,TX2,158247.17,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-01T03:00:00,PT1H,kWh,AMPC,No Regulado,TX2,26800.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-07T17:00:00,PT1H,kWh,TMMG,No Regulado,TX2,5000.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-07T09:00:00,PT1H,kWh,ENDC,No Regulado,TXF,417565.83,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-07T23:00:00,PT1H,kWh,CMXC,No Regulado,TXF,31415.8,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-07T07:00:00,PT1H,kWh,AMRC,No Regulado,TXR,70496.92,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-07T23:00:00,PT1H,kWh,TUSC,No Regulado,TXR,0.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-07T02:00:00,PT1H,kWh,CDNC,Regulado,TXR,45449.42,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-07T04:00:00,PT1H,kWh,GRCC,No Regulado,TXR,0.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-28T07:00:00,PT1H,kWh,PEEC,Regulado,TX2,674.82,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-28T04:00:00,PT1H,kWh,ECNC,No Regulado,TX2,7897.33,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-28T02:00:00,PT1H,kWh,NEUC,No Regulado,TXF,69872.04,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-28T21:00:00,PT1H,kWh,VESC,No Regulado,TXR,3146.84,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-28T13:00:00,PT1H,kWh,COLC,No Regulado,TXR,3700.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-28T21:00:00,PT1H,kWh,GRCC,No Regulado,TXR,0.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-25T17:00:00,PT1H,kWh,ASCC,Regulado,TXR,3172.06,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-25T18:00:00,PT1H,kWh,TPLC,Regulado,TXR,41.02,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-25T11:00:00,PT1H,kWh,TMMG,No Regulado,TXR,5000.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-25T00:00:00,PT1H,kWh,QIEC,No Regulado,TX2,27167.7,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-25T15:00:00,PT1H,kWh,CMXC,No Regulado,TX2,32590.99,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-25T06:00:00,PT1H,kWh,OTAC,No Regulado,TXF,515.91,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-25T16:00:00,PT1H,kWh,CMMC,No Regulado,TXF,146384.07,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-25T03:00:00,PT1H,kWh,DLRC,No Regulado,TXF,2500.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-25T16:00:00,PT1H,kWh,ECNC,No Regulado,TXF,7675.86,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-25T15:00:00,PT1H,kWh,CDNC,Regulado,TXF,88826.97,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-23T06:00:00,PT1H,kWh,HLAC,No Regulado,TXF,18237.2,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-23T06:00:00,PT1H,kWh,TENC,Regulado,TXF,7526.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-23T22:00:00,PT1H,kWh,GNCG,No Regulado,TXF,31640.12,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-23T02:00:00,PT1H,kWh,ESOC,Regulado,TXF,633.91,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-23T20:00:00,PT1H,kWh,CQTC,Regulado,TX2,44043.79,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-23T09:00:00,PT1H,kWh,EPMC,Regulado,TX2,808866.61,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-23T13:00:00,PT1H,kWh,CNRC,No Regulado,TX2,153659.34,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-23T19:00:00,PT1H,kWh,DMRC,No Regulado,TX2,1.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-23T13:00:00,PT1H,kWh,ENBC,Regulado,TXR,21885.89,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-23T18:00:00,PT1H,kWh,AMPC,No Regulado,TXR,26800.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-14T16:00:00,PT1H,kWh,CMMC,Regulado,TX2,646076.45,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-14T12:00:00,PT1H,kWh,IAEC,No Regulado,TX2,11330.07,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-14T07:00:00,PT1H,kWh,ITLC,No Regulado,TXF,25107.34,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-14T10:00:00,PT1H,kWh,SPRG,No Regulado,TXF,246461.41,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-14T14:00:00,PT1H,kWh,TENC,Regulado,TXR,7526.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-06T13:00:00,PT1H,kWh,GSYC,No Regulado,TX2,40000.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-06T01:00:00,PT1H,kWh,RTAC,Regulado,TXR,17.92,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-06T04:00:00,PT1H,kWh,CDNC,No Regulado,TXR,72033.39,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-06T05:00:00,PT1H,kWh,GPEC,No Regulado,TXR,110.37,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-06T02:00:00,PT1H,kWh,HIMC,Regulado,TXF,67.51,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-06T03:00:00,PT1H,kWh,ENVC,No Regulado,TXF,10693.29,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-06T14:00:00,PT1H,kWh,FERC,No Regulado,TXF,55897.35,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-18T15:00:00,PT1H,kWh,EXIC,No Regulado,TX2,19205.6,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-18T13:00:00,PT1H,kWh,ERNC,No Regulado,TXF,3363.88,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-18T10:00:00,PT1H,kWh,SCEC,No Regulado,TXR,13625.95,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-18T04:00:00,PT1H,kWh,ENVC,No Regulado,TXR,10995.42,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-21T00:00:00,PT1H,kWh,COGC,No Regulado,TX2,227.15,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-21T02:00:00,PT1H,kWh,RTQC,No Regulado,TX2,128458.09,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-21T02:00:00,PT1H,kWh,PEEC,Regulado,TX2,465.89,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-21T02:00:00,PT1H,kWh,COXG,No Regulado,TXR,0.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-21T19:00:00,PT1H,kWh,EXIC,No Regulado,TXR,11926.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-21T11:00:00,PT1H,kWh,GPEC,No Regulado,TXR,118.38,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-21T01:00:00,PT1H,kWh,PRIC,No Regulado,TXR,0.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-21T16:00:00,PT1H,kWh,LMEC,No Regulado,TXR,4840.94,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-21T09:00:00,PT1H,kWh,EVSC,Regulado,TXF,1524.16,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-03T21:00:00,PT1H,kWh,EPTC,Regulado,TXR,12082.97,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-03T06:00:00,PT1H,kWh,EMEC,No Regulado,TXR,2604.93,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-03T10:00:00,PT1H,kWh,SFEC,No Regulado,TX2,35513.62,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-03T08:00:00,PT1H,kWh,HLAC,Regulado,TXF,92471.3,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-03T03:00:00,PT1H,kWh,CASC,Regulado,TXF,65543.89,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-03T04:00:00,PT1H,kWh,CSIC,Regulado,TXF,504296.53,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-03T00:00:00,PT1H,kWh,ERRG,No Regulado,TXF,0.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-11T16:00:00,PT1H,kWh,EPSC,Regulado,TX2,273741.03,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-11T19:00:00,PT1H,kWh,GRCC,No Regulado,TX2,0.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-11T08:00:00,PT1H,kWh,SLMG,No Regulado,TX2,0.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-11T17:00:00,PT1H,kWh,NEXC,No Regulado,TX2,298.35,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-11T09:00:00,PT1H,kWh,TUSC,No Regulado,TXF,2470.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-11T15:00:00,PT1H,kWh,LMEC,No Regulado,TXF,12303.99,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-11T07:00:00,PT1H,kWh,CEOC,No Regulado,TXR,9666.68,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-11T05:00:00,PT1H,kWh,AMRC,No Regulado,TXR,69134.32,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-02T21:00:00,PT1H,kWh,ASCC,No Regulado,TXR,1445.73,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-02T16:00:00,PT1H,kWh,CEOG,No Regulado,TXF,16719.44,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-02T01:00:00,PT1H,kWh,EGTC,No Regulado,TXF,15543.84,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-02T07:00:00,PT1H,kWh,PRYC,No Regulado,TX2,70529.2,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-02T13:00:00,PT1H,kWh,CNRC,No Regulado,TX2,152663.96,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-17T12:00:00,PT1H,kWh,EBPC,Regulado,TXR,12871.6,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-17T08:00:00,PT1H,kWh,EPTC,No Regulado,TXF,34281.57,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-17T00:00:00,PT1H,kWh,PRIC,No Regulado,TXF,0.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-17T01:00:00,PT1H,kWh,GNCC,No Regulado,TX2,78755.39,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-17T08:00:00,PT1H,kWh,ASCC,Regulado,TX2,2593.55,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-19T22:00:00,PT1H,kWh,HIMC,Regulado,TX2,26.46,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-19T11:00:00,PT1H,kWh,ELIG,No Regulado,TX2,58016.16,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-19T03:00:00,PT1H,kWh,CBYC,No Regulado,TXF,11000.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-19T11:00:00,PT1H,kWh,EGRC,No Regulado,TXR,0.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-19T00:00:00,PT1H,kWh,EPMC,Regulado,TXR,559298.48,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-10T13:00:00,PT1H,kWh,NRCC,No Regulado,TX2,45271.44,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-10T11:00:00,PT1H,kWh,ETTC,Regulado,TX2,59741.33,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-10T11:00:00,PT1H,kWh,RTAG,No Regulado,TX2,6279.27,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-10T13:00:00,PT1H,kWh,ENBC,Regulado,TX2,21885.89,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-10T05:00:00,PT1H,kWh,EGTC,No Regulado,TX2,16416.84,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-10T07:00:00,PT1H,kWh,NMRG,No Regulado,TXF,224006.66,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-10T04:00:00,PT1H,kWh,EMIC,Regulado,TXR,205197.93,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-10T13:00:00,PT1H,kWh,ESOC,Regulado,TXR,748.82,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-26T10:00:00,PT1H,kWh,CSIC,No Regulado,TXR,51581.34,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-26T15:00:00,PT1H,kWh,ELIG,No Regulado,TXR,53720.7,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-26T01:00:00,PT1H,kWh,CHCC,Regulado,TXR,78357.96,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-26T18:00:00,PT1H,kWh,ELIG,No Regulado,TXF,55032.6,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-26T19:00:00,PT1H,kWh,PRYC,No Regulado,TX2,63427.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-26T04:00:00,PT1H,kWh,EPMG,No Regulado,TX2,164545.18,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-26T20:00:00,PT1H,kWh,NMRC,No Regulado,TX2,0.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-22T03:00:00,PT1H,kWh,ENDG,No Regulado,TXR,158357.02,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-22T18:00:00,PT1H,kWh,TENC,Regulado,TXR,7526.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-22T07:00:00,PT1H,kWh,EBSC,Regulado,TXF,120112.64,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-22T01:00:00,PT1H,kWh,HIMC,Regulado,TXF,67.51,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-22T04:00:00,PT1H,kWh,EMSC,Regulado,TXF,132801.78,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-22T02:00:00,PT1H,kWh,ITLC,Regulado,TXF,0.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-22T18:00:00,PT1H,kWh,CHCC,Regulado,TX2,141284.78,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-22T21:00:00,PT1H,kWh,GNCC,No Regulado,TX2,91924.59,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-22T20:00:00,PT1H,kWh,CERC,No Regulado,TX2,3472.22,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-30T16:00:00,PT1H,kWh,COLC,No Regulado,TX2,3700.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-30T08:00:00,PT1H,kWh,CEOG,No Regulado,TX2,16719.44,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-30T16:00:00,PT1H,kWh,ENDC,Regulado,TX2,1106615.91,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-30T03:00:00,PT1H,kWh,ASCC,No Regulado,TX2,1334.34,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-13T20:00:00,PT1H,kWh,HLAC,Regulado,TX2,115742.81,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-13T08:00:00,PT1H,kWh,NRCC,No Regulado,TXR,20657.51,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-13T04:00:00,PT1H,kWh,EPMC,No Regulado,TXF,451710.74,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-13T16:00:00,PT1H,kWh,FERG,No Regulado,TXF,65106.42,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-04T21:00:00,PT1H,kWh,CMMC,No Regulado,TXF,151881.2,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-04T02:00:00,PT1H,kWh,DLRC,Regulado,TXR,47.59,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-04T15:00:00,PT1H,kWh,ENDC,No Regulado,TX2,446701.66,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-04T18:00:00,PT1H,kWh,SOEG,No Regulado,TX2,29167.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-24T17:00:00,PT1H,kWh,DMRC,No Regulado,TX2,1.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-24T19:00:00,PT1H,kWh,CNSC,Regulado,TX2,224959.37,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-24T03:00:00,PT1H,kWh,GECG,No Regulado,TX2,100000.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-24T15:00:00,PT1H,kWh,GNCG,No Regulado,TX2,63433.32,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-24T03:00:00,PT1H,kWh,GNYC,No Regulado,TX2,0.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-24T12:00:00,PT1H,kWh,VESC,No Regulado,TXR,11317.01,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-24T07:00:00,PT1H,kWh,BIAC,Regulado,TXR,32919.62,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-24T10:00:00,PT1H,kWh,CETC,No Regulado,TXR,8013.76,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-24T17:00:00,PT1H,kWh,ESOC,Regulado,TXR,758.31,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-24T16:00:00,PT1H,kWh,CIEG,No Regulado,TXF,2000.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-08T10:00:00,PT1H,kWh,HZEC,No Regulado,TX2,110.7,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-08T23:00:00,PT1H,kWh,FERG,No Regulado,TX2,56019.87,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-08T10:00:00,PT1H,kWh,RTQC,Regulado,TXF,12368.91,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-08T00:00:00,PT1H,kWh,AMPC,No Regulado,TXF,26800.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-09T05:00:00,PT1H,kWh,ENBC,No Regulado,TX2,6345.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-09T01:00:00,PT1H,kWh,DUCC,No Regulado,TX2,4474.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-09T06:00:00,PT1H,kWh,CBNC,No Regulado,TX2,10003.06,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-09T02:00:00,PT1H,kWh,RTQC,No Regulado,TX2,128458.09,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-09T05:00:00,PT1H,kWh,HIMG,No Regulado,TXF,100000.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-09T11:00:00,PT1H,kWh,EXEC,Regulado,TXF,50988.19,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-09T18:00:00,PT1H,kWh,SFEC,No Regulado,TXF,16755.56,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-09T14:00:00,PT1H,kWh,AMRC,No Regulado,TXF,77974.12,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-09T20:00:00,PT1H,kWh,DLRC,No Regulado,TXR,2500.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-09T01:00:00,PT1H,kWh,EMIG,No Regulado,TXR,176161.76,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-12T19:00:00,PT1H,kWh,PRYC,No Regulado,TX2,63427.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-12T13:00:00,PT1H,kWh,ENDC,Regulado,TX2,1086813.92,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-12T13:00:00,PT1H,kWh,FREC,No Regulado,TXR,9416.67,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-12T02:00:00,PT1H,kWh,ASCC,Regulado,TXR,1585.86,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-12T03:00:00,PT1H,kWh,CQTC,Regulado,TXF,28020.1,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-12T03:00:00,PT1H,kWh,ENDC,Regulado,TXF,562628.33,mes_reciente
+DespachoTotalContratoLPCompra,2026-09-12T18:00:00,PT1H,kWh,LMEC,No Regulado,TXF,3000.0,mes_reciente
+DespachoTotalContratoLPCompra,2026-05-24T12:00:00,PT1H,kWh,DRUC,No Regulado,TX3,38571.87,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-24T12:00:00,PT1H,kWh,GNCC,No Regulado,TX3,133858.79,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-24T03:00:00,PT1H,kWh,CHCC,Regulado,TX3,71889.35,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-24T19:00:00,PT1H,kWh,BCCC,No Regulado,TX3,0.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-24T12:00:00,PT1H,kWh,CIEG,No Regulado,TX3,2000.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-24T12:00:00,PT1H,kWh,DLRC,No Regulado,TXR,2500.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-24T21:00:00,PT1H,kWh,GSAC,No Regulado,TXR,3345.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-24T04:00:00,PT1H,kWh,GCMG,No Regulado,TXF,0.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-24T19:00:00,PT1H,kWh,CHVG,No Regulado,TXF,43534.59,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-24T03:00:00,PT1H,kWh,SLMG,No Regulado,TXF,0.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-24T16:00:00,PT1H,kWh,CSIC,No Regulado,TXF,50108.88,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-24T02:00:00,PT1H,kWh,EBSC,Regulado,TXF,79702.17,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-25T07:00:00,PT1H,kWh,ESVC,Regulado,TX3,439.69,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-25T11:00:00,PT1H,kWh,GRCC,No Regulado,TXR,23922.7,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-25T09:00:00,PT1H,kWh,CDNC,No Regulado,TX2,43348.73,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-25T13:00:00,PT1H,kWh,CBYC,No Regulado,TX2,8000.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-25T10:00:00,PT1H,kWh,EPMG,No Regulado,TXF,18442.6,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-25T14:00:00,PT1H,kWh,ENDC,No Regulado,TXF,453394.85,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-25T22:00:00,PT1H,kWh,GRCC,No Regulado,TXF,0.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-30T03:00:00,PT1H,kWh,NEUC,No Regulado,TX3,72324.34,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-30T21:00:00,PT1H,kWh,NEUC,Regulado,TX3,32875.65,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-30T13:00:00,PT1H,kWh,ADCC,No Regulado,TX3,9867.8,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-30T05:00:00,PT1H,kWh,BEIC,No Regulado,TXF,14910.21,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-30T03:00:00,PT1H,kWh,CMXC,No Regulado,TXF,30137.39,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-30T05:00:00,PT1H,kWh,CHVC,Regulado,TX2,2574.87,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-30T20:00:00,PT1H,kWh,TPLC,Regulado,TX2,41.02,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-30T03:00:00,PT1H,kWh,CIEG,No Regulado,TX2,2000.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-30T23:00:00,PT1H,kWh,EMSC,Regulado,TX2,120705.17,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-30T11:00:00,PT1H,kWh,ETTC,Regulado,TX2,43855.99,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-13T17:00:00,PT1H,kWh,NEUC,No Regulado,TX3,77050.42,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-13T14:00:00,PT1H,kWh,CNRC,No Regulado,TX3,136285.58,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-13T16:00:00,PT1H,kWh,ITLC,Regulado,TXR,122.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-13T13:00:00,PT1H,kWh,EMMC,No Regulado,TXR,13255.2,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-13T04:00:00,PT1H,kWh,CSIC,Regulado,TXR,699339.33,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-13T17:00:00,PT1H,kWh,GECG,No Regulado,TXR,100000.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-13T18:00:00,PT1H,kWh,DUCC,No Regulado,TX2,4356.66,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-13T02:00:00,PT1H,kWh,VESC,No Regulado,TX2,2746.84,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-13T18:00:00,PT1H,kWh,TPLC,No Regulado,TX2,7677.61,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-13T18:00:00,PT1H,kWh,PRYC,No Regulado,TX2,59927.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-13T20:00:00,PT1H,kWh,GCMG,No Regulado,TX2,0.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-13T03:00:00,PT1H,kWh,ESSC,Regulado,TXF,186895.95,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-13T22:00:00,PT1H,kWh,DUCC,No Regulado,TXF,4321.24,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-13T08:00:00,PT1H,kWh,ERRG,No Regulado,TXF,0.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-13T09:00:00,PT1H,kWh,CNSC,Regulado,TXF,190350.81,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-22T00:00:00,PT1H,kWh,EMSC,No Regulado,TX2,9955.39,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-22T07:00:00,PT1H,kWh,EDQC,Regulado,TXF,45021.18,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-22T17:00:00,PT1H,kWh,ITLC,Regulado,TXF,0.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-22T22:00:00,PT1H,kWh,DMRC,No Regulado,TXF,1.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-22T18:00:00,PT1H,kWh,GPEC,No Regulado,TXF,112.77,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-22T02:00:00,PT1H,kWh,EGRC,No Regulado,TXF,3570.65,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-22T07:00:00,PT1H,kWh,HZEC,No Regulado,TXR,4550.88,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-29T05:00:00,PT1H,kWh,BCCC,No Regulado,TXR,0.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-29T17:00:00,PT1H,kWh,UNGC,No Regulado,TXR,144.99,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-29T08:00:00,PT1H,kWh,EPTC,Regulado,TXR,6758.39,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-29T00:00:00,PT1H,kWh,TPLC,No Regulado,TXR,40645.89,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-29T19:00:00,PT1H,kWh,ITLC,No Regulado,TXR,23387.13,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-29T09:00:00,PT1H,kWh,GCMG,No Regulado,TXF,0.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-29T07:00:00,PT1H,kWh,ELIG,No Regulado,TXF,16664.89,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-29T10:00:00,PT1H,kWh,EPMC,Regulado,TXF,940907.8,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-29T06:00:00,PT1H,kWh,COLC,No Regulado,TXF,3700.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-29T06:00:00,PT1H,kWh,NEUC,No Regulado,TXF,77195.88,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-29T13:00:00,PT1H,kWh,EGVC,Regulado,TXF,11883.35,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-06T19:00:00,PT1H,kWh,ENDC,Regulado,TX3,1589018.92,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-06T13:00:00,PT1H,kWh,FERC,No Regulado,TXF,56921.3,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-06T13:00:00,PT1H,kWh,MERC,No Regulado,TXR,29880.54,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-06T11:00:00,PT1H,kWh,ERRG,No Regulado,TXR,0.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-06T17:00:00,PT1H,kWh,EMMC,No Regulado,TXR,12396.97,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-06T09:00:00,PT1H,kWh,DTEC,No Regulado,TX2,1.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-04T20:00:00,PT1H,kWh,GPEC,No Regulado,TX3,85.17,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-04T17:00:00,PT1H,kWh,ESNC,No Regulado,TX3,183.46,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-04T14:00:00,PT1H,kWh,CERC,No Regulado,TX3,26436.15,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-04T16:00:00,PT1H,kWh,AMRC,No Regulado,TX3,77701.15,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-04T10:00:00,PT1H,kWh,CIEG,No Regulado,TX3,2000.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-04T17:00:00,PT1H,kWh,NESC,No Regulado,TXR,20211.69,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-04T03:00:00,PT1H,kWh,EYCC,No Regulado,TXR,53823.22,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-04T07:00:00,PT1H,kWh,ASCC,No Regulado,TXR,817.39,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-04T15:00:00,PT1H,kWh,CMMC,Regulado,TXF,911157.08,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-04T17:00:00,PT1H,kWh,IAEC,No Regulado,TXF,24600.6,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-04T02:00:00,PT1H,kWh,PRYC,No Regulado,TXF,59927.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-04T20:00:00,PT1H,kWh,EGVC,Regulado,TXF,11392.37,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-04T02:00:00,PT1H,kWh,BTGC,No Regulado,TXF,328019.11,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-04T14:00:00,PT1H,kWh,NMRC,No Regulado,TX2,1503.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-04T09:00:00,PT1H,kWh,CDNC,No Regulado,TX2,42877.07,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-28T02:00:00,PT1H,kWh,EMIC,Regulado,TX3,204005.67,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-28T06:00:00,PT1H,kWh,EDPC,Regulado,TX2,9946.1,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-28T07:00:00,PT1H,kWh,BTGC,No Regulado,TX2,251949.22,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-28T03:00:00,PT1H,kWh,DRUC,No Regulado,TX2,56040.13,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-28T19:00:00,PT1H,kWh,CHCC,Regulado,TX2,142520.73,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-28T06:00:00,PT1H,kWh,SOEC,No Regulado,TXR,173270.33,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-28T14:00:00,PT1H,kWh,ZONC,No Regulado,TXF,91687.49,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-28T20:00:00,PT1H,kWh,GRCC,No Regulado,TXF,0.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-28T09:00:00,PT1H,kWh,NEUC,No Regulado,TXF,130804.99,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-11T17:00:00,PT1H,kWh,DEPC,No Regulado,TXF,466.62,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-11T15:00:00,PT1H,kWh,EBSC,No Regulado,TXR,8580.53,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-11T18:00:00,PT1H,kWh,EGTC,No Regulado,TX2,23196.29,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-07T21:00:00,PT1H,kWh,CIEC,No Regulado,TX3,0.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-07T17:00:00,PT1H,kWh,EYCC,No Regulado,TX3,63731.93,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-07T11:00:00,PT1H,kWh,GECC,No Regulado,TX2,379520.95,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-07T11:00:00,PT1H,kWh,VESC,No Regulado,TXR,13171.11,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-07T23:00:00,PT1H,kWh,ERNC,No Regulado,TXR,3359.41,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-07T22:00:00,PT1H,kWh,BTGC,No Regulado,TXR,352563.88,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-07T18:00:00,PT1H,kWh,EGTC,No Regulado,TXF,23196.29,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-07T12:00:00,PT1H,kWh,GNYC,No Regulado,TXF,76305.22,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-15T13:00:00,PT1H,kWh,CIEG,No Regulado,TX3,2000.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-15T07:00:00,PT1H,kWh,ESOC,Regulado,TX3,682.21,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-15T17:00:00,PT1H,kWh,EMEC,Regulado,TXF,33.27,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-15T19:00:00,PT1H,kWh,EDPC,Regulado,TX2,8706.95,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-15T05:00:00,PT1H,kWh,HZEC,No Regulado,TX2,77.49,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-15T11:00:00,PT1H,kWh,AMPC,No Regulado,TX2,27990.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-15T15:00:00,PT1H,kWh,NESC,No Regulado,TXR,31050.59,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-15T17:00:00,PT1H,kWh,SPRG,No Regulado,TXR,243456.49,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-15T15:00:00,PT1H,kWh,RTAC,Regulado,TXR,17.92,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-05T21:00:00,PT1H,kWh,HZEC,No Regulado,TX3,84.78,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-05T10:00:00,PT1H,kWh,EGVC,Regulado,TXR,11490.55,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-05T06:00:00,PT1H,kWh,SPRG,No Regulado,TXR,253737.81,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-05T15:00:00,PT1H,kWh,EMSC,Regulado,TXR,121058.89,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-05T13:00:00,PT1H,kWh,SLUG,No Regulado,TXR,3916.47,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-05T05:00:00,PT1H,kWh,LMEC,No Regulado,TXR,3031.89,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-05T12:00:00,PT1H,kWh,SPRC,No Regulado,TXR,44390.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-05T10:00:00,PT1H,kWh,AMRC,No Regulado,TX2,77337.55,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-05T10:00:00,PT1H,kWh,CIEG,No Regulado,TX2,2000.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-05T15:00:00,PT1H,kWh,ASCC,No Regulado,TXF,799.28,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-05T15:00:00,PT1H,kWh,CHVG,No Regulado,TXF,51691.99,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-05T08:00:00,PT1H,kWh,CASC,Regulado,TXF,52381.16,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-14T08:00:00,PT1H,kWh,ENDC,Regulado,TX3,1501186.57,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-14T00:00:00,PT1H,kWh,ENVC,No Regulado,TX3,10756.39,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-14T14:00:00,PT1H,kWh,GECG,No Regulado,TXF,100000.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-14T10:00:00,PT1H,kWh,GASC,No Regulado,TXF,413293.57,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-14T20:00:00,PT1H,kWh,CMXC,No Regulado,TXR,29039.45,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-14T01:00:00,PT1H,kWh,ISGC,No Regulado,TX2,590000.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-01T16:00:00,PT1H,kWh,BCCC,No Regulado,TX2,954.6,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-01T03:00:00,PT1H,kWh,DEPC,No Regulado,TXF,0.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-01T20:00:00,PT1H,kWh,ESPC,No Regulado,TXR,10275.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-12T01:00:00,PT1H,kWh,EMIC,No Regulado,TX3,73062.16,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-12T03:00:00,PT1H,kWh,CQTC,Regulado,TX2,25672.41,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-12T21:00:00,PT1H,kWh,CHVG,No Regulado,TX2,37784.72,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-12T06:00:00,PT1H,kWh,EMPC,Regulado,TX2,1285.7,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-12T17:00:00,PT1H,kWh,TYPG,No Regulado,TX2,68000.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-12T12:00:00,PT1H,kWh,PEEC,Regulado,TXF,674.82,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-12T06:00:00,PT1H,kWh,ENDC,Regulado,TXF,1252594.93,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-12T11:00:00,PT1H,kWh,TYPG,No Regulado,TXF,68000.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-12T11:00:00,PT1H,kWh,HLAC,No Regulado,TXR,18089.84,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-12T16:00:00,PT1H,kWh,GNCC,Regulado,TXR,185622.76,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-21T00:00:00,PT1H,kWh,EMSC,No Regulado,TX3,9965.59,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-21T11:00:00,PT1H,kWh,UNGC,No Regulado,TXF,2041.87,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-21T08:00:00,PT1H,kWh,DUCC,No Regulado,TXF,4332.5,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-21T11:00:00,PT1H,kWh,GNCC,No Regulado,TXF,137936.15,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-21T09:00:00,PT1H,kWh,DMRC,No Regulado,TXF,1.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-21T06:00:00,PT1H,kWh,EEPC,No Regulado,TXF,44319.73,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-21T20:00:00,PT1H,kWh,TENC,Regulado,TX2,7526.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-21T05:00:00,PT1H,kWh,NMRG,No Regulado,TX2,239994.22,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-03T21:00:00,PT1H,kWh,EGRC,No Regulado,TX3,9904.78,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-03T02:00:00,PT1H,kWh,DRUC,No Regulado,TX3,58202.83,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-03T02:00:00,PT1H,kWh,GPEC,No Regulado,TXF,84.87,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-03T16:00:00,PT1H,kWh,GCMG,No Regulado,TX2,0.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-18T16:00:00,PT1H,kWh,NEXC,No Regulado,TX3,490.5,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-18T02:00:00,PT1H,kWh,ASCC,No Regulado,TX3,1377.34,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-18T18:00:00,PT1H,kWh,TYPG,No Regulado,TX3,68000.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-18T04:00:00,PT1H,kWh,CSIC,No Regulado,TX2,42000.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-18T17:00:00,PT1H,kWh,TENC,Regulado,TXF,7526.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-18T17:00:00,PT1H,kWh,EPSC,Regulado,TXF,250052.05,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-18T06:00:00,PT1H,kWh,CDNC,No Regulado,TXR,42997.57,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-18T10:00:00,PT1H,kWh,GCMG,No Regulado,TXR,0.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-16T01:00:00,PT1H,kWh,AMRC,No Regulado,TX3,72059.95,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-16T01:00:00,PT1H,kWh,ESPC,No Regulado,TX3,10275.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-16T11:00:00,PT1H,kWh,BCCC,No Regulado,TX3,4428.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-16T14:00:00,PT1H,kWh,CHVC,Regulado,TX2,2575.57,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-16T16:00:00,PT1H,kWh,GNYC,No Regulado,TX2,18452.07,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-16T07:00:00,PT1H,kWh,EPMG,No Regulado,TXR,6082.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-16T19:00:00,PT1H,kWh,DEPC,No Regulado,TXR,1190.32,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-16T22:00:00,PT1H,kWh,AMPC,No Regulado,TXR,26800.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-16T18:00:00,PT1H,kWh,GAPC,No Regulado,TXR,7500.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-16T11:00:00,PT1H,kWh,EGVC,Regulado,TXF,11909.48,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-16T04:00:00,PT1H,kWh,SGMC,No Regulado,TXF,498.17,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-17T11:00:00,PT1H,kWh,TYPG,No Regulado,TX2,68000.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-17T07:00:00,PT1H,kWh,EEPC,Regulado,TX2,51717.48,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-17T21:00:00,PT1H,kWh,EDQC,Regulado,TX2,50379.25,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-17T10:00:00,PT1H,kWh,EVSC,Regulado,TX2,1781.16,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-17T08:00:00,PT1H,kWh,SCEC,No Regulado,TX2,8608.41,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-17T12:00:00,PT1H,kWh,RTQC,No Regulado,TXR,132003.83,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-17T01:00:00,PT1H,kWh,CHVG,No Regulado,TXR,48564.4,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-17T06:00:00,PT1H,kWh,EXIC,No Regulado,TXR,12939.49,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-17T19:00:00,PT1H,kWh,CEOG,No Regulado,TXR,20623.66,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-08T20:00:00,PT1H,kWh,ENVC,No Regulado,TX3,12960.15,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-08T23:00:00,PT1H,kWh,EMPC,Regulado,TX2,1233.49,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-08T20:00:00,PT1H,kWh,CEOC,No Regulado,TX2,14344.1,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-08T06:00:00,PT1H,kWh,GRCC,No Regulado,TXR,3102.39,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-08T22:00:00,PT1H,kWh,BEIC,No Regulado,TXR,9701.88,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-08T05:00:00,PT1H,kWh,EMSC,Regulado,TXR,130404.35,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-08T09:00:00,PT1H,kWh,DTEC,No Regulado,TXR,1.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-08T13:00:00,PT1H,kWh,TMMG,No Regulado,TXF,5000.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-09T09:00:00,PT1H,kWh,TYPG,No Regulado,TX3,68000.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-09T17:00:00,PT1H,kWh,EPMC,No Regulado,TX3,543982.28,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-09T13:00:00,PT1H,kWh,TPLC,Regulado,TXR,2638.7,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-09T07:00:00,PT1H,kWh,CTCG,No Regulado,TXR,184448.92,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-09T15:00:00,PT1H,kWh,PEEC,No Regulado,TX2,19104.84,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-09T17:00:00,PT1H,kWh,GSYC,No Regulado,TXF,40000.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-09T19:00:00,PT1H,kWh,EXIC,No Regulado,TXF,13053.49,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-26T07:00:00,PT1H,kWh,RTAC,Regulado,TX3,17.92,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-26T01:00:00,PT1H,kWh,EPSG,No Regulado,TX3,12163.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-26T12:00:00,PT1H,kWh,BIAG,No Regulado,TX3,5117.28,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-26T03:00:00,PT1H,kWh,QIEC,Regulado,TXF,20644.66,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-26T01:00:00,PT1H,kWh,CEOG,No Regulado,TXF,20623.66,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-26T13:00:00,PT1H,kWh,PEEC,No Regulado,TX2,19824.84,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-26T18:00:00,PT1H,kWh,CDNC,Regulado,TX2,106999.49,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-26T08:00:00,PT1H,kWh,ESPC,No Regulado,TX2,10275.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-26T05:00:00,PT1H,kWh,HLAC,No Regulado,TXR,18085.84,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-26T17:00:00,PT1H,kWh,EVSC,Regulado,TXR,1738.92,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-27T18:00:00,PT1H,kWh,RTAG,No Regulado,TX3,0.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-27T10:00:00,PT1H,kWh,EVSC,Regulado,TX3,1516.16,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-27T07:00:00,PT1H,kWh,EPSC,Regulado,TX3,202777.03,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-27T05:00:00,PT1H,kWh,RTAG,No Regulado,TX3,0.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-27T19:00:00,PT1H,kWh,IAEC,No Regulado,TX3,13548.9,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-27T02:00:00,PT1H,kWh,AMRC,No Regulado,TX2,72059.95,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-27T23:00:00,PT1H,kWh,QIEC,No Regulado,TX2,24839.61,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-27T00:00:00,PT1H,kWh,GNYC,No Regulado,TX2,0.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-27T23:00:00,PT1H,kWh,PEEC,Regulado,TX2,41.21,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-27T17:00:00,PT1H,kWh,HIMG,No Regulado,TXR,100000.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-27T00:00:00,PT1H,kWh,GECG,No Regulado,TXR,100000.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-27T10:00:00,PT1H,kWh,EPMC,No Regulado,TXF,601203.39,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-27T17:00:00,PT1H,kWh,PEEC,No Regulado,TXF,18150.09,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-31T21:00:00,PT1H,kWh,LMEC,No Regulado,TX3,3000.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-31T20:00:00,PT1H,kWh,ENVC,No Regulado,TX3,12284.8,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-31T03:00:00,PT1H,kWh,ASCC,Regulado,TX3,1701.48,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-31T02:00:00,PT1H,kWh,SOCG,No Regulado,TXR,120000.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-31T17:00:00,PT1H,kWh,HLAC,No Regulado,TXR,18088.15,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-31T18:00:00,PT1H,kWh,GAPC,No Regulado,TXR,7500.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-31T20:00:00,PT1H,kWh,ELIC,No Regulado,TXR,32080.65,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-31T19:00:00,PT1H,kWh,SCEC,No Regulado,TXF,1151.01,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-31T01:00:00,PT1H,kWh,CSIC,No Regulado,TXF,42000.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-31T06:00:00,PT1H,kWh,EXIC,No Regulado,TXF,12740.45,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-31T07:00:00,PT1H,kWh,CNRC,No Regulado,TX2,121579.05,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-31T13:00:00,PT1H,kWh,SPRG,No Regulado,TX2,259189.24,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-31T10:00:00,PT1H,kWh,SFEC,No Regulado,TX2,28988.13,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-20T01:00:00,PT1H,kWh,ESOC,Regulado,TX3,655.28,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-20T00:00:00,PT1H,kWh,HLAC,Regulado,TX3,71339.87,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-20T19:00:00,PT1H,kWh,NRCC,Regulado,TX2,0.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-20T11:00:00,PT1H,kWh,EBSC,Regulado,TX2,133017.47,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-20T09:00:00,PT1H,kWh,GSYC,No Regulado,TX2,40000.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-20T19:00:00,PT1H,kWh,CMMC,Regulado,TXF,1028617.61,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-20T15:00:00,PT1H,kWh,ENDC,No Regulado,TXF,460673.7,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-20T11:00:00,PT1H,kWh,ESNC,No Regulado,TXF,906.22,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-20T12:00:00,PT1H,kWh,CMXC,No Regulado,TXR,33208.74,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-20T17:00:00,PT1H,kWh,QIEC,Regulado,TXR,54752.48,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-20T12:00:00,PT1H,kWh,CMMC,No Regulado,TXR,138429.16,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-10T05:00:00,PT1H,kWh,EGRC,No Regulado,TX3,2913.57,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-10T01:00:00,PT1H,kWh,SLUG,No Regulado,TX3,0.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-10T06:00:00,PT1H,kWh,CHVC,Regulado,TX3,2574.87,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-10T08:00:00,PT1H,kWh,COLC,No Regulado,TX3,3700.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-10T06:00:00,PT1H,kWh,PEEC,No Regulado,TXR,18230.09,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-10T05:00:00,PT1H,kWh,PECC,No Regulado,TXR,0.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-10T12:00:00,PT1H,kWh,GSAC,No Regulado,TXR,3442.5,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-10T14:00:00,PT1H,kWh,SCEC,Regulado,TXR,0.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-10T19:00:00,PT1H,kWh,NMRC,No Regulado,TX2,0.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-10T08:00:00,PT1H,kWh,EXEC,Regulado,TX2,32044.83,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-10T23:00:00,PT1H,kWh,AMPC,No Regulado,TX2,26800.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-10T06:00:00,PT1H,kWh,FERC,No Regulado,TXF,40066.4,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-19T14:00:00,PT1H,kWh,ZONC,No Regulado,TX3,91687.49,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-19T09:00:00,PT1H,kWh,CBNC,No Regulado,TX3,4637.23,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-19T08:00:00,PT1H,kWh,EXEC,Regulado,TX3,32044.83,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-19T01:00:00,PT1H,kWh,EPSC,Regulado,TXF,173811.52,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-19T09:00:00,PT1H,kWh,CMMC,No Regulado,TXF,134118.53,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-19T04:00:00,PT1H,kWh,BTGC,No Regulado,TXF,284354.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-19T09:00:00,PT1H,kWh,TENC,Regulado,TXR,7526.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-19T03:00:00,PT1H,kWh,GECG,No Regulado,TXR,100000.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-19T19:00:00,PT1H,kWh,EEPC,No Regulado,TXR,53225.26,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-19T11:00:00,PT1H,kWh,COGC,No Regulado,TXR,0.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-19T12:00:00,PT1H,kWh,ENVC,No Regulado,TX2,19793.39,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-23T03:00:00,PT1H,kWh,DEPG,No Regulado,TX3,30975.36,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-23T08:00:00,PT1H,kWh,BEIC,No Regulado,TX3,9701.88,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-23T00:00:00,PT1H,kWh,BTGC,No Regulado,TX3,291944.07,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-23T11:00:00,PT1H,kWh,OTAC,No Regulado,TX3,1695.45,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-23T19:00:00,PT1H,kWh,EPTC,No Regulado,TX3,31502.95,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-23T04:00:00,PT1H,kWh,LESC,No Regulado,TX3,11044.37,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-23T04:00:00,PT1H,kWh,ESPC,No Regulado,TX3,10275.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-23T08:00:00,PT1H,kWh,GSYC,No Regulado,TXR,40000.0,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-23T17:00:00,PT1H,kWh,ENVC,No Regulado,TXF,12087.86,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-23T11:00:00,PT1H,kWh,CHCC,Regulado,TX2,134775.29,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-23T14:00:00,PT1H,kWh,LMEC,No Regulado,TX2,10917.17,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-02T21:00:00,PT1H,kWh,CHVG,No Regulado,TXF,43521.15,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-02T06:00:00,PT1H,kWh,CSIC,Regulado,TXR,845455.2,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-02T22:00:00,PT1H,kWh,EPMC,Regulado,TXR,788181.72,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-02T11:00:00,PT1H,kWh,EBPC,Regulado,TX3,11497.79,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-02T01:00:00,PT1H,kWh,NRCC,No Regulado,TX3,20788.15,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-02T21:00:00,PT1H,kWh,CASC,Regulado,TX3,42365.98,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-02T13:00:00,PT1H,kWh,BIAC,No Regulado,TX2,61703.32,mes_maduro
+DespachoTotalContratoLPCompra,2026-05-02T12:00:00,PT1H,kWh,FERC,No Regulado,TX2,66709.3,mes_maduro

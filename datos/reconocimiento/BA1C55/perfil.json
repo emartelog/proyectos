@@ -1,0 +1,68 @@
+{
+  "filas": 2684,
+  "filas_duplicadas": 0,
+  "columnas": {
+    "FechaPublicacion": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 32,
+      "min": "2026-07-13 00:00:00",
+      "max": "2026-10-24 00:00:00"
+    },
+    "Fecha": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 61,
+      "min": "2026-05-01 00:00:00",
+      "max": "2026-09-30 00:00:00"
+    },
+    "CodigoSerieHidrologica": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 44
+    },
+    "RegionHidrologica": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 7,
+      "valores": {
+        "Antioquia": 976,
+        "Caldas": 488,
+        "Centro": 488,
+        "Oriente": 366,
+        "Valle": 244,
+        "Caribe": 61,
+        "Colombia": 61
+      }
+    },
+    "AportesHidricosEnergia": {
+      "tipo": "float64",
+      "nulos": 0,
+      "distintos": 2409,
+      "min": 0.0,
+      "max": 325896077.98,
+      "suma": 21525333141.7
+    },
+    "PromedioAcumuladoEnergia": {
+      "tipo": "float64",
+      "nulos": 0,
+      "distintos": 1058,
+      "min": 0.0,
+      "max": 241210000.0,
+      "suma": 22848680000.0
+    },
+    "MediaHistoricaEnergia": {
+      "tipo": "float64",
+      "nulos": 0,
+      "distintos": 94,
+      "min": 100000.0,
+      "max": 285180000.0,
+      "suma": 30176720000.0
+    }
+  },
+  "filas_por_ventana": {
+    "mes_maduro": 1364,
+    "mes_reciente": 1320
+  },
+  "granularidad": "Diaria"
+}
