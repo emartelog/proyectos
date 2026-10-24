@@ -1,0 +1,194 @@
+[
+  {
+    "control": "unicidad:m_version",
+    "nivel": "bloquea",
+    "ok": true,
+    "detalle": "sin duplicados"
+  },
+  {
+    "control": "unicidad:m_agente_diario",
+    "nivel": "bloquea",
+    "ok": true,
+    "detalle": "sin duplicados"
+  },
+  {
+    "control": "unicidad:m_planta_diario",
+    "nivel": "bloquea",
+    "ok": true,
+    "detalle": "sin duplicados"
+  },
+  {
+    "control": "unicidad:h_precio_bolsa_hora",
+    "nivel": "bloquea",
+    "ok": true,
+    "detalle": "sin duplicados"
+  },
+  {
+    "control": "unicidad:h_precio_bolsa_dia",
+    "nivel": "bloquea",
+    "ok": true,
+    "detalle": "sin duplicados"
+  },
+  {
+    "control": "unicidad:h_demanda",
+    "nivel": "bloquea",
+    "ok": true,
+    "detalle": "sin duplicados"
+  },
+  {
+    "control": "unicidad:h_compra_bolsa",
+    "nivel": "bloquea",
+    "ok": true,
+    "detalle": "sin duplicados"
+  },
+  {
+    "control": "unicidad:h_venta_bolsa",
+    "nivel": "bloquea",
+    "ok": true,
+    "detalle": "sin duplicados"
+  },
+  {
+    "control": "unicidad:h_contrato_cantidad",
+    "nivel": "bloquea",
+    "ok": true,
+    "detalle": "sin duplicados"
+  },
+  {
+    "control": "unicidad:h_contrato_precio",
+    "nivel": "bloquea",
+    "ok": true,
+    "detalle": "sin duplicados"
+  },
+  {
+    "control": "unicidad:h_escasez",
+    "nivel": "bloquea",
+    "ok": true,
+    "detalle": "sin duplicados"
+  },
+  {
+    "control": "unicidad:h_aportes",
+    "nivel": "bloquea",
+    "ok": true,
+    "detalle": "sin duplicados"
+  },
+  {
+    "control": "unicidad:h_generacion",
+    "nivel": "bloquea",
+    "ok": true,
+    "detalle": "sin duplicados"
+  },
+  {
+    "control": "cobertura:h_precio_bolsa_hora:2026-08",
+    "nivel": "bloquea",
+    "ok": true,
+    "detalle": "744/744 horas"
+  },
+  {
+    "control": "cobertura:h_precio_bolsa_hora:2026-09",
+    "nivel": "bloquea",
+    "ok": true,
+    "detalle": "720/720 horas"
+  },
+  {
+    "control": "cobertura:h_demanda:2026-08",
+    "nivel": "bloquea",
+    "ok": true,
+    "detalle": "744/744 horas"
+  },
+  {
+    "control": "cobertura:h_demanda:2026-09",
+    "nivel": "bloquea",
+    "ok": true,
+    "detalle": "720/720 horas"
+  },
+  {
+    "control": "cobertura:h_compra_bolsa:2026-08",
+    "nivel": "bloquea",
+    "ok": true,
+    "detalle": "744/744 horas"
+  },
+  {
+    "control": "cobertura:h_compra_bolsa:2026-09",
+    "nivel": "bloquea",
+    "ok": true,
+    "detalle": "720/720 horas"
+  },
+  {
+    "control": "cobertura:h_venta_bolsa:2026-08",
+    "nivel": "bloquea",
+    "ok": true,
+    "detalle": "744/744 horas"
+  },
+  {
+    "control": "cobertura:h_venta_bolsa:2026-09",
+    "nivel": "bloquea",
+    "ok": true,
+    "detalle": "720/720 horas"
+  },
+  {
+    "control": "cobertura:h_contrato_cantidad:2026-08",
+    "nivel": "bloquea",
+    "ok": true,
+    "detalle": "744/744 horas"
+  },
+  {
+    "control": "cobertura:h_contrato_cantidad:2026-09",
+    "nivel": "bloquea",
+    "ok": true,
+    "detalle": "720/720 horas"
+  },
+  {
+    "control": "cobertura:h_generacion:2026-08",
+    "nivel": "bloquea",
+    "ok": true,
+    "detalle": "744/744 horas"
+  },
+  {
+    "control": "cobertura:h_generacion:2026-09",
+    "nivel": "bloquea",
+    "ok": true,
+    "detalle": "720/720 horas"
+  },
+  {
+    "control": "balance:demanda=contratos+bolsa",
+    "nivel": "advierte",
+    "ok": false,
+    "detalle": "74 de 130 agente-mes fuera de ±2%. Mayores: BCCC 2026-08 (567740.6%), BCCC 2026-09 (39529.0%), GSAC 2026-08 (14387.1%), PEEC 2026-08 (8028.0%), PEEC 2026-09 (7312.2%)"
+  },
+  {
+    "control": "precio_bolsa:rango",
+    "nivel": "advierte",
+    "ok": true,
+    "detalle": "0 horas fuera de [0, 3,000] COP/kWh"
+  },
+  {
+    "control": "precio_bolsa:ppbo_reproducible",
+    "nivel": "advierte",
+    "ok": true,
+    "detalle": "0 de 61 días con PPBO calculado ≠ publicado (±1%)"
+  },
+  {
+    "control": "integridad:agentes",
+    "nivel": "advierte",
+    "ok": true,
+    "detalle": "0 agentes de demanda sin maestro"
+  },
+  {
+    "control": "integridad:plantas",
+    "nivel": "advierte",
+    "ok": false,
+    "detalle": "187 plantas de generación sin maestro"
+  },
+  {
+    "control": "contratos:cobertura_precio",
+    "nivel": "advierte",
+    "ok": false,
+    "detalle": "peor mes 2026-09: 3.4% de la energía en contratos tiene precio"
+  },
+  {
+    "control": "variacion:demanda_nacional",
+    "nivel": "advierte",
+    "ok": true,
+    "detalle": "sin meses atípicos"
+  }
+]
