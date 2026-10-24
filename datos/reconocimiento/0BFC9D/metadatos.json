@@ -1,0 +1,127 @@
+{
+  "idDataset": "0bfc9d",
+  "name": "Parámetros técnicos de las plantas de generación",
+  "metadata": {
+    "description": "Contiene la información de agente Operador, Capacidad efectiva neta, tecnología de generación, Fecha de Puesta en Operación Comercial (FPO) e información de retiro de las plantas que se encuentran en operación comercial.",
+    "creationDate": "2025-02-07 14:10:00",
+    "lastUpdate": "2026-10-24 11:23:30",
+    "nextUpdateDate": "2026-10-25 11:00:00",
+    "entity": "XM",
+    "category": "Parámetros técnicos de las plantas de generación",
+    "periodicity": "Diaria",
+    "granularity": "Diaria",
+    "historicData": "NA",
+    "private": false,
+    "ultimaNovedad": {
+      "titulo": "Creación de conjunto unificado de Parámetros técnicos de las plantas de generación",
+      "subtitulo": "Creación de conjunto unificado de Parámetros técnicos de las plantas de generación",
+      "descripcion": "A partir de la fecha 2025-03-07, éste conjunto de datos reemplazará los 4 conjuntos individuales relacionados a Parámetros técnicos de las plantas de generación (Eólicas, Solares, Hidráulicas y Térmicas)",
+      "fechaPublicacion": "2025-03-05",
+      "urlNovedad": "https://www.simem.co/pages/novedadesDetalle;id=76418F4B-CB7F-478E-0875-08DD5BEA5F75"
+    }
+  },
+  "filterDate": "Fecha",
+  "records": null,
+  "variables": [
+    {
+      "variableCode": "CapEfectivaNeta",
+      "variableName": "Capacidad efectiva neta",
+      "measurementUnit": "kW",
+      "description": "Capacidad efectiva neta del recurso de generación"
+    }
+  ],
+  "columns": [
+    {
+      "nameColumn": "FechaPublicacion",
+      "dataType": "fecha",
+      "description": "Fecha de publicación del dato en el SIMEM"
+    },
+    {
+      "nameColumn": "NombrePlanta",
+      "dataType": "texto",
+      "description": "Nombre de la planta/recurso de generación"
+    },
+    {
+      "nameColumn": "CodigoPlanta",
+      "dataType": "texto",
+      "description": "Código de la planta"
+    },
+    {
+      "nameColumn": "CodigoAreaOperativa",
+      "dataType": "texto",
+      "description": "Código del área operativa eléctrica"
+    },
+    {
+      "nameColumn": "TipoGeneracion",
+      "dataType": "texto",
+      "description": "Tipo de clasificación del recurso de generación"
+    },
+    {
+      "nameColumn": "CodigoSICAgente",
+      "dataType": "texto",
+      "description": "Código del agente asignado por el ASIC"
+    },
+    {
+      "nameColumn": "TipoClasificacion",
+      "dataType": "texto",
+      "description": "Clasificación del generador según la regulación actual"
+    },
+    {
+      "nameColumn": "CodigoSubAreaOperativa",
+      "dataType": "texto",
+      "description": "Código de la subárea asociada al activo"
+    },
+    {
+      "nameColumn": "CapEfectivaNeta",
+      "dataType": "decimal",
+      "description": "Capacidad Efectiva Neta de las plantas de generación"
+    },
+    {
+      "nameColumn": "FPO",
+      "dataType": "fecha",
+      "description": "Fecha de Puesta en Operación"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    },
+    {
+      "nameColumn": "TipoDespachoRecurso",
+      "dataType": "texto",
+      "description": "Tipo de despacho del recurso"
+    }
+  ],
+  "tags": [
+    {
+      "id": "8d09aa22-6c92-4a7e-a09b-180c6362330c",
+      "name": "Recurso Generación",
+      "estado": true
+    },
+    {
+      "id": "bf177c61-7a82-4d3f-b1a1-4f3129938d52",
+      "name": "SIN",
+      "estado": true
+    },
+    {
+      "id": "ca559748-aa25-4a1f-97b3-7b1848e707b1",
+      "name": "Parámetros Técnicos",
+      "estado": true
+    },
+    {
+      "id": "19accb79-3335-4c0b-9a4e-c97f0c6e98f9",
+      "name": "Retiro de plantas de generación",
+      "estado": true
+    },
+    {
+      "id": "551395c9-c094-413a-a029-deadb59b926f",
+      "name": "SIMEM",
+      "estado": true
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "filas": 479808,
+  "filas_duplicadas": 0,
+  "columnas": {
+    "CodigoVariable": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 1,
+      "valores": {
+        "DdaCom": 479808
+      }
+    },
+    "FechaHora": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 1464,
+      "min": "2026-05-01 00:00:00",
+      "max": "2026-09-30 23:00:00"
+    },
+    "CodigoSICAgente": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 66
+    },
+    "TipoMercado": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 2,
+      "valores": {
+        "No Regulado": 246528,
+        "Regulado": 233280
+      }
+    },
+    "Version": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 4,
+      "valores": {
+        "TXF": 136872,
+        "TX2": 136872,
+        "TXR": 136872,
+        "TX3": 69192
+      }
+    },
+    "Valor": {
+      "tipo": "float64",
+      "nulos": 0,
+      "distintos": 274454,
+      "min": 0.0,
+      "max": 1722938.83,
+      "suma": 52864775992.53999
+    },
+    "UnidadMedida": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 1,
+      "valores": {
+        "kWh": 479808
+      }
+    },
+    "CodigoDuracion": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 1,
+      "valores": {
+        "PT1H": 479808
+      }
+    }
+  },
+  "filas_por_ventana": {
+    "mes_maduro": 276768,
+    "mes_reciente": 203040
+  },
+  "granularidad": "Horaria"
+}

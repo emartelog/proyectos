@@ -1,0 +1,63 @@
+{
+  "filas": 489,
+  "filas_duplicadas": 0,
+  "columnas": {
+    "CodigoVariable": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 2,
+      "valores": {
+        "PPBOGReal": 275,
+        "PPBO": 214
+      }
+    },
+    "Fecha": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 61,
+      "min": "2026-05-01 00:00:00",
+      "max": "2026-09-30 00:00:00"
+    },
+    "CodigoDuracion": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 1,
+      "valores": {
+        "P1D": 489
+      }
+    },
+    "UnidadMedida": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 1,
+      "valores": {
+        "COP/kWh": 489
+      }
+    },
+    "Version": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 5,
+      "valores": {
+        "TX2": 122,
+        "TXR": 122,
+        "TXF": 122,
+        "TX3": 62,
+        "TX1": 61
+      }
+    },
+    "Valor": {
+      "tipo": "float64",
+      "nulos": 0,
+      "distintos": 489,
+      "min": 176.7445,
+      "max": 1009.8391,
+      "suma": 285915.16630000004
+    }
+  },
+  "filas_por_ventana": {
+    "mes_maduro": 279,
+    "mes_reciente": 210
+  },
+  "granularidad": "Diaria"
+}

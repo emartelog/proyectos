@@ -1,0 +1,59 @@
+{
+  "idDataset": "24914F",
+  "name": "Versiones de factura para la liquidación mensual",
+  "metadata": {
+    "description": "Contiene las versiones mensuales de liquidación que han sido publicadas por el ASIC",
+    "creationDate": "2024-11-18 10:20:48",
+    "lastUpdate": "2026-10-24 09:16:57",
+    "nextUpdateDate": "2026-10-25 09:00:00",
+    "entity": "XM",
+    "category": "Versiones de factura para la liquidación mensual",
+    "periodicity": "Diaria",
+    "granularity": "Diaria",
+    "historicData": "NA",
+    "private": false,
+    "ultimaNovedad": null
+  },
+  "filterDate": "FechaInicio",
+  "records": null,
+  "variables": [],
+  "columns": [
+    {
+      "nameColumn": "FechaFin",
+      "dataType": "fecha",
+      "description": "Fecha final de vigencia del dato"
+    },
+    {
+      "nameColumn": "FechaPublicacion",
+      "dataType": "fecha",
+      "description": "Fecha de publicación del dato en el SIMEM"
+    },
+    {
+      "nameColumn": "esMaximaVersion",
+      "dataType": "entero",
+      "description": "Última versión disponible del dato. Si es la última =1, si no =0"
+    },
+    {
+      "nameColumn": "FechaInicio",
+      "dataType": "fecha",
+      "description": "Fecha de inicio del dato"
+    },
+    {
+      "nameColumn": "Version",
+      "dataType": "texto",
+      "description": "Versión de la liquidación"
+    }
+  ],
+  "tags": [
+    {
+      "id": "530ec525-c601-4858-87a8-2548add786c0",
+      "name": "Liquidación",
+      "estado": true
+    },
+    {
+      "id": "551395c9-c094-413a-a029-deadb59b926f",
+      "name": "SIMEM",
+      "estado": true
+    }
+  ]
+}

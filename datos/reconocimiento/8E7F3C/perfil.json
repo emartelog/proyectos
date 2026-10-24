@@ -1,0 +1,67 @@
+{
+  "filas": 4010016,
+  "filas_duplicadas": 0,
+  "columnas": {
+    "CodigoVariable": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 1,
+      "valores": {
+        "GIdealNal": 4010016
+      }
+    },
+    "FechaHora": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 1464,
+      "min": "2026-05-01 00:00:00",
+      "max": "2026-09-30 23:00:00"
+    },
+    "CodigoDuracion": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 1,
+      "valores": {
+        "PT1H": 4010016
+      }
+    },
+    "UnidadMedida": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 1,
+      "valores": {
+        "kWh": 4010016
+      }
+    },
+    "CodigoPlanta": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 668
+    },
+    "Version": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 5,
+      "valores": {
+        "TXR": 897480,
+        "TXF": 897480,
+        "TX2": 897048,
+        "TX1": 896928,
+        "TX3": 421080
+      }
+    },
+    "Valor": {
+      "tipo": "float64",
+      "nulos": 0,
+      "distintos": 200166,
+      "min": 0.0,
+      "max": 1250000.0,
+      "suma": 68370426781.94
+    }
+  },
+  "filas_por_ventana": {
+    "mes_maduro": 2105400,
+    "mes_reciente": 1904616
+  },
+  "granularidad": "Horaria"
+}

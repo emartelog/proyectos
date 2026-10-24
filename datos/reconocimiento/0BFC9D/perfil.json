@@ -1,0 +1,167 @@
+{
+  "filas": 69813,
+  "filas_duplicadas": 0,
+  "columnas": {
+    "Fecha": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 30,
+      "min": "2026-09-01 00:00:00",
+      "max": "2026-09-30 00:00:00",
+      "valores": {
+        "2026-09-28": 2333,
+        "2026-09-26": 2333,
+        "2026-09-29": 2333,
+        "2026-09-27": 2333,
+        "2026-09-30": 2333,
+        "2026-09-16": 2332,
+        "2026-09-14": 2332,
+        "2026-09-13": 2332,
+        "2026-09-12": 2332,
+        "2026-09-15": 2332,
+        "2026-09-10": 2331,
+        "2026-09-19": 2331,
+        "2026-09-23": 2331,
+        "2026-09-21": 2331,
+        "2026-09-20": 2331,
+        "2026-09-17": 2331,
+        "2026-09-22": 2331,
+        "2026-09-18": 2331,
+        "2026-09-25": 2331,
+        "2026-09-11": 2331,
+        "2026-09-24": 2330,
+        "2026-09-09": 2319,
+        "2026-09-06": 2318,
+        "2026-09-07": 2318,
+        "2026-09-04": 2318,
+        "2026-09-05": 2318,
+        "2026-09-08": 2318,
+        "2026-09-03": 2318,
+        "2026-09-02": 2312,
+        "2026-09-01": 2309
+      }
+    },
+    "CodigoDuracion": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 1,
+      "valores": {
+        "P1D": 69813
+      }
+    },
+    "FechaPublicacion": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 3,
+      "min": "2026-10-03 00:00:00",
+      "max": "2026-10-05 00:00:00",
+      "valores": {
+        "2026-10-05": 65151,
+        "2026-10-04": 2331,
+        "2026-10-03": 2331
+      }
+    },
+    "CodigoPlanta": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 2335
+    },
+    "NombrePlanta": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 2335
+    },
+    "CodigoSICAgente": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 130
+    },
+    "CapEfectivaNeta": {
+      "tipo": "float64",
+      "nulos": 0,
+      "distintos": 468,
+      "min": 0.0,
+      "max": 1250000.0,
+      "suma": 666181865.7
+    },
+    "FPO": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 656
+    },
+    "CodigoSubAreaOperativa": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 18,
+      "valores": {
+        "Are0021": 13161,
+        "Are0025": 8999,
+        "Are0032": 8413,
+        "Are0016": 7645,
+        "Are0017": 7250,
+        "Are0015": 7075,
+        "Are0022": 2961,
+        "Are0018": 2730,
+        "Are0019": 2460,
+        "Are0131": 2329,
+        "Are0031": 2230,
+        "Are0130": 2010,
+        "Are0029": 1590,
+        "Are0027": 510,
+        "Are0129": 210,
+        "Are0020": 150,
+        "Are0132": 60,
+        "Are0026": 30
+      }
+    },
+    "CodigoAreaOperativa": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 5,
+      "valores": {
+        "Are0127": 32685,
+        "Are0128": 16154,
+        "Are0056": 7760,
+        "Are0002": 7075,
+        "Are0012": 6139
+      }
+    },
+    "TipoDespachoRecurso": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 2,
+      "valores": {
+        "No Despachado Centralmente": 67234,
+        "Despachado Centralmente": 2579
+      }
+    },
+    "TipoClasificacion": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 7,
+      "valores": {
+        "AUTOGENERADOR PEQUEÑA ESCALA": 55618,
+        "GENERADOR DISTRIBUIDO": 6335,
+        "GENERADOR": 6308,
+        "AUTOGENERADOR": 930,
+        "COGENERADOR": 360,
+        "CICLO COMBINADO": 240,
+        "AUTOGENERADOR REMOTO": 22
+      }
+    },
+    "TipoGeneracion": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 3,
+      "valores": {
+        "Solar": 62463,
+        "Hidraulica": 4770,
+        "Termica": 2580
+      }
+    }
+  },
+  "filas_por_ventana": {
+    "mes_reciente": 69813
+  },
+  "granularidad": "Diaria"
+}

@@ -1,0 +1,66 @@
+{
+  "filas": 1228176,
+  "filas_duplicadas": 0,
+  "columnas": {
+    "CodigoVariable": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 1,
+      "valores": {
+        "MgCB": 1228176
+      }
+    },
+    "FechaHora": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 1464,
+      "min": "2026-05-01 00:00:00",
+      "max": "2026-09-30 23:00:00"
+    },
+    "CodigoDuracion": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 1,
+      "valores": {
+        "PT1H": 1228176
+      }
+    },
+    "UnidadMedida": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 1,
+      "valores": {
+        "kWh": 1228176
+      }
+    },
+    "CodigoSICAgente": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 252
+    },
+    "Version": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 4,
+      "valores": {
+        "TXF": 350760,
+        "TXR": 350760,
+        "TX2": 349344,
+        "TX3": 177312
+      }
+    },
+    "Valor": {
+      "tipo": "float64",
+      "nulos": 0,
+      "distintos": 162253,
+      "min": 0.0,
+      "max": 1575225.46,
+      "suma": 13016723231.07
+    }
+  },
+  "filas_por_ventana": {
+    "mes_maduro": 708168,
+    "mes_reciente": 520008
+  },
+  "granularidad": "Horaria"
+}

@@ -1,0 +1,82 @@
+{
+  "idDataset": "96D56E",
+  "name": "Precio de bolsa ponderado",
+  "metadata": {
+    "description": "Precio de bolsa nacional diario, ponderado por las compras en bolsa (PPBO) y por la generación real (PPBOGReal).",
+    "creationDate": "2023-10-03 15:00:21",
+    "lastUpdate": "2026-10-24 06:48:27",
+    "nextUpdateDate": "2026-10-25 04:00:00",
+    "entity": "XM",
+    "category": "Precio de bolsa ponderado",
+    "periodicity": "Diaria",
+    "granularity": "Diaria",
+    "historicData": "NA",
+    "private": false,
+    "ultimaNovedad": null
+  },
+  "filterDate": "Fecha",
+  "records": null,
+  "variables": [
+    {
+      "variableCode": "PPBO",
+      "variableName": "Precio de bolsa ponderado con compras en bolsa",
+      "measurementUnit": "COP/kWh",
+      "description": "Precio de bolsa ponderado con compras en bolsa"
+    },
+    {
+      "variableCode": "PPBOGReal",
+      "variableName": "Precio de bolsa ponderado con generación real",
+      "measurementUnit": "COP/kWh",
+      "description": "Precio de bolsa ponderado con la generación real del sistema interconectado nacional"
+    }
+  ],
+  "columns": [
+    {
+      "nameColumn": "CodigoVariable",
+      "dataType": "texto",
+      "description": "Código de la variable"
+    },
+    {
+      "nameColumn": "Valor",
+      "dataType": "decimal",
+      "description": "Valor de la variable (escala de 4 cifras)"
+    },
+    {
+      "nameColumn": "UnidadMedida",
+      "dataType": "texto",
+      "description": "Unidad de medida en la que se encuentra la variable"
+    },
+    {
+      "nameColumn": "Version",
+      "dataType": "texto",
+      "description": "Versión de la liquidación"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    }
+  ],
+  "tags": [
+    {
+      "id": "530ec525-c601-4858-87a8-2548add786c0",
+      "name": "Liquidación",
+      "estado": true
+    },
+    {
+      "id": "840bfc4a-228f-4781-a290-aab4c3c4e950",
+      "name": "Precio de Bolsa",
+      "estado": true
+    },
+    {
+      "id": "551395c9-c094-413a-a029-deadb59b926f",
+      "name": "SIMEM",
+      "estado": true
+    }
+  ]
+}

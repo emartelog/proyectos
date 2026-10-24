@@ -1,0 +1,107 @@
+{
+  "idDataset": "d31647",
+  "name": "Precios en contratos de energía del Mercado Mayorista por comprador",
+  "metadata": {
+    "description": "Se presentan los datos para reproducir cómo se forman los precios en el Mercado de Energía Mayorista a partir de las compras de energía que hacen los comercializadores y generadores a través de los mecanismos habilitados por la regulación colombiana. Este conjunto de datos contiene el Precio Promedio Ponderado de los contratos a largo plazo y permite verificar la formación del MC y como contribuye cada comercializador en la formación del mismo. El MC es un indicador global del mercado regulado que impacta la tarifa de los usuarios final.",
+    "creationDate": "2024-10-08 14:18:52",
+    "lastUpdate": "2026-10-24 06:36:06",
+    "nextUpdateDate": "2026-10-25 12:00:00",
+    "entity": "XM",
+    "category": "Precios en contratos de energía del Mercado Mayorista por comprador",
+    "periodicity": "Diaria",
+    "granularity": "Diaria",
+    "historicData": "NA",
+    "private": false,
+    "ultimaNovedad": {
+      "titulo": "Estandarización y nuevos conjuntos de datos de contratos de energía del Mercado Mayorista",
+      "subtitulo": "Con el objetivo de mejorar la claridad, consistencia y experiencia de uso para los usuarios de SIMEM, así como de estandarizar la estructura de los conjuntos de datos, se realizaron ajustes en los conjuntos relacionados con precios y cantidades en contratos de energía del Mercado Mayorista. ",
+      "descripcion": "Con el objetivo de mejorar la claridad, consistencia y experiencia de uso para los usuarios de SIMEM, así como de estandarizar la estructura de los conjuntos de datos, se realizaron ajustes en los conjuntos relacionados con precios y cantidades en contratos de energía del Mercado Mayorista. Estos cambios responden, en particular, a que en SIMEM las variables se presentan de manera estandarizada en la columna CodigoVariable, y el conjunto original presentaba una estructura diferente a la utilizada en la mayoría de los conjuntos de datos disponibles en la plataforma. La actualización permite unificar criterios, facilitar el análisis por variables y mejorar la interoperabilidad de la información.",
+      "fechaPublicacion": "2026-04-12",
+      "urlNovedad": "https://www.simem.co/pages/novedadesDetalle;id=C7345C57-9DB5-4D19-8E1C-08DE99716991"
+    }
+  },
+  "filterDate": "Fecha",
+  "records": null,
+  "variables": [
+    {
+      "variableCode": "PrecioContratoLP",
+      "variableName": "Precio contrato de largo plazo",
+      "measurementUnit": "COP/kWh",
+      "description": "Precio contrato de largo plazo"
+    }
+  ],
+  "columns": [
+    {
+      "nameColumn": "CodigoVariable",
+      "dataType": "texto",
+      "description": "Código de la variable"
+    },
+    {
+      "nameColumn": "Valor",
+      "dataType": "decimal",
+      "description": "Valor de la variable (escala de 4 cifras)"
+    },
+    {
+      "nameColumn": "Mecanismo",
+      "dataType": "texto",
+      "description": null
+    },
+    {
+      "nameColumn": "NormatividadRelacionada",
+      "dataType": "texto",
+      "description": "Normatividad relacionada"
+    },
+    {
+      "nameColumn": "Version",
+      "dataType": "texto",
+      "description": "Versión de la liquidación"
+    },
+    {
+      "nameColumn": "CodigoAgenteComprador",
+      "dataType": "texto",
+      "description": "Código asignado por el ASIC al agente comprador"
+    },
+    {
+      "nameColumn": "TipoMercado",
+      "dataType": "texto",
+      "description": "Tipo de Mercado Regulado o No Regulado"
+    },
+    {
+      "nameColumn": "Fecha",
+      "dataType": "fecha",
+      "description": "Fecha de representación de la información"
+    }
+  ],
+  "tags": [
+    {
+      "id": "867d906b-6344-41b4-a7bb-1a37e61055f8",
+      "name": "MC",
+      "estado": true
+    },
+    {
+      "id": "52942d6b-f03e-4c4f-a6df-597ab5a8dc77",
+      "name": "Contratos",
+      "estado": true
+    },
+    {
+      "id": "8c2c21d5-e2c4-45d4-b818-6642f63babf5",
+      "name": "Precios",
+      "estado": true
+    },
+    {
+      "id": "e10c13a2-b324-47be-9d1d-7c0eaa0437be",
+      "name": "Comercializador",
+      "estado": true
+    },
+    {
+      "id": "cab35291-3287-46d8-ad46-9085d12e0c53",
+      "name": "Energía",
+      "estado": true
+    },
+    {
+      "id": "22032a10-da82-45f2-b6bb-be736c36484c",
+      "name": "Generador",
+      "estado": true
+    }
+  ]
+}

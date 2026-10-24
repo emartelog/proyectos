@@ -1,0 +1,71 @@
+{
+  "idDataset": "42EDC9",
+  "name": "Magnitud energía en bolsa nacional a cargo",
+  "metadata": {
+    "description": "Magnitud de energía en bolsa nacional a cargo, en kWh",
+    "creationDate": "2024-11-07 10:33:56",
+    "lastUpdate": "2026-10-24 06:54:31",
+    "nextUpdateDate": "2026-10-25 04:00:00",
+    "entity": "XM",
+    "category": "Magnitud energía en bolsa nacional a cargo",
+    "periodicity": "Diaria",
+    "granularity": "Horaria",
+    "historicData": "NA",
+    "private": false,
+    "ultimaNovedad": null
+  },
+  "filterDate": "FechaHora",
+  "records": null,
+  "variables": [
+    {
+      "variableCode": "MgCB",
+      "variableName": "Energía en bolsa nacional a cargo",
+      "measurementUnit": "kWh",
+      "description": "Magnitud de energía en bolsa nacional a cargo"
+    }
+  ],
+  "columns": [
+    {
+      "nameColumn": "CodigoVariable",
+      "dataType": "texto",
+      "description": "Código de la variable"
+    },
+    {
+      "nameColumn": "Valor",
+      "dataType": "decimal",
+      "description": "Valor de la variable (escala de 4 cifras)"
+    },
+    {
+      "nameColumn": "UnidadMedida",
+      "dataType": "texto",
+      "description": "Unidad de medida en la que se encuentra la variable"
+    },
+    {
+      "nameColumn": "CodigoSICAgente",
+      "dataType": "texto",
+      "description": "Código del agente asignado por el ASIC"
+    },
+    {
+      "nameColumn": "Version",
+      "dataType": "texto",
+      "description": "Versión de la liquidación"
+    },
+    {
+      "nameColumn": "FechaHora",
+      "dataType": "fecha hora",
+      "description": "Fecha y hora de representación del dato"
+    },
+    {
+      "nameColumn": "CodigoDuracion",
+      "dataType": "texto",
+      "description": "Código de duración de la variable en formato ISO8601"
+    }
+  ],
+  "tags": [
+    {
+      "id": "551395c9-c094-413a-a029-deadb59b926f",
+      "name": "SIMEM",
+      "estado": true
+    }
+  ]
+}

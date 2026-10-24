@@ -1,0 +1,84 @@
+{
+  "filas": 28249,
+  "filas_duplicadas": 0,
+  "columnas": {
+    "Fecha": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 32,
+      "min": "2026-05-01 00:00:00",
+      "max": "2026-09-01 00:00:00"
+    },
+    "CodigoAgenteComprador": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 149
+    },
+    "TipoMercado": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 2,
+      "valores": {
+        "No Regulado": 17079,
+        "Regulado": 11170
+      }
+    },
+    "Mecanismo": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 5,
+      "valores": {
+        "Negociación Bilateral": 15357,
+        "Subasta MME": 6273,
+        "SICEP": 5266,
+        "Antes del SICEP": 1107,
+        "Por fuera del SICEP": 246
+      }
+    },
+    "NormatividadRelacionada": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 6,
+      "valores": {
+        "Resolución CREG 024 del 1995": 15357,
+        "Resolución MME 40590 del 2019": 6273,
+        "Resolución CREG 130 del 2019": 5266,
+        "Resolución CREG 020 del 1996": 1107,
+        "Resolución CREG 101 082 del 2025": 123,
+        "Resolución CREG 101 067 del 2024": 123
+      }
+    },
+    "Valor": {
+      "tipo": "float64",
+      "nulos": 0,
+      "distintos": 6850,
+      "min": 0.0,
+      "max": 1433.8113,
+      "suma": 8687641.0397
+    },
+    "Version": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 4,
+      "valores": {
+        "TXF": 7121,
+        "TXR": 7121,
+        "TX3": 7121,
+        "TX2": 6886
+      }
+    },
+    "CodigoVariable": {
+      "tipo": "str",
+      "nulos": 0,
+      "distintos": 1,
+      "valores": {
+        "PrecioContratoLP": 28249
+      }
+    }
+  },
+  "filas_por_ventana": {
+    "mes_maduro": 28016,
+    "mes_reciente": 233
+  },
+  "granularidad": "Diaria"
+}
