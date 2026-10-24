@@ -26,7 +26,8 @@ SIMEM (API pública) ──► Ingesta ──► Crudo ──► Estandarizado �
 | Workflow mensual con controles de calidad y publicación por Release | ⏳ |
 | Panel y primera nota estratégica | ⏳ |
 
-Las decisiones de diseño están en [`docs/decisiones.md`](docs/decisiones.md).
+Las decisiones de diseño están en [`docs/decisiones.md`](docs/decisiones.md) y la propuesta del
+dato maestro en [`docs/modelo-dato-maestro.md`](docs/modelo-dato-maestro.md).
 
 ## Uso local
 

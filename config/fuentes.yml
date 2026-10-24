@@ -23,10 +23,14 @@ datasets:
     uso: Agentes del mercado (código SIC, nombre, actividad).
 
   # --- Hechos ---
+  - id: "EC6945"
+    nombre: Precio de bolsa horario
+    rol: hecho
+    uso: Precio spot nacional por hora (PB_Nal), para costear compras hora a hora.
   - id: "96D56E"
     nombre: Precio de bolsa ponderado
     rol: hecho
-    uso: Precio de referencia del mercado spot (PPBO, PPBOGReal, ...).
+    uso: PPBO (ponderado con compras en bolsa) y PPBOGReal (con generación real). No mezclar.
   - id: "D55202"
     nombre: Demanda comercial
     rol: hecho
