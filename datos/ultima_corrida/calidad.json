@@ -969,7 +969,7 @@
     "control": "balance:demanda+ventas=compras",
     "nivel": "advierte",
     "ok": true,
-    "detalle": "7 de 1363 agente-mes fuera de ±2%, con 0.0% de la demanda. De mayor demanda: SCEC 2026-08 (6.9%), SCEC 2026-09 (2.5%), SCEC 2026-05 (7.4%), SCEC 2026-07 (7.6%), SCEC 2026-06 (8.0%)"
+    "detalle": "7 de 1363 agente-mes fuera de ±2%, con 0.0% de la demanda"
   },
   {
     "control": "precio_bolsa:rango",

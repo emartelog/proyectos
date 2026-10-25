@@ -121,7 +121,8 @@ def documentar(df: pd.DataFrame, ds_id: str, carpeta: Path, crudo: Path) -> dict
         crudo.mkdir(parents=True, exist_ok=True)
         df.to_parquet(crudo / f"{ds_id}.parquet", index=False)
         muestra = df.sample(n=min(FILAS_MUESTRA, len(df)), random_state=0).sort_index()
-        muestra.to_csv(carpeta / "muestra.csv", index=False)
+        # La muestra trae filas por agente: queda junto al crudo, fuera del repositorio.
+        muestra.to_csv(crudo / f"{ds_id}_muestra.csv", index=False)
     return perfil
 
 

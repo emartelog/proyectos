@@ -57,7 +57,12 @@ jobs:
         run: cat salida/bitacora.md >> "$GITHUB_STEP_SUMMARY" || true
       - uses: actions/upload-artifact@v4
         if: always()
-        with: { name: tramo-1, path: salida/, retention-days: 30 }
+        with:
+          name: tramo-1
+          path: |
+            salida/
+            !salida/agg_exposicion_mensual.*
+          retention-days: 30
 
   tramo2:
     needs: [plan, tramo1]
@@ -81,7 +86,12 @@ jobs:
         run: cat salida/bitacora.md >> "$GITHUB_STEP_SUMMARY" || true
       - uses: actions/upload-artifact@v4
         if: always()
-        with: { name: tramo-2, path: salida/, retention-days: 30 }
+        with:
+          name: tramo-2
+          path: |
+            salida/
+            !salida/agg_exposicion_mensual.*
+          retention-days: 30
 
   tramo3:
     needs: [plan, tramo2]
@@ -107,25 +117,32 @@ jobs:
         run: cat salida/bitacora.md >> "$GITHUB_STEP_SUMMARY" || true
       - uses: actions/upload-artifact@v4
         if: always()
-        with: { name: tramo-3, path: salida/, retention-days: 30 }
+        with:
+          name: tramo-3
+          path: |
+            salida/
+            !salida/agg_exposicion_mensual.*
+          retention-days: 30
       - name: Publicar Release con la historia completa
         continue-on-error: true # opcional: el dato queda igual en la rama
         env:
           MES: ${{ needs.plan.outputs.ultimo }}
         run: |
+          # Solo agregados de mercado: el detalle por agente no se publica.
+          PUBLICOS="salida/bitacora.md salida/calidad.json salida/agg_mercado_mensual.* salida/agg_distribucion_exposicion.*"
           TAG="maestro-${MES}"
           if gh release view "$TAG" >/dev/null 2>&1; then
-            gh release upload "$TAG" salida/* --clobber
+            gh release upload "$TAG" $PUBLICOS --clobber
           else
-            gh release create "$TAG" salida/* --target "$GITHUB_SHA" \
+            gh release create "$TAG" $PUBLICOS --target "$GITHUB_SHA" \
               --title "Dato maestro ${MES} (con historia desde 2021)" \
               --notes-file salida/bitacora.md
           fi
       - name: Guardar la bitácora en la rama
         run: |
           mkdir -p datos/ultima_corrida
-          cp salida/bitacora.md salida/calidad.json salida/agg_*.csv salida/agg_*.parquet \
-             datos/ultima_corrida/
+          cp salida/bitacora.md salida/calidad.json salida/agg_mercado_mensual.* \
+             salida/agg_distribucion_exposicion.* datos/ultima_corrida/
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add datos/ultima_corrida

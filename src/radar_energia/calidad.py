@@ -7,11 +7,14 @@ publicación; uno de nivel ``advierte`` queda registrado en la bitácora.
 from __future__ import annotations
 
 import datetime as dt
+import logging
 from dataclasses import asdict, dataclass
 
 import duckdb
 
 from radar_energia.especificaciones import ESPECIFICACIONES
+
+log = logging.getLogger(__name__)
 
 TOLERANCIA_BALANCE = 0.02  # |demanda − (contratos + bolsa)| / demanda
 PRECIO_BOLSA_MAX = 3_000.0  # COP/kWh; por encima se revisa
@@ -110,13 +113,15 @@ def balance(con, meses) -> Resultado:
     ).fetchone()
     demanda_fuera = sum(f[3] for f in fuera)
     peso = demanda_fuera / demanda_total if demanda_total else 0
-    ejemplos = ", ".join(f"{a} {m:%Y-%m} ({d:.1%})" for m, a, d, _ in fuera[:5])
+    # Los códigos de agente van al log, no a la bitácora publicada (análisis sin agentes).
+    for m, a, d, _ in fuera[:5]:
+        log.info("Balance fuera de tolerancia: %s %s (%.1f%%)", a, f"{m:%Y-%m}", d * 100)
     return Resultado(
         "balance:demanda+ventas=compras",
         "advierte",
         peso < 0.05,
         f"{len(fuera)} de {total} agente-mes fuera de ±{TOLERANCIA_BALANCE:.0%}, "
-        f"con {peso:.1%} de la demanda" + (f". De mayor demanda: {ejemplos}" if fuera else ""),
+        f"con {peso:.1%} de la demanda",
     )
 
 
@@ -178,6 +183,8 @@ def _huerfanos(con, meses, vista: str, columna: str, dimension: str) -> list[str
 
 def integridad(con, meses) -> list[Resultado]:
     agentes = _huerfanos(con, meses, "v_demanda", "agente", "dim_agente")
+    if agentes:  # los códigos de agente van al log, no a la bitácora publicada
+        log.info("Agentes sin maestro: %s", ", ".join(agentes[:10]))
     plantas = _huerfanos(con, meses, "v_generacion", "planta", "dim_planta")
     # Lo material es la energía de las plantas sin maestro, no cuántas son.
     energia = (
@@ -195,8 +202,7 @@ def integridad(con, meses) -> list[Resultado]:
             "integridad:agentes",
             "advierte",
             not agentes,
-            f"{len(agentes)} agentes de demanda sin maestro"
-            + (f". Ej.: {', '.join(agentes[:10])}" if agentes else ""),
+            f"{len(agentes)} agentes de demanda sin maestro",
         ),
         Resultado(
             "integridad:plantas",

@@ -186,7 +186,7 @@ Meses procesados: 2025-01, 2025-02, 2025-03, 2025-04, 2025-05, 2025-06, 2025-07,
 | cobertura:h_generacion:2026-07 | bloquea | ✅ | 744/744 horas |
 | cobertura:h_generacion:2026-08 | bloquea | ✅ | 744/744 horas |
 | cobertura:h_generacion:2026-09 | bloquea | ✅ | 720/720 horas |
-| balance:demanda+ventas=compras | advierte | ✅ | 7 de 1363 agente-mes fuera de ±2%, con 0.0% de la demanda. De mayor demanda: SCEC 2026-08 (6.9%), SCEC 2026-09 (2.5%), SCEC 2026-05 (7.4%), SCEC 2026-07 (7.6%), SCEC 2026-06 (8.0%) |
+| balance:demanda+ventas=compras | advierte | ✅ | 7 de 1363 agente-mes fuera de ±2%, con 0.0% de la demanda |
 | precio_bolsa:rango | advierte | ✅ | 0 horas fuera de [0, 3,000] COP/kWh |
 | precio_bolsa:ppbo_reproducible | advierte | ✅ | 0 de 638 días con PPBO calculado ≠ publicado (±1%) |
 | integridad:agentes | advierte | ✅ | 0 agentes de demanda sin maestro |
