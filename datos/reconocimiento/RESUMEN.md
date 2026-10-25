@@ -1,6 +1,6 @@
 # Reconocimiento de fuentes
 
-Ejecutado: 2026-10-24 18:16 UTC · fecha de referencia 2026-10-24
+Ejecutado: 2026-10-25 01:25 UTC · fecha de referencia 2026-10-25
 
 | ID | Dataset | Granularidad | Filas | Duplicadas | Versiones | Estado |
 |---|---|---|---:|---:|---|---|
@@ -131,7 +131,7 @@ Ejecutado: 2026-10-24 18:16 UTC · fecha de referencia 2026-10-24
 - B8EDC1 · Tarifa de aportes ley 99 de 1993 para plantas térmicas e hidráulicas · 2025-07-19T11:24:31.913 · 2026-08-26T21:09:07.233
 - 7580FA · Participación en Convocatorias de Participación en Subasta de Cierre de agentes registrados · 2023-09-29T01:01:31.177 · 2026-10-08T15:11:44.907
 - 51201b · Proyecciones de los precios en contratos de energía del Mercado Mayorista por comprador · 2026-05-11T14:38:38.143 · 2026-10-05T09:07:46.143
-- ff027b · Despacho programado recursos de generación · 2023-09-30T10:52:26.017 · 2026-10-23T16:59:18.683
+- ff027b · Despacho programado recursos de generación · 2023-09-30T10:52:26.017 · 2026-10-24T16:20:52.06
 - ea45fe · Precios y estadísticas de los contratos entre agentes, agrupados por año de suscripción · 2023-09-30T09:44:00.963 · 2026-10-24T07:41:36.947
 - 6B9E0C · Generación ideal internacional Venezuela por recurso planta · 2023-09-28T20:27:03.407 · 2026-10-24T06:59:57.953
 - 860bc8 · Duración promedio de los contratos producto de convocatorias del SICEP para el mercado regulado · 2023-09-30T07:18:23.033 · 2026-10-05T13:18:10.997

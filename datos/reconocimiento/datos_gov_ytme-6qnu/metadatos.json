@@ -10,7 +10,7 @@
   "description": "En cumplimiento de las Leyes 142 de 1994 y 1955 de 2019, y las Resoluciones CREG (Comisión de Regulación de Energía y Gas) 058 de 2000, 119 de 2007, 105 de 2009, 156 de 2009, 173 de 2011, 152 de 2018 y 101028 de 2023, este conjunto de datos proporciona información detallada sobre las tarifas y costos de energía eléctrica en el mercado regulado.\n\nLos datos incluyen información sobre las tarifas de energía, el costo de compra de energía, los cargos de transporte en los sistemas de transmisión y distribución, los márgenes de comercialización, costos relacionados con generación y pérdidas, así como otros factores operativos que influyen en el precio final que los usuarios deben pagar. Además, se desglosan por tipo de propiedad (Operador de Red, Propiedad Compartida, Propiedad Cliente) y se dividen en diferentes niveles de tensión eléctrica.\n\nEste conjunto de datos está diseñado para facilitar el análisis de las tarifas y costos eléctricos en distintas regiones y periodos, proporcionando una visión clara de los componentes que afectan el precio de la energía para los usuarios del mercado regulado.\n\nLos datos abarcan el periodo de enero de 2024 a mayo de 2026.",
   "diciBackend": false,
   "displayType": "table",
-  "downloadCount": 778,
+  "downloadCount": 780,
   "hideFromCatalog": false,
   "hideFromDataJson": false,
   "licenseId": "CC_40_BY_SA",
@@ -27,7 +27,7 @@
   "rowsUpdatedBy": "2hkq-c8bw",
   "tableId": 19706037,
   "totalTimesRated": 0,
-  "viewCount": 15049,
+  "viewCount": 15057,
   "viewLastModified": 1784125629,
   "viewType": "tabular",
   "approvals": [
